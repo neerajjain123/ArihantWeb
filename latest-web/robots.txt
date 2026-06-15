@@ -1,0 +1,74 @@
+# robots.txt for Arihant Travel - Dubai Tours & Jain-Friendly Experiences
+# Last Updated: 2026-05-18
+
+# === ALLOW ALL SEARCH ENGINES & AI BOTS ===
+# We WANT AI bots to crawl our site for better AI search visibility!
+User-agent: *
+Allow: /
+
+# === ALLOW AI SEARCH BOTS (Important for AI SEO!) ===
+# ChatGPT, Claude, Perplexity, and other AI search engines
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# === DISALLOW NON-INDEXABLE PAGES (saves crawl budget) ===
+User-agent: *
+# Auth / dashboard pages — already noindex, no crawl value
+Disallow: /login
+Disallow: /logout
+Disallow: /register
+Disallow: /dashboard
+# Search results — noindexed, no crawl value
+Disallow: /search
+Disallow: /search?
+# /blog?category= pages are noindexed via meta tag in blog.php (not blocked here —
+# blocking causes "link to robots.txt-blocked resource" Ahrefs warnings)
+# Backend / dev files
+Disallow: /contact-us/
+Disallow: /website_archive/
+Disallow: /venv/
+Disallow: /env/
+Disallow: /bin/
+Disallow: /lib/
+Disallow: /includes/
+Disallow: /vendor/
+Disallow: /test-email.php
+Disallow: /phpinfo.php
+Disallow: /send-contact-email.php
+# Backup files (also 403'd by .htaccess — belt-and-suspenders)
+Disallow: /*.bak$
+Disallow: /blog/*.bak$
+
+# === ALLOW IMPORTANT RESOURCES ===
+# Explicitly allow CSS, JS, and images for proper rendering
+Allow: /styles.css
+Allow: /optimized.css
+Allow: /desertstyles.css
+Allow: /blog/blog.css
+Allow: /images/
+Allow: /service-worker.js
+
+# === AI-READABLE SITE DESCRIPTION ===
+Llms-txt: https://arihantlink.com/llms.txt
+
+# === SITEMAP LOCATION ===
+Sitemap: https://arihantlink.com/sitemap.xml
+
+# === CRAWL RATE ===
+# No crawl delay - we want fast indexing
+# Crawl-delay: 0

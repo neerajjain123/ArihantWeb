@@ -1,0 +1,1080 @@
+:root {
+  --color-primary: #3A7CA4;
+  --color-primary-dark: #2A5C7C;
+  --color-secondary: #FF8C00;
+  --color-accent: #4CAF50;
+  --color-text: #333;
+  --color-text-light: #666;
+  --color-background: #F8F9FA;
+  --color-secondary-hover: #E67E22;
+  --color-accent-hover: #43A047
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Add smooth scrolling */
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-background)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
+  color: var(--color-text);
+  letter-spacing: -.02em
+}
+
+/* Bootstrap Color Overrides - Enforce Brand Colors */
+.bg-primary {
+  background-color: var(--color-primary) !important
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary) !important
+}
+
+.bg-success {
+  background-color: var(--color-accent) !important
+}
+
+.bg-info {
+  background-color: var(--color-primary) !important
+}
+
+.bg-warning {
+  background-color: var(--color-secondary) !important
+}
+
+.bg-danger {
+  background-color: var(--color-secondary) !important
+}
+
+.border-primary {
+  border-color: var(--color-primary) !important
+}
+
+.border-secondary {
+  border-color: var(--color-secondary) !important
+}
+
+.border-success {
+  border-color: var(--color-accent) !important
+}
+
+.border-info {
+  border-color: var(--color-primary) !important
+}
+
+.border-warning {
+  border-color: var(--color-secondary) !important
+}
+
+/* Text colors - only white or dark */
+.text-primary {
+  color: var(--color-primary)
+}
+
+.text-secondary {
+  color: var(--color-secondary)
+}
+
+.hover\:bg-primary-dark:hover {
+  background-color: var(--color-primary-dark)
+}
+
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  padding: .75rem 1.5rem;
+  background-color: var(--color-accent);
+  color: #fff;
+  border-radius: .5rem;
+  font-weight: 600;
+  transition: background-color .2s
+}
+
+.whatsapp-button:hover {
+  background-color: var(--color-accent-hover)
+}
+
+@media (max-width:768px) {
+  .nav-links {
+    display: none
+  }
+
+  h2 {
+    font-size: 2rem
+  }
+
+  .hero-text {
+    text-align: center
+  }
+}
+
+.activity-card {
+  transition: all .3s ease;
+  border: 1px solid rgba(0, 0, 0, .1);
+  overflow: hidden
+}
+
+.activity-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, .15)
+}
+
+.activity-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform .5s ease
+}
+
+.activity-card:hover .activity-image {
+  transform: scale(1.1)
+}
+
+.activity-rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(255, 255, 255, .9);
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: .875rem;
+  color: var(--color-secondary)
+}
+
+.activity-price {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: var(--color-secondary);
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: .875rem
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .08)
+}
+
+/* Updated Button Styles */
+.btn {
+  display: inline-block;
+  padding: .8rem 1.8rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all .3s ease;
+  letter-spacing: .2px
+}
+
+/* Removed display and padding */
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .15)
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-dark)
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: #fff
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-hover)
+}
+
+.btn-accent {
+  background-color: var(--color-accent);
+  color: #fff
+}
+
+.btn-accent:hover {
+  background-color: var(--color-accent-hover)
+}
+
+.alert-banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  transition: transform .3s ease
+}
+
+.hero-banner {
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  position: relative;
+  height: 60vh;
+  min-height: 500px;
+  transition: background-image .5s ease-in-out
+}
+
+.hero-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  /* Subtile dark overlay instead of gradient */
+}
+
+.alert-close {
+  padding: 0 8px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity .2s
+}
+
+.alert-close:hover {
+  opacity: .8
+}
+
+/* @keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}} /* REMOVE animation definition */
+.animate-fade-in {
+  animation: fadeIn .5s ease-out forwards
+}
+
+/* Keep this separate animation if used elsewhere */
+.stat-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  text-align: center;
+  transition: transform .3s ease
+}
+
+.stat-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05);
+  transform: translateY(-.5rem);
+  transition: all .3s ease
+}
+
+.stat-number {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: .5rem
+}
+
+.stat-label {
+  color: var(--color-text-light);
+  font-size: .875rem;
+  text-transform: uppercase;
+  letter-spacing: .025em
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: .75rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -2px rgba(0, 0, 0, .05)
+}
+
+.team-photo {
+  width: 100%;
+  height: 16rem;
+  object-fit: cover
+}
+
+.team-name {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem
+}
+
+.team-role {
+  color: var(--color-text-light);
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem
+}
+
+.info-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: .75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1);
+  margin-bottom: 1.5rem
+}
+
+.info-card h4 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  margin-bottom: .75rem
+}
+
+.contact-channels a {
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  transition: color .2s
+}
+
+.contact-channels a:hover {
+  color: var(--color-secondary)
+}
+
+.map-embed {
+  border-radius: .75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+  margin-top: 1.5rem
+}
+
+.map-embed iframe {
+  width: 100%;
+  height: 16rem
+}
+
+.hero-banner.loaded {
+  background-size: cover;
+  background-position: center;
+  animation: fadeInHero .8s ease-out
+}
+
+@keyframes fadeInHero {
+  from {
+    opacity: .95
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+nav a:focus-visible {
+  outline: 2px solid #facc15;
+  outline-offset: 2px;
+  border-radius: 4px
+}
+
+/* Revert to simpler display logic for main dropdown */
+.dropdown-menu {
+  display: none;
+  /* Use display none */
+  opacity: 0;
+  /* transform: translateY(-10px); /* REMOVE transform */
+  transition: opacity .2s ease;
+  /* REMOVE transform from transition */
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+  min-width: 200px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+  border-radius: 0.375rem;
+  /* Match previous style */
+  padding: 0.5rem;
+  /* Added padding back if removed */
+}
+
+/* Show main dropdown ONLY on hover of its SPECIFIC trigger group */
+/* .group:hover .dropdown-menu, /* REMOVE generic rule */
+.ml-10>.relative.group:hover>.dropdown-menu,
+/* Target hover on the main Activities group */
+.dropdown-menu:focus-within {
+  /* Keep focus-within for accessibility */
+  display: block;
+  opacity: 1;
+  /* Apply opacity directly */
+  /* transform: translateY(0); /* Transform removed previously */
+  pointer-events: auto;
+  /* animation: fadeIn .2s ease-out; /* REMOVE animation */
+  z-index: 1000;
+}
+
+
+/* --- Nested Desktop Dropdown Styles --- */
+/* Reinstate CSS control for nested menu */
+/* Position and hide the nested menu by default */
+.dropdown-menu .dropdown-menu {
+  display: none;
+  /* Hidden by default */
+  opacity: 0;
+  position: absolute;
+  left: 100%;
+  /* Position to the RIGHT */
+  top: 0;
+  /* Align top */
+  margin-left: 0;
+  /* No gap */
+  /* margin-top: -8px; /* REMOVE negative margin */
+  transition: opacity .2s ease, visibility .2s ease;
+  /* Add visibility transition */
+  pointer-events: none;
+  visibility: hidden;
+  /* Add visibility property */
+  background: #fff;
+  /* Re-add basic styles if needed */
+  min-width: 180px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  z-index: 1010;
+  /* Ensure it's above parent */
+}
+
+/* Show nested menu ONLY when hovering the preceding sibling link OR the menu itself */
+.dropdown-menu .relative.group>a:hover+.dropdown-menu,
+.dropdown-menu .relative.group>.dropdown-menu:hover {
+  display: block;
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  /* Add visibility property */
+  /* Transition is inherited or can be re-added if needed, but let's test without first */
+}
+
+
+/* --- Consolidated Mobile Menu Styles --- */
+#mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  background: rgba(255, 255, 255, .98)
+}
+
+#mobile-menu.show-menu {
+  display: block !important
+}
+
+.mobile-menu-item {
+  display: block;
+  padding: .75rem 1rem;
+  color: var(--color-text);
+  font-size: 1.125rem;
+  transition: color .2s;
+  cursor: pointer;
+  position: relative;
+}
+
+.mobile-menu-item:hover {
+  color: var(--color-primary)
+}
+
+/* Underline effect on hover for main items */
+.mobile-menu-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: .125rem;
+  background-color: var(--color-primary);
+  transition: width .3s ease;
+}
+
+/* Apply underline only to direct children links/buttons in the nav, not the submenu toggle */
+#mobile-menu>div>nav>a.mobile-menu-item:hover::after,
+#mobile-menu>div>nav>.relative.group>button.mobile-menu-item:hover::after {
+  width: 100%;
+}
+
+#mobile-menu-button:hover svg {
+  stroke-width: 2.5
+}
+
+.mobile-submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s cubic-bezier(.4, 0, .2, 1);
+  padding-left: 1rem;
+  display: none;
+  cursor: default;
+}
+
+.mobile-submenu.submenu-active {
+  display: block;
+  max-height: 100vh;
+  /* Adjust as needed, maybe use 'fit-content' if supported */
+}
+
+/* Style for nested mobile submenus */
+.mobile-submenu .nested-mobile-submenu {
+  padding-left: 1rem;
+  /* Indent nested items */
+  /* border-left: 2px solid #e5e7eb; /* Removed border */
+  margin-left: 0.5rem;
+  /* Keep margin for overall structure */
+  max-height: 0;
+  /* Keep nested hidden by default */
+  overflow: hidden;
+  transition: max-height .3s cubic-bezier(.4, 0, .2, 1);
+  display: none;
+  /* Ensure it's hidden initially */
+}
+
+.mobile-submenu .nested-mobile-submenu.submenu-active {
+  display: block;
+  /* Show when active */
+  max-height: 100vh;
+  /* Allow it to expand */
+}
+
+
+.mobile-submenu-item {
+  display: block;
+  padding: .5rem 1rem;
+  color: #4b5563;
+  font-size: 1rem;
+  border-radius: .375rem;
+  transition: color .2s, background-color .2s;
+}
+
+.mobile-submenu-item:hover {
+  color: var(--color-primary);
+  background-color: #f9fafb;
+}
+
+[x-cloak] {
+  display: none !important
+}
+
+/* --- End Consolidated Mobile Menu Styles --- */
+
+/* --- Contact Form Enhancements --- */
+/* Style for the select dropdown arrow */
+select {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+  background-position: right 0.5rem center;
+  background-repeat: no-repeat;
+  background-size: 1.5em 1.5em;
+  padding-right: 2.5rem;
+  /* Make space for the arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* Style for the consent checkbox */
+.form-checkbox {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #d1d5db;
+  /* gray-300 */
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  background-origin: border-box;
+  user-select: none;
+  flex-shrink: 0;
+  height: 1.25rem;
+  /* h-5 */
+  width: 1.25rem;
+  /* w-5 */
+  color: var(--color-primary);
+  border-radius: 0.25rem;
+  /* rounded */
+}
+
+.form-checkbox:checked {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+  border-color: transparent;
+  background-color: currentColor;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form-checkbox:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-inset: var(--tw-empty,
+      /*!*/
+      /*!*/
+    );
+  --tw-ring-offset-width: 2px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: var(--color-primary);
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+/* Optional: Subtle fade-in for the form container */
+form.bg-white {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* --- End Contact Form Enhancements --- */
+
+/* --- Gallery Modal Styles --- */
+.gallery-modal {
+  /* Tailwind classes used in HTML handle basic layout (fixed, inset-0, bg-opacity, flex, items-center, justify-center, z-index) */
+  /* Add transition for smooth appearance */
+  transition: opacity 0.3s ease;
+}
+
+.gallery-modal.hidden {
+  opacity: 0;
+  pointer-events: none;
+  /* Prevent interaction when hidden */
+}
+
+.gallery-modal-content {
+  /* Tailwind classes used in HTML handle basic layout (relative, bg-white, p-4, rounded-lg, max-w, max-h) */
+  /* Add animation for entry */
+  animation: galleryFadeInScale 0.3s ease-out forwards;
+}
+
+.gallery-close {
+  /* Tailwind classes used in HTML handle positioning and basic style */
+  cursor: pointer;
+  line-height: 1;
+  /* Ensure SVG fits well */
+}
+
+.gallery-image-container {
+  /* New container styles */
+  width: 100%;
+  height: 75vh;
+  /* Set a fixed height relative to viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* Hide parts of image outside container if needed */
+  margin: auto;
+  /* Center container if modal content area is wider */
+}
+
+.gallery-image {
+  display: block;
+  /* Ensure it behaves as a block element */
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* Maintain aspect ratio, fit within container */
+}
+
+.gallery-nav {
+  /* Tailwind classes used in HTML handle positioning and basic style */
+  cursor: pointer;
+  user-select: none;
+  /* Prevent text selection on double click */
+  font-size: 1.5rem;
+  /* Make arrows larger */
+  transition: background-color 0.2s ease;
+}
+
+.gallery-nav:hover {
+  /* Tailwind hover class handles background change */
+}
+
+@keyframes galleryFadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* --- End Gallery Modal Styles --- */
+
+/* --- Tour Highlights Card Styles --- */
+.highlight-card {
+  /* Tailwind classes handle most styling (flex, items-start, p-4, border, rounded, shadow, transition) */
+  background-color: #fff;
+  /* Ensure white background */
+}
+
+.highlight-card span {
+  color: var(--color-secondary);
+  /* Use secondary color for icons */
+}
+
+/* --- End Tour Highlights Card Styles --- */
+
+/* --- Blog Post & Sidebar Styles --- */
+
+/* Main content area adjustments */
+main.md\:col-span-2 {
+  /* Target the main element specifically */
+  line-height: 1.75;
+  /* Slightly more spacing */
+  color: var(--color-text);
+}
+
+main.md\:col-span-2 h1 {
+  font-size: 2.5rem;
+  /* Larger H1 */
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  /* Reduced bottom margin */
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+main.md\:col-span-2 .text-center.text-gray-500 {
+  /* Author/Date line */
+  margin-bottom: 2rem;
+  /* Increased space below date */
+  color: var(--color-text-light);
+}
+
+main.md\:col-span-2 figure {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+main.md\:col-span-2 figure img {
+  border-radius: 0.5rem;
+  /* rounded-lg */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  /* shadow-md */
+  max-height: 500px;
+  /* Increased max-height slightly */
+  width: 100%;
+  object-fit: cover;
+}
+
+main.md\:col-span-2 figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  text-align: center;
+  font-style: italic;
+}
+
+main.md\:col-span-2 h2 {
+  font-size: 1.75rem;
+  /* Slightly smaller H2 */
+  margin-top: 2.5rem;
+  /* Increased top margin */
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-secondary);
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+main.md\:col-span-2 h3 {
+  font-size: 1.25rem;
+  /* Slightly smaller H3 */
+  margin-top: 2rem;
+  /* Increased top margin */
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text);
+  /* Darker H3 */
+}
+
+main.md\:col-span-2 p {
+  margin-bottom: 1.25rem;
+  /* Consistent paragraph spacing */
+  font-size: 1rem;
+  /* Standard text size */
+}
+
+main.md\:col-span-2 ul {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  /* Indent lists */
+}
+
+main.md\:col-span-2 li {
+  margin-bottom: 0.5rem;
+}
+
+main.md\:col-span-2 a {
+  /* Style links within content */
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+main.md\:col-span-2 a:hover {
+  color: var(--color-secondary);
+}
+
+main.md\:col-span-2 .btn-primary {
+  /* Ensure button styles apply */
+  /* Styles inherited from .btn and .btn-primary */
+}
+
+main.md\:col-span-2 .bg-blue-50 {
+  /* CTA Box */
+  background-color: #EFF6FF;
+  /* Tailwind bg-blue-50 */
+  border: 1px solid #DBEAFE;
+  /* Add a light border */
+}
+
+main.md\:col-span-2 sup {
+  /* Hide citation numbers */
+  display: none;
+}
+
+/* Sidebar adjustments */
+aside.md\:col-span-1 .bg-white {
+  /* Style sidebar cards */
+  padding: 1.25rem;
+  /* Slightly more padding */
+  border: 1px solid #e5e7eb;
+  /* Add subtle border */
+}
+
+aside.md\:col-span-1 h3 {
+  font-size: 1.125rem;
+  /* Smaller sidebar headings */
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+  /* Lighter border */
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+aside.md\:col-span-1 p,
+aside.md\:col-span-1 li {
+  font-size: 0.9rem;
+  /* Smaller text in sidebar */
+  color: var(--color-text-light);
+}
+
+aside.md\:col-span-1 a {
+  color: var(--color-secondary);
+  transition: color 0.2s ease;
+}
+
+aside.md\:col-span-1 a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+aside.md\:col-span-1 .sticky {
+  top: 1.5rem;
+  /* Adjust sticky position if needed */
+}
+
+/* Placeholder for Table of Contents */
+.toc {
+  background-color: #f9fafb;
+  /* Light gray background */
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.toc h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  border-bottom: 1px solid #d1d5db;
+  padding-bottom: 0.5rem;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.toc li {
+  margin-bottom: 0.4rem;
+}
+
+.toc a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.toc a:hover {
+  color: var(--color-secondary);
+}
+
+/* --- End Blog Post & Sidebar Styles --- */
+
+
+/* --- Added Utility Classes for Blog Layout (Mimicking Tailwind) --- */
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  /* px-4 equivalent */
+  padding-right: 1rem;
+  /* px-4 equivalent */
+}
+
+/* Responsive container widths */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.space-y-6> :not([hidden])~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  /* 1.5rem = space-y-6 */
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-4 {
+  top: 1rem;
+  /* 4 * 0.25rem */
+}
+
+.flex {
+  display: flex;
+}
+
+.space-x-2> :not([hidden])~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+  /* 0.5rem = space-x-2 */
+  margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+  /* 5 * 0.25rem */
+}
+
+.space-y-1> :not([hidden])~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  /* 0.25rem = space-y-1 */
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  /* 14px */
+  line-height: 1.25rem;
+  /* 20px */
+}
+
+/* Medium screen and up utilities (md:) */
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+}
+
+/* --- End Added Utility Classes --- */

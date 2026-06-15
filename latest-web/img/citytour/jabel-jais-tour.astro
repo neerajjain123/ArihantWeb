@@ -1,0 +1,511 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SafariHero from '../../components/react/SafariHero';
+
+const siteUrl = 'https://arihantlink.com';
+const pageSlug = '/services/jabel-jais-tour';
+const pageTitle = 'Jabel Jais High Mountain Tour with Zipline from Dubai 2025 | Book Now';
+const pageDescription =
+  'Explore Jabel Jais, the highest peak in the UAE, on a private mountain adventure from Dubai. Travel to the top in a 4x4 vehicle, enjoy stunning sunrise views, and experience thrilling ziplining. Book your mountain escape today!';
+const metaKeywords = 'Jabel Jais tour, Jais mountain tour, UAE highest peak, Jabel Jais zipline, mountain tour Dubai, Hajar Mountains, sunrise mountain tour, 4x4 mountain adventure, Ras Al Khaimah tour, Arihant Travel';
+const aiSeoKeywords = [
+  'jabel jais mountain tour from dubai price',
+  'how to get to jabel jais highest peak uae',
+  'jabel jais zipline experience booking',
+  'best sunrise mountain tour dubai',
+  '4x4 jabel jais adventure tour',
+  'jabel jais viewing deck visit',
+  'hajar mountains sightseeing tour',
+  'arihant travel jabel jais tour reviews',
+  'what to see at jabel jais mountain',
+  'ras al khaimah mountain tour from dubai'
+].join(', ');
+
+const heroSlides = [
+  {
+    id: 'jabel-jais-tour',
+    label: 'Jabel Jais Tour',
+    subtitle: 'Highest Peak • Zipline • Sunrise Views',
+    title: 'Jabel Jais High Mountain Tour',
+    description:
+      'Explore the wonders of Jabel Jais, the highest peak in the UAE, on a private mountain adventure. Travel to the top in a 4x4 vehicle and soak in stunning sunrise and mountain views.',
+    heroImage: '/images/citytour/Zabel-jais-Mountain.avif',
+    badge: 'Adventure',
+    stats: [
+      { label: 'Duration', value: 'Full Day' },
+      { label: 'Transport', value: '4x4 Vehicle' },
+      { label: 'Peak Height', value: '1,934m' },
+      { label: 'Zipline', value: 'Optional' },
+    ],
+    highlights: [
+      'Highest peak UAE',
+      '4x4 adventure',
+      'Sunrise views',
+      'Zipline option',
+    ],
+  },
+  {
+    id: 'mountain-adventure',
+    label: 'Mountain Adventure',
+    subtitle: 'Hajar Range • Off-Road • Viewing Deck',
+    title: 'Spectacular Mountain Peak Experience',
+    description:
+      'See the spectacular mountain peak of the cloud-piercing Hajar range. Take a 4x4 drive to the top of the highest mountain in the United Arab Emirates and escape the desert heat.',
+    heroImage: '/images/citytour/Zabel-jais-Mountain-uphill-road.avif',
+    stats: [
+      { label: 'Mountain Range', value: 'Hajar' },
+      { label: 'Drive Time', value: '1.5 hrs' },
+      { label: 'Viewing Deck', value: 'Included' },
+      { label: 'Temperature', value: 'Cooler' },
+    ],
+    highlights: [
+      'Cloud-piercing peaks',
+      'Off-road adventure',
+      'Panoramic views',
+      'Cool mountain air',
+    ],
+  },
+  {
+    id: 'zipline-adventure',
+    label: 'Zipline Adventure',
+    subtitle: 'World\'s Longest • Thrilling Experience',
+    title: 'Jabel Jais Zipline Experience',
+    description:
+      'Get your adrenaline pumping with thrilling ziplining at Jabel Jais. Soar to new heights and witness awe-inspiring views of rugged mountains from the world\'s longest zipline.',
+    heroImage: '/images/citytour/Jabel-Zais-Zipline.webp',
+    stats: [
+      { label: 'Zipline', value: 'Optional' },
+      { label: 'Duration', value: '30 mins' },
+      { label: 'World Record', value: 'Longest' },
+      { label: 'Safety', value: 'Guided' },
+    ],
+    highlights: [
+      'World\'s longest zipline',
+      'Mountain views',
+      'Adrenaline rush',
+      'Safe & guided',
+    ],
+  },
+];
+
+const quickInfo = [
+  { icon: '🕒', title: 'Duration', detail: 'Full Day (Approx. 5-6 hours)' },
+  { icon: '🚙', title: 'Transport', detail: '4x4 Jeep/SUV' },
+  { icon: '💰', title: 'Price', detail: 'From AED 699' },
+  { icon: '⛰️', title: 'Peak Height', detail: '1,934 meters (UAE\'s highest)' },
+];
+
+const itineraryHighlights = [
+  {
+    title: 'Pickup from Dubai',
+    description:
+      'Your adventure begins with a comfortable pickup from your hotel or preferred location in Dubai. You\'ll be transported in a 4x4 vehicle, perfect for the mountain terrain ahead. The journey to Jabel Jais takes approximately 1.5 hours, giving you time to relax and prepare for the adventure.',
+    image: '/images/citytour/Zabel-jais-Mountain-uphill-road-1.avif',
+    duration: '1.5 hours',
+    admission: 'Included',
+  },
+  {
+    title: 'Jabel Jais Mountain - Photo Stop & Sightseeing',
+    description:
+      'Arrive at Jabel Jais, the highest peak in the UAE at 1,934 meters above sea level. Enjoy photo stops, sightseeing, and an off-road adventure as you explore the spectacular mountain peak of the cloud-piercing Hajar range. Escape the desert heat as you ascend, relishing cooler temperatures and breathtaking panoramic views of rugged mountains.',
+    image: '/images/citytour/jabel-jais-viewing-deck.jpg',
+    duration: '2.5 hours',
+    admission: 'Included',
+    highlights: [
+      'Photo stops at scenic viewpoints',
+      'Off-road adventure',
+      'Sunrise viewing (morning tours)',
+      'Viewing deck access',
+      'Mountain hiking opportunities',
+    ],
+  },
+  {
+    title: 'Jabel Jais Zipline (Optional)',
+    description:
+      'Experience the world\'s longest zipline at Jabel Jais! Soar through the air and witness awe-inspiring views of the rugged Hajar Mountains. This thrilling 30-minute experience is perfect for adventure seekers. Safety equipment and professional guidance are provided.',
+    image: '/images/citytour/Jabel-Zais-Zipline.webp',
+    duration: '30 minutes',
+    admission: 'Optional (Extra fee)',
+    highlights: [
+      'World\'s longest zipline',
+      'Stunning mountain views',
+      'Professional safety equipment',
+      'Guided experience',
+    ],
+  },
+];
+
+const inclusions = [
+  'Hotel pickup and drop-off by 4x4 vehicle',
+  'Professional guides',
+  'Sightseeing of High Mountains',
+  'Safety equipment',
+  'Water bottle',
+  'Photo stops at scenic viewpoints',
+  'Viewing deck access',
+];
+
+const exclusions = [
+  'Zipline (optional, extra fee)',
+  'Jais Sledder (optional, extra fee)',
+  'Lunch and meals (available at stops upon request)',
+  'Personal shopping & gratuities',
+  'Hotel pickups outside central Dubai (available with supplement)',
+  'Optional upgrades and additional activities',
+];
+
+const faqItems = [
+  {
+    question: 'Is the zipline included in the tour price?',
+    answer:
+      'No, the zipline is not included in the base tour price. It is available as an optional activity for an additional fee. You can add ziplining to your tour when booking or decide on the day of the tour, subject to availability.',
+  },
+  {
+    question: 'How long is the drive from Dubai to Jabel Jais?',
+    answer:
+      'The drive from Dubai to Jabel Jais typically takes approximately 1.5 hours each way, depending on traffic conditions and your exact pickup location in Dubai.',
+  },
+  {
+    question: 'What should I wear for the Jabel Jais mountain tour?',
+    answer:
+      'Comfortable, casual clothing is recommended. Wear sturdy, closed-toe shoes suitable for walking and light hiking. Bring layers as temperatures can be cooler at the mountain peak. Bring a hat, sunscreen, and sunglasses. If you plan to do ziplining, wear comfortable clothing that allows freedom of movement.',
+  },
+  {
+    question: 'Is the tour suitable for children and seniors?',
+    answer:
+      'The mountain sightseeing portion is suitable for all ages. However, the zipline has age and weight restrictions. The 4x4 drive and viewing deck are accessible to most visitors. Please inform us of any mobility concerns when booking so we can accommodate your needs.',
+  },
+  {
+    question: 'What is the best time to visit Jabel Jais?',
+    answer:
+      'The best time to visit Jabel Jais is during the cooler months (October to April) when the weather is pleasant. Early morning tours offer the best chance to see sunrise views. The mountain is accessible year-round, but summer months can be hot even at elevation.',
+  },
+  {
+    question: 'Can I customize the Jabel Jais tour itinerary?',
+    answer:
+      'Yes, private Jabel Jais tours can be customized to your interests. If you\'d like to spend more time at specific viewpoints, add ziplining, include hiking, or adjust the timing for sunrise/sunset views, please discuss your requirements with us when booking.',
+  },
+  {
+    question: 'What is the Jais Sledder?',
+    answer:
+      'The Jais Sledder is an optional activity available at Jabel Jais. It\'s a mountain coaster ride that offers a thrilling descent down the mountain. This is a separate activity from the zipline and requires an additional fee. Please inquire about availability when booking.',
+  },
+];
+
+const tourPackageStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'TourPackage',
+  name: 'Jabel Jais High Mountain Tour with Zipline from Dubai',
+  description: pageDescription,
+  image: `${siteUrl}/images/citytour/Zabel-jais-Mountain.avif`,
+  tourDuration: 'PT6H',
+  url: `${siteUrl}${pageSlug}`,
+  provider: {
+    '@type': 'TravelAgency',
+    name: 'Arihant Travel',
+    telephone: '+971585945007',
+    url: siteUrl,
+  },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.8',
+    reviewCount: '87',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'R. Mehta' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5' },
+      reviewBody: 'Amazing mountain adventure! The 4x4 drive to the top was thrilling and the views were absolutely breathtaking. We also did the zipline which was the highlight of our trip. Highly recommend this tour!',
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'A. Verma' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5' },
+      reviewBody: 'Perfect escape from Dubai! The mountain views were stunning and the cooler temperature was a welcome change. The viewing deck offers incredible panoramic views. Great experience for families!',
+    },
+  ],
+  offers: [
+    {
+      '@type': 'Offer',
+      name: 'Jabel Jais Mountain Tour',
+      price: '699',
+      priceCurrency: 'AED',
+      availability: 'https://schema.org/InStock',
+      url: `${siteUrl}${pageSlug}`,
+      description: 'From AED 699 per person',
+    },
+  ],
+};
+
+const faqStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
+
+const breadcrumbStructuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: `${siteUrl}/services` },
+    { '@type': 'ListItem', position: 3, name: 'City Tours', item: `${siteUrl}/services/city-tour` },
+    { '@type': 'ListItem', position: 4, name: 'Jabel Jais Tour', item: `${siteUrl}${pageSlug}` },
+  ],
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  meta={{
+    keywords: `${metaKeywords}, ${aiSeoKeywords}`,
+    canonical: `${siteUrl}${pageSlug}`,
+    ogImage: `${siteUrl}/images/citytour/Zabel-jais-Mountain.avif`,
+    ogType: 'website',
+  }}
+>
+  <SafariHero client:load slides={heroSlides} primaryCtaLabel="Book Jabel Jais Tour" />
+
+  <main class="bg-white pb-20">
+    <section class="max-w-6xl mx-auto px-6 -mt-10 relative z-10">
+      <div class="bg-white rounded-3xl shadow-xl border border-gray-100 p-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
+          {quickInfo.map((info) => (
+            <div class="flex flex-col items-center gap-2" key={info.title}>
+              <span class="text-3xl" role="img" aria-hidden="true">{info.icon}</span>
+              <p class="text-xs uppercase tracking-[0.3em] text-gray-500">{info.title}</p>
+              <p class="font-semibold text-gray-900">{info.detail}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mt-16 space-y-8">
+      <div class="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 items-start">
+        <div>
+          <h2 class="text-3xl font-bold text-gray-900">Tour Overview</h2>
+          <p class="text-lg text-gray-700 mt-4 leading-relaxed">
+            Explore the wonders of Jabel Jais, the highest peak in the UAE, on a private mountain adventure from Dubai. Travel to the top of the mountain in a 4x4 vehicle and soak in stunning sunrise and views. Get your adrenaline pumping with thrilling activities like ziplining and hiking while seeing the spectacular mountain peak of the cloud-piercing Hajar range.
+          </p>
+          <div class="mt-6 grid sm:grid-cols-2 gap-4">
+            <div class="p-4 rounded-2xl bg-primary/5 border border-primary/10">
+              <p class="text-xs uppercase tracking-[0.4em] text-primary font-semibold mb-2">Best For</p>
+              <p class="text-gray-800">
+                Adventure seekers, nature lovers, families, photography enthusiasts, and those seeking cooler temperatures and stunning mountain views.
+              </p>
+            </div>
+            <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+              <p class="text-xs uppercase tracking-[0.4em] text-amber-700 font-semibold mb-2">Top Tip</p>
+              <p class="text-gray-800">
+                Book an early morning tour to catch the spectacular sunrise views from the highest peak in the UAE. The zipline experience is a must-try for adventure enthusiasts!
+              </p>
+            </div>
+          </div>
+        </div>
+        <aside class="bg-gradient-to-br from-primary via-primary-dark to-primary rounded-3xl text-white p-8">
+          <h3 class="text-xl font-semibold mb-4">What makes this tour special?</h3>
+          <ul class="space-y-3 text-sm">
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Visit UAE's highest peak (1,934 meters)
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Thrilling 4x4 off-road mountain adventure
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Stunning sunrise and panoramic mountain views
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Optional world's longest zipline experience
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Escape the desert heat with cooler mountain temperatures
+            </li>
+            <li class="flex gap-3">
+              <span class="text-amber-300">✓</span> Rated 4.8/5 ★ (87 reviews) - Highly rated!
+            </li>
+          </ul>
+          <div class="mt-6">
+            <a
+              href="https://wa.me/971585945007?text=I%20want%20to%20book%20the%20Jabel%20Jais%20High%20Mountain%20Tour"
+              class="inline-flex items-center gap-2 bg-white text-primary font-semibold px-5 py-3 rounded-full shadow-lg hover:-translate-y-0.5 transition"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Book via WhatsApp
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mt-16 space-y-12">
+      <h2 class="text-3xl font-bold text-gray-900 text-center">Tour Itinerary - Your Mountain Adventure</h2>
+      <div class="space-y-12">
+        {itineraryHighlights.map((block, index) => (
+          <div class={`grid gap-10 md:grid-cols-2 items-center ${index % 2 === 1 ? 'md:flex-row-reverse' : ''}`} key={block.title}>
+            <div class={index % 2 === 1 ? 'md:order-2' : ''}>
+              <img
+                src={block.image}
+                alt={block.title}
+                class="w-full h-72 object-cover rounded-2xl shadow-lg"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class={index % 2 === 1 ? 'md:order-1' : ''}>
+              <div class="flex items-center gap-3 mb-2">
+                <p class="text-xs uppercase tracking-[0.4em] text-primary font-semibold">Stop {index + 1}</p>
+                <span class={`text-xs px-2 py-1 rounded-full ${block.admission.includes('Included') ? 'bg-green-100 text-green-700' : 'bg-amber-100 text-amber-700'}`}>
+                  {block.admission}
+                </span>
+              </div>
+              <h3 class="text-2xl font-semibold text-gray-900 mb-3">{block.title}</h3>
+              <p class="text-gray-600 text-sm mb-2">
+                <strong>Duration:</strong> {block.duration}
+              </p>
+              <p class="text-gray-700 leading-relaxed mb-3">{block.description}</p>
+              {block.highlights && (
+                <ul class="space-y-1 text-sm text-gray-600">
+                  {block.highlights.map((highlight) => (
+                    <li class="flex gap-2" key={highlight}>
+                      <span class="text-primary">•</span>
+                      <span>{highlight}</span>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mt-16">
+      <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-3xl p-8 border border-blue-100">
+        <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center">Optional Zipline Experience</h2>
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <p class="text-lg text-gray-700 leading-relaxed mb-4">
+              Experience the world's longest zipline at Jabel Jais! Soar through the air at incredible speeds and witness awe-inspiring views of the rugged Hajar Mountains from a unique perspective.
+            </p>
+            <ul class="space-y-2 text-gray-700">
+              <li class="flex gap-2">
+                <span class="text-primary">•</span>
+                <span>World's longest zipline - record-breaking experience</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-primary">•</span>
+                <span>Professional safety equipment and guidance provided</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-primary">•</span>
+                <span>Approximately 30 minutes duration</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-primary">•</span>
+                <span>Stunning mountain views during the ride</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="text-primary">•</span>
+                <span>Age and weight restrictions apply (please inquire)</span>
+              </li>
+            </ul>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-lg">
+            <img
+              src="/images/citytour/Jabel-Zais-Zipline.webp"
+              alt="Jabel Jais Zipline Experience"
+              class="w-full h-64 object-cover"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mt-16 grid md:grid-cols-2 gap-10">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">What's Included</h2>
+        <ul class="space-y-2 text-gray-700 list-disc pl-5">
+          {inclusions.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 mb-4">What's Not Included</h2>
+        <ul class="space-y-2 text-gray-700 list-disc pl-5">
+          {exclusions.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-6 mt-16">
+      <div class="bg-primary/5 border border-primary/20 rounded-3xl p-8 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+        <div>
+          <p class="text-sm uppercase tracking-[0.4em] text-primary mb-2">Book with confidence</p>
+          <h2 class="text-3xl font-bold text-gray-900">Ready to conquer UAE's highest peak?</h2>
+          <p class="text-gray-700 mt-3">
+            Share your preferred tour date, pickup location, and whether you'd like to add ziplining or Jais Sledder. We'll confirm pickup time and send tour details in advance.
+          </p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <a
+            href="https://wa.me/971585945007?text=I%20want%20to%20book%20the%20Jabel%20Jais%20High%20Mountain%20Tour"
+            class="inline-flex items-center justify-center gap-2 bg-primary text-white font-semibold px-8 py-3 rounded-full shadow-lg hover:-translate-y-0.5 transition"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Book via WhatsApp
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a
+            href="/contact"
+            class="inline-flex items-center justify-center gap-2 border border-primary text-primary font-semibold px-8 py-3 rounded-full hover:bg-primary/5 transition"
+          >
+            Request custom itinerary
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 mt-16">
+      <h2 class="text-3xl font-bold text-gray-900 text-center mb-10">Frequently asked questions</h2>
+      <div class="space-y-4">
+        {faqItems.map((faq) => (
+          <details class="bg-white border border-gray-200 rounded-2xl p-5 shadow-sm" key={faq.question}>
+            <summary class="font-semibold text-gray-900 cursor-pointer">
+              {faq.question}
+            </summary>
+            <p class="text-gray-700 mt-3 leading-relaxed">{faq.answer}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <script type="application/ld+json" set:html={JSON.stringify(tourPackageStructuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqStructuredData)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbStructuredData)} />
+</BaseLayout>
+

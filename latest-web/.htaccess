@@ -1,0 +1,242 @@
+# =========================================
+# Arihant Travel - .htaccess Configuration
+# =========================================
+
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /
+
+# =========================================
+# HTTPS and WWW Redirects
+# =========================================
+
+# Force www to non-www redirect (Ensure HTTPS)
+RewriteCond %{HTTP_HOST} ^www\.arihantlink\.com [NC]
+RewriteRule ^(.*)$ https://arihantlink.com/$1 [R=301,L]
+
+# Force HTTP to HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# =========================================
+# Handle /blog/ trailing slash (redirect to /blog)
+# =========================================
+
+# Redirect /blog/ to /blog (special case - blog is both directory and PHP file)
+RewriteRule ^blog/$ /blog [R=301,L]
+
+# =========================================
+# PHP Migration: 301 Redirects from .html to Clean URLs
+# =========================================
+
+# Main Pages
+RewriteRule ^index\.php$ / [R=301,L]
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^contact\.html$ /contact [R=301,L]
+RewriteRule ^about\.html$ /about [R=301,L]
+RewriteRule ^uae-visa\.html$ /uae-visa [R=301,L]
+RewriteRule ^blog\.html$ /blog [R=301,L]
+RewriteRule ^register\.html$ /register [R=301,L]
+RewriteRule ^login\.html$ /login [R=301,L]
+RewriteRule ^dashboard\.html$ /dashboard [R=301,L]
+RewriteRule ^logout\.html$ /logout [R=301,L]
+
+# Desert Safari Pages
+RewriteRule ^desertSafari\.html$ /desert-safari [R=301,L]
+RewriteRule ^desertSafari$ /desert-safari [R=301,L]
+RewriteRule ^standard-desert-safari\.html$ /standard-desert-safari [R=301,L]
+RewriteRule ^vip-desert-safari\.html$ /vip-desert-safari [R=301,L]
+RewriteRule ^premium-desert-safari\.html$ /premium-desert-safari [R=301,L]
+RewriteRule ^morning-desert-safari\.html$ /morning-desert-safari [R=301,L]
+RewriteRule ^overnight-desert-safari\.html$ /overnight-desert-safari [R=301,L]
+RewriteRule ^quad-bike-safari\.html$ /quad-bike-safari [R=301,L]
+
+# City Tours Pages
+RewriteRule ^city-tours\.html$ /city-tours [R=301,L]
+RewriteRule ^dubai-full-day-city-tour\.html$ /dubai-full-day-city-tour [R=301,L]
+RewriteRule ^abu-dhabi-city-tour\.html$ /abu-dhabi-city-tour [R=301,L]
+RewriteRule ^musandam-dibba-tour\.html$ /musandam-dibba-tour [R=301,L]
+RewriteRule ^hatta-city-tour\.html$ /hatta-city-tour [R=301,L]
+
+# Other Activities
+RewriteRule ^international-tours\.html$ /international-tours [R=301,L]
+RewriteRule ^dhow-cruise\.html$ /dhow-cruise [R=301,L]
+RewriteRule ^ocean-express-marina-dhow-cruise\.html$ /ocean-empress [R=301,L]
+RewriteRule ^alexandra-dhow-cruise-marina\.html$ /alexandra-dhow-cruise [R=301,L]
+RewriteRule ^alexandra-sea-lounge-marina\.html$ /alexandra-sea-lounge [R=301,L]
+RewriteRule ^alwasl-marina-dhow-cruise\.html$ /al-wasl-dhow-cruise [R=301,L]
+RewriteRule ^lotus-royale-mega-yacht-marina\.html$ /lotus-mega-yacht [R=301,L]
+RewriteRule ^dubai-excursions\.html$ /dubai-excursions [R=301,L]
+RewriteRule ^villa-listing\.html$ /anushthan-villa-ajman [R=301,L]
+
+# Excursion Subdirectory Redirects (New Structure)
+RewriteRule ^excursion/atlantis/atlantis\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/atlantis/discover-scuba-diving-dubai\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/atlantis/dolphins-experience-atlantis-waterpark\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/atlantis/dubai-atlantis-aquaventure-admission-ticket\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/atlantis/lostchambers-aquarium-entry-ticket\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/atlantis/lostchambers-aquarium-snorkeling\.html$ /atlantis-aquaventure [R=301,L]
+RewriteRule ^excursion/aya-universe\.html$ /aya-universe [R=301,L]
+RewriteRule ^excursion/dolphinarium-seal-bird-show\.html$ /dolphinarium [R=301,L]
+RewriteRule ^excursion/dubai-frame\.html$ /dubai-frame [R=301,L]
+RewriteRule ^excursion/global-village\.html$ /global-village [R=301,L]
+RewriteRule ^excursion/miraclegarden-entry-ticket\.html$ /miracle-garden [R=301,L]
+RewriteRule ^excursion/museum-of-the-future\.html$ /museum-of-the-future [R=301,L]
+RewriteRule ^excursion/view-at-the-palm\.html$ /view-at-the-palm [R=301,L]
+RewriteRule ^excursion/themepark/themepark\.html$ /theme-parks [R=301,L]
+RewriteRule ^excursion/themepark/ferrari-world-entry-ticket\.html$ /ferrari-world [R=301,L]
+RewriteRule ^excursion/themepark/sea-world-entry-ticket\.html$ /seaworld [R=301,L]
+RewriteRule ^excursion/themepark/warner-bros-entry-ticket\.html$ /warner-bros-world [R=301,L]
+RewriteRule ^excursion/themepark/IMG-World-entry-ticket\.html$ /img-worlds [R=301,L]
+RewriteRule ^excursion/themepark/motiongate-entry-ticket\.html$ /motiongate [R=301,L]
+RewriteRule ^excursion/themepark/legogate-entry-ticket\.html$ /legoland [R=301,L]
+RewriteRule ^excursion/themepark/legogate-waterpark-entry-ticket\.html$ /legoland-waterpark [R=301,L]
+RewriteRule ^excursion/themepark/wildwadi-waterpark-entry-ticket\.html$ /wild-wadi [R=301,L]
+RewriteRule ^excursion/themepark/yas-waterworld-entry-ticket\.html$ /yas-waterworld [R=301,L]
+
+# Ski Dubai Redirects
+RewriteRule ^excursion/skidubai/ski-dubai-vip-ticket\.html$ /ski-dubai-snow-plus [R=301,L]
+RewriteRule ^excursion/skidubai/ski-dubai-classic-ticket\.html$ /ski-dubai-classic [R=301,L]
+
+# Blog Redirects (Specific to PHP files in blog directory)
+RewriteRule ^blog/burj-khalifa-icon-of-dubai\.html$ /blog/burj-khalifa-icon-of-dubai [R=301,L]
+RewriteRule ^blog/dubai-family-tour\.html$ /blog/dubai-family-tour [R=301,L]
+RewriteRule ^blog/dubai-gold-souk-guide\.html$ /blog/dubai-gold-souk-guide [R=301,L]
+RewriteRule ^blog/georgia-travel-guide\.html$ /blog/georgia-travel-guide [R=301,L]
+RewriteRule ^blog/kazakhstan-almaty-travel-guide\.html$ /blog/kazakhstan-almaty-travel-guide [R=301,L]
+RewriteRule ^blog/jain-family-dubai-trip-guide\.html$ /blog/jain-family-dubai-trip-guide [R=301,L]
+RewriteRule ^blog/ferrari-world-abu-dhabi-guide\.html$ /blog/ferrari-world-abu-dhabi-guide [R=301,L]
+RewriteRule ^blog/uae-visa-comprehensive-guide\.html$ /blog/uae-visa-comprehensive-guide [R=301,L]
+RewriteRule ^blog/dubai-desert-safari-ultimate-guide\.html$ /blog/dubai-desert-safari-ultimate-guide [R=301,L]
+
+
+# Dubai Packages
+RewriteRule ^5n6d-dubai-tour\.html$ /5n6d-dubai-tour [R=301,L]
+RewriteRule ^budget-3n4d-dubai-tour\.html$ /budget-3n4d-dubai-tour [R=301,L]
+RewriteRule ^family-6n7d-dubai-tour\.html$ /family-6n7d-dubai-tour [R=301,L]
+
+# Generic fallback: Redirect any remaining .html to clean URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)\.html$ /$1 [R=301,L]
+
+# =========================================
+# Clean URLs: Remove .php extension
+# =========================================
+
+# Map /blog to blog.php (special case - not the directory)
+RewriteRule ^blog$ blog.php [L]
+
+# Map /blog/something to blog/something.php (blog subdirectory pages)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}/blog/$1.php -f
+RewriteRule ^blog/(.+)$ blog/$1.php [L]
+
+
+# General clean URLs for other pages
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]
+
+# =========================================
+# Security Headers
+# =========================================
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    # HSTS — enable only after confirming HTTPS works on every host name
+    Header always set Strict-Transport-Security "max-age=15552000; includeSubDomains"
+    # Permissions-Policy — disable APIs we don't use
+    Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    # CSP in REPORT-ONLY for the first week. Promote to enforced after no console reports.
+    Header always set Content-Security-Policy-Report-Only "default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://use.fontawesome.com https://cdn.jsdelivr.net; font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com https://cdn.jsdelivr.net data:; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://ajax.googleapis.com https://cdn.jsdelivr.net; connect-src 'self' https://www.google-analytics.com; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+    Header unset Server
+    Header unset X-Powered-By
+</IfModule>
+
+# =========================================
+# File Protection
+# =========================================
+
+# Protect sensitive files only
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak|env)$">
+    Require all denied
+</FilesMatch>
+
+# Block direct browser access to /includes/*.php — only the email endpoints
+# are meant to be hit from the front-end via fetch().
+<FilesMatch "^(db-config|env|csrf|breadcrumb|enquiry-form|enquiry-sidebar|faq-schema|footer|header|mobile-sticky-cta|related-parks|why-book-us|safari-pickup-zones|safari-fitness|safari-cross-sell)\.php$">
+    Require all denied
+</FilesMatch>
+
+# Block the canonical page template from being served on the live site.
+<FilesMatch "^_PAGE_TEMPLATE\.php$">
+    Require all denied
+</FilesMatch>
+
+# Block the legacy image backup directory entirely
+<DirectoryMatch "^.*/img/backup/">
+    Require all denied
+</DirectoryMatch>
+
+# Disable directory browsing
+Options -Indexes
+
+# =========================================
+# Gzip Compression
+# =========================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/json
+</IfModule>
+
+# =========================================
+# Browser Caching
+# =========================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    # Cache static assets for a long time
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType application/pdf "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 year"
+    
+    # Do not cache HTML/PHP files
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType application/x-httpd-php "access plus 0 seconds"
+    
+    # Set a reasonable default for anything else (allow browser memory cache)
+    ExpiresDefault "access plus 1 hour"
+</IfModule>
+
+# Explicit Cache-Control for HTML and PHP files
+# Use no-cache instead of no-store to allow smooth carousel transitions
+<FilesMatch "\.(html|php)$">
+    <IfModule mod_headers.c>
+        Header set Cache-Control "no-cache, must-revalidate, max-age=0"
+        Header set Pragma "no-cache"
+        Header set Expires "0"
+    </IfModule>
+</FilesMatch>
+
+# =========================================
+# Custom Error Pages
+# =========================================
+ErrorDocument 404 /404.php
+
+# =========================================
+# Security
+# =========================================
+# NOTE: The previous query-string SQL-injection RewriteRule was removed.
+# It produced false-positive 403s on legitimate URLs containing words like
+# "select", "insert", or characters like single-quote / hyphen / hash.
+# All database access is via PDO prepared statements — that is the correct
+# defence. If you ever re-introduce a regex-based filter, gate it behind a
+# canary URL prefix and confirm it doesn't break sitemap.xml or analytics.

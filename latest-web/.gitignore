@@ -1,0 +1,37 @@
+# Secrets — NEVER commit these
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer
+includes/vendor/
+vendor/
+
+# Backups & temp
+*.bak
+*.tmp
+*.log
+*.orig
+*.rej
+
+# Image backup folder (decommissioned)
+img/backup/
+
+# Local cache from rate-limit / login-throttle (these go to /tmp on production
+# but a dev machine might dump them in-tree by accident)
+*ratelimit*
+*arihant_login*
+
+# Build artefacts
+node_modules/
+.cache/
