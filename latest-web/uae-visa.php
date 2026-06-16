@@ -754,6 +754,80 @@ include 'includes/breadcrumb.php';
 </section>
 
 <!-- =========================================================================
+     SPECIFIC VISA-TYPE PAGES — hub-and-spoke architecture so long-tail queries
+     have a perfect-match URL to land on. Built in the 4-sprint expansion (Jun 2026).
+     ========================================================================= -->
+<section class="page-section page-section--light-2">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-heading__eyebrow">Specific visa types</span>
+            <h2 class="section-heading__title">Pick the exact visa you need</h2>
+            <p class="section-heading__lead">Each visa type has its own dedicated page with eligibility,
+                pricing, documents and a separate FAQ &mdash; designed so you get the right answer
+                fast.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-bolt me-2 text-warning"></i>Express 24-48 hr Visa</h3>
+                    <p>Urgent applications, last-minute travel. From AED 650 with money-back if we miss next-day delivery.</p>
+                    <a href="uae-express-visa" class="btn btn-outline-primary rounded-pill mt-2">Express visa</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-redo me-2 text-primary"></i>A2A 60-Day Extension</h3>
+                    <p>Extend your UAE stay 60 days without leaving the country. From AED 1,500, processed in 2-3 days.</p>
+                    <a href="uae-a2a-visa-extension-60-days" class="btn btn-outline-primary rounded-pill mt-2">A2A 60-day guide</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-plane me-2 text-primary"></i>96-Hour Transit Visa</h3>
+                    <p>4-day Dubai layover visa from AED 250. Hotel required, perfect for stopovers with tours.</p>
+                    <a href="uae-96-hour-transit-visa" class="btn btn-outline-primary rounded-pill mt-2">96-hour transit</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-clock me-2 text-secondary"></i>48-Hour Transit Visa</h3>
+                    <p>Short layover visa &mdash; free via Emirates/Etihad/flydubai/Air Arabia, or AED 200 through us.</p>
+                    <a href="uae-48-hour-transit-visa" class="btn btn-outline-primary rounded-pill mt-2">48-hour transit</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-calendar-alt me-2 text-primary"></i>30-Day Multi Entry</h3>
+                    <p>Unlimited entries within 30 days, from AED 750. Best for cruises and Gulf side trips.</p>
+                    <a href="30-days-multiple-entry-uae-visa" class="btn btn-outline-primary rounded-pill mt-2">30-day multi entry</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-home me-2 text-secondary"></i>60-Day Single Entry</h3>
+                    <p>Cheapest 60-day long-stay option from AED 700. Best for parent visits and extended stays.</p>
+                    <a href="60-days-single-entry-uae-visa" class="btn btn-outline-primary rounded-pill mt-2">60-day single entry</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5"><i class="fas fa-search me-2 text-info"></i>Check Visa Status</h3>
+                    <p>Step-by-step guide to ICA Smart Services + GDRFA Dubai portals, status messages explained.</p>
+                    <a href="uae-visa-status" class="btn btn-outline-primary rounded-pill mt-2">Status checker guide</a>
+                </div></article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="arihant-card h-100 bg-primary text-white"><div class="arihant-card__body">
+                    <h3 class="arihant-card__title h5 text-white"><i class="fab fa-whatsapp me-2"></i>Not sure which?</h3>
+                    <p class="text-white-50">WhatsApp us your travel dates and we&rsquo;ll recommend the cheapest visa that fits your trip &mdash; in under 15 minutes.</p>
+                    <a href="https://wa.me/971585945007?text=Help%20me%20pick%20the%20right%20UAE%20visa" target="_blank" rel="noopener" class="btn btn-light rounded-pill mt-2">WhatsApp us</a>
+                </div></article>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================================
      CUSTOMER TESTIMONIALS — E-E-A-T booster, mirrors akbartravels.com pattern.
      Real testimonials build trust + send Google strong "real business" signals.
      TODO: Replace text + names with REAL reviews from your Google Business Profile.
