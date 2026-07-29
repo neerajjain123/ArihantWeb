@@ -122,8 +122,9 @@ $assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
     </script>
 
     <?php
-    // Auto-generate BreadcrumbList schema for pages with breadcrumb data
-    if (isset($breadcrumbCategory) && isset($pageHeading) && $currentPage !== 'home') {
+    // Auto-generate BreadcrumbList schema for pages with breadcrumb data.
+    // Sole emitter of BreadcrumbList — includes/breadcrumb.php must not add another.
+    if (isset($pageHeading) && $currentPage !== 'home') {
         $breadcrumbSchema = [
             '@context' => 'https://schema.org',
             '@type' => 'BreadcrumbList',
@@ -137,7 +138,7 @@ $assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
             ]
         ];
         // Add category level if it has a link
-        if (isset($breadcrumbCategoryLink) && $breadcrumbCategoryLink !== '#') {
+        if (isset($breadcrumbCategory, $breadcrumbCategoryLink) && $breadcrumbCategoryLink !== '#') {
             $breadcrumbSchema['itemListElement'][] = [
                 '@type' => 'ListItem',
                 'position' => 2,

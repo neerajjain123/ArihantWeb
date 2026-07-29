@@ -5,24 +5,8 @@ if (!isset($breadcrumbBg)) {
     $breadcrumbBg = 'img/breadcrumb-bg.jpg';
 }
 $overlayStyle = 'background: url(' . $breadcrumbBg . ');';
-
-// Build BreadcrumbList schema
-$breadcrumbItems = [];
-$breadcrumbItems[] = '{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com/"}';
-$position = 2;
-if (isset($breadcrumbCategory) && isset($breadcrumbCategoryLink)) {
-    $breadcrumbItems[] = '{"@type":"ListItem","position":' . $position . ',"name":"' . htmlspecialchars($breadcrumbCategory, ENT_QUOTES) . '","item":"https://arihantlink.com/' . ltrim($breadcrumbCategoryLink, '/') . '"}';
-    $position++;
-}
-$breadcrumbItems[] = '{"@type":"ListItem","position":' . $position . ',"name":"' . htmlspecialchars($pageHeading, ENT_QUOTES) . '","item":"' . $pageCanonical . '"}';
+// BreadcrumbList schema is emitted once in includes/header.php — do not duplicate it here.
 ?>
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [<?php echo implode(',', $breadcrumbItems); ?>]
-}
-</script>
 <!-- Hero Banner -->
 <div class="container-fluid bg-breadcrumb"
     style="<?php echo $overlayStyle; ?> background-position: center center; background-repeat: no-repeat; background-size: cover;">
