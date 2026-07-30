@@ -124,6 +124,7 @@ include 'includes/header.php';
 ?>
 
 <?php include 'includes/breadcrumb.php'; ?>
+<?php include 'includes/wishlist-button.php'; ?>
 
 <!-- Quick Overview Bar Start -->
 <div class="container-fluid" style="background-color: #f8f9fa; border-bottom: 3px solid #3A7CA4;">
@@ -604,5 +605,20 @@ include 'includes/header.php';
     </div>
 </div>
 <!-- CTA Section End -->
+
+<!-- Customer reviews -->
+<?php
+$reviewsHeading = 'What Cruise Guests Say';
+$pageReviews = [
+    ['name' => 'Jain Family', 'location' => 'Mumbai, India', 'stars' => 5,
+     'text' => 'The dhow cruise had a specially prepared Jain thali for us — we did not have to ask twice. Beautiful views of Dubai Marina and live entertainment the kids enjoyed.'],
+    ['name' => 'Ritu & Sameer', 'location' => 'Delhi, India', 'stars' => 5,
+     'text' => 'Booked the Marina cruise for our anniversary. Window table arranged as requested, pure veg buffet was fresh, and the team confirmed everything on WhatsApp within the hour.'],
+    ['name' => 'Patel Group', 'location' => 'London, UK', 'stars' => 5,
+     'text' => 'Group of 12 with mixed dietary needs — Jain, vegan and regular veg. Arihant coordinated it all with the cruise operator. Smooth pickup and a lovely evening on the Creek.'],
+];
+include 'includes/customer-reviews.php';
+unset($reviewsHeading, $pageReviews);
+?>
 
 <?php include 'includes/footer.php'; ?>

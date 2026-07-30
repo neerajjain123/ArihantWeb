@@ -1,8 +1,7 @@
 # Secrets — NEVER commit these
 .env
-.env.local
-.env.production
-.env.*.local
+.env.*
+!.env.example
 
 # Editor / OS
 .DS_Store

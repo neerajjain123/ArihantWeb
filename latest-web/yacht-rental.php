@@ -148,6 +148,7 @@ $schemaMarkup = '<script type="application/ld+json">
 
 include 'includes/header.php';
 include 'includes/breadcrumb.php';
+include 'includes/wishlist-button.php';
 ?>
 
 <!-- Main Content -->
@@ -243,6 +244,21 @@ include 'includes/breadcrumb.php';
         </div>
     </div>
 </div>
+
+<!-- Customer reviews -->
+<?php
+$reviewsHeading = 'What Yacht Charter Guests Say';
+$pageReviews = [
+    ['name' => 'Bhandari Group', 'location' => 'Dubai, UAE', 'stars' => 5,
+     'text' => 'Chartered the 55ft yacht for a family birthday. Pure veg catering arranged on board, and the crew was wonderful with the kids. Marina views at sunset were unreal.'],
+    ['name' => 'Rohan & Friends', 'location' => 'Mumbai, India', 'stars' => 5,
+     'text' => 'Clean, well-maintained yacht, on-time boarding and transparent pricing — no surprise charges. Arihant handled everything over WhatsApp before we even landed in Dubai.'],
+    ['name' => 'Vora Family', 'location' => 'Ahmedabad, India', 'stars' => 5,
+     'text' => 'We wanted a Jain food menu for a 3-hour cruise and they arranged it with the caterer without fuss. Booking to boarding, the whole experience was seamless.'],
+];
+include 'includes/customer-reviews.php';
+unset($reviewsHeading, $pageReviews);
+?>
 
 <?php echo $schemaMarkup; ?>
 

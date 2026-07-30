@@ -162,13 +162,13 @@ RewriteRule ^(.*)$ $1.php [L]
 # =========================================
 
 # Protect sensitive files only
-<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak|env)$">
+<FilesMatch "(\.(htaccess|htpasswd|ini|log|sh|sql|bak)$|^\.env)">
     Require all denied
 </FilesMatch>
 
 # Block direct browser access to /includes/*.php — only the email endpoints
 # are meant to be hit from the front-end via fetch().
-<FilesMatch "^(db-config|env|csrf|breadcrumb|enquiry-form|enquiry-sidebar|faq-schema|footer|header|mobile-sticky-cta|related-parks|why-book-us|safari-pickup-zones|safari-fitness|safari-cross-sell)\.php$">
+<FilesMatch "^(db-config|env|csrf|breadcrumb|enquiry-form|enquiry-sidebar|faq-schema|footer|header|mobile-sticky-cta|related-parks|why-book-us|safari-pickup-zones|safari-fitness|safari-cross-sell|auth|account-tables|customer-reviews|visa-lead-magnet|wishlist-button)\.php$">
     Require all denied
 </FilesMatch>
 

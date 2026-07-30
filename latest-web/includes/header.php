@@ -15,7 +15,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // Use $assetVersion query string for cache busting of CSS/JS
 
 // Version for cache busting
-$assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
+$assetVersion = '1.0.7'; // Reverted banner heights to original full-screen design
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -50,6 +50,47 @@ $assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
         })();
     </script>
 
+    <?php
+    // ------------------------------------------------------------------
+    // Remarketing pixels — fill in your IDs to activate.
+    //   $metaPixelId:   Meta (Facebook/Instagram) Pixel ID from Events Manager
+    //                   (business.facebook.com -> Events Manager -> Data Sources)
+    //   $googleAdsId:   Google Ads conversion tag, format 'AW-XXXXXXXXXX'
+    //                   (ads.google.com -> Tools -> Data manager / Google tag)
+    // Leave empty ('') to keep them disabled. Both load after window.load,
+    // same as GA4, so they do not hurt Core Web Vitals.
+    // ------------------------------------------------------------------
+    $metaPixelId = '';
+    $googleAdsId = '';
+    ?>
+    <?php if (!empty($googleAdsId)): ?>
+    <!-- Google Ads remarketing (shares the gtag loader below) -->
+    <script>gtag('config', '<?php echo $googleAdsId; ?>');</script>
+    <?php endif; ?>
+    <?php if (!empty($metaPixelId)): ?>
+    <!-- Meta Pixel — deferred to window.load to protect LCP -->
+    <script>
+        (function(){
+            function loadFbq(){
+                if (window.__fbqLoaded) return; window.__fbqLoaded = true;
+                !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                n.queue=[];t=b.createElement(e);t.async=!0;
+                t.src=v;s=b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t,s)}(window,document,'script',
+                'https://connect.facebook.net/en_US/fbevents.js');
+                fbq('init', '<?php echo $metaPixelId; ?>');
+                fbq('track', 'PageView');
+            }
+            if (document.readyState === 'complete') { loadFbq(); }
+            else { window.addEventListener('load', loadFbq, { once: true }); }
+        })();
+    </script>
+    <noscript><img height="1" width="1" style="display:none" alt=""
+        src="https://www.facebook.com/tr?id=<?php echo $metaPixelId; ?>&ev=PageView&noscript=1"/></noscript>
+    <?php endif; ?>
+
     <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="8Fp_xpOGClaVIO4wZ1kLosMdh-APNMdrARE2HjvC0jM" />
 
@@ -61,7 +102,8 @@ $assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
 
     <?php
     // Pages that should never be indexed (auth/legal/internal).
-    $noindexPages = ['login', 'register', 'dashboard', 'logout', 'search', '404', 'page-template', 'blog-category'];
+    $noindexPages = ['login', 'register', 'dashboard', 'logout', 'search', '404', 'page-template', 'blog-category',
+                     'my-bookings', 'wishlist', 'profile', 'forgot-password', 'reset-password'];
     // blog-category: /blog?category=X filtered views — crawlable but not indexable
     if ((isset($currentPage) && in_array($currentPage, $noindexPages, true)) || !empty($forceNoindex)): ?>
     <meta name="robots" content="noindex, follow">
@@ -240,30 +282,32 @@ $assetVersion = '1.0.4'; // Incremented after security + SEO hardening pass
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <!-- Hide Account Links for now
                     <?php if (isset($_SESSION['user_id'])): ?>
-                        <a href="<?php echo $basePath; ?>dashboard"><small class="me-3 text-light"><i
-                                     class="fa fa-user me-2"></i>Dashboard</small></a>
-                        <a href="<?php echo $basePath; ?>logout"><small class="me-3 text-light"><i
-                                     class="fa fa-sign-out-alt me-2"></i>Logout</small></a>
-                    <?php else: ?>
-                        <a href="<?php echo $basePath; ?>register"><small class="me-3 text-light"><i
-                                     class="fa fa-user me-2"></i>Register</small></a>
-                        <a href="<?php echo $basePath; ?>login"><small class="me-3 text-light"><i
-                                     class="fa fa-sign-in-alt me-2"></i>Login</small></a>
-                    <?php endif; ?>
-                    <div class="dropdown">
-                        <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i
-                                     class="fa fa-home me-2"></i> My Dashboard</small></a>
-                        <div class="dropdown-menu rounded">
-                            <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
-                            <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i
+                                        class="fa fa-user-circle me-2"></i>Hi, <?php
+                                        echo htmlspecialchars(explode(' ', trim((string) ($_SESSION['user_name'] ?? 'Traveller')))[0], ENT_QUOTES, 'UTF-8');
+                                        ?></small></a>
+                            <div class="dropdown-menu dropdown-menu-end rounded">
+                                <a href="<?php echo $basePath; ?>dashboard" class="dropdown-item"><i
+                                        class="fas fa-tachometer-alt me-2"></i> Dashboard</a>
+                                <a href="<?php echo $basePath; ?>my-bookings" class="dropdown-item"><i
+                                        class="fas fa-shopping-bag me-2"></i> My Bookings</a>
+                                <a href="<?php echo $basePath; ?>wishlist" class="dropdown-item"><i
+                                        class="fas fa-heart me-2"></i> Wishlist</a>
+                                <a href="<?php echo $basePath; ?>profile" class="dropdown-item"><i
+                                        class="fas fa-user-edit me-2"></i> Profile Settings</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="<?php echo $basePath; ?>logout" class="dropdown-item text-danger"><i
+                                        class="fas fa-sign-out-alt me-2"></i> Logout</a>
+                            </div>
                         </div>
-                    </div>
-                    -->
+                    <?php else: ?>
+                        <a href="<?php echo $basePath; ?>login"><small class="me-3 text-light"><i
+                                    class="fa fa-sign-in-alt me-2"></i>Login</small></a>
+                        <a href="<?php echo $basePath; ?>register"><small class="text-light"><i
+                                    class="fa fa-user-plus me-2"></i>Register</small></a>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>

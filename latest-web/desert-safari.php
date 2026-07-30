@@ -75,6 +75,7 @@ $schemaMarkup = '
 
 include 'includes/header.php';
 include 'includes/breadcrumb.php';
+include 'includes/wishlist-button.php';
 ?>
 
 <!-- Trust band -->
@@ -521,6 +522,21 @@ include 'includes/breadcrumb.php';
 <?php
 $currentSafariSlug = 'desert-safari'; // hides nothing — pillar wants to show siblings
 include 'includes/safari-cross-sell.php';
+?>
+
+<!-- Customer reviews -->
+<?php
+$reviewsHeading = 'What Safari Guests Say';
+$pageReviews = [
+    ['name' => 'Mehta Family', 'location' => 'Ahmedabad, India', 'stars' => 5,
+     'text' => 'The Jain food arrangements at the desert camp were flawless — a separate counter, clearly labelled. Dune bashing was thrilling but the driver adjusted for our elderly parents. Perfect evening.'],
+    ['name' => 'Priya & Ankit', 'location' => 'Surat, India', 'stars' => 5,
+     'text' => 'Booked the VIP safari for our honeymoon. Sofa seating, table service and a clean Jain BBQ counter as promised. Pickup from our Marina hotel was exactly on time.'],
+    ['name' => 'Shah Family', 'location' => 'Nairobi, Kenya', 'stars' => 5,
+     'text' => 'We were nervous about food in the desert, but Arihant delivered beyond expectations. Kids loved the camel ride and shows. WhatsApp support answered within minutes every time.'],
+];
+include 'includes/customer-reviews.php';
+unset($reviewsHeading, $pageReviews);
 ?>
 
 <!-- CTA band -->

@@ -1,7 +1,17 @@
 <?php
 require_once __DIR__ . '/includes/csrf.php';
+require_once __DIR__ . '/includes/auth.php';
 include __DIR__ . '/includes/db-config.php';
 csrf_start();
+
+// Where to send the user after successful registration (internal paths only).
+$redirectTo = auth_safe_redirect_path($_GET['redirect'] ?? ($_POST['redirect'] ?? ''));
+if ($redirectTo === '') { $redirectTo = 'dashboard'; }
+
+if (isset($_SESSION['user_id'])) {
+    header("Location: " . $redirectTo);
+    exit();
+}
 
 // Page SEO Variables
 $pageTitle = "Register | Arihant Travel";
@@ -53,7 +63,46 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' &
                 try {
                     $stmt = $pdo->prepare("INSERT INTO users (full_name, email, phone, password) VALUES (?, ?, ?, ?)");
                     $stmt->execute([$full_name, $email, $phone, $hashed_password]);
-                    $success = "Registration successful. You can now <a href='login'>log in</a>.";
+                    $newUserId = (int) $pdo->lastInsertId();
+
+                    // Welcome email (best effort — never block registration on mail).
+                    try {
+                        require_once __DIR__ . '/includes/env.php';
+                        env_load();
+                        $smtpUser = env('SMTP_USER');
+                        $smtpPass = env('SMTP_PASS');
+                        if ($smtpUser && $smtpPass) {
+                            require __DIR__ . '/includes/vendor/autoload.php';
+                            $wmail = new PHPMailer\PHPMailer\PHPMailer(true);
+                            $wmail->isSMTP();
+                            $wmail->Host       = env('SMTP_HOST', 'smtp.hostinger.com');
+                            $wmail->SMTPAuth   = true;
+                            $wmail->Username   = $smtpUser;
+                            $wmail->Password   = $smtpPass;
+                            $wmail->SMTPSecure = env('SMTP_SECURE', 'ssl');
+                            $wmail->Port       = (int) env('SMTP_PORT', '465');
+                            $wmail->setFrom(env('SMTP_FROM', 'contact@arihantlink.com'), env('SMTP_FROM_NAME', 'Arihant Travel'));
+                            $wmail->addAddress($email, $full_name);
+                            $wmail->Subject = 'Welcome to Arihant Travel!';
+                            $wmail->Body    = "Dear $full_name,\n\n"
+                                . "Welcome to Arihant Travel! Your account is ready.\n\n"
+                                . "From your dashboard you can track booking requests, save tours to your "
+                                . "wishlist and manage your details: https://arihantlink.com/dashboard\n\n"
+                                . "Planning a trip? WhatsApp us anytime on +971 58 594 5007 — we specialise in "
+                                . "Jain-friendly and family-comfortable tours across the UAE and beyond.\n\n"
+                                . "Best regards,\nArihant Travel Team\nhttps://arihantlink.com";
+                            $wmail->send();
+                        }
+                    } catch (Throwable $mailErr) {
+                        error_log('[register] welcome mail failed: ' . $mailErr->getMessage());
+                    }
+
+                    // Auto-login: no reason to make a brand-new user type it all again.
+                    session_regenerate_id(true);
+                    $_SESSION['user_id']   = $newUserId;
+                    $_SESSION['user_name'] = $full_name;
+                    header("Location: " . $redirectTo);
+                    exit();
                 } catch (PDOException $e) {
                     error_log('[register] insert failed: ' . $e->getMessage());
                     $error = "Registration failed. Please try again later.";
@@ -66,25 +115,21 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' &
 include 'includes/header.php';
 ?>
 
-<!-- Breadcrumb Start -->
-<div class="container-fluid bg-breadcrumb"
-    style="background: linear-gradient(rgba(19, 53, 123, 0.5), rgba(19, 53, 123, 0.5)), url(img/breadcrumb-bg.jpg);">
-    <div class="container text-center py-5" style="max-width: 900px;">
-        <h1 class="text-white display-3 mb-4">Create Account</h1>
-        <ol class="breadcrumb justify-content-center mb-0">
-            <li class="breadcrumb-item"><a href="/">Home</a></li>
-            <li class="breadcrumb-item active text-white">Register</li>
-        </ol>
-    </div>
-</div>
-<!-- Breadcrumb End -->
-
-<!-- Register Start -->
-<div class="container-fluid py-5">
-    <div class="container py-5">
+<!-- Auth Hero + Register Form (form overlaps the banner — no scrolling needed) -->
+<div class="auth-hero d-flex align-items-center"
+    style="min-height: 100vh; padding: 130px 0 60px;
+           background: linear-gradient(rgba(19, 53, 123, 0.65), rgba(19, 53, 123, 0.65)), url(img/breadcrumb-bg.jpg) center center / cover no-repeat;">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h1 class="text-white display-5 mb-2">Create Account</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="/" class="text-white-50">Home</a></li>
+                <li class="breadcrumb-item active text-white">Register</li>
+            </ol>
+        </div>
         <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="bg-light rounded p-5 shadow-sm">
+            <div class="col-md-9 col-lg-6">
+                <div class="bg-white rounded-4 p-4 p-md-5 shadow-lg">
                     <h2 class="mb-4 text-center">Registration</h2>
 
                     <?php if ($error): ?>
@@ -96,6 +141,7 @@ include 'includes/header.php';
 
                     <form action="register" method="POST" autocomplete="on">
                         <?php echo csrf_field(); ?>
+                        <input type="hidden" name="redirect" value="<?php echo htmlspecialchars($redirectTo, ENT_QUOTES, 'UTF-8'); ?>">
                         <div class="row g-3">
                             <div class="col-12">
                                 <div class="form-floating">
@@ -146,6 +192,6 @@ include 'includes/header.php';
         </div>
     </div>
 </div>
-<!-- Register End -->
+<!-- Auth Hero + Register End -->
 
 <?php include 'includes/footer.php'; ?>

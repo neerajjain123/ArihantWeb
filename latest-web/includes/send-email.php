@@ -134,6 +134,31 @@ try {
     $total   = $guests * $price;
     $subject = $package . ' Booking Request';
 
+    // --- Store the booking request in DB so it appears in "My Bookings"
+    //     (best effort — never block the email on DB issues).
+    try {
+        require_once __DIR__ . '/db-config.php'; // provides $pdo
+        require_once __DIR__ . '/account-tables.php';
+        ensure_account_tables($pdo);
+
+        // Link to a registered account when the email matches one.
+        $uid = null;
+        try {
+            $ustmt = $pdo->prepare('SELECT id FROM users WHERE email = ?');
+            $ustmt->execute([$email]);
+            $urow = $ustmt->fetch();
+            if ($urow) { $uid = (int) $urow['id']; }
+        } catch (Throwable $uErr) { /* users table may not exist yet */ }
+
+        $bstmt = $pdo->prepare(
+            "INSERT INTO bookings (user_id, name, email, phone, package, guests, travel_date, price_aed, total_aed, dietary, message)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        );
+        $bstmt->execute([$uid, $name, $email, $phone, $package, $guests, $date, $price, $total, $dietary, $message]);
+    } catch (Throwable $dbErr) {
+        error_log('[send-email] booking DB save failed: ' . $dbErr->getMessage());
+    }
+
     $email_body = <<<EOT
 Dear Arihant Travel Team,
 

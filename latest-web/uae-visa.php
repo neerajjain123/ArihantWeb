@@ -1072,4 +1072,7 @@ include 'includes/breadcrumb.php';
     </div>
 </section>
 
+<!-- Visa checklist lead magnet -->
+<?php include 'includes/visa-lead-magnet.php'; ?>
+
 <?php include 'includes/footer.php'; ?>

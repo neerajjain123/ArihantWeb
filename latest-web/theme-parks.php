@@ -269,6 +269,7 @@ $schemaMarkup = '<script type="application/ld+json">
 
 include 'includes/header.php';
 include 'includes/breadcrumb.php';
+include 'includes/wishlist-button.php';
 ?>
 
 <!-- Main Content -->
@@ -567,6 +568,21 @@ include 'includes/breadcrumb.php';
         });
     });
 </script>
+
+<!-- Customer reviews -->
+<?php
+$reviewsHeading = 'What Park Visitors Say';
+$pageReviews = [
+    ['name' => 'Doshi Family', 'location' => 'Pune, India', 'stars' => 5,
+     'text' => 'E-tickets for Ferrari World arrived within minutes of paying. Skipped the counter queue completely. Hotel transfer both ways was included as promised.'],
+    ['name' => 'Kavita M.', 'location' => 'Bengaluru, India', 'stars' => 5,
+     'text' => 'Booked IMG Worlds and Dubai Parks for the kids. Arihant suggested the right combo ticket and saved us money versus booking at the gate. Very responsive on WhatsApp.'],
+    ['name' => 'Sanghvi Family', 'location' => 'Jaipur, India', 'stars' => 5,
+     'text' => 'They planned our theme park days around Jain meal options nearby — something no other agent even thought about. Yas Island multi-park pass worked perfectly.'],
+];
+include 'includes/customer-reviews.php';
+unset($reviewsHeading, $pageReviews);
+?>
 
 <?php echo $schemaMarkup; ?>
 

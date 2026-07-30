@@ -205,6 +205,7 @@ include 'includes/header.php';
 ?>
 
 <?php include 'includes/breadcrumb.php'; ?>
+<?php include 'includes/wishlist-button.php'; ?>
 
 <!-- Trust Stats Bar -->
 <div class="container-fluid bg-white border-bottom py-3">
@@ -534,6 +535,12 @@ include 'includes/header.php';
     </div>
 </div>
 <!-- FAQ End -->
+
+<!-- Customer reviews -->
+<?php
+$reviewsHeading = 'What Families Say About Our Dubai Packages';
+include 'includes/customer-reviews.php';
+?>
 
 <?php include 'includes/enquiry-form.php'; ?>
 

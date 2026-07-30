@@ -25,13 +25,21 @@ if (!function_exists('env_load')) {
             return;
         }
 
-        // Preferred locations, in order. First match wins.
-        $candidates = [
-            // One level above document root (recommended on Hostinger if accessible).
-            dirname($_SERVER['DOCUMENT_ROOT'] ?? __DIR__ . '/..') . '/.env',
-            // Project root (still readable, but at least .htaccess blocks web access).
-            __DIR__ . '/../.env',
-        ];
+        // Detect environment: the live site is arihantlink.com; anything else
+        // (localhost, 127.0.0.1, LAN IP, CLI) is treated as local/UAT.
+        $host = strtolower($_SERVER['HTTP_HOST'] ?? '');
+        $isProd = str_contains($host, 'arihantlink.com');
+
+        $aboveRoot = dirname($_SERVER['DOCUMENT_ROOT'] ?? __DIR__ . '/..');
+        $projRoot  = __DIR__ . '/..';
+
+        // Preferred locations, in order. First readable file wins.
+        // Prod hosts read ".env"; local/UAT prefers ".env.uat" and only falls
+        // back to ".env" if no UAT file exists.
+        $candidates = $isProd
+            ? [$aboveRoot . '/.env', $projRoot . '/.env']
+            : [$aboveRoot . '/.env.uat', $projRoot . '/.env.uat',
+               $aboveRoot . '/.env', $projRoot . '/.env'];
 
         foreach ($candidates as $path) {
             if (!is_string($path) || !is_readable($path)) {
