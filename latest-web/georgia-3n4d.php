@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "3 Nights 4 Days Georgia Tour Package from Dubai | Tbilisi, Mtskheta & Kazbegi 2025 - Arihant Travel";
+$pageTitle = "3 Nights 4 Days Georgia Tour Package from Dubai | Tbilisi, Mtskheta & Kazbegi 2025 - Arihant Travels";
 $pageDescription = "Book a 3-night, 4-day Georgia holiday from Dubai covering Tbilisi, UNESCO-listed Mtskheta, Gudauri ski resort, and Kazbegi.";
 $pageKeywords = "georgia tour package from dubai, 3 nights 4 days tbilisi itinerary, gudauri kazbegi tour, georgia travel package uae, tbilisi mtskheta tour, kazbegi 4x4 tour, georgia winter packages, georgia holiday deals 2025, georgia 3n4d tour";
 $pageCanonical = "https://arihantlink.com/georgia-3n4d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {
@@ -168,7 +168,7 @@ include 'includes/header.php';
                                         <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Private
                                             transfer to the hotel with express check-in</li>
                                         <li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>Welcome
-                                            briefing with local tips from Arihant Travel concierge</li>
+                                            briefing with local tips from Arihant Travels concierge</li>
                                         <li class="mb-2"><i
                                                 class="fas fa-star text-secondary me-2"></i><strong>Evening:</strong>
                                             Stroll along Rustaveli Avenue & sample Georgian cuisine at Old Town
@@ -322,7 +322,7 @@ include 'includes/header.php';
                             <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
                                     Generally, UAE residents can get their Georgia visa on arrival if they have a valid
-                                    UAE residency visa. Arihant Travel provides latest updates.
+                                    UAE residency visa. Arihant Travels provides latest updates.
                                 </div>
                             </div>
                         </div>
@@ -372,7 +372,7 @@ include 'includes/header.php';
                             </div>
                         </div>
                         <div class="bg-light p-3 text-center border-top">
-                            <small class="text-muted"><i class="fas fa-shield-alt text-success me-1"></i> Arihant Travel
+                            <small class="text-muted"><i class="fas fa-shield-alt text-success me-1"></i> Arihant Travels
                                 Quality Guarantee</small>
                         </div>
                     </div>

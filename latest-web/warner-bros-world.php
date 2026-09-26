@@ -135,12 +135,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/warner-bros-world",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "3240"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

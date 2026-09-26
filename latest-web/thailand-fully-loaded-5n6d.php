@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Thailand Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Thailand Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Thailand adventure with our Fully Loaded 5 Nights / 6 Days package. Tiger Topia, Coral Island, Mahanakhon Skywalk, Dinner Cruise & Safari World. Starting from AED 1,675.";
 $pageKeywords = "thailand fully loaded package, thailand 5 nights 6 days, pattaya bangkok tour, tiger topia zoo, mahanakhon skywalk, chao phraya dinner cruise, safari world bangkok, thailand holiday from dubai";
 $pageCanonical = "https://arihantlink.com/thailand-fully-loaded-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

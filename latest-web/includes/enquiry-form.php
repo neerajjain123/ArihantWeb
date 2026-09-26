@@ -3,7 +3,7 @@
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Plan Your Trip</h5>
-            <h1 class="mb-4">Send an Enquiry</h1>
+            <h2 class="mb-4">Send an Enquiry</h2>
             <p class="mb-0">Interested in this package? Fill out the form below and our experts will get back to you
                 with a customized quote and details.</p>
         </div>

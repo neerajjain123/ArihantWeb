@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Georgia Holiday Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Georgia Holiday Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Georgia tour packages from Dubai featuring Tbilisi, Mtskheta, Gudauri, Kazbegi, Kakheti, Uplistsikhe, Borjomi, and Batumi.";
 $pageKeywords = "georgia tour packages dubai, international packages from dubai, caucasus holiday deals, tbilisi holiday package, georgia wine tour uae, gudauri kazbegi trip, georgia ski package, snowcapped georgia adventure, georgia undiscovered jewel, georgia batumi tour, ariant travel international packages";
 $pageCanonical = "https://arihantlink.com/georgia";

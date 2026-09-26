@@ -23,15 +23,15 @@ $schemaMarkup = '
     "name": "UAE Family / Dependent Visa Processing",
     "description": "End-to-end family visa processing from Dubai for UAE residents sponsoring spouse, children or parents. Includes 60-day visit visa for parents from India and 1-year/3-year residence visa applications.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travel", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": {"@type": "City", "name": "Dubai"}
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "UAE Family Visa from Dubai — Sponsor Spouse, Children & Parents",
-    "author": {"@type": "Organization", "name": "Arihant Travel UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
+    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-family-visa-dubai"}
@@ -81,7 +81,7 @@ include 'includes/breadcrumb.php';
                 <article class="article-prose">
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                        <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
                         <span><i class="fas fa-shield-alt"></i> UAE-licensed, Sharjah</span>
                     </div>
 
@@ -181,7 +181,7 @@ include 'includes/breadcrumb.php';
                         tourist visa from their side.
                     </p>
                     <ul>
-                        <li><strong>Validity:</strong> 60 days of stay, multiple entries, extendable once for 30 more days inside the UAE.</li>
+                        <li><strong>Validity:</strong> 60 days of stay, single entry, extendable once for 30 more days from inside the UAE.</li>
                         <li><strong>Cost:</strong> from <span class="price-pill">AED 550 per parent</span>.</li>
                         <li><strong>Processing:</strong> 3&ndash;4 working days.</li>
                         <li><strong>Documents:</strong> parent&rsquo;s passport, photo, your residence visa + Emirates ID, return ticket, hotel booking or your tenancy contract as accommodation proof.</li>

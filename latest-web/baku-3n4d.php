@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

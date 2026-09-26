@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Yerevan Getaway 3 Nights 4 Days Armenia Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Yerevan Getaway 3 Nights 4 Days Armenia Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore Yerevan, the Pink City of Armenia, with our 3 Nights / 4 Days tour package. Visit ancient monasteries, Lake Sevan, and Tsaghkadzor.";
 $pageKeywords = "yerevan tour package 3 nights 4 days, armenia holiday from dubai, yerevan city tour, lake sevan trip, tsaghkadzor cable car, armenia visa for uae residents, armenia travel deal, yerevan getaway package";
 $pageCanonical = "https://arihantlink.com/armenia-yerevan-getaway-3n4d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

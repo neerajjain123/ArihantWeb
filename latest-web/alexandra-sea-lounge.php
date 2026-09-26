@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Alexandra Sea Lounge Dubai Marina 2024 | Luxury Dinner Cruise | Arihant Travel";
+$pageTitle = "Alexandra Sea Lounge Dubai Marina 2024 | Luxury Dinner Cruise | Arihant Travels";
 $pageDescription = "Experience a magical evening aboard the luxurious Alexandra Sea Lounge in Dubai Marina. Enjoy a gourmet buffet dinner, live entertainment…";
 $pageKeywords = "Alexandra Sea Lounge, Dubai Marina cruise, Dhow cruise dinner, Luxury dinner cruise Dubai, Romantic dinner cruise, Dubai Marina night cruise, Best dinner cruise Dubai, Fine dining cruise Dubai";
 $pageCanonical = "https://arihantlink.com/alexandra-sea-lounge";

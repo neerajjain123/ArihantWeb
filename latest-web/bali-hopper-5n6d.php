@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Bali Hopper 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Bali Hopper 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Bali Hopper 5 Nights / 6 Days package. Stay in Kuta, a private pool villa & Seminyak.";
 $pageKeywords = "bali hopper package, bali 5 nights 6 days, pool villa bali, ayung river rafting, sunset dinner cruise bali, kuta seminyak bali, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-hopper-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

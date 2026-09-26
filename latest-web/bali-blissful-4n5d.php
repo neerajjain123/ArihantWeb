@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Blissful Bali 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Blissful Bali 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Bali with our Blissful Bali 4 Nights / 5 Days package. Explore Ubud & Kintamani, sunset at Tanah Lot Temple…";
 $pageKeywords = "blissful bali package, bali 4 nights 5 days, ubud kintamani tour, tanah lot temple tour, tanjung benoa water sports, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-blissful-4n5d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

@@ -1,6 +1,6 @@
 <?php
 $basePath = "../";
-$pageTitle = "The Ultimate Azerbaijan Travel Guide 2026 | Arihant Travel";
+$pageTitle = "The Ultimate Azerbaijan Travel Guide 2026 | Arihant Travels";
 $pageDescription = "Discover Azerbaijan - the Land of Fire. Explore Baku, Gobustan, Sheki, Gabala & more. Complete travel guide with visa info, costs, and itinerary tips.";
 $pageKeywords = "Azerbaijan travel guide, Baku tourism, visit Azerbaijan from Dubai, Caucasus travel, Land of Fire, Azerbaijan visa";
 $pageCanonical = "https://arihantlink.com/blog/ultimate-azerbaijan-travel-guide";
@@ -16,12 +16,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/baku/baku-night-city-panaroma-view.jpg",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -92,7 +92,7 @@ $schemaMarkup = '
 $blogTitle = "The Ultimate Azerbaijan Travel Guide: Where Medieval Secrets Meet Modern Marvels";
 $blogCategory = "International";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "January 3, 2025";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/baku/baku-night-city-panaroma-view.jpg";
@@ -116,7 +116,7 @@ include '../includes/header.php';
                         class="fa fa-globe me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">

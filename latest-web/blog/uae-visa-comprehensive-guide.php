@@ -19,12 +19,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/services/uae-visa.jpg",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -103,7 +103,7 @@ $schemaMarkup = '
 $blogTitle = "The 2025 Global Citizen's Guide to UAE Tourist Visas";
 $blogCategory = "Visa Guide";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "January 21, 2025";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/services/uae-visa.jpg";
@@ -143,7 +143,7 @@ include '../includes/header.php';
 
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">
                     <div class="d-flex align-items-center">
@@ -689,7 +689,7 @@ include '../includes/header.php';
                                     <p class="small mb-2"><strong>Processing Time:</strong> Typically 3-5 working days
                                     </p>
                                     <p class="small mb-0"><strong>Apply Through:</strong> Emirates, Etihad, FlyDubai, or
-                                        registered travel agencies like Arihant Travel</p>
+                                        registered travel agencies like Arihant Travels</p>
                                 </div>
                             </div>
                         </div>
@@ -1454,7 +1454,7 @@ include '../includes/header.php';
                             <div class="row align-items-center">
                                 <div class="col-md-8">
                                     <h5 class="mb-2">Need Expert Guidance?</h5>
-                                    <p class="small mb-0">Arihant Travel specializes in UAE visa processing with 15+
+                                    <p class="small mb-0">Arihant Travels specializes in UAE visa processing with 15+
                                         years of experience. We handle everything from standard tourist visas to complex
                                         5-year applications, ensuring accuracy and fast approval.</p>
                                 </div>
@@ -1501,7 +1501,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">

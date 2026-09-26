@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Bali Honeymoon Special 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Bali Honeymoon Special 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Celebrate your love in Bali with our Honeymoon Special 5 Nights / 6 Days package. Enjoy a 120-minute Balinese spa, sunset dinner cruise…";
 $pageKeywords = "bali honeymoon package, bali 5 nights 6 days, honeymoon bali from dubai, balinese spa package, uluwatu kecak dance, sunset dinner cruise bali, bali couples holiday uae";
 $pageCanonical = "https://arihantlink.com/bali-honeymoon-special-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

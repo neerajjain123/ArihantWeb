@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Morning Desert Safari Dubai - AED 150 | Arihant Travel";
+$pageTitle = "Morning Desert Safari Dubai - AED 150 | Arihant Travels";
 $pageDescription = "Experience the desert at sunrise! Morning Desert Safari at AED 150. Enjoy dune bashing, camel riding, sandboarding at the coolest time of day.";
 $pageKeywords = "morning desert safari Dubai, sunrise desert safari, morning dune bashing, Dubai morning tour, early morning safari";
 $pageCanonical = "https://arihantlink.com/morning-desert-safari";
@@ -48,7 +48,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}

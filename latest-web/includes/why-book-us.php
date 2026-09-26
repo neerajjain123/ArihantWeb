@@ -1,9 +1,9 @@
-<!-- Why Book With Arihant Travel -->
+<!-- Why Book With Arihant Travels -->
 <div class="container-fluid py-4" style="background: linear-gradient(135deg, #f8f9fa 0%, #e8f4fd 100%); border-top: 1px solid #dee2e6;">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 mb-3">
-                <h5 class="fw-bold mb-0" style="color: #1a1a2e;">Why Book With Arihant Travel?</h5>
+                <h5 class="fw-bold mb-0" style="color: #1a1a2e;">Why Book With Arihant Travels?</h5>
             </div>
             <div class="col-6 col-md-3 mb-3 mb-md-0">
                 <div class="d-flex align-items-start gap-2">
@@ -44,4 +44,4 @@
         </div>
     </div>
 </div>
-<!-- Why Book With Arihant Travel End -->
+<!-- Why Book With Arihant Travels End -->

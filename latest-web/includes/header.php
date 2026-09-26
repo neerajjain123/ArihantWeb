@@ -15,7 +15,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // Use $assetVersion query string for cache busting of CSS/JS
 
 // Version for cache busting
-$assetVersion = '1.0.7'; // Reverted banner heights to original full-screen design
+$assetVersion = '1.0.8'; // Icon-font fix (mobile menu icon) + visa page styles
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -117,10 +117,10 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
 
     <!-- Geo Targeting: Primary market India, Business location UAE -->
     <meta name="geo.region" content="IN" />
-    <meta name="geo.region" content="AE-DU" />
-    <meta name="geo.placename" content="Dubai, United Arab Emirates" />
-    <meta name="geo.position" content="25.2048;55.2708" />
-    <meta name="ICBM" content="25.2048, 55.2708" />
+    <meta name="geo.region" content="AE-SH" />
+    <meta name="geo.placename" content="Sharjah, United Arab Emirates" />
+    <meta name="geo.position" content="25.3013436;55.3833683" />
+    <meta name="ICBM" content="25.3013436, 55.3833683" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -147,7 +147,7 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "alternateName": "ArihantLink",
         "url": "https://arihantlink.com",
         "potentialAction": {
@@ -157,7 +157,7 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
         },
         "publisher": {
             "@type": "TravelAgency",
-            "name": "Arihant Travel",
+            "name": "Arihant Travels Pvt Ltd",
             "url": "https://arihantlink.com"
         }
     }
@@ -250,6 +250,10 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
 
     <!-- Template Stylesheet -->
     <link href="<?php echo $basePath; ?>css/style.min.css?v=<?php echo $assetVersion; ?>" rel="stylesheet">
+    <?php // Page-specific stylesheets, e.g. $extraCss = ['css/visa.css'];
+    foreach ($extraCss ?? [] as $css): ?>
+    <link href="<?php echo $basePath . $css; ?>?v=<?php echo $assetVersion; ?>" rel="stylesheet">
+    <?php endforeach; ?>
 </head>
 
 <body>
@@ -318,7 +322,7 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="/" class="navbar-brand p-0">
-                <img src="<?php echo $basePath; ?>img/logo.png" alt="Arihant Travel Logo"
+                <img src="<?php echo $basePath; ?>img/logo.png" alt="Arihant Travels Logo"
                     width="160" height="172" style="height: 100px; width: auto;" decoding="async">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

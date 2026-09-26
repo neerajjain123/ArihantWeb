@@ -44,7 +44,7 @@ $schemaMarkup = '
       },
       "provider": {
         "@type": "Organization",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com"
       },
       "offers": {
@@ -67,12 +67,7 @@ $schemaMarkup = '
         {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
         {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
         {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "reviewCount": "124"
-      }
+      ]
     },
     {
       "@type": "FAQPage",

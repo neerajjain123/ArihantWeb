@@ -1,6 +1,7 @@
 <?php
+require_once __DIR__ . '/includes/visa-prices.php';
 // Page SEO Variables — India-specific landing page
-$pageTitle = "Dubai Tour Package from India 2026 | From ₹50,600 | Jain & Pure Vegetarian Family Tours | Arihant Travel";
+$pageTitle = "Dubai Tour Package from India 2026 | From ₹50,600 | Jain & Pure Vegetarian Family Tours | Arihant Travels";
 $pageDescription = "Book Dubai tour packages from India with 100% pure Jain & vegetarian food. ₹50,600 per person. Desert safari, BAPS Mandir Abu Dhabi, Burj Khalifa…";
 $pageKeywords = "Dubai tour package from India, Dubai trip from India, Dubai Jain package, Dubai Gujarati package, Dubai package from Mumbai, Dubai tour from Ahmedabad, Dubai tour from Surat, Dubai package from Vadodara, Dubai tour from Rajkot, Dubai family tour India, Jain food Dubai tour, pure vegetarian Dubai package, Indian family Dubai holiday, Dubai package in INR, Dubai group tour from India, senior citizen Dubai package, BAPS temple Abu Dhabi tour, Swaminarayan mandir Abu Dhabi, customized Dubai holiday, Dubai honeymoon from India, budget Dubai trip from India, Dubai Jain group tour, pure veg Dubai trip";
 $pageCanonical = "https://arihantlink.com/dubai-tour-from-india";
@@ -45,7 +46,7 @@ $schemaMarkup = '<script type="application/ld+json">
   },
   "provider": {
     "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "url": "https://arihantlink.com",
     "telephone": "+971585945007",
     "address": {
@@ -53,12 +54,6 @@ $schemaMarkup = '<script type="application/ld+json">
       "addressLocality": "Dubai",
       "addressCountry": "AE"
     }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "reviewCount": "2000"
   }
 }
 </script>
@@ -73,7 +68,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "How much does a Dubai trip cost from India?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A Dubai trip from India typically costs between ₹50,000 to ₹1,50,000 per person depending on the package. Budget packages start from AED 2,199 (approx ₹50,600) per person including hotel, tours, and meals. This covers 4-6 nights accommodation, desert safari, city tour, and Burj Khalifa visit. Flights from India to Dubai range from ₹8,000 to ₹25,000 round trip. Arihant Travel offers customized packages with guaranteed Jain and vegetarian meals."
+        "text": "A Dubai trip from India typically costs between ₹50,000 to ₹1,50,000 per person depending on the package. Budget packages start from AED 2,199 (approx ₹50,600) per person including hotel, tours, and meals. This covers 4-6 nights accommodation, desert safari, city tour, and Burj Khalifa visit. Flights from India to Dubai range from ₹8,000 to ₹25,000 round trip. Arihant Travels offers customized packages with guaranteed Jain and vegetarian meals."
       }
     },
     {
@@ -81,7 +76,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "Is Jain food available in Dubai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! Dubai has several Jain restaurants, especially in Bur Dubai and Karama areas. Arihant Travel guarantees 100% pure vegetarian and Jain food (no onion, no garlic, no root vegetables) on all tours including desert safaris, dhow cruises, and city tours. We are the only UAE-based travel agency specializing in Jain-friendly travel."
+        "text": "Yes! Dubai has several Jain restaurants, especially in Bur Dubai and Karama areas. Arihant Travels guarantees 100% pure vegetarian and Jain food (no onion, no garlic, no root vegetables) on all tours including desert safaris, dhow cruises, and city tours. We are the only UAE-based travel agency specializing in Jain-friendly travel."
       }
     },
     {
@@ -89,7 +84,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "Do Indian citizens need a visa for Dubai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Indian passport holders need a tourist visa to visit Dubai. A 30-day UAE tourist visa costs approximately AED 350 (₹8,100) and a 60-day visa costs around AED 550 (₹12,700). Arihant Travel provides complete visa assistance for Indian travelers with fast processing in 3-5 working days."
+        "text": "Yes, Indian passport holders need a tourist visa to visit Dubai. A 30-day UAE tourist visa costs from AED ' . number_format(visa_price('tourist-30-single')) . ' and a 60-day visa from AED ' . number_format(visa_price('tourist-60-single')) . '. Arihant Travels provides complete visa assistance for Indian travelers with fast processing in 3-5 working days."
       }
     },
     {
@@ -105,7 +100,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "Can we visit Jain temples in Dubai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, there are Jain temples in Dubai located in the Bur Dubai area. Arihant Travel can include Jain temple visits as part of your city tour itinerary so you can perform Darshan comfortably during your Dubai trip."
+        "text": "Yes, there are Jain temples in Dubai located in the Bur Dubai area. Arihant Travels can include Jain temple visits as part of your city tour itinerary so you can perform Darshan comfortably during your Dubai trip."
       }
     },
     {
@@ -113,7 +108,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "Can we visit BAPS Swaminarayan Mandir in Abu Dhabi during our Dubai trip?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes! The BAPS Swaminarayan Mandir in Abu Dhabi is a must-visit for Indian families. Arihant Travel arranges a full-day Abu Dhabi city tour that includes the BAPS Mandir visit, Sheikh Zayed Grand Mosque, Ferrari World, and Heritage Village. We handle the pre-registration required for the temple visit and arrange pure vegetarian Jain lunch at an Indian restaurant in Abu Dhabi. The Abu Dhabi day tour costs from AED 150 (approx ₹3,500) per person."
+        "text": "Yes! The BAPS Swaminarayan Mandir in Abu Dhabi is a must-visit for Indian families. Arihant Travels arranges a full-day Abu Dhabi city tour that includes the BAPS Mandir visit, Sheikh Zayed Grand Mosque, Ferrari World, and Heritage Village. We handle the pre-registration required for the temple visit and arrange pure vegetarian Jain lunch at an Indian restaurant in Abu Dhabi. The Abu Dhabi day tour costs from AED 150 (approx ₹3,500) per person."
       }
     },
     {
@@ -121,15 +116,15 @@ $schemaMarkup = '<script type="application/ld+json">
       "name": "Do you offer group tours and senior citizen packages for Dubai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Arihant Travel offers customized Dubai group tour packages for 10-50 people at special group rates, including families, community groups, and corporate MICE trips. We also have dedicated senior citizen packages with a relaxed pace, comfortable AC vehicles, wheelchair-friendly options, and easy sightseeing. Gujarati-speaking coordinators are available for group tours. Pure Jain and vegetarian food is guaranteed on all group and senior citizen tours."
+        "text": "Yes, Arihant Travels offers customized Dubai group tour packages for 10-50 people at special group rates, including families, community groups, and corporate MICE trips. We also have dedicated senior citizen packages with a relaxed pace, comfortable AC vehicles, wheelchair-friendly options, and easy sightseeing. Gujarati-speaking coordinators are available for group tours. Pure Jain and vegetarian food is guaranteed on all group and senior citizen tours."
       }
     },
     {
       "@type": "Question",
-      "name": "Why book with Arihant Travel instead of Indian tour operators?",
+      "name": "Why book with Arihant Travels instead of Indian tour operators?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Arihant Travel is the only Jain-focused travel agency physically based in Dubai, UAE. Unlike Indian tour operators who sell Dubai packages remotely, we are on-ground in Dubai. This means immediate support, no middleman, direct hotel relationships, better prices, and 24/7 WhatsApp assistance during your trip. We have served 2,000+ Indian families with a 4.8-star Google rating."
+        "text": "Arihant Travels is the only Jain-focused travel agency physically based in Dubai, UAE. Unlike Indian tour operators who sell Dubai packages remotely, we are on-ground in Dubai. This means immediate support, no middleman, direct hotel relationships, better prices, and 24/7 WhatsApp assistance during your trip. We have served 2,000+ Indian families with a 4.8-star Google rating."
       }
     }
   ]
@@ -146,8 +141,8 @@ include 'includes/header.php';
     <div class="container py-2">
         <div class="row justify-content-center">
             <div class="col-lg-10 text-center">
-                <h1 class="h3 mb-3">Dubai Tour Packages from India — 100% Pure Jain & Vegetarian Food Guaranteed</h1>
-                <p class="text-muted mb-3">Planning a Dubai trip from India? You're in the right place. Arihant Travel is the <strong>only Jain-focused travel agency based in Dubai, UAE</strong> — not India. We offer customized <strong>Jain packages, Gujarati vegetarian tours, senior citizen packages, group tours, and Swaminarayan temple itineraries</strong> — all with guaranteed pure vegetarian meals and 24/7 local support. Popular with families from <strong>Ahmedabad, Mumbai, Surat, Vadodara, Rajkot, Delhi, Pune, Jaipur, Indore &amp; Udaipur</strong>. Packages start from <strong>AED 2,199 (approx ₹50,600)</strong> per person.</p>
+                <h2 class="h3 mb-3">Dubai Tour Packages from India — 100% Pure Jain & Vegetarian Food Guaranteed</h2>
+                <p class="text-muted mb-3">Planning a Dubai trip from India? You're in the right place. Arihant Travels is the <strong>only Jain-focused travel agency based in Dubai, UAE</strong> — not India. We offer customized <strong>Jain packages, Gujarati vegetarian tours, senior citizen packages, group tours, and Swaminarayan temple itineraries</strong> — all with guaranteed pure vegetarian meals and 24/7 local support. Popular with families from <strong>Ahmedabad, Mumbai, Surat, Vadodara, Rajkot, Delhi, Pune, Jaipur, Indore &amp; Udaipur</strong>. Packages start from <strong>AED 2,199 (approx ₹50,600)</strong> per person.</p>
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <a href="https://wa.me/971585945007?text=Hi, I want to plan a Dubai trip from India for my family" target="_blank" class="btn btn-primary rounded-pill py-2 px-4">
                         <i class="fab fa-whatsapp me-2"></i>Plan My Trip on WhatsApp
@@ -165,7 +160,7 @@ include 'includes/header.php';
 <div class="container-fluid py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h5 class="section-title px-3">Why Arihant Travel?</h5>
+            <h5 class="section-title px-3">Why Arihant Travels?</h5>
             <h2 class="mb-4">Why Indian Families Choose a Dubai-Based Travel Agency</h2>
         </div>
         <div class="row g-4">
@@ -201,7 +196,7 @@ include 'includes/header.php';
                 <div class="bg-white rounded p-4 h-100 text-center shadow-sm">
                     <i class="fas fa-users fa-3x text-primary mb-3"></i>
                     <h4 class="mb-3">2,000+ Indian Families</h4>
-                    <p class="text-muted mb-0">Families from Mumbai, Ahmedabad, Surat, Delhi, Jaipur, Pune, Bangalore, and Nairobi trust us. 4.8★ Google rating from real travelers.</p>
+                    <p class="text-muted mb-0">Families from Mumbai, Ahmedabad, Surat, Delhi, Jaipur, Pune, Bangalore, and Nairobi trust us. 4.9★ Google rating from real travelers.</p>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
@@ -463,7 +458,7 @@ include 'includes/header.php';
             <div class="col-lg-4">
                 <div class="bg-white rounded p-4 h-100 shadow-sm">
                     <div class="mb-2"><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i></div>
-                    <p class="fst-italic">"As strict vegetarians, finding proper food abroad is always a worry. Arihant Travel eliminated that completely. Desert safari dinner was amazing!"</p>
+                    <p class="fst-italic">"As strict vegetarians, finding proper food abroad is always a worry. Arihant Travels eliminated that completely. Desert safari dinner was amazing!"</p>
                     <p class="fw-bold mb-0">Mehta Family <small class="text-muted fw-normal">— Mumbai, Maharashtra</small></p>
                 </div>
             </div>
@@ -500,7 +495,7 @@ include 'includes/header.php';
         </div>
         <div class="text-center mt-4">
             <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank" class="btn btn-primary rounded-pill py-2 px-4">
-                <i class="fab fa-google me-2"></i>See All Google Reviews (4.8★)
+                <i class="fab fa-google me-2"></i>See All Google Reviews (4.9★)
             </a>
         </div>
     </div>

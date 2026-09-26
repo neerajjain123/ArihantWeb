@@ -26,7 +26,7 @@ $stmt->execute([$uid]);
 $items = $stmt->fetchAll();
 
 // Page SEO Variables
-$pageTitle = "My Wishlist | Arihant Travel";
+$pageTitle = "My Wishlist | Arihant Travels";
 $pageDescription = "Tours and packages you have saved for later.";
 $pageKeywords = "wishlist, saved tours, arihant travel";
 $pageCanonical = "https://arihantlink.com/wishlist";

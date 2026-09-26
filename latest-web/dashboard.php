@@ -42,8 +42,8 @@ $statusBadges = [
 ];
 
 // Page SEO Variables
-$pageTitle = "Dashboard | Arihant Travel";
-$pageDescription = "Welcome to your Arihant Travel dashboard.";
+$pageTitle = "Dashboard | Arihant Travels";
+$pageDescription = "Welcome to your Arihant Travels dashboard.";
 $pageKeywords = "dashboard, user account";
 $pageCanonical = "https://arihantlink.com/dashboard";
 $currentPage = "dashboard";

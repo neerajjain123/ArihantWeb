@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "VIP Evening Desert Safari Dubai - AED 149 (₹3,400) | Jain & Veg Food | Arihant Travel";
+$pageTitle = "VIP Evening Desert Safari Dubai - AED 149 (₹3,400) | Jain & Veg Food | Arihant Travels";
 $pageDescription = "VIP Desert Safari at AED 149 (₹3,400). Sofa seating, separate Jain BBQ counter, table service & unlimited drinks. Pure vegetarian dinner available.";
 $pageKeywords = "VIP desert safari Dubai, luxury desert safari, premium evening safari, VIP sofa seating, Dubai VIP tour, VIP desert safari Jain food, separate vegetarian BBQ counter, desert safari for Indian families, Gujarati family desert safari";
 $pageCanonical = "https://arihantlink.com/vip-desert-safari";
@@ -52,7 +52,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}

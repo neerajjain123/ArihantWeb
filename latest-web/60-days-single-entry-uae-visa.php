@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/includes/visa-prices.php';
 // SPRINT 4 — /60-days-single-entry-uae-visa
 // Targets: "60 days single entry uae visa". Long-stay traveller picking
 // single over multi-entry to save money.
@@ -18,12 +19,12 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Service","name":"60 Days Single Entry UAE Visa","description":"60-day single entry UAE tourist visa for long Dubai stays — extended family visits, NRI long trips, retirees spending winter in UAE. Cheaper than the multi-entry version.","serviceType":"UAE Tourist Visa","provider":{"@type":"TravelAgency","name":"Arihant Travel","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"60 Days Single Entry UAE Visa","price":"700","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/60-days-single-entry-uae-visa"}},
+  {"@context":"https://schema.org","@type":"Service","name":"60 Days Single Entry UAE Visa","description":"60-day single entry UAE tourist visa for long Dubai stays — extended family visits, NRI long trips, retirees spending winter in UAE. Cheaper than the multi-entry version.","serviceType":"UAE Tourist Visa","provider":{"@type":"TravelAgency","name":"Arihant Travels Pvt Ltd","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"60 Days Single Entry UAE Visa","price":"700","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/60-days-single-entry-uae-visa"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"60 Days Single Entry","item":"https://arihantlink.com/60-days-single-entry-uae-visa"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How much does 60-day single entry UAE visa cost?","acceptedAnswer":{"@type":"Answer","text":"From AED 700 all-in through Arihant Travel. About AED 150 cheaper than the 60-day multi-entry version, which is worth it if you don’t plan to leave UAE during the 60 days."}},
+    {"@type":"Question","name":"How much does 60-day single entry UAE visa cost?","acceptedAnswer":{"@type":"Answer","text":"From AED 700 all-in through Arihant Travels. About AED 150 cheaper than the 60-day multi-entry version, which is worth it if you don’t plan to leave UAE during the 60 days."}},
     {"@type":"Question","name":"60-day single entry vs multi entry — which is right?","acceptedAnswer":{"@type":"Answer","text":"Single entry (AED 700) if you’ll stay in UAE the entire time — most family visits and long holidays. Multi entry (AED 850) if you plan a Gulf side trip or cruise. The difference is small but adds up for groups."}},
-    {"@type":"Question","name":"Can I extend the 60-day single entry visa?","acceptedAnswer":{"@type":"Answer","text":"Yes — once, by 30 more days from inside the UAE via standard extension (cheapest), or by 60 more days via A2A extension (most flexible)."}},
+    {"@type":"Question","name":"Can I extend the 60-day single entry visa?","acceptedAnswer":{"@type":"Answer","text":"Yes — once, by 30 more days, from inside the UAE without leaving the country. The extension costs AED ' . number_format(visa_price('inside-extension')) . ' through Arihant Travels."}},
     {"@type":"Question","name":"Who uses the 60-day single entry visa?","acceptedAnswer":{"@type":"Answer","text":"Most common applicants: parents on extended family visits, NRIs spending an extended winter with family in UAE, retirees doing long Dubai stays, business travellers on multi-week assignments without Gulf side travel."}}
   ]}
 ]
@@ -38,7 +39,7 @@ include 'includes/breadcrumb.php';
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-calendar-alt me-2"></i> 60 Days Stay</h3><p class="mb-0 small">Long Dubai trip</p></div>
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-tag me-2"></i> From AED 700</h3><p class="mb-0 small">Cheaper than multi-entry</p></div>
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-clock me-2"></i> 3&ndash;4 Days</h3><p class="mb-0 small">Standard processing</p></div>
-        <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-plus me-2"></i> Extendable</h3><p class="mb-0 small">30 days standard or 60 via A2A</p></div>
+        <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-plus me-2"></i> Extendable</h3><p class="mb-0 small">Once, +30 days, no exit</p></div>
     </div></div>
 </section>
 
@@ -47,7 +48,7 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">
@@ -106,12 +107,11 @@ include 'includes/breadcrumb.php';
 
             <h2 id="extension">Extending 60-day single entry</h2>
             <p>
-                Two extension routes:
+                A 60-day single-entry visa can be extended <strong>once</strong>, by 30 more days,
+                from inside the UAE &mdash; no exit needed. The extension costs
+                <?php echo visa_price_label('inside-extension'); ?> and must be filed before your visa expires.
+                <a href="uae-visa#extensions">More about extensions</a>.
             </p>
-            <ol>
-                <li><strong>Standard 30-day extension</strong> &mdash; cheapest option, adds 30 days. Filed from inside UAE before visa expires.</li>
-                <li><strong>A2A 60-day extension</strong> &mdash; <a href="uae-a2a-visa-extension-60-days">AED 1,500</a>, adds 60 days, no exit needed. Best for visits stretching into 4-5 months total.</li>
-            </ol>
 
             <h2 id="documents">Documents required</h2>
             <ul>
@@ -128,7 +128,7 @@ include 'includes/breadcrumb.php';
                 <li>WhatsApp us passport + travel plan. Free document check in 30 minutes.</li>
                 <li>Pay AED 700 once documents are confirmed clean.</li>
                 <li>We file through ICA or GDRFA. Reference number same day.</li>
-                <li>Visa PDF in 3-4 working days. <a href="uae-express-visa">Express 24-48 hr</a> available at AED 900.</li>
+                <li>Visa PDF in 3-4 working days. <a href="uae-express-visa">Express 24-48 hr</a> available, <?php echo lcfirst(visa_price_label('tourist-60-single', 'express_aed')); ?>.</li>
             </ol>
         </article></div>
 
@@ -152,8 +152,8 @@ include 'includes/breadcrumb.php';
                     <tr><td>Stay</td><td class="text-end fw-semibold">60 days</td></tr>
                     <tr><td>Entries</td><td class="text-end fw-semibold">Single</td></tr>
                     <tr><td>Processing</td><td class="text-end fw-semibold">3&ndash;4 days</td></tr>
-                    <tr><td>Express</td><td class="text-end fw-semibold">AED 900</td></tr>
-                    <tr><td>Extension</td><td class="text-end fw-semibold">+30 or +60 via A2A</td></tr>
+                    <tr><td>Express</td><td class="text-end fw-semibold"><?php echo visa_price_label('tourist-60-single', 'express_aed'); ?></td></tr>
+                    <tr><td>Extension</td><td class="text-end fw-semibold">Once, +30 days</td></tr>
                 </tbody></table>
             </div></div>
 
@@ -180,9 +180,9 @@ include 'includes/breadcrumb.php';
             <?php $faqs = [
                 ['How much does 60-day single entry UAE visa cost?', '<strong>From AED 700</strong> all-in. About AED 150 cheaper than the multi-entry version.'],
                 ['Single entry vs multi entry &mdash; which is right?', 'Single (AED 700) if you stay in UAE the entire time. Multi (AED 850) if you plan a Gulf side trip or cruise.'],
-                ['Can I extend a 60-day single entry?', 'Yes &mdash; once for 30 more days via standard extension, or 60 more via <a href="uae-a2a-visa-extension-60-days">A2A 60-day extension</a>.'],
+                ['Can I extend a 60-day single entry?', 'Yes &mdash; once, for 30 more days, from inside the UAE. The extension costs AED ' . number_format(visa_price('inside-extension')) . '.'],
                 ['Who uses 60-day single entry the most?', 'Parents on extended family visits, NRIs spending winter with family, retirees doing long Dubai stays, long business assignments.'],
-                ['How fast is processing?', '3-4 working days standard. <a href="uae-express-visa">Express 24-48 hr</a> at AED 900.'],
+                ['How fast is processing?', '3-4 working days standard. <a href="uae-express-visa">Express 24-48 hr</a> ' . lcfirst(visa_price_label('tourist-60-single', 'express_aed')) . '.'],
                 ['What documents are needed for parents?', 'Passport (6+ months), photo, return ticket, host letter from sponsoring child in UAE, child&rsquo;s Emirates ID, birth certificate.'],
             ];
             foreach ($faqs as $i => $faq):

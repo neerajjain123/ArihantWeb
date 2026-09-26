@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "LEGOLAND Dubai Tickets 2026 | Best Price + Hotel Transfer | Arihant Travel";
+$pageTitle = "LEGOLAND Dubai Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book LEGOLAND Dubai tickets at the best price — 40+ rides & building experiences for kids aged 2–12. Hotel pick-up from Dubai included. Instant e-ticket.";
 $pageKeywords = "LEGOLAND Dubai, LEGO theme park, Dubai Parks, family theme park Dubai, kids attractions Dubai, LEGO rides, Miniland Dubai";
 $pageCanonical = "https://arihantlink.com/legoland";
@@ -129,12 +129,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/legoland",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "892"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

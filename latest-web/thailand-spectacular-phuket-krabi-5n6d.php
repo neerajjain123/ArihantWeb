@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Spectacular Phuket & Krabi 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Spectacular Phuket & Krabi 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover the best of Phuket and Krabi with our Spectacular 5 Nights / 6 Days package. Emerald Pool, Hot Springs, Phi Phi Islands by speedboat…";
 $pageKeywords = "phuket krabi package, thailand 5 nights 6 days, emerald pool krabi, phi phi island speedboat, 7 island tour, phuket city tour, big buddha phuket, maya bay, thailand holiday from dubai";
 $pageCanonical = "https://arihantlink.com/thailand-spectacular-phuket-krabi-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

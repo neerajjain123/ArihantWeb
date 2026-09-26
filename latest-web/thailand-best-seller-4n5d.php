@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Thailand Best Seller 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Thailand Best Seller 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Book the Thailand Best Seller 4 Nights / 5 Days package covering Pattaya and Bangkok. Enjoy Coral Island, Alcazar Show, Safari World, and temple tours. Starting from AED 1,175.";
 $pageKeywords = "thailand best seller package, thailand 4 nights 5 days, pattaya bangkok tour, coral island tour, alcazar show pattaya, safari world bangkok, thailand holiday from dubai";
 $pageCanonical = "https://arihantlink.com/thailand-best-seller-4n5d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

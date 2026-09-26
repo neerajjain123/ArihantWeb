@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Yas Island Multi-Park Tickets 2026 | Best Bundle Price + Transfer | Arihant Travel";
+$pageTitle = "Yas Island Multi-Park Tickets 2026 | Best Bundle Price + Transfer | Arihant Travels";
 $pageDescription = "Book Yas Island Multi-Park tickets at the best price — choose 2, 3 or 4 parks from Ferrari World, Warner Bros, SeaWorld & Yas Waterworld.";
 $pageKeywords = "Yas Island multi park tickets 2026, Yas Island 2 park pass, Yas Island 3 park pass, Yas Island 4 park bundle, Ferrari World Warner Bros SeaWorld Yas Waterworld, Abu Dhabi theme park combo";
 $pageCanonical = "https://arihantlink.com/yas-island-multi-park";
@@ -145,12 +145,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "highPrice": "525",
     "priceCurrency": "AED",
     "offerCount": "3",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "1560"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

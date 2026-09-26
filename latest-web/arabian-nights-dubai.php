@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Arabian Nights Dubai 2026 | 4 Nights 5 Days from AED 2,499 | Cultural Tour with Jain Food - Arihant Travel";
+$pageTitle = "Arabian Nights Dubai 2026 | 4 Nights 5 Days from AED 2,499 | Cultural Tour with Jain Food - Arihant Travels";
 $pageDescription = "Immerse in Arabian culture — 4 nights from AED 2,499 (₹57,500). Premium desert safari, traditional souk tours, Old Dubai heritage walk…";
-$pageKeywords = "Arabian nights Dubai Jain food, cultural Dubai tour vegetarian, 5 day Dubai package Jain meals, desert safari and dinner veg, Arihant Travel Dubai culture, 2026, cultural Dubai tour from India";
+$pageKeywords = "Arabian nights Dubai Jain food, cultural Dubai tour vegetarian, 5 day Dubai package Jain meals, desert safari and dinner veg, Arihant Travels Dubai culture, 2026, cultural Dubai tour from India";
 $pageCanonical = "https://arihantlink.com/arabian-nights-dubai";
 $currentPage = "holiday-packages";
 
@@ -25,7 +25,7 @@ $schemaMarkup = '
     "image": "https://arihantlink.com/img/dubaiholiday/safari.webp",
     "provider": {
         "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -36,12 +36,6 @@ $schemaMarkup = '
         "availability": "https://schema.org/InStock",
         "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31"
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "reviewCount": "200"
     }
 }
 </script>';
@@ -78,7 +72,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Cultural Special</h5>
-                <h1 class="mb-4 h2">Arabian Nights - <span class="text-primary">Cultural Immersion</span></h1>
+                <h2 class="mb-4 h2">Arabian Nights - <span class="text-primary">Cultural Immersion</span></h2>
                 <p class="mb-4"><span class="badge bg-light text-dark border"><i class="fas fa-check-circle text-success me-1"></i>Best for culture enthusiasts & heritage lovers</span></p>
                 <p class="mb-4">Experience the magic of Arabian nights with desert safaris, traditional dhow cruises,
                     souk explorations, cultural storytelling, and authentic Emirati experiences over 4 nights in Dubai.
@@ -331,7 +325,7 @@ include 'includes/breadcrumb.php';
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Henna art, shisha
                                 corner access, and live Tanoura / belly dance</li>
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>24/7 support from
-                                Arihant Travel</li>
+                                Arihant Travels</li>
                         </ul>
                     </div>
                 </div>

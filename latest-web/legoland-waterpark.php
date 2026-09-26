@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "LEGOLAND Waterpark Dubai Tickets 2025 | Best Prices | Arihant Travel";
+$pageTitle = "LEGOLAND Waterpark Dubai Tickets 2025 | Best Prices | Arihant Travels";
 $pageDescription = "Book LEGOLAND Waterpark Dubai tickets - Splash-tastic fun for families! Build-A-Raft River, wave pool, LEGO slides & more. Perfect for kids 2-12.";
 $pageKeywords = "LEGOLAND Waterpark Dubai, LEGO water park, Dubai Parks waterpark, kids waterpark Dubai, family waterpark, Build-A-Raft";
 $pageCanonical = "https://arihantlink.com/legoland-waterpark";
@@ -102,11 +102,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "price": "199",
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "567"
   }
 }
 </script>';

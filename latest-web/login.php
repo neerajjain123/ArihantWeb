@@ -69,8 +69,8 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' &
 }
 
 // Page SEO Variables
-$pageTitle = "Login | Arihant Travel";
-$pageDescription = "Login to your Arihant Travel account to manage your bookings.";
+$pageTitle = "Login | Arihant Travels";
+$pageDescription = "Login to your Arihant Travels account to manage your bookings.";
 $pageKeywords = "login, arihant travel account";
 $pageCanonical = "https://arihantlink.com/login";
 $currentPage = "login";

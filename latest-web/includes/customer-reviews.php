@@ -21,7 +21,7 @@ if (!isset($pageReviews) || !is_array($pageReviews) || count($pageReviews) === 0
             'name' => 'Mehta Family',
             'location' => 'Ahmedabad, India',
             'stars' => 5,
-            'text' => 'Arihant Travel made our Dubai trip absolutely perfect. The Jain food arrangements were flawless — even on the desert safari. Highly recommended for every Jain family!',
+            'text' => 'Arihant Travels made our Dubai trip absolutely perfect. The Jain food arrangements were flawless — even on the desert safari. Highly recommended for every Jain family!',
         ],
         [
             'name' => 'Priya & Ankit',

@@ -1,6 +1,6 @@
 <?php
 $basePath = "../";
-$pageTitle = "Dubai Family Adventure: Complete 5-7 Day Itinerary 2026 | Arihant Travel";
+$pageTitle = "Dubai Family Adventure: Complete 5-7 Day Itinerary 2026 | Arihant Travels";
 $pageDescription = "Perfect Dubai family itinerary with theme parks, beaches, cultural sites, and kid-friendly restaurants.";
 $pageKeywords = "Dubai family tour, Dubai with kids, family itinerary Dubai, Dubai theme parks, family vacation Dubai";
 $pageCanonical = "https://arihantlink.com/blog/dubai-family-tour";
@@ -16,12 +16,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/Dubai-Trip/Hero-banner-image.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -83,7 +83,7 @@ $schemaMarkup = '
     "name": "Are there vegetarian and Jain food options in Dubai?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": \"Yes, Dubai has excellent vegetarian and Jain dining options including Saravanaa Bhavan, Govindas, and Dishoom. Most hotels and restaurants offer extensive vegetarian menus, and Dubai Mall food court has multiple vegetarian chains.\"
+      "text": "Yes, Dubai has excellent vegetarian and Jain dining options including Saravanaa Bhavan, Govindas, and Dishoom. Most hotels and restaurants offer extensive vegetarian menus, and Dubai Mall food court has multiple vegetarian chains."
     }
   },{
     "@type": "Question",
@@ -99,7 +99,7 @@ $schemaMarkup = '
 $blogTitle = "Dubai Family Adventure: Your Ultimate 5-7 Day Itinerary";
 $blogCategory = "Family Tours";
 $blogCategoryClass = "secondary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "December 15, 2024";
 $blogReadTime = "18 min read";
 $blogFeaturedImage = "../img/blogs/Dubai-Trip/Hero-banner-image.webp";
@@ -117,7 +117,7 @@ include '../includes/header.php';
                         class="fa fa-users me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Quad Bike Desert Safari Dubai - AED 350 | Arihant Travel";
+$pageTitle = "Quad Bike Desert Safari Dubai - AED 350 | Arihant Travels";
 $pageDescription = "Thrilling Quad Bike Desert Safari at AED 350. Ride powerful ATVs across Dubai's desert dunes with professional instructors and safety gear.";
 $pageKeywords = "quad bike Dubai, ATV Dubai, quad biking desert, Dubai desert ATV, quad bike safari";
 $pageCanonical = "https://arihantlink.com/quad-bike-safari";
@@ -49,7 +49,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}

@@ -17,13 +17,13 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Service","name":"30 Days Multiple Entry UAE Visa","description":"30-day multiple entry UAE tourist visa allowing unlimited entries and exits within a 30-day window. Ideal for cruise travellers, business trips with Gulf side travel, and multi-stop family visits.","serviceType":"UAE Tourist Visa","provider":{"@type":"TravelAgency","name":"Arihant Travel","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"30 Days Multiple Entry UAE Visa","price":"750","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/30-days-multiple-entry-uae-visa"}},
+  {"@context":"https://schema.org","@type":"Service","name":"30 Days Multiple Entry UAE Visa","description":"30-day multiple entry UAE tourist visa allowing unlimited entries and exits within a 30-day window. Ideal for cruise travellers, business trips with Gulf side travel, and multi-stop family visits.","serviceType":"UAE Tourist Visa","provider":{"@type":"TravelAgency","name":"Arihant Travels Pvt Ltd","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"30 Days Multiple Entry UAE Visa","price":"750","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/30-days-multiple-entry-uae-visa"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"30 Days Multiple Entry","item":"https://arihantlink.com/30-days-multiple-entry-uae-visa"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"What is a 30-day multiple entry UAE visa?","acceptedAnswer":{"@type":"Answer","text":"A 30-day multiple entry UAE tourist visa allows unlimited entries and exits within a 30-day window starting from your first entry. Total stay across all entries: 30 days. Ideal for cruise stops, Oman/Saudi side trips and multi-stop business travel."}},
-    {"@type":"Question","name":"How much does 30-day multi entry UAE visa cost?","acceptedAnswer":{"@type":"Answer","text":"30-day multiple entry UAE visa starts from AED 750 through Arihant Travel — about AED 400 more than the single-entry version. Worth the premium if you plan to leave and re-enter UAE during the 30 days."}},
+    {"@type":"Question","name":"How much does 30-day multi entry UAE visa cost?","acceptedAnswer":{"@type":"Answer","text":"30-day multiple entry UAE visa starts from AED 750 through Arihant Travels — about AED 400 more than the single-entry version. Worth the premium if you plan to leave and re-enter UAE during the 30 days."}},
     {"@type":"Question","name":"When is multi-entry better than single-entry?","acceptedAnswer":{"@type":"Answer","text":"Choose multi-entry if you plan a cruise from Dubai (the ship often stops in Oman or Iran), a side trip to Saudi/Oman/Qatar, or hopping between Dubai and Sharjah/RAK for a wedding. Single-entry is fine for a normal Dubai holiday with no side travel."}},
-    {"@type":"Question","name":"Can I extend a 30-day multi entry UAE visa?","acceptedAnswer":{"@type":"Answer","text":"Yes — once, for 30 more days from inside the UAE via standard extension. Or use A2A for a 60-day extension. Note that any exit-and-reentry during the extension period uses up the original multi-entry allowance."}}
+    {"@type":"Question","name":"Can I extend a 30-day multi entry UAE visa?","acceptedAnswer":{"@type":"Answer","text":"No. Multiple-entry visas can’t be extended. If you might need more time, choose a 60-day visa, or a 30-day single-entry visa, which can be extended from inside the UAE up to two times."}}
   ]}
 ]
 </script>';
@@ -37,7 +37,7 @@ include 'includes/breadcrumb.php';
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-redo me-2"></i> Multiple Entries</h3><p class="mb-0 small">Unlimited hops in 30 days</p></div>
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-tag me-2"></i> From AED 750</h3><p class="mb-0 small">All-in pricing</p></div>
         <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-clock me-2"></i> 3&ndash;4 Days</h3><p class="mb-0 small">Standard processing</p></div>
-        <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-plus me-2"></i> Extendable</h3><p class="mb-0 small">30 more days via extension</p></div>
+        <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-ban me-2"></i> Not extendable</h3><p class="mb-0 small">Pick the right length upfront</p></div>
     </div></div>
 </section>
 
@@ -46,7 +46,7 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">
@@ -122,12 +122,12 @@ include 'includes/breadcrumb.php';
                 <li>Visa PDF in 3&ndash;4 working days. Express 24&ndash;48 hr available at AED 950.</li>
             </ol>
 
-            <h2 id="extension">Extending a 30-day multi entry visa</h2>
+            <h2 id="extension">Can a 30-day multi entry visa be extended?</h2>
             <p>
-                You can extend by 30 more days from inside the UAE (standard tourist visa extension).
-                Or use the <a href="uae-a2a-visa-extension-60-days">A2A 60-day extension</a> for a
-                longer add-on. Note: any exit-and-reentry during the extension counts towards
-                the multi-entry allowance, not against it.
+                No &mdash; multiple-entry visas can&rsquo;t be extended. If there&rsquo;s any chance
+                you&rsquo;ll need more time, choose a <a href="60-days-single-entry-uae-visa">60-day visa</a>,
+                or a 30-day single-entry visa, which can be
+                <a href="uae-visa#extensions">extended from inside the UAE</a> up to two times.
             </p>
         </article></div>
 
@@ -177,9 +177,9 @@ include 'includes/breadcrumb.php';
         <div class="accordion faq-accordion" id="mFaq">
             <?php $faqs = [
                 ['What is a 30-day multiple entry UAE visa?', 'A UAE tourist visa allowing <strong>unlimited entries and exits</strong> over 30 days from your first entry. Total stay across all entries: 30 days.'],
-                ['How much does it cost?', 'From <strong>AED 750</strong> through Arihant Travel. About AED 400 more than 30-day single entry.'],
+                ['How much does it cost?', 'From <strong>AED 750</strong> through Arihant Travels. About AED 400 more than 30-day single entry.'],
                 ['When is multi-entry better than single?', 'Cruises (stops in Oman/Iran), Saudi/Oman/Qatar side trips, multi-emirate events, or any plan with possible exit-reentry.'],
-                ['Can I extend it?', 'Yes &mdash; once, for 30 more days via standard extension. Or use <a href="uae-a2a-visa-extension-60-days">A2A 60-day extension</a>.'],
+                ['Can I extend it?', 'No &mdash; multiple-entry visas can&rsquo;t be extended. If you might need more time, choose a 60-day visa, or a 30-day single-entry visa, which can be extended up to two times.'],
                 ['What documents are needed?', 'Passport (6+ months), photo, return ticket, hotel booking. Bank statement for some nationalities.'],
                 ['How fast is processing?', 'Standard 3-4 working days. Express 24-48 hours at AED 950 via <a href="uae-express-visa">our express service</a>.'],
             ];

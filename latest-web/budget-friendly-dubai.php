@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Budget Dubai Package 2026 | 3 Nights 4 Days from AED 1,499 (₹34,500) | Jain Food - Arihant Travel";
+$pageTitle = "Budget Dubai Package 2026 | 3 Nights 4 Days from AED 1,499 (₹34,500) | Jain Food - Arihant Travels";
 $pageDescription = "Cheapest Dubai package with Jain food — 3 nights from AED 1,499 (₹34,500/person). Includes city tour, Dubai Frame, desert safari with BBQ…";
 $pageKeywords = "budget Dubai package veg food 2026, affordable Dubai tour vegetarian, cheap Dubai package from India, 3 nights 4 days Dubai deal Jain friendly, Dubai Frame tour, cheapest Dubai holiday with Jain meals, budget Dubai trip for families";
 $pageCanonical = "https://arihantlink.com/budget-friendly-dubai";
@@ -25,7 +25,7 @@ $schemaMarkup = '
     "image": "https://arihantlink.com/img/dubaiholiday/Dubai Frame.webp",
     "provider": {
         "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -46,12 +46,6 @@ $schemaMarkup = '
             {"@type": "ListItem", "position": 3, "name": "Day 3: Desert Safari with BBQ Dinner"},
             {"@type": "ListItem", "position": 4, "name": "Day 4: Departure"}
         ]
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.7",
-        "bestRating": "5",
-        "reviewCount": "320"
     }
 }
 </script>';
@@ -92,7 +86,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Best Value Deal</h5>
-                <h1 class="mb-4 h2">Budget Dubai - <span class="text-primary">Maximum Dubai, Minimum Cost</span></h1>
+                <h2 class="mb-4 h2">Budget Dubai - <span class="text-primary">Maximum Dubai, Minimum Cost</span></h2>
                 <p class="mb-3">Our most affordable package — experience Dubai's top highlights without breaking the bank. Value-packed 3-night itinerary including hotel
                     stay, city tour, Dubai Frame tickets, desert safari with BBQ dinner, dhow cruise dinner, Nol metro card & shared airport
                     transfers. <strong>Jain/vegetarian meal options</strong> available on all tours.</p>
@@ -311,7 +305,7 @@ include 'includes/breadcrumb.php';
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Complimentary Nol /
                                 metro card credit</li>
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>24/7 WhatsApp support
-                                from Arihant Travel</li>
+                                from Arihant Travels</li>
                         </ul>
                     </div>
                 </div>

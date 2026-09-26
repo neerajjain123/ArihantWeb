@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Pearls of Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Pearls of Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover the Pearls of Thailand with our 6 Nights / 7 Days Krabi and Phuket adventure. Elephant trekking, Phi Phi Island, James Bond Island…";
 $pageKeywords = "pearls of thailand package, krabi phuket tour, 6 nights 7 days thailand, phi phi island tour, james bond island, elephant trekking krabi, thailand holiday from dubai, krabi 7 island tour";
 $pageCanonical = "https://arihantlink.com/thailand-pearls-6n7d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

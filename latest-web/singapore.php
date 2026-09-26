@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Singapore Tour Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Singapore Tour Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Singapore tour packages from Dubai featuring Universal Studios, Sentosa Island, Gardens by the Bay, Marina Bay Sands, Night Safari…";
 $pageKeywords = "singapore tour packages dubai, singapore holiday deals, international packages from dubai, singapore travel uae, universal studios singapore, sentosa island, gardens by the bay, marina bay sands, night safari, arihant travel international packages";
 $pageCanonical = "https://arihantlink.com/singapore";

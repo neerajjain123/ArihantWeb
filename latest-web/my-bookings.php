@@ -24,8 +24,8 @@ $statusBadges = [
 ];
 
 // Page SEO Variables
-$pageTitle = "My Bookings | Arihant Travel";
-$pageDescription = "View and track your Arihant Travel booking requests.";
+$pageTitle = "My Bookings | Arihant Travels";
+$pageDescription = "View and track your Arihant Travels booking requests.";
 $pageKeywords = "my bookings, arihant travel account";
 $pageCanonical = "https://arihantlink.com/my-bookings";
 $currentPage = "my-bookings";

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "44ft Private Yacht Charter Dubai | 10 Guests | AED 450/Hour | Arihant Travel";
+$pageTitle = "44ft Private Yacht Charter Dubai | 10 Guests | AED 450/Hour | Arihant Travels";
 $pageDescription = "Book a 44ft private yacht charter in Dubai for up to 10 guests from AED 450/hr. Cruise past Burj Al Arab, Palm Jumeirah & Dubai Marina skyline.";
 $pageKeywords = "44ft yacht Dubai, private yacht charter 10 guests, Dubai yacht tour 44ft, budget yacht rental Dubai, luxury boat trip Dubai, private boat trip Dubai, 44ft yacht rental, luxury yacht Dubai Marina, Palm Jumeirah boat tour, Burj Al Arab yacht view";
 $pageCanonical = "https://arihantlink.com/44ft-yacht-charter";
@@ -44,7 +44,7 @@ $schemaMarkup = '
       },
       "provider": {
         "@type": "Organization",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com"
       },
       "offers": {
@@ -67,12 +67,7 @@ $schemaMarkup = '
         {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
         {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
         {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "156"
-      }
+      ]
     },
     {
       "@type": "FAQPage",

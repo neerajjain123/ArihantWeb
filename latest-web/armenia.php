@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Armenia Holiday Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Armenia Holiday Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Armenia tour packages from Dubai featuring Yerevan, ancient monasteries, Lake Sevan, and stunning mountain landscapes.";
 $pageKeywords = "armenia tour packages dubai, yerevan holiday deals, international packages from dubai, armenia travel uae, arihant travel international packages, monastery tour armenia, lake sevan tour, tatev monastery trip";
 $pageCanonical = "https://arihantlink.com/armenia";

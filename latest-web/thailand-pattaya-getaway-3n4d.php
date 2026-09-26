@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Pattaya Getaway 3 Nights 4 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Pattaya Getaway 3 Nights 4 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore Pattaya with our budget-friendly 3 Nights / 4 Days package. Enjoy Coral Island speedboat tour, crystal-clear beaches, and vibrant nightlife.";
 $pageKeywords = "pattaya getaway package, pattaya 3 nights 4 days, coral island tour, koh larn pattaya, pattaya holiday from dubai, thailand travel uae, budget pattaya package";
 $pageCanonical = "https://arihantlink.com/thailand-pattaya-getaway-3n4d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

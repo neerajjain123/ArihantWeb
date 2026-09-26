@@ -7,7 +7,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Dubai Desert Safari Guide 2026: Evening, Morning & Luxury Safaris | Arihant Travel";
+$pageTitle = "Dubai Desert Safari Guide 2026: Evening, Morning & Luxury Safaris | Arihant Travels";
 $pageDescription = "Complete guide to Dubai Desert Safari experiences. Compare evening, morning, overnight, and luxury safaris.";
 $pageKeywords = "Dubai desert safari, evening desert safari Dubai, morning desert safari, overnight desert safari, luxury desert safari, dune bashing Dubai, camel riding Dubai, Bedouin camp Dubai, desert safari price Dubai, desert safari activities";
 $pageCanonical = "https://arihantlink.com/blog/dubai-desert-safari-ultimate-guide";
@@ -23,12 +23,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/safari/premiumcamp/premium-desert-safari.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -90,7 +90,7 @@ $schemaMarkup = '
     "name": "Is vegetarian food available on desert safari?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, most safari operators offer vegetarian options. Arihant Travel specializes in Jain-friendly safaris with pure vegetarian meals prepared separately. Inform your operator in advance about dietary requirements."
+      "text": "Yes, most safari operators offer vegetarian options. Arihant Travels specializes in Jain-friendly safaris with pure vegetarian meals prepared separately. Inform your operator in advance about dietary requirements."
     }
   },{
     "@type": "Question",
@@ -107,7 +107,7 @@ $schemaMarkup = '
 $blogTitle = "Unveiling the Mystique: Your Ultimate Guide to Dubai Desert Safaris";
 $blogCategory = "Adventure";
 $blogCategoryClass = "warning";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "January 15, 2025";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/safari/premiumcamp/premium-desert-safari.webp";
@@ -592,7 +592,7 @@ include '../includes/header.php';
                             <h5 class="text-white mb-3"><i class="fa fa-phone me-2"></i>Ready to Experience the Desert?
                             </h5>
                             <p class="mb-0 text-white">
-                                At Arihant Travel, we specialize in creating unforgettable desert safari experiences
+                                At Arihant Travels, we specialize in creating unforgettable desert safari experiences
                                 tailored to your preferences. Whether you're seeking adventure, luxury, or cultural
                                 immersion, our expert team can help you choose the perfect safari package.
                             </p>
@@ -619,13 +619,13 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    The Arihant Travel team specializes in creating unforgettable Dubai experiences
+                                    The Arihant Travels team specializes in creating unforgettable Dubai experiences
                                     with a focus on Jain-friendly and vegetarian travel packages. With years of
                                     experience, we provide expert guidance for your perfect Dubai vacation.
                                 </p>

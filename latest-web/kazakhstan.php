@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Kazakhstan Almaty Tour Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Kazakhstan Almaty Tour Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Kazakhstan Almaty tour packages from Dubai featuring Shymbulak Ski Resort, Kolsai Lakes, Kaindy Lake, Charyn Canyon, Kok-Tobe Hill…";
 $pageKeywords = "kazakhstan tour packages dubai, almaty holiday deals, international packages from dubai, almaty travel uae, shymbulak ski resort, big almaty lake tour, charyn canyon trip, kolsai lakes, arihant travel international packages";
 $pageCanonical = "https://arihantlink.com/kazakhstan";

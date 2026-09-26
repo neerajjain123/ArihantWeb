@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Al Wasl Marina Dhow Cruise Dinner | Traditional Dhow Cruise Dubai | Arihant Travel";
+$pageTitle = "Al Wasl Marina Dhow Cruise Dinner | Traditional Dhow Cruise Dubai | Arihant Travels";
 $pageDescription = "Experience the magic of Dubai's coastline with Al Wasl Marina Dhow Cruise. Enjoy a romantic dinner cruise with stunning views of Dubai Marina skyline.";
 $pageKeywords = "Al Wasl Marina Dhow Cruise, Dubai Marina cruise, Dhow cruise dinner, Traditional dhow cruise Dubai, Evening dhow cruise, Romantic dinner cruise Dubai, Dubai Marina tour, Luxury dhow cruise";
 $pageCanonical = "https://arihantlink.com/al-wasl-dhow-cruise";
@@ -62,12 +62,7 @@ $schemaMarkup = '
           "priceCurrency": "AED",
           "availability": "https://schema.org/InStock"
         }
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "327"
-      }
+      ]
     },
     {
       "@type": "FAQPage",

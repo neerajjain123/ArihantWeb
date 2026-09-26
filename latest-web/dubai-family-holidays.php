@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Family Holidays 2026 | 6 Nights 7 Days from AED 3,499 | Jain Food + BAPS Mandir - Arihant Travel";
+$pageTitle = "Dubai Family Holidays 2026 | 6 Nights 7 Days from AED 3,499 | Jain Food + BAPS Mandir - Arihant Travels";
 $pageDescription = "Our most comprehensive family package — 6 nights from AED 3,499 (₹80,500). Burj Khalifa, Global Village, Miracle Garden, Abu Dhabi tour with BAPS Mandir…";
 $pageKeywords = "Jain food Dubai family holidays, 6 nights 7 days Dubai tour Jain, vegetarian family Dubai package, miracle garden and global village tour, kid friendly desert safari Jain food, ariant family package, Dubai family itinerary with Jain food, 2026, Dubai family package from India, best family Dubai tour";
 $pageCanonical = "https://arihantlink.com/dubai-family-holidays";
@@ -24,16 +24,10 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/dubaiholiday/family-holiday-dubai.avif",
   "provider": {
     "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "url": "https://arihantlink.com"
   },
   "url": "https://arihantlink.com/dubai-family-holidays",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "reviewCount": "350"
-  },
   "offers": {
     "@type": "Offer",
     "price": "3499",
@@ -110,7 +104,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Family Signature</h5>
-                <h1 class="mb-4 h2">Dubai Family Holidays - <span class="text-primary">Complete Escape</span></h1>
+                <h2 class="mb-4 h2">Dubai Family Holidays - <span class="text-primary">Complete Escape</span></h2>
                 <p class="mb-4">Our most comprehensive family offering — enjoy 6 nights in Dubai with the whole family featuring Burj Khalifa, Dubai Aquarium,
                     Miracle Garden, Global Village, kid-friendly desert safari, dhow cruise, and a full-day Abu Dhabi
                     tour with BAPS Mandir visit. 7 full days of Jain meals and premium family comfort.</p>

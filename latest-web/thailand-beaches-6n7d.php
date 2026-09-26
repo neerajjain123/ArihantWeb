@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Beaches of Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Beaches of Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore Thailand's most stunning beaches with our 6 Nights / 7 Days island-hopping package. Krabi 7-Island Tour, Phi Phi Island…";
 $pageKeywords = "beaches of thailand package, thailand 6 nights 7 days, krabi phi phi phuket tour, 7 island tour krabi, james bond island, phi phi island, bioluminescent plankton, thailand beach holiday from dubai";
 $pageCanonical = "https://arihantlink.com/thailand-beaches-6n7d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

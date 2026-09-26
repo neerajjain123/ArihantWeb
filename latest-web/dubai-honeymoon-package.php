@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Honeymoon Package 2026 | 4 Nights 5 Days from AED 3,499 | Jain Food & 5-Star Luxury - Arihant Travel";
+$pageTitle = "Dubai Honeymoon Package 2026 | 4 Nights 5 Days from AED 3,499 | Jain Food & 5-Star Luxury - Arihant Travels";
 $pageDescription = "Romantic Dubai honeymoon with 5-star luxury stay from AED 3,499 (₹80,500). Honeymoon room setup, candlelit desert dinner, sunset Burj Khalifa…";
-$pageKeywords = "Dubai honeymoon Jain food 2026, romantic Dubai package vegetarian, Dubai couple tour with Jain meals, Burj Khalifa honeymoon, luxury Dubai honeymoon Arihant Travel, Dubai honeymoon from India, honeymoon package with Jain food Dubai";
+$pageKeywords = "Dubai honeymoon Jain food 2026, romantic Dubai package vegetarian, Dubai couple tour with Jain meals, Burj Khalifa honeymoon, luxury Dubai honeymoon Arihant Travels, Dubai honeymoon from India, honeymoon package with Jain food Dubai";
 $pageCanonical = "https://arihantlink.com/dubai-honeymoon-package";
 $currentPage = "holiday-packages";
 
@@ -25,7 +25,7 @@ $schemaMarkup = '
     "image": "https://arihantlink.com/img/dubaiholiday/Dubai-Romantic-Atlantis-Supplied.jpg",
     "provider": {
         "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -47,12 +47,6 @@ $schemaMarkup = '
             {"@type": "ListItem", "position": 4, "name": "Day 4: Private VIP Desert Safari & Candlelit Dinner"},
             {"@type": "ListItem", "position": 5, "name": "Day 5: Departure"}
         ]
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "bestRating": "5",
-        "reviewCount": "180"
     }
 }
 </script>';
@@ -93,7 +87,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Honeymoon Special</h5>
-                <h1 class="mb-4 h2">Dubai Honeymoon - <span class="text-primary">Create Memories That Last Forever</span></h1>
+                <h2 class="mb-4 h2">Dubai Honeymoon - <span class="text-primary">Create Memories That Last Forever</span></h2>
                 <p class="mb-3">Create unforgettable memories with our luxury honeymoon package — 5-star stay with honeymoon room decoration,
                     sunset Burj Khalifa access, Marina dhow cruise with candlelit dinner, Miracle Garden photoshoot, private desert safari with stargazing, and
                     spa indulgence. <strong>100% pure Jain/vegetarian meals</strong> guaranteed throughout.</p>

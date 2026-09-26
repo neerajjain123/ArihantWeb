@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Full Day Dubai City Tour 2025 | Old Dubai, Palm Jumeirah & Downtown";
 $pageDescription = "Book the best Full Day Dubai City Tour for 2025. See all top attractions in one seamless day: Dubai Frame, Al Bastakiya, abra ride, Gold Souk…";
-$pageKeywords = "Dubai city tour, full day Dubai tour, Dubai sightseeing, Gold Souk tour, Palm Jumeirah monorail, abra ride Dubai, Jain vegetarian tour Dubai, Arihant Travel city tour, Dubai Frame tour, Museum of the Future photo stop, Blue Mosque Dubai, best dubai city tour for families, old and new dubai exploration";
+$pageKeywords = "Dubai city tour, full day Dubai tour, Dubai sightseeing, Gold Souk tour, Palm Jumeirah monorail, abra ride Dubai, Jain vegetarian tour Dubai, Arihant Travels city tour, Dubai Frame tour, Museum of the Future photo stop, Blue Mosque Dubai, best dubai city tour for families, old and new dubai exploration";
 $pageCanonical = "https://arihantlink.com/dubai-full-day-city-tour";
 $currentPage = "dubai-full-day-city-tour";
 
@@ -43,14 +43,9 @@ $schemaMarkup = '
   ],
   "provider": {
     "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "112"
   }
 }
 </script>

@@ -340,7 +340,7 @@ include 'includes/header.php';
 <div class="container-fluid py-5 bg-light">
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
-            <h5 class="section-title px-3">Why Choose Arihant Travel</h5>
+            <h5 class="section-title px-3">Why Choose Arihant Travels</h5>
             <h2 class="mb-4">Dubai's Trusted Cruise Partner</h2>
         </div>
         <div class="row g-4 text-center">

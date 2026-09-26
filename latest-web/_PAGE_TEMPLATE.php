@@ -32,7 +32,7 @@
 // 1. SEO VARIABLES
 // ---------------------------------------------------------------------------
 // Title: 50–60 chars, primary keyword first.
-$pageTitle       = "PAGE TITLE — Primary Keyword | Arihant Travel";
+$pageTitle       = "PAGE TITLE — Primary Keyword | Arihant Travels";
 // Description: 150–160 chars. One CTA. No double-spacing.
 $pageDescription = "150–160 char description with the primary keyword and one clear call to action (Book on WhatsApp, Apply today, Get a quote).";
 // Comma-separated keywords (light optimisation; titles & body matter more).
@@ -115,7 +115,7 @@ include __DIR__ . '/includes/breadcrumb.php';
 <section class="page-section page-section--light">
     <div class="container">
         <div class="section-heading">
-            <span class="section-heading__eyebrow">Why Arihant Travel</span>
+            <span class="section-heading__eyebrow">Why Arihant Travels</span>
             <h2 class="section-heading__title">What you get with every booking</h2>
         </div>
 
@@ -144,7 +144,7 @@ include __DIR__ . '/includes/breadcrumb.php';
             <div class="feature-item">
                 <span class="feature-item__icon"><i class="fas fa-star"></i></span>
                 <div>
-                    <h3 class="feature-item__title">4.8&star; on Google</h3>
+                    <h3 class="feature-item__title">4.9&#9733; on Google</h3>
                     <p class="feature-item__desc">2,000+ Indian families served.</p>
                 </div>
             </div>
@@ -195,7 +195,7 @@ include __DIR__ . '/includes/breadcrumb.php';
     <div class="container">
         <div class="row g-4 text-center text-md-start align-items-center">
             <div class="col-md-3">
-                <h3 class="h5 mb-1"><i class="fas fa-medal me-2"></i> 4.8&star; Google</h3>
+                <h3 class="h5 mb-1"><i class="fas fa-medal me-2"></i> 4.9&#9733; Google</h3>
                 <p class="mb-0 small">2,000+ Indian families served</p>
             </div>
             <div class="col-md-3">

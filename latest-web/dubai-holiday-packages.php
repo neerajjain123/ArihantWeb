@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Dubai Holiday Packages 2026 | Jain & Veg Tours from ₹34,500";
 $pageDescription = "Dubai holiday packages 2026 with pure Jain & vegetarian food. 7 curated tours from ₹34,500: family, honeymoon, budget, kids, senior. BAPS Mandir included.";
-$pageKeywords = "Dubai packages with Jain food 2026, Dubai holiday packages for families, vegetarian Dubai tour packages, Dubai winter escape Jain food, Dubai honeymoon package veg, Jain friendly Dubai holidays, budget Dubai packages for Indians, Dubai Abu Dhabi tour Jain, Arihant Travel Dubai, Dubai Jain package, Dubai Gujarati package, Dubai group tour, senior citizen Dubai package, BAPS temple Abu Dhabi package, Swaminarayan temple tour Dubai, customized Dubai holiday from India, Dubai package in INR, pure veg Dubai tour, best Dubai packages from India 2026";
+$pageKeywords = "Dubai packages with Jain food 2026, Dubai holiday packages for families, vegetarian Dubai tour packages, Dubai winter escape Jain food, Dubai honeymoon package veg, Jain friendly Dubai holidays, budget Dubai packages for Indians, Dubai Abu Dhabi tour Jain, Arihant Travels Dubai, Dubai Jain package, Dubai Gujarati package, Dubai group tour, senior citizen Dubai package, BAPS temple Abu Dhabi package, Swaminarayan temple tour Dubai, customized Dubai holiday from India, Dubai package in INR, pure veg Dubai tour, best Dubai packages from India 2026";
 $pageCanonical = "https://arihantlink.com/dubai-holiday-packages";
 $currentPage = "holiday-packages";
 
@@ -133,15 +133,9 @@ $schemaMarkup .= '
 {
   "@context": "https://schema.org",
   "@type": "TravelAgency",
-  "name": "Arihant Travel",
+  "name": "Arihant Travels Pvt Ltd",
   "url": "https://arihantlink.com",
-  "telephone": "+971585945007",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "bestRating": "5",
-    "reviewCount": "2000"
-  }
+  "telephone": "+971585945007"
 }
 </script>
 
@@ -224,7 +218,7 @@ include 'includes/header.php';
                 <div class="d-flex align-items-center justify-content-center gap-2">
                     <i class="fas fa-star fa-lg" style="color:#f0b429;"></i>
                     <div class="text-start">
-                        <strong class="d-block lh-1">4.8/5</strong>
+                        <strong class="d-block lh-1">4.9/5</strong>
                         <small class="text-muted">Google Rating</small>
                     </div>
                 </div>
@@ -256,9 +250,9 @@ include 'includes/header.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Dubai Holiday Packages 2026</h5>
-            <h1 class="mb-4 h2">Choose Your Perfect Dubai Holiday — With Guaranteed Jain & Vegetarian Food</h1>
+            <h2 class="mb-4 h2">Choose Your Perfect Dubai Holiday — With Guaranteed Jain & Vegetarian Food</h2>
             <p class="mb-3">7 handcrafted packages from ₹34,500 per person — family adventures, romantic honeymoons, budget escapes, kids' specials & cultural experiences. Every package includes hotel, transfers, sightseeing, and <strong>100% pure Jain/vegetarian meals</strong>.</p>
-            <p class="text-muted mb-0"><small>Trusted by 2,000+ Indian families from Ahmedabad, Mumbai, Surat, Delhi & beyond. 4.8★ Google rating.</small></p>
+            <p class="text-muted mb-0"><small>Trusted by 2,000+ Indian families from Ahmedabad, Mumbai, Surat, Delhi & beyond. 4.9★ Google rating.</small></p>
         </div>
 
         <div class="row g-4">
@@ -325,7 +319,7 @@ include 'includes/header.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Why Choose Us</h5>
-            <h2 class="mb-4">Why 2,000+ Indian Families Book Their Dubai Trip with Arihant Travel</h2>
+            <h2 class="mb-4">Why 2,000+ Indian Families Book Their Dubai Trip with Arihant Travels</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
@@ -417,7 +411,7 @@ include 'includes/header.php';
             <div class="col-lg-4">
                 <div class="bg-light rounded p-4 h-100 shadow-sm">
                     <div class="mb-2"><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i></div>
-                    <p class="fst-italic mb-2">"As strict vegetarians, finding proper food abroad is always a worry. Arihant Travel eliminated that completely. Desert safari dinner was amazing!"</p>
+                    <p class="fst-italic mb-2">"As strict vegetarians, finding proper food abroad is always a worry. Arihant Travels eliminated that completely. Desert safari dinner was amazing!"</p>
                     <p class="fw-bold mb-0">Mehta Family <small class="text-muted fw-normal">— Mumbai, Maharashtra</small></p>
                 </div>
             </div>
@@ -431,7 +425,7 @@ include 'includes/header.php';
         </div>
         <div class="text-center mt-4">
             <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank" class="btn btn-outline-primary rounded-pill py-2 px-4">
-                <i class="fab fa-google me-2"></i>See All Google Reviews (4.8★)
+                <i class="fab fa-google me-2"></i>See All Google Reviews (4.9★)
             </a>
         </div>
     </div>

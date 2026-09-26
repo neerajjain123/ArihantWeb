@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Full Day Abu Dhabi City Tour from Dubai 2025 | Mosque, Palace & BAPS Temple";
 $pageDescription = "Book the best Abu Dhabi City Tour from Dubai for 2025. This full-day trip covers Sheikh Zayed Grand Mosque, Qasr Al Watan, Emirates Palace…";
-$pageKeywords = "Abu Dhabi city tour, Dubai to Abu Dhabi tour, Sheikh Zayed Mosque, Ferrari World, Abu Dhabi sightseeing, Jain travel Abu Dhabi, vegetarian travel Abu Dhabi, Arihant Travel, Heritage Village Abu Dhabi, Emirates Palace tour, BAPS Hindu Mandir Abu Dhabi, Qasr Al Watan tour, abu dhabi full day trip from dubai guide";
+$pageKeywords = "Abu Dhabi city tour, Dubai to Abu Dhabi tour, Sheikh Zayed Mosque, Ferrari World, Abu Dhabi sightseeing, Jain travel Abu Dhabi, vegetarian travel Abu Dhabi, Arihant Travels, Heritage Village Abu Dhabi, Emirates Palace tour, BAPS Hindu Mandir Abu Dhabi, Qasr Al Watan tour, abu dhabi full day trip from dubai guide";
 $pageCanonical = "https://arihantlink.com/abu-dhabi-city-tour";
 $currentPage = "abu-dhabi-city-tour";
 
@@ -43,14 +43,9 @@ $schemaMarkup = '
   ],
   "provider": {
     "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "reviewCount": "158"
   }
 }
 </script>

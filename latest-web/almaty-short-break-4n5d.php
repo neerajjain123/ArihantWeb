@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Almaty Short Break 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Almaty Short Break 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Almaty with our Short Break 4 Nights / 5 Days package. Explore Zenkov Cathedral, Panfilov Park, Kok-Tobe Hill, Kolsai Lakes, Charyn Canyon…";
 $pageKeywords = "almaty short break package, almaty 4 nights 5 days, kolsai lakes tour dubai, charyn canyon trip, shymbulak ski resort, kok tobe hill, zenkov cathedral, almaty holiday deal, kazakhstan travel uae";
 $pageCanonical = "https://arihantlink.com/almaty-short-break-4n5d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

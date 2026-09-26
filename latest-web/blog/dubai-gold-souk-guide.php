@@ -17,12 +17,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/Gold-Souq/si-gold-souk-banner.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -121,7 +121,7 @@ $schemaMarkup = '
 $blogTitle = "Dubai Gold Souk Guide 2026: What to Buy, Prices, Tips & How to Get There";
 $blogCategory = "Shopping";
 $blogCategoryClass = "secondary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "November 20, 2024";
 $blogUpdated = "February 25, 2026";
 $blogReadTime = "12 min read";
@@ -145,7 +145,7 @@ include '../includes/header.php';
                         class="fa fa-shopping-bag me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">

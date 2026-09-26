@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Excursion Tickets & Attractions | Arihant Travel";
-$pageDescription = "Book official tickets for Dubai's top attractions & excursions with Arihant Travel. Get deals on Burj Khalifa, Miracle Garden, Global Village, museums…";
-$pageKeywords = "Dubai excursion tickets, Dubai attraction tickets, Burj Khalifa tickets, Miracle Garden tickets, Global Village tickets, Museum of the Future tickets, Dubai Frame tickets, AYA Universe tickets, Dubai Aquarium tickets, Arihant Travel, book Dubai attractions";
+$pageTitle = "Dubai Excursion Tickets & Attractions | Arihant Travels";
+$pageDescription = "Book official tickets for Dubai's top attractions & excursions with Arihant Travels. Get deals on Burj Khalifa, Miracle Garden, Global Village, museums…";
+$pageKeywords = "Dubai excursion tickets, Dubai attraction tickets, Burj Khalifa tickets, Miracle Garden tickets, Global Village tickets, Museum of the Future tickets, Dubai Frame tickets, AYA Universe tickets, Dubai Aquarium tickets, Arihant Travels, book Dubai attractions";
 $pageCanonical = "https://arihantlink.com/dubai-excursions";
 $currentPage = "excursions";
 
@@ -215,7 +215,7 @@ include 'includes/breadcrumb.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Why Book With Us</h5>
-            <h2 class="mb-4">Why Book Your Tickets with Arihant Travel?</h2>
+            <h2 class="mb-4">Why Book Your Tickets with Arihant Travels?</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
@@ -264,7 +264,7 @@ include 'includes/breadcrumb.php';
                         <h2 class="accordion-header">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#faq1">
-                                How can I book Dubai excursion tickets with Arihant Travel?
+                                How can I book Dubai excursion tickets with Arihant Travels?
                             </button>
                         </h2>
                         <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#excursionAccordion">
@@ -283,7 +283,7 @@ include 'includes/breadcrumb.php';
                         </h2>
                         <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#excursionAccordion">
                             <div class="accordion-body">
-                                Yes, Arihant Travel offers competitive prices for official tickets to most major Dubai
+                                Yes, Arihant Travels offers competitive prices for official tickets to most major Dubai
                                 attractions and excursions. We strive to provide great value for your money.
                             </div>
                         </div>

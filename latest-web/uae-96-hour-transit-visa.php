@@ -21,10 +21,10 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Service","name":"UAE 96-Hour Transit Visa","description":"96-hour single-entry transit visa for travellers with a layover at Dubai or Abu Dhabi airport. Stay up to 4 days from entry.","serviceType":"UAE Transit Visa","provider":{"@type":"TravelAgency","name":"Arihant Travel","url":"https://arihantlink.com","telephone":"+971585945007"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE 96-Hour Transit Visa","price":"250","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-96-hour-transit-visa"}},
+  {"@context":"https://schema.org","@type":"Service","name":"UAE 96-Hour Transit Visa","description":"96-hour single-entry transit visa for travellers with a layover at Dubai or Abu Dhabi airport. Stay up to 4 days from entry.","serviceType":"UAE Transit Visa","provider":{"@type":"TravelAgency","name":"Arihant Travels Pvt Ltd","url":"https://arihantlink.com","telephone":"+971585945007"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE 96-Hour Transit Visa","price":"250","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-96-hour-transit-visa"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"96-Hour Transit Visa","item":"https://arihantlink.com/uae-96-hour-transit-visa"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-    {"@type":"Question","name":"How much does a UAE 96-hour transit visa cost?","acceptedAnswer":{"@type":"Answer","text":"The UAE 96-hour transit visa starts from AED 250 when processed through Arihant Travel. This includes the UAE government fee, our service charge and visa PDF delivery."}},
+    {"@type":"Question","name":"How much does a UAE 96-hour transit visa cost?","acceptedAnswer":{"@type":"Answer","text":"The UAE 96-hour transit visa starts from AED 250 when processed through Arihant Travels. This includes the UAE government fee, our service charge and visa PDF delivery."}},
     {"@type":"Question","name":"Who needs a UAE 96-hour transit visa?","acceptedAnswer":{"@type":"Answer","text":"Any traveller from a pre-arranged-visa country (India, Pakistan, Bangladesh, Philippines and most African nations) with a layover at Dubai or Abu Dhabi airport long enough to leave the terminal. You need an onward ticket out of UAE within 96 hours of arrival."}},
     {"@type":"Question","name":"How long does the 96-hour transit visa take to process?","acceptedAnswer":{"@type":"Answer","text":"Standard processing is 2-3 working days. Express processing in 24 hours is available for urgent layovers."}},
     {"@type":"Question","name":"What is the difference between 48-hour and 96-hour UAE transit visa?","acceptedAnswer":{"@type":"Answer","text":"48-hour: 2 days of stay, often free if applied via airline (Emirates, Etihad, flydubai, Air Arabia), no hotel booking needed. 96-hour: 4 days of stay, AED 250 through us, hotel booking required."}},
@@ -52,7 +52,7 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">
@@ -203,7 +203,7 @@ include 'includes/breadcrumb.php';
         </div>
         <div class="accordion faq-accordion" id="transit96Faq">
             <?php $faqs = [
-                ['How much does a UAE 96-hour transit visa cost?', 'Starts from <strong>AED 250</strong> all-in through Arihant Travel.'],
+                ['How much does a UAE 96-hour transit visa cost?', 'Starts from <strong>AED 250</strong> all-in through Arihant Travels.'],
                 ['Who needs the 96-hour transit visa?', 'Travellers from pre-arranged-visa countries (India, Pakistan, Bangladesh, Philippines, most African nations) with a layover at Dubai or Abu Dhabi airport long enough to step out.'],
                 ['How fast is processing?', 'Standard 2-3 working days. Express 24-hour processing for urgent layovers.'],
                 ['48-hour vs 96-hour &mdash; which one?', '48-hour: free via airline, no hotel needed, 2 days. 96-hour: from AED 250, hotel required, 4 days. 96-hour wins if you want tours.'],

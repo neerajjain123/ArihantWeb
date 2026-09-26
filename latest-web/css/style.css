@@ -123,6 +123,11 @@ h2 {
     font-family: 'Jost', sans-serif !important;
 }
 
+/* Icon fonts must win over the global Prompt rule above (it also hits <span class="fa ...">,
+   which blanked the mobile menu icon). */
+.fa, .fas, .far, .fal { font-family: 'Font Awesome 5 Free' !important; }
+.fab { font-family: 'Font Awesome 5 Brands' !important; }
+
 .fw-medium {
     font-weight: 600 !important;
 }

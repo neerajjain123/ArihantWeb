@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Privacy Policy - Arihant Travel";
-$pageDescription = "Read Arihant Travel's Privacy Policy — how we collect, use and protect your personal data when you book tours, safaris and excursions in Dubai.";
-$pageKeywords = "privacy policy, data protection, personal information, Arihant Travel";
+$pageTitle = "Privacy Policy - Arihant Travels";
+$pageDescription = "Read Arihant Travels's Privacy Policy — how we collect, use and protect your personal data when you book tours, safaris and excursions in Dubai.";
+$pageKeywords = "privacy policy, data protection, personal information, Arihant Travels";
 $pageCanonical = "https://arihantlink.com/privacy-policy";
 $currentPage = "privacy-policy";
 

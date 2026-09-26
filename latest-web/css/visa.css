@@ -1,0 +1,137 @@
+/* =============================================================================
+   UAE VISA — hero, picker and "how it works" (loaded only on visa pages)
+   Uses the brand tokens from style.css (--primary, --primary-dark, ...).
+   ============================================================================= */
+
+.visa-hero {
+    background: #EEF5FA;
+    padding: 20px 0 40px;
+    border-bottom: 1px solid var(--border, #DEE2E6);
+}
+.visa-hero__crumbs { background: none; padding: 0; margin: 0 0 16px; font-size: .85rem; }
+.visa-hero__intro { max-width: 760px; }
+.visa-hero__title {
+    font-size: clamp(1.6rem, 4.2vw, 2.5rem);
+    line-height: 1.2;
+    color: var(--primary-dark, #13357B);
+    margin: 0 0 12px;
+}
+.visa-hero__lead { font-size: 1.05rem; color: var(--text, #333); margin: 0 0 16px; }
+.visa-hero__trust {
+    list-style: none; padding: 0; margin: 0 0 28px;
+    display: flex; flex-wrap: wrap; gap: 8px 20px;
+    font-size: .9rem; color: var(--text-light, #666);
+}
+.visa-hero__trust i { color: var(--primary, #3A7CA4); margin-right: 6px; }
+.visa-hero__trust .fa-whatsapp { color: var(--whatsapp-hover, #128C7E); }
+
+/* ---- Picker ---------------------------------------------------------------- */
+.visa-picker {
+    background: #fff;
+    border: 1px solid var(--border, #DEE2E6);
+    border-radius: 16px;
+    padding: 20px;
+}
+.visa-picker__q { font-size: 1.25rem; margin: 0 0 14px; color: var(--dark, #212529); }
+
+.visa-picker__tabs {
+    display: flex; gap: 8px; margin: 0 0 18px;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+}
+.visa-picker__tabs::-webkit-scrollbar { display: none; }
+.visa-picker__tab {
+    flex: 0 0 auto;
+    border: 1px solid var(--border, #DEE2E6);
+    background: #fff;
+    color: var(--text, #333);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: .92rem;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.visa-picker__tab i { margin-right: 6px; color: var(--primary, #3A7CA4); }
+.visa-picker__tab:hover { border-color: var(--primary, #3A7CA4); }
+.visa-picker__tab.is-active { background: var(--primary-dark, #13357B); border-color: var(--primary-dark, #13357B); color: #fff; }
+.visa-picker__tab.is-active i { color: #fff; }
+.visa-picker__tab:focus-visible { outline: 2px solid var(--primary, #3A7CA4); outline-offset: 2px; }
+
+/* Without JS every group is listed with its own label; with JS they become tabs. */
+.visa-picker:not(.is-js) .visa-picker__tabs { display: none; }
+.visa-picker.is-js .visa-picker__panel[data-hidden] { display: none; }
+.visa-picker.is-js .visa-picker__group-label { display: none; }
+.visa-picker__group-label { font-size: 1rem; margin: 18px 0 10px; color: var(--primary-dark, #13357B); }
+.visa-picker__panel + .visa-picker__panel .visa-picker__group-label { margin-top: 24px; }
+
+.visa-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 14px;
+}
+.visa-card {
+    position: relative;
+    display: flex; flex-direction: column;
+    border: 1px solid var(--border, #DEE2E6);
+    border-radius: 12px;
+    padding: 16px;
+    background: #fff;
+    transition: border-color .15s ease;
+}
+.visa-card:hover { border-color: var(--primary, #3A7CA4); }
+.visa-card--popular { border: 2px solid var(--primary, #3A7CA4); }
+.visa-card__badge {
+    position: absolute; top: -11px; left: 14px;
+    background: var(--primary, #3A7CA4); color: #fff;
+    font-size: .72rem; padding: 2px 10px; border-radius: 999px;
+}
+.visa-card__head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.visa-card__icon {
+    flex: 0 0 36px; height: 36px; border-radius: 10px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: #EEF5FA; color: var(--primary, #3A7CA4);
+}
+.visa-card__name { font-size: 1.02rem; margin: 0; line-height: 1.3; }
+.visa-card__name a { color: var(--dark, #212529); text-decoration: none; }
+.visa-card__name a:hover { color: var(--primary, #3A7CA4); }
+.visa-card__facts {
+    list-style: none; padding: 0; margin: 0 0 12px;
+    display: flex; flex-wrap: wrap; gap: 2px 0;
+    font-size: .85rem; color: var(--text-light, #666);
+}
+.visa-card__facts li + li::before { content: "·"; color: var(--primary, #3A7CA4); margin: 0 8px; }
+.visa-card__facts li:last-child { flex-basis: 100%; margin-top: 2px; }
+.visa-card__facts li:last-child::before {
+    content: "\f017"; font-family: "Font Awesome 5 Free"; font-weight: 400;
+    color: var(--primary, #3A7CA4); margin: 0 6px 0 0;
+}
+.visa-card__price { font-size: 1.2rem; font-weight: 600; color: var(--primary-dark, #13357B); margin: auto 0 2px; }
+.visa-card__express { font-size: .8rem; color: var(--text-light, #666); margin: 0 0 12px; }
+.visa-card__express .fa-bolt { color: #E0A100; }
+.visa-card__actions { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.visa-card__actions .btn { padding-left: 18px; padding-right: 18px; }
+.visa-card__more { font-size: .88rem; text-decoration: none; }
+.visa-card__more i { font-size: .75rem; margin-left: 4px; }
+
+.visa-picker__foot { font-size: .85rem; color: var(--text-light, #666); margin: 16px 0 0; }
+
+/* ---- How it works ---------------------------------------------------------- */
+.visa-steps { padding: 36px 0; background: #fff; }
+.visa-steps__title { font-size: 1.35rem; margin: 0 0 18px; }
+.visa-steps__list {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;
+}
+.visa-steps__list li { display: flex; flex-direction: column; gap: 4px; font-size: .92rem; color: var(--text-light, #666); }
+.visa-steps__list strong { color: var(--dark, #212529); font-size: 1rem; }
+.visa-steps__n {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: var(--primary-dark, #13357B); color: #fff;
+    display: inline-flex; align-items: center; justify-content: center;
+    font-weight: 600; margin-bottom: 6px;
+}
+
+@media (max-width: 575px) {
+    .visa-hero { padding: 14px 0 28px; }
+    .visa-picker { padding: 16px 14px; border-radius: 14px; }
+    .visa-cards { grid-template-columns: 1fr; }
+}

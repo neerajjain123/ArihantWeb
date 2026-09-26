@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "6 Nights 7 Days Georgia Tour Package from Dubai | Tbilisi, Kakheti, Borjomi & Dashbash 2025 - Arihant Travel";
+$pageTitle = "6 Nights 7 Days Georgia Tour Package from Dubai | Tbilisi, Kakheti, Borjomi & Dashbash 2025 - Arihant Travels";
 $pageDescription = "Discover Georgia's undiscovered jewels over 6 nights / 7 days. Explore Tbilisi, UNESCO Mtskheta, Kazbegi, Kakheti wine region, Borjomi springs…";
 $pageKeywords = "georgia tour package 6 nights 7 days, georgia undiscovered jewel, tbilisi kakheti borjomi tour, dashbash canyon georgia, georgia 6n7d package dubai, georgia wine region tour, uplistsikhe borjomi tour";
 $pageCanonical = "https://arihantlink.com/georgia-6n7d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

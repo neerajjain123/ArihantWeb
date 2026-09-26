@@ -7,7 +7,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Yas Island Abu Dhabi Guide 2026: Theme Parks, F1 & Itinerary | Arihant Travel";
+$pageTitle = "Yas Island Abu Dhabi Guide 2026: Theme Parks, F1 & Itinerary | Arihant Travels";
 $pageDescription = "Ultimate guide to Yas Island Abu Dhabi. Explore Ferrari World, Warner Bros. World, SeaWorld, and Yas Waterworld.";
 $pageKeywords = "yas island abu dhabi, ferrari world abu dhabi, warner bros world abu dhabi, yas waterworld, seaworld yas island, yas marina circuit, abu dhabi theme parks, yas island itinerary";
 $pageCanonical = "https://arihantlink.com/blog/yas-island-theme-park-guide";
@@ -24,12 +24,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/yasIsland/ferrariworld1.jpeg",
   "author": {
     "@type": "Person",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -114,7 +114,7 @@ $schemaMarkup = '
 $blogTitle = "Yas Island Abu Dhabi: The Ultimate Theme Park & Leisure Guide 2025";
 $blogCategory = "Destinations";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "December 25, 2025";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/blogs/yasIsland/ferrariworld1.jpeg";
@@ -928,7 +928,7 @@ include '../includes/header.php';
                         <div class="card bg-primary text-white mt-4">
                             <div class="card-body text-center p-4">
                                 <h4 class="text-white mb-3">Book Your Yas Island Adventure</h4>
-                                <p class="mb-4">Let Arihant Travel create your perfect Yas Island itinerary with
+                                <p class="mb-4">Let Arihant Travels create your perfect Yas Island itinerary with
                                     exclusive theme park tickets and packages.</p>
                                 <div class="d-flex gap-3 justify-content-center flex-wrap">
                                     <a href="https://wa.me/971585945007?text=I want to book Yas Island tickets"
@@ -963,13 +963,13 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    Arihant Travel is your trusted partner for Dubai and Abu Dhabi experiences. We
+                                    Arihant Travels is your trusted partner for Dubai and Abu Dhabi experiences. We
                                     specialize in creating unforgettable family holidays, adventure trips, and cultural
                                     tours across the UAE, with exclusive access to theme park tickets and VIP
                                     experiences.

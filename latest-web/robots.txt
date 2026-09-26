@@ -1,4 +1,4 @@
-# robots.txt for Arihant Travel - Dubai Tours & Jain-Friendly Experiences
+# robots.txt for Arihant Travels - Dubai Tours & Jain-Friendly Experiences
 # Last Updated: 2026-05-18
 
 # === ALLOW ALL SEARCH ENGINES & AI BOTS ===

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Thailand Tour Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Thailand Tour Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Thailand tour packages from Dubai featuring Pattaya, Bangkok, Phuket, Krabi, and Phi Phi Islands.";
 $pageKeywords = "thailand tour packages dubai, thailand holiday deals, international packages from dubai, thailand travel uae, pattaya tour, bangkok tour, phuket tour, krabi tour, phi phi island, coral island, safari world, arihant travel international packages";
 $pageCanonical = "https://arihantlink.com/thailand";

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "IMG Worlds of Adventure Dubai Tickets 2026 | Hotel Transfer Included | Arihant Travel";
+$pageTitle = "IMG Worlds of Adventure Dubai Tickets 2026 | Hotel Transfer Included | Arihant Travels";
 $pageDescription = "Book IMG Worlds of Adventure Dubai tickets at best price — Marvel, Cartoon Network, Lost Valley & 22+ rides. Hotel pick-up included. Instant e-ticket.";
 $pageKeywords = "IMG Worlds of Adventure, IMG Worlds Dubai, Marvel Zone, Cartoon Network zone, Lost Valley, Dubai theme park, indoor theme park Dubai, Avengers ride Dubai";
 $pageCanonical = "https://arihantlink.com/img-worlds";
@@ -135,12 +135,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/img-worlds",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "723"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

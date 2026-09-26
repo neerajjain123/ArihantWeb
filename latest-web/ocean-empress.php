@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Ocean Empress Marina Dhow Cruise | Luxury Dinner Cruise Dubai | Arihant Travel";
+$pageTitle = "Ocean Empress Marina Dhow Cruise | Luxury Dinner Cruise Dubai | Arihant Travels";
 $pageDescription = "Embark on the Ocean Empress for a luxury dhow cruise experience in Dubai Marina. Enjoy gourmet dining, stunning skyline views, and live entertainment.";
-$pageKeywords = "Ocean Empress Marina Dhow Cruise, Luxury dhow cruise Dubai, Dubai Marina dinner cruise, Dhow cruise with alcohol, VIP dhow cruise Dubai, Dubai Marina sightseeing, Arihant Travel dhow cruise";
+$pageKeywords = "Ocean Empress Marina Dhow Cruise, Luxury dhow cruise Dubai, Dubai Marina dinner cruise, Dhow cruise with alcohol, VIP dhow cruise Dubai, Dubai Marina sightseeing, Arihant Travels dhow cruise";
 $pageCanonical = "https://arihantlink.com/ocean-empress";
 $currentPage = "ocean-empress";
 
@@ -46,12 +46,7 @@ $schemaMarkup = '
       "availability": "https://schema.org/InStock",
       "url": "' . $pageCanonical . '"
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "428"
-  }
+  ]
 }
 </script>
 <script type="application/ld+json">

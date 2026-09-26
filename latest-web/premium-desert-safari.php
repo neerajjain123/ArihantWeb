@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Premium Evening Desert Safari Dubai - AED 199 (₹4,600) | Pure Jain Food | Arihant Travel";
+$pageTitle = "Premium Evening Desert Safari Dubai - AED 199 (₹4,600) | Pure Jain Food | Arihant Travels";
 $pageDescription = "Premium Desert Safari at Lehbab Red Dunes — AED 199 (₹4,600). 30-min dune bashing, AC camp, dedicated Jain food section (no onion, no garlic).";
 $pageKeywords = "premium desert safari Dubai, Lehbab red dunes, Jain meal safari Dubai, AC camp Dubai, premium camp safari, premium desert safari Jain food, pure vegetarian desert dinner, desert safari for Gujarati families, Jain dinner desert camp, Indian family desert safari";
 $pageCanonical = "https://arihantlink.com/premium-desert-safari";
@@ -52,7 +52,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}

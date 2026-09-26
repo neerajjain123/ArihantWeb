@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Contact Arihant Travel | Reach Out for Dubai Tours & Visa Services";
-$pageDescription = "Contact Arihant Travel for Dubai tours, packages, and visa services. Call us at +971585945007, email us, or connect via WhatsApp. We're here to help!";
-$pageKeywords = "Contact Arihant Travel, Dubai tour operator, visa services, WhatsApp contact, Arihant Travel phone, Arihant Travel email, customer support, tour booking";
+$pageTitle = "Contact Arihant Travels | Reach Out for Dubai Tours & Visa Services";
+$pageDescription = "Contact Arihant Travels for Dubai tours, packages, and visa services. Call us at +971585945007, email us, or connect via WhatsApp. We're here to help!";
+$pageKeywords = "Contact Arihant Travels, Dubai tour operator, visa services, WhatsApp contact, Arihant Travels phone, Arihant Travels email, customer support, tour booking";
 $pageCanonical = "https://arihantlink.com/contact";
 $currentPage = "contact";
 
@@ -15,12 +15,12 @@ $schemaMarkup = '
 {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    "name": "Contact Arihant Travel",
-    "description": "Contact Arihant Travel for Dubai tours, packages, and visa services. Available via phone, email, and WhatsApp.",
+    "name": "Contact Arihant Travels",
+    "description": "Contact Arihant Travels for Dubai tours, packages, and visa services. Available via phone, email, and WhatsApp.",
     "url": "https://arihantlink.com/contact",
     "mainEntity": {
         "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "telephone": "+971585945007",
         "email": "contact@arihantlink.com",
         "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE", "streetAddress": "Al Rayyan Complex, Al Nahda"}
@@ -41,7 +41,7 @@ include 'includes/header.php';
             <div class="col-12">
                 <div class="text-center mb-5">
                     <h5 class="section-title px-3">Send Us a Message</h5>
-                    <h1 class="mb-3">Contact For Any Query</h1>
+                    <h2 class="h1 mb-3">Contact For Any Query</h2>
                     <p class="mb-0">Have a question or want to book a tour? Fill out the form below and we'll get
                         back to you within 24 hours.</p>
                 </div>

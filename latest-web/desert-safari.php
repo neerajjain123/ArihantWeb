@@ -6,7 +6,7 @@
 //  pickup zones, fitness/safety, prices, schema upgrade.
 // =============================================================================
 
-$pageTitle       = "Dubai Desert Safari with Jain Food | From AED 99 | Arihant Travel";
+$pageTitle       = "Dubai Desert Safari with Jain Food | From AED 99 | Arihant Travels";
 $pageDescription = "Dubai desert safari with pure Jain & vegetarian dinner. Standard, VIP, Premium, Morning, Overnight & Quad bike. Compare 6 packages, see pickup zones, book on WhatsApp.";
 $pageKeywords    = "Dubai desert safari, desert safari Dubai, dune bashing, evening desert safari, morning desert safari, overnight desert safari, premium desert safari, VIP desert safari, quad bike Dubai, desert safari with Jain food, vegetarian desert safari, desert safari for Indian families, Lehbab Red Dunes, desert safari pickup, desert safari prices 2026";
 $pageCanonical   = "https://arihantlink.com/desert-safari";
@@ -25,7 +25,7 @@ $schemaMarkup = '
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "Dubai Desert Safari Packages",
-    "description": "Six desert safari packages from Arihant Travel — Standard, VIP, Premium, Morning, Overnight and Quad Bike. All evening safaris include pure vegetarian / Jain food options.",
+    "description": "Six desert safari packages from Arihant Travels — Standard, VIP, Premium, Morning, Overnight and Quad Bike. All evening safaris include pure vegetarian / Jain food options.",
     "itemListOrder": "https://schema.org/ItemListOrderAscending",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "url": "https://arihantlink.com/standard-desert-safari",  "name": "Standard Evening Safari"},
@@ -40,9 +40,9 @@ $schemaMarkup = '
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Dubai Desert Safari — Packages, Prices, Pickup Zones & Jain-Friendly Options",
-    "description": "Complete guide to booking a Dubai desert safari with Arihant Travel: comparison of 6 packages, what dune bashing actually feels like, Jain food at desert safari camps, pickup zones across Dubai/Sharjah/Abu Dhabi, fitness guidance, and 2026 prices.",
-    "author": {"@type": "Organization", "name": "Arihant Travel Desert Desk", "url": "https://arihantlink.com"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "description": "Complete guide to booking a Dubai desert safari with Arihant Travels: comparison of 6 packages, what dune bashing actually feels like, Jain food at desert safari camps, pickup zones across Dubai/Sharjah/Abu Dhabi, fitness guidance, and 2026 prices.",
+    "author": {"@type": "Organization", "name": "Arihant Travels Desert Desk", "url": "https://arihantlink.com"},
+    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2024-01-01",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/desert-safari"},
@@ -84,7 +84,7 @@ include 'includes/wishlist-button.php';
         <div class="row g-4 text-center text-md-start align-items-center">
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-leaf me-2"></i> Jain BBQ counter</h3><p class="mb-0 small">VIP &amp; Premium camps</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-route me-2"></i> Free pickup</h3><p class="mb-0 small">Most Dubai zones</p></div>
-            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-star me-2"></i> 4.8&star; Google</h3><p class="mb-0 small">2,000+ Indian families</p></div>
+            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-star me-2"></i> 4.9&#9733; Google</h3><p class="mb-0 small">2,000+ Indian families</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fab fa-whatsapp me-2"></i> Book direct</h3><p class="mb-0 small">+971 58 594 5007</p></div>
         </div>
     </div>
@@ -99,7 +99,7 @@ include 'includes/wishlist-button.php';
 
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Arihant Travel Desert Desk</span>
+                        <span><i class="far fa-user"></i> Arihant Travels Desert Desk</span>
                         <span><i class="fas fa-shield-alt"></i> UAE-licensed, Sharjah</span>
                     </div>
 
@@ -339,7 +339,7 @@ include 'includes/wishlist-button.php';
                         <?php echo date('d F Y'); ?>.
                     </p>
 
-                    <h2 id="why-us">Why book through Arihant Travel</h2>
+                    <h2 id="why-us">Why book through Arihant Travels</h2>
                     <p>
                         We&rsquo;re a UAE-licensed travel agency physically based in Sharjah,
                         founded by a Jain family. The visible difference: when you message us
@@ -352,7 +352,7 @@ include 'includes/wishlist-button.php';
                     <p>
                         Practically: free hotel pickup from most Dubai zones, transparent
                         AED + INR pricing, WhatsApp confirmation within 30 minutes, no
-                        hidden fees at the camp, and 4.8&star; on Google with 1,000+
+                        hidden fees at the camp, and 4.9&#9733; on Google with 120+
                         reviews you can verify before booking.
                     </p>
                 </article>

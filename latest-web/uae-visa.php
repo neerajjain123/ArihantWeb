@@ -21,7 +21,10 @@ $currentPage     = "uae-visa";
 // ---------------------------------------------------------------------------
 // 2. HERO / BREADCRUMB
 // ---------------------------------------------------------------------------
-$pageHeading            = "UAE Visa Services for Indians, NRIs & GCC Residents";
+// The hero is includes/visa-picker.php (replaced the full-screen photo banner 2026-09).
+$pageHeading            = "Apply for your UAE visa online";
+$extraCss               = ['css/visa.css'];
+require_once __DIR__ . '/includes/visa-prices.php';
 $breadcrumbCategory     = "Services";
 $breadcrumbCategoryLink = "/#ourservices";
 $breadcrumbBg           = "img/UAE-tourist-visa.webp";
@@ -43,34 +46,23 @@ $schemaMarkup = '
     "serviceType": "Visa Processing",
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressCountry": "AE", "addressLocality": "Sharjah"}
     },
     "areaServed": {"@type": "Country", "name": "United Arab Emirates"},
-    "offers": [
-      {"@type": "Offer", "name": "30-Day UAE Tourist Visa",  "description": "Single entry tourist visa, 30-day stay, extendable.", "price": "350", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "60-Day UAE Tourist Visa",  "description": "Multiple entry tourist visa, 60-day stay, extendable.", "price": "550", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE Transit Visa 96-Hour", "description": "Layover visa for travellers transiting through UAE.",     "price": "250", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "GCC Resident E-Visa",      "description": "30-day e-visa for residents of any GCC country.",        "price": "350", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "5-Year Multi-Entry Visa",  "description": "Long-stay multi-entry tourist visa, 90 days per visit.", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE Job Seeker Visa",      "description": "60/90/120-day visa for highly-skilled professionals seeking employment in UAE.", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE Green Residence Visa", "description": "5-year residence visa for skilled professionals, freelancers and investors without an employer sponsor.", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE Family / Dependent Visa", "description": "Sponsor a spouse, child or parent on a UAE residence visa.", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE A2A Visa Extension 60-Day",  "description": "Apply-To-Apply (A2A) inside-country visa extension for 60 additional days without leaving the UAE.", "price": "1500", "priceCurrency": "AED", "availability": "https://schema.org/InStock"},
-      {"@type": "Offer", "name": "UAE Express Visa 24-48 hour",    "description": "Fast-track UAE tourist visa processing in 24 to 48 hours for urgent travel.", "price": "650", "priceCurrency": "AED", "availability": "https://schema.org/InStock"}
-    ]
+    "offers": ' . json_encode(visa_schema_offers(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) . '
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "UAE Visa for Indians 2026 — Tourist, Transit, Long-Stay & Residence Options",
     "description": "Complete UAE visa guide covering every visa type: tourist (30/60-day), 96-hour transit, 5-year multi-entry, GCC resident e-visa, job seeker, green residence, golden visa and family sponsorship.",
-    "author": {"@type": "Organization", "name": "Arihant Travel UAE Visa Desk", "url": "https://arihantlink.com"},
+    "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk", "url": "https://arihantlink.com"},
     "publisher": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}
     },
     "datePublished": "2024-01-15",
@@ -92,51 +84,26 @@ $schemaMarkup = '
     "@type": "FAQPage",
     "mainEntity": [
       {"@type": "Question", "name": "How long does a UAE visa take to process?", "acceptedAnswer": {"@type": "Answer", "text": "A standard UAE tourist visa is processed in 3–4 working days. Transit visas take 2–3 days. GCC resident e-visas are usually approved in 24–48 hours. Express processing is available on request for urgent travel."}},
-      {"@type": "Question", "name": "How much does a UAE tourist visa cost in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "A 30-day single-entry tourist visa starts at AED 350 (about INR 7,900). A 60-day multiple-entry visa starts at AED 550 (about INR 12,500). A 96-hour transit visa starts at AED 250. Final price depends on nationality and processing speed."}},
+      {"@type": "Question", "name": "How much does a UAE tourist visa cost in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "' . visa_cost_answer() . '"}},
       {"@type": "Question", "name": "Can Indians get a UAE visa on arrival?", "acceptedAnswer": {"@type": "Answer", "text": "As a general rule no. Indian passport holders need a pre-arranged UAE tourist visa. The exceptions are Indians who hold a valid US visa, UK visa, EU Schengen visa or a US Green Card — they may be eligible for visa on arrival or e-visa with reduced documentation."}},
       {"@type": "Question", "name": "Is the UAE 5-year multiple entry visa still available?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The 5-year multi-entry tourist visa allows multiple entries with a stay of up to 90 consecutive days per visit (extendable by 90 more from inside the UAE). It is ideal for frequent business travellers, family visits and long stays."}},
       {"@type": "Question", "name": "What is the UAE Job Seeker Visa?", "acceptedAnswer": {"@type": "Answer", "text": "The UAE Job Seeker Visa is a 60, 90 or 120-day single-entry visa for highly skilled professionals (typically classified under occupation skill levels 1–3 by the UAE Ministry of Human Resources) who wish to enter the UAE to attend interviews and explore employment, without needing an employer sponsor."}},
       {"@type": "Question", "name": "What is the UAE Green Residence Visa?", "acceptedAnswer": {"@type": "Answer", "text": "The UAE Green Visa is a 5-year residence visa for skilled employees, freelancers, self-employed professionals and investors. Unlike the standard work visa, it does not require an employer sponsor and allows the holder to sponsor parents and children up to 25 years old."}},
       {"@type": "Question", "name": "Can I sponsor my parents on a UAE visa from India?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. UAE residents can sponsor their parents on either a 60-day visit visa or a 1-year residence visa, subject to minimum salary requirements and proof of accommodation. Many Indian families use the 60-day visit visa for short visits and the residence visa for long stays."}},
-      {"@type": "Question", "name": "Can I extend my UAE tourist visa from inside the UAE?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Both 30-day and 60-day tourist visas can be extended once for an additional 30 days from inside the UAE. The extension must be applied for before the visa expires. After the extension you should either exit the country or convert the visa as appropriate."}},
+      {"@type": "Question", "name": "Can I extend my UAE tourist visa from inside the UAE?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, if it is a single-entry visa. A 30-day single-entry visa can be extended up to two times and a 60-day single-entry visa once, 30 days each time, without leaving the country. Multiple-entry visas cannot be extended. Each extension costs AED ' . number_format(visa_price('inside-extension')) . ' through Arihant Travels and must be applied for before your current visa expires."}},
       {"@type": "Question", "name": "What is the UAE visa overstay fine?", "acceptedAnswer": {"@type": "Answer", "text": "The UAE visa overstay fine is AED 50 per day after the visa expiry date, with no grace period for tourist visas as of recent updates. Persistent overstay can lead to detention, deportation and a re-entry ban. Always exit, extend or change your visa status before the expiry date."}},
       {"@type": "Question", "name": "What documents are required for UAE visa for an Indian passport?", "acceptedAnswer": {"@type": "Answer", "text": "For an Indian passport: a clear passport scan valid for at least 6 months, a recent passport photo on a white background, confirmed return tickets, hotel booking or host letter, and (for some applicants) a 3-month bank statement. Married women travelling alone may be asked for a marriage certificate."}},
       {"@type": "Question", "name": "What is the difference between ICA and GDRFA for UAE visas?", "acceptedAnswer": {"@type": "Answer", "text": "ICA (Federal Authority for Identity, Citizenship, Customs and Port Security) handles visas for all emirates except Dubai. GDRFA (General Directorate of Residency and Foreigners Affairs) handles visas for Dubai. We choose the appropriate channel automatically based on your travel and where you are landing."}},
-      {"@type": "Question", "name": "How can I check my UAE visa application status?", "acceptedAnswer": {"@type": "Answer", "text": "Once your visa has been submitted you can check status on the ICA Smart Services portal or the GDRFA Dubai smart app using your application reference number or passport number. Clients of Arihant Travel also receive WhatsApp updates at every stage."}}
+      {"@type": "Question", "name": "How can I check my UAE visa application status?", "acceptedAnswer": {"@type": "Answer", "text": "Once your visa has been submitted you can check status on the ICA Smart Services portal or the GDRFA Dubai smart app using your application reference number or passport number. Clients of Arihant Travels also receive WhatsApp updates at every stage."}}
     ]
   }
 ]
 </script>';
 
 include 'includes/header.php';
-include 'includes/breadcrumb.php';
+include 'includes/visa-picker.php';
 ?>
 
-<!-- =========================================================================
-     QUICK-FACTS BAND — short, dark, brand-coloured trust strip
-     ========================================================================= -->
-<section class="trust-band">
-    <div class="container">
-        <div class="row g-4 text-center text-md-start align-items-center">
-            <div class="col-md-3">
-                <h3 class="h6 mb-1"><i class="fas fa-globe me-2"></i> 80+ Countries</h3>
-                <p class="mb-0 small">Visa on arrival in UAE</p>
-            </div>
-            <div class="col-md-3">
-                <h3 class="h6 mb-1"><i class="fas fa-clock me-2"></i> 3&ndash;4 Days</h3>
-                <p class="mb-0 small">Standard tourist visa</p>
-            </div>
-            <div class="col-md-3">
-                <h3 class="h6 mb-1"><i class="fas fa-bolt me-2"></i> 24&ndash;48 Hours</h3>
-                <p class="mb-0 small">GCC resident e-visa</p>
-            </div>
-            <div class="col-md-3">
-                <h3 class="h6 mb-1"><i class="fas fa-check-circle me-2"></i> 98%+ Approval</h3>
-                <p class="mb-0 small">First-time success rate</p>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- =========================================================================
      INTRO + STICKY TABLE OF CONTENTS
@@ -150,7 +117,7 @@ include 'includes/breadcrumb.php';
                 <article class="article-prose">
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Written by Arihant Travel UAE Visa Desk</span>
+                        <span><i class="far fa-user"></i> Written by Arihant Travels UAE Visa Desk</span>
                         <span><i class="fas fa-shield-alt"></i> UAE-licensed travel agency, Sharjah</span>
                     </div>
 
@@ -202,8 +169,9 @@ include 'includes/breadcrumb.php';
                     <p>
                         This is the visa most travellers need. It covers leisure, family visits,
                         short business meetings, conferences and shopping trips. It comes in two
-                        durations &mdash; 30 days and 60 days &mdash; and both can be extended once
-                        from inside the UAE for another 30 days.
+                        durations &mdash; 30 days and 60 days. Single-entry visas can be
+                        <a href="#extensions">extended from inside the UAE</a> (a 30-day visa up to
+                        two times, a 60-day visa once); multiple-entry visas can&rsquo;t be extended.
                     </p>
 
                     <h3 id="tourist-30">30-day single-entry tourist visa</h3>
@@ -214,27 +182,27 @@ include 'includes/breadcrumb.php';
                         to enter the UAE, and 30 days of stay starting from your entry date.
                     </p>
                     <p>
-                        <span class="price-pill">From AED 350 <small>(approx. INR 7,900)</small></span>
+                        <span class="price-pill"><?php echo visa_price_label('tourist-30-single'); ?></span>
                         &nbsp;Processing 3&ndash;4 working days.
                     </p>
 
                     <h3 id="tourist-60">60-day multiple-entry tourist visa</h3>
                     <p>
-                        Our most popular option for Indian families. 60 days of stay, multiple
-                        entries, extendable by another 30 days &mdash; so you can comfortably plan a
+                        Our most popular option for Indian families. 60 days of stay and multiple
+                        entries &mdash; so you can comfortably plan a
                         Dubai trip with a side hop to Oman or Saudi Arabia, or a longer family
                         visit. It also gives you breathing room if your return flight gets pushed.
                     </p>
                     <p>
-                        <span class="price-pill">From AED 550 <small>(approx. INR 12,500)</small></span>
+                        <span class="price-pill"><?php echo visa_price_label('tourist-60-multi'); ?></span>
                         &nbsp;Processing 3&ndash;4 working days.
                     </p>
 
                     <div class="article-callout article-callout--accent">
                         <strong>Which one should I pick?</strong> If you&rsquo;re planning more than
                         14 days in the UAE, or you might leave and re-enter, the 60-day multi-entry
-                        is almost always better value &mdash; the price difference is small, the
-                        flexibility is large.
+                        gives you far more room, and you won&rsquo;t need to sort out a new visa
+                        in the middle of your trip.
                     </div>
 
                     <h2 id="transit-visa">UAE Transit Visa &mdash; 48 and 96 hour</h2>
@@ -244,8 +212,8 @@ include 'includes/breadcrumb.php';
                         instead of waiting at the gate. Two durations are available:
                     </p>
                     <ul>
-                        <li><strong>48-hour transit visa &mdash;</strong> free if applied for through your airline (Emirates, Etihad, flydubai, Air Arabia), or <span class="price-pill">AED 200</span> if processed through us. Single entry, no extension.</li>
-                        <li><strong>96-hour transit visa &mdash;</strong> <span class="price-pill">From AED 250</span>. Single entry, valid for 14 days from issue, 96 hours of stay from entry.</li>
+                        <li><strong>48-hour transit visa &mdash;</strong> free if applied for through your airline (Emirates, Etihad, flydubai, Air Arabia), or <span class="price-pill"><?php echo visa_price_label('transit-48'); ?></span> if processed through us. Single entry, no extension.</li>
+                        <li><strong>96-hour transit visa &mdash;</strong> <span class="price-pill"><?php echo visa_price_label('transit-96'); ?></span>. Single entry, valid for 14 days from issue, 96 hours of stay from entry.</li>
                     </ul>
                     <p>
                         Transit visas need an onward ticket out of the UAE within the validity
@@ -282,7 +250,7 @@ include 'includes/breadcrumb.php';
                         the documentation is light (passport, residence permit, photo and ticket).
                     </p>
                     <p>
-                        <span class="price-pill">From AED 350 <small>(approx. INR 6,900)</small></span>
+                        <span class="price-pill"><?php echo visa_price_label('gcc-resident'); ?></span>
                         &nbsp;30-day stay, single entry.
                     </p>
 
@@ -365,39 +333,41 @@ include 'includes/breadcrumb.php';
                         each application so you don&rsquo;t end up with a rejected file.
                     </div>
 
-                    <!-- ===========================================================
-                         A2A VISA EXTENSION — keyword cluster competitors target (uaevisaonline.com,
-                         akbartravels.com) that we previously missed. Significant search volume.
-                         =========================================================== -->
-                    <h2 id="a2a-extension">UAE A2A Visa Extension &mdash; extend without leaving</h2>
+                    <h2 id="extensions">Extend your tourist visa without leaving the UAE</h2>
                     <p>
-                        A2A (Apply-To-Apply, also called "inside-country extension") is the route
-                        you take when your current UAE tourist visa is about to expire and you want
-                        to <strong>stay on without flying out for a border run</strong>. The UAE allows
-                        eligible tourist-visa holders to switch onto a fresh visa from inside the
-                        country &mdash; no exit needed, no airport hassle.
-                    </p>
-                    <p>
-                        The standard A2A extension we file:
+                        Already in the UAE and want to stay longer? A single-entry tourist visa can be
+                        extended from inside the country &mdash; no exit, no flight out. Each extension
+                        adds 30 days.
                     </p>
                     <ul>
-                        <li><strong>60-day A2A inside-country visa extension</strong> &mdash; <span class="price-pill">From AED 1,500</span>. Processing 2&ndash;3 working days. Adds 60 more days to your current stay &mdash; no exit needed.</li>
+                        <li><strong>30-day single-entry visa:</strong> can be extended up to two times.</li>
+                        <li><strong>60-day single-entry visa:</strong> can be extended once.</li>
+                        <li><strong>Multiple-entry visas (30 or 60 days):</strong> can&rsquo;t be extended.</li>
+                        <li><strong>Price:</strong> <span class="price-pill"><?php echo visa_price_label('inside-extension'); ?></span> per extension, all-in.</li>
+                        <li><strong>Apply before your visa expires.</strong> Overstay fines of AED 50 a day start the day after it expires.</li>
+                        <li><strong>To start:</strong> send us your passport copy and current visa. We&rsquo;ll tell you if anything else is needed.</li>
                     </ul>
                     <p>
-                        <a href="uae-a2a-visa-extension-60-days" class="btn btn-outline-primary rounded-pill px-4 mt-2"><i class="fas fa-arrow-right me-2"></i>Full A2A 60-day guide</a>
+                        <a href="<?php echo visa_whatsapp_link('inside-extension'); ?>" target="_blank" rel="noopener">Ask us to extend your visa on WhatsApp</a>
                     </p>
+
+                    <!-- A2A — rewritten 2026-09-26. A2A is NOT an inside-country extension:
+                         one night on Kish Island, back next day on a new 60-day visa. -->
+                    <h2 id="a2a-extension">UAE A2A visa &mdash; one night out, new 60-day visa</h2>
                     <p>
-                        A2A must be filed <em>before</em> your current visa expires &mdash; ideally
-                        with 5&ndash;7 days&rsquo; buffer. Once expired, the only option is to pay
-                        the overstay fine and exit. Our team monitors expiry dates for clients on
-                        our roster and flags applications 14 days before they&rsquo;re due.
+                        If your visa can&rsquo;t be extended, or you need more time than an extension
+                        gives, A2A is the government-approved way to stay on. You fly to
+                        <strong>Kish Island</strong>, stay <strong>one night</strong>, and come back the next day on a
+                        <strong>new 60-day visa</strong>. We plan the trip and arrange the visa.
                     </p>
-                    <div class="article-callout">
-                        <strong>Who can use A2A?</strong> Tourist visa holders inside the UAE whose
-                        original visa hasn&rsquo;t already been extended once (each tourist visa
-                        gets one extension). Transit visa holders are not eligible. We confirm
-                        eligibility from your passport stamp and visa copy in 10 minutes.
-                    </div>
+                    <ul>
+                        <li><strong>Price:</strong> <span class="price-pill"><?php echo visa_price_label('a2a-60'); ?></span> &mdash; includes return flights, one night&rsquo;s hotel and your new visa.</li>
+                        <li><strong>Plan it before your current visa expires</strong> &mdash; overstay fines start the day after.</li>
+                        <li><strong>Different from an extension:</strong> an <a href="#extensions">inside-country extension</a> needs no travel but only works for single-entry visas.</li>
+                    </ul>
+                    <p>
+                        <a href="uae-a2a-visa-extension-60-days" class="btn btn-outline-primary rounded-pill px-4 mt-2"><i class="fas fa-arrow-right me-2"></i>How A2A works</a>
+                    </p>
 
                     <!-- ===========================================================
                          COUNTRIES ELIGIBLE — comprehensive eligibility table.
@@ -517,13 +487,13 @@ include 'includes/breadcrumb.php';
                     <ul>
                         <li><strong>Validity vs stay.</strong> Your visa has a <em>validity</em> (the window within which you must enter the UAE, typically 60 days from issue) and a <em>stay duration</em> (30 or 60 days, counted from the day you actually land). They are not the same.</li>
                         <li><strong>Overstay fine.</strong> AED 50 per day, with no grace period for tourist visas. Persistent overstay can lead to detention, deportation and a re-entry ban.</li>
-                        <li><strong>Extensions are once.</strong> Both 30 and 60-day visas can be extended one time, by 30 days, from inside the UAE. You must apply before the original visa expires.</li>
+                        <li><strong>Only single-entry visas can be extended.</strong> A 30-day visa up to two times, a 60-day visa once, 30 days each time, from inside the UAE. Multiple-entry visas can&rsquo;t be extended. Apply before your current visa expires.</li>
                         <li><strong>Visa runs are risky.</strong> Exiting and re-entering on a fresh tourist visa is technically possible but UAE immigration may refuse entry if they suspect visa abuse. Apply for the right duration up front.</li>
                         <li><strong>Health insurance.</strong> Not strictly mandatory for visa issuance, but increasingly recommended at the border. Carry a printed travel-insurance certificate with at least USD 50,000 medical cover.</li>
                         <li><strong>Visa fees are non-refundable</strong> on rejection per UAE government policy. That&rsquo;s exactly why we pre-check &mdash; rejections are rare when documents are in order, and our pre-check is free.</li>
                     </ul>
 
-                    <h2 id="why-us">Why apply with Arihant Travel</h2>
+                    <h2 id="why-us">Why apply with Arihant Travels</h2>
                     <p>
                         We&rsquo;re a UAE-licensed travel agency physically based in Sharjah &mdash;
                         not a remote agent in India. That matters when something needs escalating
@@ -540,7 +510,7 @@ include 'includes/breadcrumb.php';
                         <li><strong>Real-time WhatsApp updates</strong> at every stage &mdash; not an email a week later.</li>
                         <li><strong>One transparent quote</strong> &mdash; visa government fee + service fee, no surprises.</li>
                         <li><strong>98%+ first-time approval</strong> on Indian passports because we don&rsquo;t submit when documents are weak.</li>
-                        <li><strong>Founded in 2022 by Shweta &amp; Neeraj Jain.</strong> 2,000+ families served, 4.8&star; on Google.</li>
+                        <li><strong>Founded in 2022 by Shweta &amp; Neeraj Jain.</strong> 2,000+ families served, 4.9&#9733; on Google.</li>
                     </ul>
                 </article>
             </div>
@@ -559,7 +529,8 @@ include 'includes/breadcrumb.php';
                         <li><a href="#green-visa">Green residence visa</a></li>
                         <li><a href="#golden-visa">Golden visa</a></li>
                         <li><a href="#family-visa">Family / dependent visa</a></li>
-                        <li><a href="#a2a-extension">A2A visa extension</a></li>
+                        <li><a href="#extensions">Extend a tourist visa</a></li>
+                        <li><a href="#a2a-extension">A2A visa (one night out)</a></li>
                         <li><a href="#countries-eligible">Countries eligible</a></li>
                         <li><a href="#documents">Documents required</a></li>
                         <li><a href="#how-to-apply">How to apply</a></li>
@@ -589,15 +560,9 @@ include 'includes/breadcrumb.php';
                         <h3 class="h6 text-uppercase text-muted mb-2" style="letter-spacing:0.06em;">At a glance</h3>
                         <table class="table table-sm mb-0">
                             <tbody>
-                                <tr><td>Tourist 30-day</td><td class="text-end fw-semibold">AED 350</td></tr>
-                                <tr><td>Tourist 60-day</td><td class="text-end fw-semibold">AED 550</td></tr>
-                                <tr><td>Transit 96-hour</td><td class="text-end fw-semibold">AED 250</td></tr>
-                                <tr><td>GCC resident e-visa</td><td class="text-end fw-semibold">AED 350</td></tr>
-                                <tr><td>A2A 60-day extension</td><td class="text-end fw-semibold">AED 1,500</td></tr>
-                                <tr><td>Express 24-48 hr</td><td class="text-end fw-semibold">AED 650</td></tr>
-                                <tr><td>5-year multi-entry</td><td class="text-end fw-semibold">On request</td></tr>
-                                <tr><td>Job seeker</td><td class="text-end fw-semibold">On request</td></tr>
-                                <tr><td>Green residence</td><td class="text-end fw-semibold">On request</td></tr>
+                                <?php foreach ($visaTypes as $key => $v): if ($v['group'] === 'residence') continue; ?>
+                                <tr><td><?php echo ucfirst($v['name']); ?></td><td class="text-end fw-semibold"><?php echo visa_price_label($key); ?></td></tr>
+                                <?php endforeach; ?>
                             </tbody>
                         </table>
                         <p class="small text-muted mb-0 mt-2">Government fees + Arihant service fee. Final price confirmed after document review.</p>
@@ -625,73 +590,28 @@ include 'includes/breadcrumb.php';
                 <thead style="background: var(--primary); color:#fff;">
                     <tr>
                         <th>Visa type</th>
-                        <th>Validity</th>
+                        <th>Stay</th>
                         <th>Entry</th>
-                        <th>Stay per visit</th>
                         <th>Processing</th>
-                        <th>From</th>
+                        <th>Price</th>
+                        <th>Express 24&ndash;48 hr</th>
                         <th>&nbsp;</th>
                     </tr>
                 </thead>
                 <tbody>
+                    <?php foreach ($visaTypes as $key => $v): ?>
                     <tr>
-                        <td><strong>30-day tourist visa</strong></td>
-                        <td>60 days from issue</td><td>Single</td><td>30 days</td><td>3&ndash;4 days</td>
-                        <td><strong>AED 350</strong></td>
-                        <td><a href="https://wa.me/971585945007?text=I%20need%20a%2030-day%20UAE%20tourist%20visa" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill">Apply</a></td>
+                        <td><strong><a href="<?php echo $v['url']; ?>"><?php echo ucfirst($v['name']); ?></a></strong></td>
+                        <td><?php echo $v['stay']; ?></td><td><?php echo $v['entries']; ?></td><td><?php echo $v['processing']; ?></td>
+                        <td><strong><?php echo visa_price_label($key); ?></strong></td>
+                        <td><?php echo $v['express_aed'] !== null ? 'AED ' . number_format($v['express_aed']) : '&ndash;'; ?></td>
+                        <td><a href="<?php echo visa_whatsapp_link($key); ?>" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill" data-visa="<?php echo $key; ?>">Apply</a></td>
                     </tr>
-                    <tr>
-                        <td><strong>60-day tourist visa</strong> &nbsp;<span class="badge bg-success">Most popular</span></td>
-                        <td>60 days from issue</td><td>Multiple</td><td>60 days</td><td>3&ndash;4 days</td>
-                        <td><strong>AED 550</strong></td>
-                        <td><a href="https://wa.me/971585945007?text=I%20need%20a%2060-day%20UAE%20tourist%20visa" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill">Apply</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>48-hour transit visa</strong></td>
-                        <td>14 days from issue</td><td>Single</td><td>48 hours</td><td>2&ndash;3 days</td>
-                        <td><strong>AED 200</strong></td>
-                        <td><a href="https://wa.me/971585945007?text=I%20need%20a%2048-hour%20UAE%20transit%20visa" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill">Apply</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>96-hour transit visa</strong></td>
-                        <td>14 days from issue</td><td>Single</td><td>96 hours</td><td>2&ndash;3 days</td>
-                        <td><strong>AED 250</strong></td>
-                        <td><a href="https://wa.me/971585945007?text=I%20need%20a%2096-hour%20UAE%20transit%20visa" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill">Apply</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>GCC resident e-visa</strong></td>
-                        <td>60 days from issue</td><td>Single</td><td>30 days</td><td>24&ndash;48 hours</td>
-                        <td><strong>AED 350</strong></td>
-                        <td><a href="https://wa.me/971585945007?text=I%20need%20a%20GCC%20resident%20e-visa" target="_blank" rel="noopener" class="btn btn-primary btn-sm rounded-pill">Apply</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>5-year multi-entry visa</strong></td>
-                        <td>5 years</td><td>Multiple</td><td>90 days (extendable)</td><td>5&ndash;7 days</td>
-                        <td>On request</td>
-                        <td><a href="https://wa.me/971585945007?text=I%20want%20a%205-year%20UAE%20multi-entry%20visa" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-pill">Inquire</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Job seeker visa</strong></td>
-                        <td>60 / 90 / 120 days</td><td>Single</td><td>Up to 120 days</td><td>5&ndash;10 days</td>
-                        <td>On request</td>
-                        <td><a href="https://wa.me/971585945007?text=I%20want%20a%20UAE%20job%20seeker%20visa" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-pill">Inquire</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Green residence visa</strong></td>
-                        <td>5 years</td><td>Multi</td><td>Residence</td><td>2&ndash;4 weeks</td>
-                        <td>On request</td>
-                        <td><a href="https://wa.me/971585945007?text=I%20want%20to%20apply%20for%20UAE%20Green%20Visa" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-pill">Inquire</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Golden visa</strong></td>
-                        <td>10 years</td><td>Multi</td><td>Residence</td><td>4&ndash;8 weeks</td>
-                        <td>On request</td>
-                        <td><a href="https://wa.me/971585945007?text=I%20want%20to%20discuss%20UAE%20Golden%20Visa" target="_blank" rel="noopener" class="btn btn-outline-primary btn-sm rounded-pill">Inquire</a></td>
-                    </tr>
+                    <?php endforeach; ?>
                 </tbody>
             </table>
         </div>
-        <p class="small text-muted text-center mt-2">Prices reviewed monthly. UAE government fees can change without prior notice. Last fee check: <?php echo date('d F Y'); ?>.</p>
+        <p class="small text-muted text-center mt-2">Prices reviewed monthly. UAE government fees can change without prior notice. Last fee check: <?php echo date('d F Y', strtotime($visaPricesUpdated)); ?>.</p>
     </div>
 </section>
 
@@ -712,21 +632,21 @@ include 'includes/breadcrumb.php';
             <?php
             $faqs = [
                 ['How long does a UAE visa take to process?', 'A standard UAE tourist visa is processed in <strong>3&ndash;4 working days</strong>. Transit visas take 2&ndash;3 days. GCC resident e-visas are usually approved in <strong>24&ndash;48 hours</strong>. <strong>Express 24&ndash;48 hour processing</strong> is available on request from <strong>AED 650</strong> when travel is urgent.'],
-                ['What is the UAE A2A visa extension?', 'A2A (Apply-To-Apply) is the <strong>inside-country visa extension route</strong> for tourist-visa holders already in the UAE. It adds <strong>60 days</strong> to your current stay <strong>without leaving the UAE</strong> for a border run. Pricing starts at <strong>AED 1,500</strong>. The application must be filed before your current visa expires &mdash; ideally 5&ndash;7 days before. See our <a href="uae-a2a-visa-extension-60-days">full A2A 60-day guide</a>.'],
+                ['What is the UAE A2A visa?', 'A2A is the government-approved way to get a <strong>new 60-day visa</strong> when you want to stay longer. You fly to <strong>Kish Island</strong>, stay <strong>one night</strong>, and come back the next day on the new visa. Price: <strong>' . visa_price_label('a2a-60') . '</strong>. Plan it before your current visa expires. See <a href="uae-a2a-visa-extension-60-days">how A2A works</a>.'],
                 ['Which countries are eligible for UAE visa on arrival?', 'Over 80 nationalities get a free 30-day UAE visa on arrival, including the <strong>USA, UK, EU members, Canada, Australia, Japan, South Korea, China, Singapore, Malaysia, Brunei, Hong Kong, New Zealand, Russia, Ukraine and Maldives</strong>. GCC nationals (Saudi, Kuwait, Bahrain, Qatar, Oman) need no visa at all. Indian, Pakistani, Bangladeshi, Sri Lankan and Filipino passports must pre-apply &mdash; we file these every working day.'],
-                ['How fast is UAE express visa processing?', 'Our <strong>UAE express visa service processes in 24&ndash;48 hours</strong>, starting from <strong>AED 650</strong> for a 30-day tourist visa. Express is best for last-minute urgent travel, missed-document situations, or A2A extensions that need to file before visa expiry. Document review is still free.'],
-                ['How much does a UAE tourist visa cost in 2026?', 'A 30-day single-entry tourist visa starts at <strong>AED 350</strong> (about INR 7,900). A 60-day multi-entry visa starts at <strong>AED 550</strong> (about INR 12,500). A 96-hour transit visa starts at AED 250. Final price depends on nationality and processing speed.'],
+                ['How fast is UAE express visa processing?', 'Our <strong>UAE express visa service processes in 24&ndash;48 hours</strong>, starting from <strong>' . visa_price_label('tourist-30-single', 'express_aed') . '</strong> for a 30-day tourist visa. Express is best for last-minute urgent travel, missed-document situations, or A2A extensions that need to file before visa expiry. Document review is still free.'],
+                ['How much does a UAE tourist visa cost in 2026?', visa_cost_answer(true)],
                 ['Can Indians get UAE visa on arrival?', 'As a general rule, no. Indian passport holders need a pre-arranged UAE tourist visa. The exceptions are Indians who hold a valid US visa, UK visa, EU Schengen visa or US Green Card &mdash; they may be eligible for visa on arrival or a special 14-day e-visa with reduced documentation.'],
                 ['Is the UAE 5-year multiple-entry visa still available?', 'Yes. The 5-year multi-entry tourist visa allows multiple entries with up to <strong>90 consecutive days of stay per visit</strong> (extendable by 90 more from inside the UAE). It is ideal for frequent business travellers and NRI families with relatives in the UAE.'],
                 ['What is the UAE Job Seeker Visa?', 'The UAE Job Seeker Visa is a 60, 90 or 120-day single-entry visa for highly skilled professionals (typically MoHRE skill levels 1&ndash;3) who want to enter the UAE to attend interviews and explore employment, without needing an employer sponsor up front.'],
                 ['What is the UAE Green Residence Visa?', 'The Green Visa is a <strong>5-year UAE residence visa</strong> for skilled employees, freelancers, self-employed professionals and investors. Unlike the standard work visa it does not need an employer sponsor and lets the holder sponsor parents and children up to 25 years old.'],
                 ['What is the UAE Golden Visa and who qualifies?', 'The Golden Visa is a <strong>10-year renewable UAE residence visa</strong>. Eligibility tracks include investors and property owners, entrepreneurs, exceptional talents, top-ranking students, humanitarian pioneers, frontline heroes and certain skilled professionals. Each track has its own document set.'],
                 ['Can I sponsor my parents on a UAE visa from India?', 'Yes. UAE residents can sponsor parents on either a <strong>60-day visit visa</strong> or a <strong>1-year residence visa</strong>, subject to a minimum salary (typically AED 20,000+ for the residence visa) and accommodation proof. Many Indian families use the visit visa twice a year.'],
-                ['Can I extend my UAE tourist visa from inside the UAE?', 'Yes. Both 30-day and 60-day tourist visas can be extended <strong>once for an additional 30 days</strong> from inside the UAE. The extension must be applied for before the visa expires. After the extension you should either exit the country or change your visa status.'],
+                ['Can I extend my UAE tourist visa from inside the UAE?', 'Yes, if it is a <strong>single-entry</strong> visa. A 30-day single-entry visa can be extended <strong>up to two times</strong> and a 60-day single-entry visa <strong>once</strong>, 30 days each time, without leaving the country. Multiple-entry visas can&rsquo;t be extended. Each extension costs <strong>AED ' . number_format(visa_price('inside-extension')) . '</strong> through Arihant Travels and must be applied for before your current visa expires.'],
                 ['What is the UAE visa overstay fine?', 'The overstay fine is <strong>AED 50 per day</strong> after the visa expiry date. Persistent overstay can lead to detention, deportation and a re-entry ban. Always exit, extend or change your visa status before expiry.'],
                 ['What documents are required for UAE visa for an Indian passport?', 'For an Indian passport: a clear passport scan valid for at least 6 months, a recent passport photo on a white background, confirmed return tickets, hotel booking or host letter, and (for some applicants) a 3-month bank statement. Married women travelling alone may be asked for a marriage certificate.'],
                 ['What is the difference between ICA and GDRFA?', '<strong>ICA</strong> (Federal Authority for Identity, Citizenship, Customs and Port Security) handles visas for all emirates except Dubai. <strong>GDRFA</strong> (General Directorate of Residency and Foreigners Affairs) handles visas for Dubai. We choose the appropriate channel automatically based on where you&rsquo;re landing.'],
-                ['How can I check my UAE visa application status?', 'Once submitted, status can be checked on the <strong>ICA Smart Services portal</strong> or the <strong>GDRFA Dubai smart app</strong> using your reference number or passport number. Clients of Arihant Travel also receive WhatsApp updates at every stage.'],
+                ['How can I check my UAE visa application status?', 'Once submitted, status can be checked on the <strong>ICA Smart Services portal</strong> or the <strong>GDRFA Dubai smart app</strong> using your reference number or passport number. Clients of Arihant Travels also receive WhatsApp updates at every stage.'],
                 ['What if my UAE visa is rejected?', 'Rejections are rare when all documents are in order. If a rejection does occur, UAE government fees are non-refundable per UAE policy. We conduct a thorough document pre-check before submission to minimise rejection risk and, if rejected, we&rsquo;ll explain the reason and guide on reapplication.'],
                 ['Do I need travel insurance for a UAE visa?', 'Not strictly mandatory for visa issuance, but increasingly recommended at the border. We suggest a minimum USD 50,000 medical-cover travel insurance and can arrange it at competitive rates as part of your application.'],
                 ['Can I apply for a UAE visa if I&rsquo;m already in the UAE?', 'New tourist visas must be applied for before entering the UAE. If you&rsquo;re already inside on a valid visa, you can apply for a <strong>visa extension</strong> or a <strong>change of status</strong> through the relevant authority. Contact us if you&rsquo;re already on the ground.'],
@@ -770,42 +690,42 @@ include 'includes/breadcrumb.php';
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
                     <h3 class="arihant-card__title h5"><i class="fas fa-bolt me-2 text-warning"></i>Express 24-48 hr Visa</h3>
-                    <p>Urgent applications, last-minute travel. From AED 650 with money-back if we miss next-day delivery.</p>
+                    <p>Urgent applications, last-minute travel. <?php echo visa_price_label('tourist-30-single', 'express_aed'); ?> with money-back if we miss next-day delivery.</p>
                     <a href="uae-express-visa" class="btn btn-outline-primary rounded-pill mt-2">Express visa</a>
                 </div></article>
             </div>
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
-                    <h3 class="arihant-card__title h5"><i class="fas fa-redo me-2 text-primary"></i>A2A 60-Day Extension</h3>
-                    <p>Extend your UAE stay 60 days without leaving the country. From AED 1,500, processed in 2-3 days.</p>
-                    <a href="uae-a2a-visa-extension-60-days" class="btn btn-outline-primary rounded-pill mt-2">A2A 60-day guide</a>
+                    <h3 class="arihant-card__title h5"><i class="fas fa-redo me-2 text-primary"></i>A2A Visa &mdash; New 60 Days</h3>
+                    <p>One night on Kish Island, back the next day on a new 60-day visa. Flights, hotel and visa included. <?php echo visa_price_label('a2a-60'); ?>.</p>
+                    <a href="uae-a2a-visa-extension-60-days" class="btn btn-outline-primary rounded-pill mt-2">How A2A works</a>
                 </div></article>
             </div>
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
                     <h3 class="arihant-card__title h5"><i class="fas fa-plane me-2 text-primary"></i>96-Hour Transit Visa</h3>
-                    <p>4-day Dubai layover visa from AED 250. Hotel required, perfect for stopovers with tours.</p>
+                    <p>4-day Dubai layover visa, <?php echo lcfirst(visa_price_label('transit-96')); ?>. Hotel required, perfect for stopovers with tours.</p>
                     <a href="uae-96-hour-transit-visa" class="btn btn-outline-primary rounded-pill mt-2">96-hour transit</a>
                 </div></article>
             </div>
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
                     <h3 class="arihant-card__title h5"><i class="fas fa-clock me-2 text-secondary"></i>48-Hour Transit Visa</h3>
-                    <p>Short layover visa &mdash; free via Emirates/Etihad/flydubai/Air Arabia, or AED 200 through us.</p>
+                    <p>Short layover visa &mdash; free via Emirates/Etihad/flydubai/Air Arabia, or <?php echo visa_price_label('transit-48'); ?> through us.</p>
                     <a href="uae-48-hour-transit-visa" class="btn btn-outline-primary rounded-pill mt-2">48-hour transit</a>
                 </div></article>
             </div>
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
                     <h3 class="arihant-card__title h5"><i class="fas fa-calendar-alt me-2 text-primary"></i>30-Day Multi Entry</h3>
-                    <p>Unlimited entries within 30 days, from AED 750. Best for cruises and Gulf side trips.</p>
+                    <p>Unlimited entries within 30 days, <?php echo lcfirst(visa_price_label('tourist-30-multi')); ?>. Best for cruises and Gulf side trips.</p>
                     <a href="30-days-multiple-entry-uae-visa" class="btn btn-outline-primary rounded-pill mt-2">30-day multi entry</a>
                 </div></article>
             </div>
             <div class="col-md-6 col-lg-4">
                 <article class="arihant-card h-100"><div class="arihant-card__body">
                     <h3 class="arihant-card__title h5"><i class="fas fa-home me-2 text-secondary"></i>60-Day Single Entry</h3>
-                    <p>Cheapest 60-day long-stay option from AED 700. Best for parent visits and extended stays.</p>
+                    <p>Cheapest 60-day long-stay option, <?php echo lcfirst(visa_price_label('tourist-60-single')); ?>. Best for parent visits and extended stays.</p>
                     <a href="60-days-single-entry-uae-visa" class="btn btn-outline-primary rounded-pill mt-2">60-day single entry</a>
                 </div></article>
             </div>
@@ -835,78 +755,40 @@ include 'includes/breadcrumb.php';
 <section class="page-section" id="testimonials">
     <div class="container">
         <div class="section-heading">
-            <span class="section-heading__eyebrow">2,000+ visas processed</span>
-            <h2 class="section-heading__title">What customers say about our UAE visa service</h2>
-            <p class="section-heading__lead">Verified Google reviews from Jain &amp; vegetarian families
-                who applied through us. <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank" rel="noopener">Read all reviews on Google</a>.</p>
+            <span class="section-heading__eyebrow">Google reviews</span>
+            <h2 class="section-heading__title">What our customers say</h2>
+            <p class="section-heading__lead">Real reviews from our Google Business Profile.
+                <a href="https://g.page/r/CZDbjoitBVREEAE" target="_blank" rel="noopener">Read them all on Google</a>.</p>
         </div>
         <div class="row g-4">
-            <div class="col-md-6 col-lg-4">
+            <?php
+            // Real Google reviews, copied 2026-09-26 (opening lines as shown on Google).
+            // Only add reviews that exist on the Google profile — never invented ones.
+            $realReviews = [
+                ['Adimpact', 'Family visa', 'I would like to sincerely thank Ritu from Arihant Travels for guiding me through my family visa process. From the beginning till the end, she was extremely supportive, super friendly, and very professional.'],
+                ['Jerin Jerin', 'Abu Dhabi trip', 'Heartfelt thanks to Moksha from Arihant Travels! Moksha helped us and guided us in a very nice and professional way throughout our journey.'],
+                ['Abhinav Sharma', 'Dubai stopover', 'We planned a last minute stopover at Dubai on our way back to US from India. I contacted Mini from Arihant Travels to help me with a 2 days itinerary to explore Dubai. Mini provided us plenty of activity options to choose from.'],
+            ];
+            foreach ($realReviews as [$reviewer, $topic, $text]): ?>
+            <div class="col-md-6 col-lg-3">
                 <article class="arihant-card h-100">
                     <div class="arihant-card__body">
-                        <div class="mb-3 text-warning">
+                        <div class="mb-3 text-warning" aria-label="5 out of 5 stars">
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                         </div>
-                        <p class="mb-3">&ldquo;Got my UAE 60-day multi-entry visa in 3 days. Shweta ji personally checked my documents before I paid and flagged a passport-photo issue I would have missed. Booked the family Dubai package right after &mdash; everything went smoothly.&rdquo;</p>
-                        <p class="mb-0 fw-semibold">Mehta Family</p>
-                        <p class="small text-muted mb-0">Ahmedabad, India &mdash; Google review</p>
+                        <p class="mb-3">&ldquo;<?php echo htmlspecialchars($text); ?>&rdquo;</p>
+                        <p class="mb-0 fw-semibold"><?php echo htmlspecialchars($reviewer); ?></p>
+                        <p class="small text-muted mb-0"><?php echo $topic; ?> &mdash; Google review</p>
                     </div>
                 </article>
             </div>
-            <div class="col-md-6 col-lg-4">
-                <article class="arihant-card h-100">
-                    <div class="arihant-card__body">
-                        <div class="mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="mb-3">&ldquo;Needed an urgent UAE visa for a business trip &mdash; Arihant Travel processed it on express in 32 hours. WhatsApp updates the whole way. Saved my trip. Will definitely use again.&rdquo;</p>
-                        <p class="mb-0 fw-semibold">Rajiv K.</p>
-                        <p class="small text-muted mb-0">Mumbai, India &mdash; Google review</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <article class="arihant-card h-100">
-                    <div class="arihant-card__body">
-                        <div class="mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="mb-3">&ldquo;Applied A2A 60-day extension from inside UAE for my parents who were visiting. Arihant's team filed it 6 days before expiry and got approval in 2 days &mdash; saved us a border run with elderly parents.&rdquo;</p>
-                        <p class="mb-0 fw-semibold">Jain Family (Sheth)</p>
-                        <p class="small text-muted mb-0">Surat &mdash; resident in Dubai &mdash; Google review</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <article class="arihant-card h-100">
-                    <div class="arihant-card__body">
-                        <div class="mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="mb-3">&ldquo;As a GCC resident in Oman, got my UAE e-visa in 24 hours. Documentation was light, payment was secure, and the visa arrived as a clean PDF on email. Recommended.&rdquo;</p>
-                        <p class="mb-0 fw-semibold">Anil S.</p>
-                        <p class="small text-muted mb-0">Muscat, Oman &mdash; Google review</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <article class="arihant-card h-100">
-                    <div class="arihant-card__body">
-                        <div class="mb-3 text-warning">
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                        <p class="mb-3">&ldquo;Applied for my parents' visit visa from Mumbai. Arihant guided us on photo size, bank statements, hotel booking and salary letter. Got approval first time &mdash; no rejection, no rework. Perfect service.&rdquo;</p>
-                        <p class="mb-0 fw-semibold">Doshi Family</p>
-                        <p class="small text-muted mb-0">Nairobi &mdash; Indian community &mdash; Google review</p>
-                    </div>
-                </article>
-            </div>
-            <div class="col-md-6 col-lg-4">
+            <?php endforeach; ?>
+            <div class="col-md-6 col-lg-3">
                 <article class="arihant-card h-100 d-flex flex-column justify-content-center align-items-center text-center p-4" style="background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color:#fff;">
                     <i class="fab fa-google fa-3x mb-3"></i>
-                    <h3 class="h5 text-white mb-2">4.8&star; on Google</h3>
-                    <p class="mb-3" style="opacity:0.9;">2,000+ verified reviews from real travellers</p>
-                    <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank" rel="noopener" class="btn btn-light rounded-pill px-4">Read all reviews</a>
+                    <h3 class="h5 text-white mb-2">4.9&#9733; on Google</h3>
+                    <p class="mb-3" style="opacity:0.9;">120+ reviews from real travellers</p>
+                    <a href="https://g.page/r/CZDbjoitBVREEAE" target="_blank" rel="noopener" class="btn btn-light rounded-pill px-4">Read all reviews</a>
                 </article>
             </div>
         </div>

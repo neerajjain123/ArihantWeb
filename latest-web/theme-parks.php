@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai & Abu Dhabi Theme Parks | Book Tickets Online | Arihant Travel";
+$pageTitle = "Dubai & Abu Dhabi Theme Parks | Book Tickets Online | Arihant Travels";
 $pageDescription = "Book tickets for Dubai and Abu Dhabi's best theme parks. Ferrari World, Warner Bros, IMG Worlds, Motiongate, LEGOLAND, SeaWorld, Wild Wadi…";
 $pageKeywords = "Dubai theme parks, Abu Dhabi theme parks, Ferrari World tickets, Warner Bros World tickets, IMG Worlds of Adventure, Motiongate Dubai, LEGOLAND Dubai, SeaWorld Abu Dhabi, Wild Wadi Waterpark, Yas Waterworld, Ski Dubai, theme park tickets Dubai, best theme parks UAE";
 $pageCanonical = "https://arihantlink.com/theme-parks";

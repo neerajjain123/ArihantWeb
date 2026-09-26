@@ -16,7 +16,7 @@ $currentPage = "blog";
 $blogTitle = "Tbilisi Package from Dubai: 5-Night Georgia Itinerary for Jain &amp; Veg Families";
 $blogCategory = "International";
 $blogCategoryClass = "info";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "June 15, 2026";
 $blogReadTime = "11 min read";
 $blogFeaturedImage = "../img/blogs/georgia/Tbilisi-Georgia-Sameba-Cathedral.webp";
@@ -34,8 +34,8 @@ $schemaMarkup = <<<HTML
   "image": ["https://arihantlink.com/img/blogs/georgia/Tbilisi-Georgia-Sameba-Cathedral.webp"],
   "datePublished": "2026-06-15",
   "dateModified": "2026-06-15",
-  "author": {"@type": "Organization", "name": "Arihant Travel"},
-  "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+  "author": {"@type": "Organization", "name": "Arihant Travels Pvt Ltd"},
+  "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
   "description": "{$pageDescription}"
 }
 </script>

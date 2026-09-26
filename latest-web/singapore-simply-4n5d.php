@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Simply Singapore 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Simply Singapore 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Singapore with our Simply Singapore 4 Nights / 5 Days package. Explore Merlion Park, Chinatown, Little India…";
 $pageKeywords = "simply singapore package, singapore 4 nights 5 days, merlion park tour, sentosa island, universal studios singapore, singapore holiday from dubai, singapore travel uae";
 $pageCanonical = "https://arihantlink.com/singapore-simply-4n5d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

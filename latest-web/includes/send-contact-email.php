@@ -153,7 +153,7 @@ try {
 
     $email_subject = 'Contact Form: ' . $subject;
     $email_body = <<<EOT
-Dear Arihant Travel Team,
+Dear Arihant Travels Team,
 
 A new contact form submission has been received:
 
@@ -169,7 +169,7 @@ $message
 Please respond to the customer within 24 hours.
 
 Best regards,
-Arihant Travel Website
+Arihant Travels Website
 EOT;
 
     // SMTP from env.
@@ -179,7 +179,7 @@ EOT;
     $smtpUser   = env('SMTP_USER');
     $smtpPass   = env('SMTP_PASS');
     $smtpFrom   = env('SMTP_FROM', 'contact@arihantlink.com');
-    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travel');
+    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travels');
     $adminTo    = env('ADMIN_NOTIFY_INBOX', 'contact@arihantlink.com');
 
     if (!$smtpUser || !$smtpPass) {
@@ -220,18 +220,18 @@ EOT;
 
     if ($mail_sent) {
         // Customer confirmation (best effort, don't fail the request if this fails).
-        $customer_subject = 'Thank you for contacting Arihant Travel';
+        $customer_subject = 'Thank you for contacting Arihant Travels';
         $customer_body = <<<EOT
 Dear $name,
 
-Thank you for contacting Arihant Travel.
+Thank you for contacting Arihant Travels.
 
 We have received your message regarding: $subject
 
 Our team will review your inquiry and get back to you within 24 hours. For anything urgent, WhatsApp us on +971 58 594 5007.
 
 Best regards,
-Arihant Travel Team
+Arihant Travels Team
 contact@arihantlink.com
 EOT;
 

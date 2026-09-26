@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Lotus Royale Mega Yacht Dinner Cruise | Luxury Marina Experience | Arihant Travel";
+$pageTitle = "Lotus Royale Mega Yacht Dinner Cruise | Luxury Marina Experience | Arihant Travels";
 $pageDescription = "Experience ultimate luxury aboard the Lotus Royale Mega Yacht in Dubai Marina. Enjoy a 5-star dinner cruise with international buffet…";
 $pageKeywords = "Lotus Royale Yacht, Dubai Marina dinner cruise, luxury yacht dinner Dubai, private yacht rental Dubai, romantic dinner cruise, corporate yacht party Dubai, premium yacht experience, Dubai Marina night cruise";
 $pageCanonical = "https://arihantlink.com/lotus-mega-yacht";
@@ -99,11 +99,6 @@ $schemaMarkup = '
             "description": "23:00"
           }
         ]
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "524"
       }
     },
     {

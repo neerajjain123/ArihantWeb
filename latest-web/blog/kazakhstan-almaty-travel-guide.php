@@ -1,6 +1,6 @@
 <?php
 $basePath = "../";
-$pageTitle = "Kazakhstan Almaty Travel Guide 2026: Complete Guide | Arihant Travel";
+$pageTitle = "Kazakhstan Almaty Travel Guide 2026: Complete Guide | Arihant Travels";
 $pageDescription = "Discover Almaty, Kazakhstan - stunning mountains, modern city life, Silk Road history, visa information, costs, and complete travel tips.";
 $pageKeywords = "Kazakhstan travel, Almaty guide, Kazakhstan visa, Central Asia travel, Silk Road";
 $pageCanonical = "https://arihantlink.com/blog/kazakhstan-almaty-travel-guide";
@@ -16,12 +16,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/Almaty/Big-Almaty-Lake-winter.jpg.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -99,7 +99,7 @@ $schemaMarkup = '
 $blogTitle = "Exploring Almaty, Kazakhstan: The Ultimate Tourist Guide";
 $blogCategory = "International";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "August 5, 2024";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/blogs/Almaty/Big-Almaty-Lake-winter.jpg.webp";
@@ -122,7 +122,7 @@ include '../includes/header.php';
                         class="fa fa-globe me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">
@@ -427,7 +427,7 @@ include '../includes/header.php';
                             </div>
                             <div class="card border-0 bg-light mt-3">
                                 <div class="card-body">
-                                    <h6 style="color: #13357B;"><i class="fa fa-lightbulb me-2"></i>Arihant Travel Tip:
+                                    <h6 style="color: #13357B;"><i class="fa fa-lightbulb me-2"></i>Arihant Travels Tip:
                                     </h6>
                                     <p class="small mb-0">Consider joining a guided tour with transportation. The 3-hour
                                         drive is long, and local guides know the best viewpoints. Bring plenty of water,

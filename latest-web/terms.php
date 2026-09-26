@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Terms and Conditions - Arihant Travel";
-$pageDescription = "Read Arihant Travel's Terms of Service covering website use, tour bookings, cancellation policy, payment terms and liability for all services.";
-$pageKeywords = "terms of service, terms and conditions, booking terms, Arihant Travel";
+$pageTitle = "Terms and Conditions - Arihant Travels";
+$pageDescription = "Read Arihant Travels's Terms of Service covering website use, tour bookings, cancellation policy, payment terms and liability for all services.";
+$pageKeywords = "terms of service, terms and conditions, booking terms, Arihant Travels";
 $pageCanonical = "https://arihantlink.com/terms";
 $currentPage = "terms";
 
@@ -27,7 +27,7 @@ include 'includes/header.php';
                         <p class="text-muted"><strong>Last Updated:</strong> April 30, 2025</p>
                     </div>
 
-                    <p>Welcome to Arihant Travel (www.arihantlink.com). These Terms of Service ("Terms") govern your use
+                    <p>Welcome to Arihant Travels (www.arihantlink.com). These Terms of Service ("Terms") govern your use
                         of our website and the services we offer. By accessing or using our website and services, you
                         agree to be bound by these Terms. If you do not agree to these Terms, please do not use our
                         website or services.</p>
@@ -41,7 +41,7 @@ include 'includes/header.php';
                             <li>You must not misuse our website by knowingly introducing viruses, trojans, worms, logic
                                 bombs, or other material that is malicious or technologically harmful.</li>
                             <li>The content on this website, including text, graphics, logos, and images, is the
-                                property of Arihant Travel or its content suppliers and is protected by copyright laws.
+                                property of Arihant Travels or its content suppliers and is protected by copyright laws.
                             </li>
                         </ul>
                     </section>
@@ -49,7 +49,7 @@ include 'includes/header.php';
                     <section class="mb-5">
                         <h2 class="text-primary mb-3">2. Bookings and Payments</h2>
                         <ul>
-                            <li>All bookings made through our website or directly with Arihant Travel are subject to
+                            <li>All bookings made through our website or directly with Arihant Travels are subject to
                                 availability and confirmation.</li>
                             <li>Prices listed on the website are subject to change without notice. The final price will
                                 be confirmed at the time of booking.</li>
@@ -65,10 +65,10 @@ include 'includes/header.php';
                         <ul>
                             <li>Cancellation policies vary depending on the specific tour, activity, or service booked.
                                 Please refer to the specific cancellation policy provided at the time of booking.</li>
-                            <li>To cancel a booking, you must notify Arihant Travel in writing (e.g., via email).</li>
+                            <li>To cancel a booking, you must notify Arihant Travels in writing (e.g., via email).</li>
                             <li>Refunds, if applicable, will be processed according to the specific cancellation policy
                                 and may be subject to processing fees or deductions.</li>
-                            <li>Arihant Travel reserves the right to cancel or modify bookings due to unforeseen
+                            <li>Arihant Travels reserves the right to cancel or modify bookings due to unforeseen
                                 circumstances (e.g., weather conditions, operational issues). In such cases, we will
                                 offer alternatives or a full/partial refund as appropriate.</li>
                         </ul>
@@ -79,7 +79,7 @@ include 'includes/header.php';
                         <ul>
                             <li>It is your responsibility to ensure you have valid passports, visas, and meet any health
                                 requirements for your travel destination(s).</li>
-                            <li>Arihant Travel can provide general information on visa requirements but is not
+                            <li>Arihant Travels can provide general information on visa requirements but is not
                                 responsible for obtaining visas or ensuring compliance with entry/health regulations.
                             </li>
                             <li>We are not liable if you are denied entry into any country due to non-compliance with
@@ -90,7 +90,7 @@ include 'includes/header.php';
                     <section class="mb-5">
                         <h2 class="text-primary mb-3">5. Liability</h2>
                         <ul>
-                            <li>Arihant Travel acts as an agent for suppliers of travel services (e.g., airlines,
+                            <li>Arihant Travels acts as an agent for suppliers of travel services (e.g., airlines,
                                 hotels, tour operators). We are not liable for the acts, errors, omissions,
                                 representations, warranties, breaches, or negligence of any such suppliers or for any
                                 personal injuries, death, property damage, or other damages or expenses resulting
@@ -102,7 +102,7 @@ include 'includes/header.php';
                                 limited to the amount paid by you for the specific service in question.</li>
                             <li>We are not liable for any indirect, consequential, or incidental damages.</li>
                             <li>Participation in adventure activities (e.g., desert safari, dune bashing, water sports)
-                                involves inherent risks. You participate at your own risk, and Arihant Travel is not
+                                involves inherent risks. You participate at your own risk, and Arihant Travels is not
                                 liable for injuries or accidents that may occur during such activities.</li>
                         </ul>
                     </section>
@@ -116,7 +116,7 @@ include 'includes/header.php';
 
                     <section class="mb-5">
                         <h2 class="text-primary mb-3">7. Changes to Terms</h2>
-                        <p>Arihant Travel reserves the right to modify these Terms at any time. Any changes will be
+                        <p>Arihant Travels reserves the right to modify these Terms at any time. Any changes will be
                             effective immediately upon posting on the website. Your continued use of the website or
                             services after changes are posted constitutes your acceptance of the modified Terms.</p>
                     </section>

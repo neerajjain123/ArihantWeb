@@ -12,7 +12,7 @@
                     <a href="https://wa.me/971585945007" target="_blank" class="mb-3"><i
                             class="fab fa-whatsapp me-2"></i> WhatsApp Us</a>
                     <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank" class="mb-3"><i
-                            class="fab fa-google me-2"></i> Google Reviews — 4.8★</a>
+                            class="fab fa-google me-2"></i> Google Reviews — 4.9★</a>
                     <div class="d-flex align-items-center">
                         <i class="fas fa-share fa-2x text-white me-2"></i>
                         <a class="btn-square btn btn-primary rounded-circle mx-1"
@@ -106,7 +106,7 @@
     <div class="container">
         <div class="row g-4 align-items-center">
             <div class="col-md-12 text-center">
-                <i class="fas fa-copyright me-2"></i><a class="text-white" href="#">Arihant Travel</a>, All rights
+                <i class="fas fa-copyright me-2"></i><a class="text-white" href="/">Arihant Travels Pvt Ltd</a>, All rights
                 reserved.
             </div>
         </div>

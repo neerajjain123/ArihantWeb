@@ -156,7 +156,7 @@ include 'includes/wishlist-button.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Private Charters</h5>
-            <h1 class="mb-4">Luxury Yacht Rental Dubai &mdash; Private Yacht Charter from AED 425/Hour</h1>
+            <h2 class="h1 mb-4">Luxury Yacht Rental Dubai &mdash; Private Yacht Charter from AED 425/Hour</h2>
             <p class="mb-0 text-muted">Discover the breathtaking coastline of Dubai from the deck of your own private
                 yacht. We offer a range of luxury vessels tailored to your needs, whether it's a romantic sunset cruise
                 or a lively party with friends.</p>
@@ -210,7 +210,7 @@ include 'includes/wishlist-button.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Why Book With Us</h5>
-            <h2 class="mb-4">The Arihant Travel Experience</h2>
+            <h2 class="mb-4">The Arihant Travels Experience</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">

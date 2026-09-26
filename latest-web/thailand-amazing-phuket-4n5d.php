@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Amazing Phuket 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Amazing Phuket 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore Phuket with our Amazing Phuket 4 Nights / 5 Days package. Visit Phi Phi Islands, Maya Bay, Phuket city tour, and pristine beaches.";
 $pageKeywords = "amazing phuket package, phuket 4 nights 5 days, phi phi island tour, maya bay phuket, phuket holiday from dubai, thailand beach package uae, phuket travel";
 $pageCanonical = "https://arihantlink.com/thailand-amazing-phuket-4n5d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

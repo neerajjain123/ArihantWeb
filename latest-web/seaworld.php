@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "SeaWorld Abu Dhabi Tickets 2026 | Best Price + Hotel Transfer | Arihant Travel";
+$pageTitle = "SeaWorld Abu Dhabi Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book SeaWorld Yas Island tickets at the best price — 8 ocean realms, Manta coaster & marine animal encounters. Hotel transfer from Dubai included.";
 $pageKeywords = "SeaWorld Abu Dhabi, SeaWorld Yas Island, marine life theme park, Manta coaster, animal encounters Abu Dhabi, Yas Island attractions, ocean realms, SeaWorld tickets";
 $pageCanonical = "https://arihantlink.com/seaworld";
@@ -127,12 +127,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/seaworld",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "2100"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

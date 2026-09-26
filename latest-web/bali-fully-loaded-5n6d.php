@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Bali Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Bali Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Bali getaway with our Fully Loaded 5 Nights / 6 Days package. Explore Ubud & Kintamani, sunset at Tanah Lot Temple…";
 $pageKeywords = "bali fully loaded package, bali 5 nights 6 days, ubud kintamani tour, tanah lot temple tour, tanjung benoa water sports, bali safari marine park, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-fully-loaded-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

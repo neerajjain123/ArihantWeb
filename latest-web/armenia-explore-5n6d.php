@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Explore Armenia 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Explore Armenia 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore the best of Armenia with our 5 Nights / 6 Days tour package. Visit Yerevan, Geghard Monastery, Garni Temple, Tsaghkadzor, Lake Sevan, Khor Virap…";
 $pageKeywords = "explore armenia tour package, armenia 5 nights 6 days, yerevan garni geghard tour, lake sevan tsaghkadzor, khor virap noravank, areni wine tasting, armenia holiday from dubai, armenia travel uae";
 $pageCanonical = "https://arihantlink.com/armenia-explore-5n6d";
@@ -35,7 +35,7 @@ $schemaMarkup = '
     "url": "' . $pageCanonical . '",
     "seller": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

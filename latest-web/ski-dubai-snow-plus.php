@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Ski Dubai Snow Plus Pass Tickets 2026 | VIP + Hotel Transfer | Arihant Travel";
+$pageTitle = "Ski Dubai Snow Plus Pass Tickets 2026 | VIP + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book Ski Dubai Snow Plus Pass at the best price — unlimited Mountain Thriller, chairlift + choice of skiing, penguin encounter or Snow Bullet zipline.";
 $pageKeywords = "Ski Dubai Snow Plus Pass, Ski Dubai VIP tickets 2026, indoor skiing Dubai, penguin encounter Dubai, Snow Bullet zipline Ski Dubai, Mall of Emirates ski, Ski Dubai price 2026";
 $pageCanonical = "https://arihantlink.com/ski-dubai-snow-plus";
@@ -133,12 +133,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/ski-dubai-snow-plus",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "reviewCount": "189"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';
