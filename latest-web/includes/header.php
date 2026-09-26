@@ -103,7 +103,8 @@ $assetVersion = '1.0.8'; // Icon-font fix (mobile menu icon) + visa page styles
     <?php
     // Pages that should never be indexed (auth/legal/internal).
     $noindexPages = ['login', 'register', 'dashboard', 'logout', 'search', '404', 'page-template', 'blog-category',
-                     'my-bookings', 'wishlist', 'profile', 'forgot-password', 'reset-password'];
+                     'my-bookings', 'wishlist', 'profile', 'forgot-password', 'reset-password',
+                     'cart', 'checkout', 'order-confirmation'];
     // blog-category: /blog?category=X filtered views — crawlable but not indexable
     if ((isset($currentPage) && in_array($currentPage, $noindexPages, true)) || !empty($forceNoindex)): ?>
     <meta name="robots" content="noindex, follow">
@@ -286,6 +287,14 @@ $assetVersion = '1.0.8'; // Icon-font fix (mobile menu icon) + visa page styles
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <?php $cartBadgeCount = is_array($_SESSION['cart'] ?? null) ? count($_SESSION['cart']) : 0; ?>
+                    <a href="<?php echo $basePath; ?>cart" class="me-3 text-light position-relative" title="Your cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        <?php if ($cartBadgeCount > 0): ?>
+                            <span class="badge bg-danger rounded-pill position-absolute"
+                                  style="font-size:0.6rem; top:-8px; right:-12px;"><?php echo $cartBadgeCount; ?></span>
+                        <?php endif; ?>
+                    </a>
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <div class="dropdown">
                             <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i

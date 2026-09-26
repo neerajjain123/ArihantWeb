@@ -76,6 +76,7 @@ $schemaMarkup = '
 include 'includes/header.php';
 include 'includes/breadcrumb.php';
 include 'includes/wishlist-button.php';
+include 'includes/safari-booking-widget.php';
 ?>
 
 <!-- Trust band -->
