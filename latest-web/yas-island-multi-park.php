@@ -138,14 +138,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
     "opens": "10:00",
     "closes": "20:00"
-  },
-  "offers": {
-    "@type": "AggregateOffer",
-    "lowPrice": "400",
-    "highPrice": "525",
-    "priceCurrency": "AED",
-    "offerCount": "3",
-    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

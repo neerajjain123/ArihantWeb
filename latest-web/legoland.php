@@ -122,14 +122,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
     "opens": "10:00",
     "closes": "18:00"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "249",
-    "priceCurrency": "AED",
-    "availability": "https://schema.org/InStock",
-    "url": "https://arihantlink.com/legoland",
-    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

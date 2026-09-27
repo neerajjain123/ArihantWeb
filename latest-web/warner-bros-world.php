@@ -128,14 +128,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
     "opens": "10:00",
     "closes": "20:00"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "335",
-    "priceCurrency": "AED",
-    "availability": "https://schema.org/InStock",
-    "url": "https://arihantlink.com/warner-bros-world",
-    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

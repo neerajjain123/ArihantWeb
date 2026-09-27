@@ -20,7 +20,6 @@ $schemaMarkup = '
   "@context": "https://schema.org",
   "@type": "TouristTrip",
   "name": "Explore Tbilisi & Gudauri - 5 Nights / 6 Days Georgia Tour",
-  "name": "Tbilisi & Gudauri Heritage Exploration",
   "description": "' . $pageDescription . '",
   "touristType": ["Couples", "Families", "Friends", "Solo Travelers"],
   "image": [

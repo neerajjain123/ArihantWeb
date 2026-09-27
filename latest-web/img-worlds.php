@@ -128,15 +128,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "opens": "11:00",
       "closes": "22:00"
     }
-  ],
-  "offers": {
-    "@type": "Offer",
-    "price": "365",
-    "priceCurrency": "AED",
-    "availability": "https://schema.org/InStock",
-    "url": "https://arihantlink.com/img-worlds",
-    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
-  }
+  ]
 }
 </script>';
 

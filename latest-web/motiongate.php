@@ -121,14 +121,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
     "opens": "11:00",
     "closes": "20:00"
-  },
-  "offers": {
-    "@type": "Offer",
-    "price": "249",
-    "priceCurrency": "AED",
-    "availability": "https://schema.org/InStock",
-    "url": "https://arihantlink.com/motiongate",
-    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

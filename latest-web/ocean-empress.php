@@ -36,17 +36,7 @@ $schemaMarkup = '
     "@type": "GeoCoordinates",
     "latitude": "25.0784",
     "longitude": "55.1376"
-  },
-  "offers": [
-    {
-      "@type": "Offer",
-      "name": "Lower Deck - Food Only",
-      "price": "145",
-      "priceCurrency": "AED",
-      "availability": "https://schema.org/InStock",
-      "url": "' . $pageCanonical . '"
-    }
-  ]
+  }
 }
 </script>
 <script type="application/ld+json">
