@@ -142,6 +142,8 @@ include 'includes/header.php';
             <p class="mb-0">Every Georgia itinerary mixes cobblestone charm, UNESCO-listed monasteries, Caucasus
                 viewpoints, and Kakheti wine tasting. Choose the pace that suits your crew—weekend dash or leisurely
                 five-day vacation.</p>
+            <p class="mt-3 mb-0">Jain or vegetarian family? See our
+                <a href="/blog/tbilisi-package-from-dubai">5-night Tbilisi itinerary for Jain &amp; veg families</a>.</p>
         </div>
 
         <div class="row g-4">

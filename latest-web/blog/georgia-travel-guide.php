@@ -242,6 +242,9 @@ include '../includes/header.php';
                             explorer, Georgia has something special for every traveler.</p>
                     </section>
 
+                    <p class="mb-5"><strong>Travelling as a Jain or vegetarian family?</strong> Read our
+                        <a href="/blog/tbilisi-package-from-dubai">Tbilisi package from Dubai &mdash; 5-night itinerary for Jain &amp; veg families</a>.</p>
+
                     <!-- Why Choose Georgia -->
                     <section class="mb-5">
                         <h2 class="mb-4" style="color: #13357B; font-family: 'Jost', sans-serif;">Why Choose Georgia for

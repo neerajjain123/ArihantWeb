@@ -259,6 +259,8 @@ include 'includes/breadcrumb.php';
 
                 <!-- FAQ Section -->
                 <div class="mt-5 pt-4">
+                    <p class="mb-4"><strong>Want tickets plus transfers in one booking?</strong>
+                        See our <a href="/ferrari-world-packages">Ferrari World Abu Dhabi packages</a> &mdash; ticket combos with Dubai pickup.</p>
                     <h3 class="mb-4">Frequently Asked Questions</h3>
                     <div class="accordion accordion-flush shadow-sm rounded border" id="faqAccordion">
                         <?php foreach ($faqs as $index => $faq): ?>
