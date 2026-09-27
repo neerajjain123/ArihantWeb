@@ -7,8 +7,8 @@
 $basePath = "../";
 
 // SEO
-$pageTitle       = "UAE Visa 2026 Guide | New Rules, GCC Unified Visa, Fees";
-$pageDescription = "The complete 2026 UAE visa guide: new GCC Unified Tourist Visa, AI / Blue / Job Seeker categories, Golden Visa expansion, updated fees…";
+$pageTitle       = "UAE Visa Changes 2026: New Rules, GCC Unified Visa & Fees";
+$pageDescription = "Every UAE visa change for 2026 in one place: the GCC Unified Tourist Visa, new visit visa categories, Golden Visa expansion, updated fees and overstay rules.";
 $pageKeywords    = "UAE visa 2026, GCC Unified Tourist Visa, UAE Golden Visa 2026, Dubai visa fees 2026, UAE visa for Indians 2026, Blue Visa, AI Specialist Visa, UAE visa requirements 2026, UAE overstay 2026";
 $pageCanonical   = "https://arihantlink.com/blog/uae-visa-2026-guide";
 $currentPage     = "blog";

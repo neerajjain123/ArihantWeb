@@ -97,10 +97,10 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     {
       "@type": "Question",
-      "name": "Can we visit Jain temples in Dubai?",
+      "name": "Can we visit the Jain temple in Dubai?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, there are Jain temples in Dubai located in the Bur Dubai area. Arihant Travels can include Jain temple visits as part of your city tour itinerary so you can perform Darshan comfortably during your Dubai trip."
+        "text": "Yes, Dubai has a Jain derasar in Bur Dubai. Arihant Travels can include a derasar visit as part of your city tour itinerary so you can perform Darshan comfortably during your Dubai trip."
       }
     },
     {
@@ -203,7 +203,7 @@ include 'includes/header.php';
                 <div class="bg-white rounded p-4 h-100 text-center shadow-sm">
                     <i class="fas fa-om fa-3x text-warning mb-3"></i>
                     <h4 class="mb-3">Temple & Darshan Tours</h4>
-                    <p class="text-muted mb-0">We arrange visits to <strong>Jain temples in Dubai</strong> (Bur Dubai) and the stunning <strong>BAPS Swaminarayan Mandir in Abu Dhabi</strong>. Perform Darshan comfortably during your holiday.</p>
+                    <p class="text-muted mb-0">We arrange visits to the <a href="/jain-temple-dubai"><strong>Jain derasar in Bur Dubai</strong></a> and the stunning <strong>BAPS Swaminarayan Mandir in Abu Dhabi</strong>. Perform Darshan comfortably during your holiday.</p>
                 </div>
             </div>
         </div>
@@ -416,7 +416,7 @@ include 'includes/header.php';
                 <div class="card h-100 border-0 shadow-sm text-center p-4">
                     <i class="fas fa-om fa-3x text-warning mb-3"></i>
                     <h5>Swaminarayan Temple Tour</h5>
-                    <p class="text-muted small">Visit BAPS Mandir Abu Dhabi + Jain temples in Dubai. Full religious tour with pure vegetarian meals throughout.</p>
+                    <p class="text-muted small">Visit BAPS Mandir Abu Dhabi + the Jain derasar in Dubai. Full religious tour with pure vegetarian meals throughout.</p>
                     <a href="https://wa.me/971585945007?text=Hi, I want a Dubai + Abu Dhabi Swaminarayan Temple Tour package" target="_blank" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Get Quote</a>
                 </div>
             </div>

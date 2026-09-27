@@ -3,8 +3,8 @@
 // Targets: "48 hour transit visa", "uae 48 hour visa", "dubai layover free visa"
 // Angle: free if airline-issued, AED 200 through us.
 
-$pageTitle       = "UAE 48-Hour Transit Visa 2026 | Free via Airline or AED 200 | Arihant";
-$pageDescription = "UAE 48-hour transit visa — free if applied via Emirates, Etihad, flydubai or Air Arabia, or AED 200 through Arihant. 2-day Dubai layover stay. No hotel booking needed.";
+$pageTitle       = "UAE 48-Hour Transit Visa 2026: Free via Airline or AED 200";
+$pageDescription = "Step out of the airport on a Dubai layover. The 48-hour transit visa is free when Emirates, Etihad, flydubai or Air Arabia apply for you, or AED 200 through us.";
 $pageKeywords    = "48 hour transit visa, uae 48 hour transit visa, dubai 48 hour visa, free uae transit visa, uae layover visa, emirates transit visa, etihad transit visa, flydubai transit visa";
 $pageCanonical   = "https://arihantlink.com/uae-48-hour-transit-visa";
 $currentPage     = "uae-visa";

@@ -8,8 +8,8 @@ $basePath = "../";
 
 // Blog Post SEO Variables
 // Blog Post SEO Variables
-$pageTitle = "Jain Family Dubai Trip Guide 2026: Food, Temples & Itinerary | Arihant Travels";
-$pageDescription = "Ultimate Jain-friendly Dubai travel guide 2026. Discover 100+ pure veg restaurants, Jain temples in Dubai & Abu Dhabi, custom itineraries…";
+$pageTitle = "Jain Family Dubai Trip Guide 2026: Food, Derasar & Itinerary";
+$pageDescription = "Planning Dubai with a Jain family? Where to find Jain food, how to visit the Bur Dubai derasar, the best areas to stay and a day-by-day itinerary.";
 $pageKeywords = "jain family dubai trip, pure vegetarian dubai, jain food dubai, jain restaurants dubai, jain temple dubai timings, sattvic food dubai, jain travel guide, vegetarian dubai tour packages, dubai trip from india for jain, dubai desert safari jain food";
 $pageCanonical = "https://arihantlink.com/blog/jain-family-dubai-trip-guide";
 $currentPage = "blog";
@@ -38,7 +38,7 @@ $schemaMarkup = '
     }
   },
   "datePublished": "2025-12-20",
-  "dateModified": "2026-03-02",
+  "dateModified": "2026-09-27",
   "description": "Complete Jain-friendly Dubai travel guide with pure vegetarian restaurants, temple darshan, sattvic food options.",
   "articleSection": "Travel Guide",
   "keywords": "Jain Food, Dubai Temples, Vegetarian Travel, Family Trip",
@@ -85,7 +85,7 @@ $schemaMarkup = '
     "name": "Is Dubai good for Jain families?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes! Dubai is an excellent destination for Jain families. It features multiple Jain temples, over 100 pure vegetarian restaurants, and a large Indian community. You can easily find Jain-specific meals (no onion, no garlic) at most Indian restaurants and hotels."
+      "text": "Yes! Dubai is an excellent destination for Jain families. It has a Jain derasar in Bur Dubai, over 100 pure vegetarian restaurants, and a large Indian community. You can easily find Jain-specific meals (no onion, no garlic) at most Indian restaurants and hotels."
     }
   },{
     "@type": "Question",
@@ -99,7 +99,7 @@ $schemaMarkup = '
     "name": "Is there a Jain temple in Dubai?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, there is a Jain Temple located in the Meena Bazaar area of Bur Dubai. Darshan timings are typically 6:00 AM - 12:00 PM and 5:00 PM - 9:00 PM. Additionally, a new stone temple has been constructed in Abu Dhabi."
+      "text": "Yes. Dubai has a Jain derasar (ghar derasar) in Musalla Tower, Bur Dubai, near Al Fahidi Metro and Meena Bazaar. It follows the Svetambara tradition and the moolnayak is Bhagwan Vimalnath. It is open for morning and evening darshan; confirm timings on the day."
     }
   },{
     "@type": "Question",
@@ -117,7 +117,7 @@ $blogTitle = "Ultimate Jain Family Dubai Trip Guide 2026: Pure Vegetarian Travel
 $blogCategory = "Jain-Friendly";
 $blogCategoryClass = "primary";
 $blogAuthor = "Shweta Jain - Arihant Travels";
-$blogDate = "December 20, 2025";
+$blogDate = "Updated September 27, 2026";
 $blogReadTime = "12 min read";
 $blogFeaturedImage = "../img/carousel-4.jpg";
 $blogImageAlt = "Jain family enjoying Dubai attractions with pure vegetarian dining options";
@@ -245,6 +245,15 @@ include '../includes/header.php';
                 <div class="blog-content" style="line-height: 1.8; font-size: 17px;">
 
                     <!-- Section 1: Introduction -->
+                    <div class="p-4 bg-light rounded border-start border-5 border-success mb-5">
+                        <h5 class="text-success mb-3"><i class="fa fa-bookmark me-2"></i>Quick guides</h5>
+                        <ul class="mb-0">
+                            <li><a href="/jain-food-dubai"><strong>Jain food in Dubai</strong></a> &mdash; 45+ pure-veg restaurants by area, and how to order Jain</li>
+                            <li><a href="/jain-temple-dubai"><strong>Jain temple (derasar) in Dubai</strong></a> &mdash; location, how to get there and what to know</li>
+                            <li><a href="/dubai-tour-packages-jain-food"><strong>Jain Dubai tour packages</strong></a> &mdash; guaranteed Jain meals and derasar darshan included</li>
+                        </ul>
+                    </div>
+
                     <section id="section-1" class="mb-5">
                         <h2 class="mb-4" style="color: var(--bs-primary); font-family: 'Jost', sans-serif;">
                             1. Why Dubai is Perfect for Jain Families
@@ -252,7 +261,7 @@ include '../includes/header.php';
                         <p>
                             Dubai has emerged as one of the most <strong>Jain-friendly international
                                 destinations</strong>, offering an impressive array of <strong>pure vegetarian
-                                restaurants</strong>, multiple <strong>Jain temples</strong>, and extensive <strong>Jain
+                                restaurants</strong>, a <strong>Jain derasar</strong> in Bur Dubai, and extensive <strong>Jain
                                 food</strong> availability. For families seeking a seamless vacation, finding the right
                             <strong>Dubai tour package for Jain families</strong> is easier than ever, thanks to a large
                             Indian expatriate community that understands strict dietary and cultural requirements.
@@ -268,7 +277,7 @@ include '../includes/header.php';
                             <h5 class="text-primary mb-3"><i class="fa fa-check-circle me-2"></i>Key Benefits for Jain
                                 Travelers</h5>
                             <ul class="mb-0">
-                                <li><strong>Multiple Jain temples</strong> for daily darshan and spiritual practices
+                                <li><strong>A Jain derasar in Bur Dubai</strong> for darshan during your stay
                                 </li>
                                 <li><strong>100+ pure vegetarian restaurants</strong> serving Jain, Gujarati, and South
                                     Indian cuisine</li>
@@ -354,7 +363,7 @@ include '../includes/header.php';
                     <!-- Section 3: Jain Temples -->
                     <section id="section-3" class="mb-5">
                         <h2 class="mb-4" style="color: var(--bs-primary); font-family: 'Jost', sans-serif;">
-                            3. Jain Temples in Dubai & Abu Dhabi
+                            3. Jain Derasar in Dubai (and Temples Nearby)
                         </h2>
 
                         <div class="row g-4">
@@ -362,15 +371,10 @@ include '../includes/header.php';
                                 <div class="card h-100 border-primary">
                                     <div class="card-body">
                                         <h4 class="card-title text-primary"><i
-                                                class="fa fa-map-marker-alt me-2"></i>Jain Temple, Bur Dubai</h4>
-                                        <p><strong>Location:</strong> Meena Bazaar Area, Bur Dubai</p>
-                                        <p><strong>Darshan Timings:</strong><br>
-                                            Morning: 6:00 AM - 12:00 PM<br>
-                                            Evening: 5:00 PM - 9:00 PM
-                                        </p>
-                                        <p><strong>Deity:</strong> Shri Mahavir Swami</p>
-                                        <p class="mb-0"><strong>Facilities:</strong> Prayer hall, religious books
-                                            library, community center</p>
+                                                class="fa fa-map-marker-alt me-2"></i>Jain Derasar, Bur Dubai</h4>
+                                        <p><strong>Location:</strong> Musalla Tower, Bur Dubai (near Al Fahidi Metro and Meena Bazaar)</p>
+                                        <p><strong>Moolnayak:</strong> Bhagwan Vimalnath (Śvetāmbara ghar derasar)</p>
+                                        <p class="mb-0"><strong>Darshan:</strong> morning and evening &mdash; confirm timings on the day, especially around Paryushan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -378,40 +382,20 @@ include '../includes/header.php';
                                 <div class="card h-100 border-primary">
                                     <div class="card-body">
                                         <h4 class="card-title text-primary"><i
-                                                class="fa fa-map-marker-alt me-2"></i>Jain Temple, Abu Dhabi</h4>
-                                        <p><strong>Location:</strong> Mussafah, Abu Dhabi</p>
-                                        <p><strong>Darshan Timings:</strong><br>
-                                            Daily: 6:00 AM - 12:00 PM, 5:00 PM - 9:00 PM
-                                        </p>
-                                        <p><strong>Special Events:</strong> Mahavir Jayanti, Paryushan celebrations</p>
-                                        <p class="mb-0"><strong>Note:</strong> Contact temple committee for special puja
-                                            arrangements</p>
+                                                class="fa fa-map-marker-alt me-2"></i>BAPS Hindu Mandir, Abu Dhabi</h4>
+                                        <p><strong>Note:</strong> a Hindu temple, not a Jain one &mdash; but many Jain families include it on an Abu Dhabi day trip.</p>
+                                        <p class="mb-0">We aren&rsquo;t aware of a public Jain derasar in Abu Dhabi; the Bur Dubai derasar is the nearest.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="p-4 bg-light rounded border-start border-5 border-info my-4">
-                            <h5 class="text-info mb-3"><i class="fa fa-info-circle me-2"></i>Important Information</h5>
+                            <h5 class="text-info mb-3"><i class="fa fa-info-circle me-2"></i>Full visitor guide</h5>
                             <p class="mb-0">
-                                Both temples offer a peaceful environment for prayers and meditation. Dress modestly and
-                                follow temple etiquette. Temple administrative offices can help arrange special
-                                religious ceremonies.
+                                How to get there, what to wear and where to eat nearby:
+                                <a href="/jain-temple-dubai">Jain temple (derasar) in Dubai &rarr;</a>
                             </p>
-                        </div>
-                    </section>
-
-                    <!-- CTA Section: WhatsApp Booking -->
-                    <div class="card bg-primary text-white mb-5">
-                        <div class="card-body text-center p-5">
-                            <h3 class="text-white mb-3"><i class="fa fa-leaf me-2"></i>Plan Your Jain-Friendly Dubai
-                                Trip</h3>
-                            <p class="mb-4">Let us create a customized Dubai itinerary with guaranteed pure vegetarian
-                                meals, temple visits, and culturally aligned experiences for your Jain family!</p>
-                            <a href="https://wa.me/971585945007?text=I%20want%20to%20plan%20a%20Jain-friendly%20Dubai%20trip"
-                                target="_blank" class="btn btn-light btn-lg rounded-pill px-5 py-3">
-                                <i class="fab fa-whatsapp me-2"></i>Chat with Our Travel Experts
-                            </a>
                         </div>
                     </div>
 
@@ -483,7 +467,7 @@ include '../includes/header.php';
                                 <div id="day2" class="accordion-collapse collapse" data-bs-parent="#itineraryAccordion">
                                     <div class="accordion-body">
                                         <ul>
-                                            <li><strong>Morning:</strong> Jain Temple darshan (6:00 AM)</li>
+                                            <li><strong>Morning:</strong> Darshan at the Bur Dubai Jain derasar</li>
                                             <li><strong>Breakfast:</strong> Govinda's (sattvic breakfast)</li>
                                             <li><strong>Afternoon:</strong> Old Dubai – Gold Souk, Spice Souk</li>
                                             <li><strong>Evening:</strong> Dubai Creek Abra ride</li>
@@ -524,7 +508,7 @@ include '../includes/header.php';
                                     <div class="accordion-body">
                                         <ul>
                                             <li><strong>Morning:</strong> Drive to Abu Dhabi</li>
-                                            <li><strong>Visit:</strong> Jain Temple Abu Dhabi for darshan</li>
+                                            <li><strong>Visit:</strong> BAPS Hindu Mandir, Abu Dhabi</li>
                                             <li><strong>Afternoon:</strong> Sheikh Zayed Grand Mosque</li>
                                             <li><strong>Visit:</strong> Emirates Palace, Corniche</li>
                                             <li><strong>Lunch:</strong> Pure vegetarian restaurant in Abu Dhabi</li>
@@ -581,10 +565,9 @@ include '../includes/header.php';
                                         <h5 class="card-title text-primary"><i class="fa fa-heart me-2"></i>Spiritual
                                             Practices</h5>
                                         <ul class="small mb-0">
-                                            <li>Temple timings: 6 AM – 12 PM, 5 PM – 9 PM</li>
+                                            <li>Confirm derasar timings on the day of your visit</li>
                                             <li>Carry your puja items from home</li>
-                                            <li>Meditation spaces available at both temples</li>
-                                            <li>Religious books library at Dubai temple</li>
+                                                                                        <li>Remove footwear and avoid leather items at the derasar</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -599,7 +582,7 @@ include '../includes/header.php';
                         </h2>
                         <p>
                             Dubai offers an exceptional experience for Jain families with its abundance of pure
-                            vegetarian restaurants, well-maintained Jain temples, and understanding of Indian cultural
+                            vegetarian restaurants, a Jain derasar in Bur Dubai, and understanding of Indian cultural
                             values. With proper planning and our Jain-friendly travel packages, your family can enjoy a
                             memorable and spiritually fulfilling Dubai vacation.
                         </p>

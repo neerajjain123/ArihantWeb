@@ -4,8 +4,8 @@ require_once __DIR__ . '/includes/visa-prices.php';
 //  UAE VISA FROM MUMBAI — city-of-origin landing page
 // =============================================================================
 
-$pageTitle       = "UAE Visa from Mumbai 2026 | Apply Online from AED " . number_format(visa_price('tourist-30-single'));
-$pageDescription = "Apply for a UAE tourist visa from Mumbai online. 30-day from AED " . number_format(visa_price('tourist-30-single')) . ", 60-day from AED " . number_format(visa_price('tourist-60-multi')) . ". We file remotely — no agent visit.";
+$pageTitle       = "Mumbai to Dubai Visa Price 2026 | From ₹" . number_format(visa_price('tourist-30-single', 'price_inr')) . " (AED " . number_format(visa_price('tourist-30-single')) . ")";
+$pageDescription = "Mumbai to Dubai visa price 2026: 30-day from ₹" . number_format(visa_price('tourist-30-single', 'price_inr')) . " (AED " . number_format(visa_price('tourist-30-single')) . "), 60-day from AED " . number_format(visa_price('tourist-60-single')) . ". Apply online from Mumbai with a free document check.";
 $pageKeywords    = "UAE visa from Mumbai, Dubai visa from Mumbai, UAE tourist visa Mumbai, Dubai visa apply Mumbai, UAE visa BKC, UAE visa fees Mumbai 2026, Mumbai to Dubai visa cost, BOM Dubai flights, UAE visa for Mumbaikars";
 $pageCanonical   = "https://arihantlink.com/uae-visa-from-mumbai";
 $currentPage     = "uae-visa-from-mumbai";
