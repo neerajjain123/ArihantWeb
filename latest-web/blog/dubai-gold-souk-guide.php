@@ -1,8 +1,8 @@
 <?php
 $basePath = "../";
 // CTR rescue: targets "dubai gold souk deals" (222 imp, pos 8.42, 0% CTR previously). Title now leads with "Deals" + "2026" + concrete price range.
-$pageTitle = "Dubai Gold Souk Deals 2026: Live Prices, Bargaining Script & Best Shops (Local Guide)";
-$pageDescription = "Dubai Gold Souk deals 2026 — live gold prices per gram (AED 580–627), exact bargaining script that saves 8–15%, best 7 shops, Friday hours, VAT refund. Updated weekly.";
+$pageTitle = "Dubai Gold Souk Timings, Prices & Making Charges (2026 Guide)";
+$pageDescription = "Dubai Gold Souk opening hours (Fridays from 4 PM), how gold is priced per gram, typical making charges, how to bargain them down, best shops and VAT refund.";
 $pageKeywords = "dubai gold souk deals, Dubai Gold Souk, Dubai Gold Souk guide 2026, Gold Souq Dubai, gold prices Dubai 2026, bargaining Gold Souk, best time visit Gold Souk, Gold Souk opening hours Friday, VAT refund Dubai gold";
 $pageCanonical = "https://arihantlink.com/blog/dubai-gold-souk-guide";
 $currentPage = "blog";

@@ -1690,10 +1690,10 @@ include 'includes/header.php';
         },
         {
             "@type": "Question",
-            "name": "Can we visit Jain temples in Dubai?",
+            "name": "Can we visit the Jain temple in Dubai?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, we can include visits to the Jain temples in Dubai (Bur Dubai) as part of your city tour itinerary to ensure you can perform Darshan comfortably."
+                "text": "Yes. Dubai has a Jain derasar in Bur Dubai, and we can include it in your city tour so you can perform darshan comfortably."
             }
         },
         {
@@ -1759,13 +1759,12 @@ include 'includes/header.php';
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree">
-                                Can we visit Jain temples in Dubai?
+                                Can we visit the Jain temple in Dubai?
                             </button>
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, we can include visits to the Jain temples in Dubai (Bur Dubai) as part of your city
-                                tour itinerary to ensure you can perform Darshan comfortably.
+                                Yes. Dubai has a <a href="/jain-temple-dubai">Jain derasar in Bur Dubai</a>, and we can include it in your city tour so you can perform darshan comfortably.
                             </div>
                         </div>
                     </div>

@@ -384,7 +384,7 @@ include 'includes/header.php';
                             <i class="fas fa-om fa-3x text-warning"></i>
                         </div>
                         <h5 class="card-title">Temple & Darshan Tours</h5>
-                        <p class="card-text">Visit Jain temples in Dubai (Bur Dubai) and the BAPS Swaminarayan Mandir in Abu Dhabi. We handle pre-registration and arrange comfortable transport.</p>
+                        <p class="card-text">Visit the <a href="/jain-temple-dubai">Jain derasar in Bur Dubai</a> and the BAPS Swaminarayan Mandir in Abu Dhabi. We handle pre-registration and arrange comfortable transport.</p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,55 @@
+/* =============================================================================
+   JAIN GUIDES — /jain-temple-dubai and /jain-food-dubai
+   Builds on css/visa.css (compact hero). Brand tokens from style.css.
+   ============================================================================= */
+
+.jain-facts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 8px;
+}
+.jain-facts__item {
+    display: flex; align-items: center; gap: 12px;
+    background: #fff;
+    border: 1px solid var(--border, #DEE2E6);
+    border-radius: 12px;
+    padding: 12px 14px;
+}
+.jain-facts__item i {
+    flex: 0 0 36px; height: 36px; border-radius: 10px;
+    display: inline-flex; align-items: center; justify-content: center;
+    background: #EEF5FA; color: var(--primary, #3A7CA4);
+}
+.jain-facts__item strong { display: block; font-size: .78rem; color: var(--text-light, #666); font-weight: 500; }
+.jain-facts__item span { font-size: .95rem; color: var(--dark, #212529); }
+
+.jain-area-nav { display: flex; flex-wrap: wrap; gap: 8px; }
+.jain-area-nav a {
+    border: 1px solid var(--border, #DEE2E6);
+    background: #fff;
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: .88rem;
+    text-decoration: none;
+    color: var(--text, #333);
+}
+.jain-area-nav a:hover { border-color: var(--primary, #3A7CA4); color: var(--primary, #3A7CA4); }
+
+.jain-badge {
+    display: inline-block;
+    background: #EAF3DE; color: #27500A;
+    font-size: .72rem; font-weight: 500;
+    padding: 2px 8px; border-radius: 999px;
+    white-space: nowrap;
+}
+
+.jain-table td, .jain-table th { font-size: .92rem; vertical-align: middle; }
+
+@media (max-width: 575px) {
+    .jain-facts { grid-template-columns: 1fr 1fr; }
+    .jain-area-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+    .jain-area-nav::-webkit-scrollbar { display: none; }
+    .jain-area-nav a { flex: 0 0 auto; white-space: nowrap; }
+    .jain-table td:nth-child(2), .jain-table th:nth-child(2) { display: none; }
+}

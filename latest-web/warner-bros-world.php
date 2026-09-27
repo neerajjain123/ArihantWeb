@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
 // CTR rescue: targets "warner bros world abu dhabi ticket price 2026" (235 imp, pos 8.30, 0% CTR previously). Description now leads with concrete 2026 price and savings — what searchers actually want at this query.
-$pageTitle = "Warner Bros World Abu Dhabi Ticket Price 2026 (From AED 345 + Free Dubai Transfer)";
-$pageDescription = "Warner Bros World Abu Dhabi 2026 ticket price from AED 345 — multi-park combos from AED 395 (save up to 40%). Free Dubai hotel pickup. World's largest indoor theme park. Live availability.";
+$pageTitle = "Warner Bros World Abu Dhabi Ticket Price 2026 | From AED 345";
+$pageDescription = "Warner Bros World Abu Dhabi tickets from AED 345, multi-park combos from AED 395, with free pickup from your Dubai hotel. What's inside and FAQs.";
 $pageKeywords = "warner bros world abu dhabi ticket price 2026, Warner Bros World Abu Dhabi, warner bros tickets, Batman Knight Flight, Tom and Jerry Swiss Cheese Spin, Warner Bros Abu Dhabi tickets, indoor theme park Abu Dhabi, Gotham City rides, Metropolis DC Comics";
 $pageCanonical = "https://arihantlink.com/warner-bros-world";
 $currentPage = "excursions";

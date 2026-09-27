@@ -340,7 +340,7 @@ include 'includes/header.php';
                             <div class="accordion-body">
                                 <p><strong>Arrival:</strong> Meet &amp; greet at Dubai International Airport (DXB). Private transfer to hotel.</p>
                                 <p><strong>Hotel check-in:</strong> 4-star property in central Dubai with Jain breakfast pre-arranged with the hotel kitchen.</p>
-                                <p><strong>Evening:</strong> Visit Shri Mahavir Jain Temple at Bur Dubai (timings allowing). Light Jain dinner at a partner restaurant near the temple.</p>
+                                <p><strong>Evening:</strong> Darshan at the Bur Dubai Jain derasar (timings allowing). Light Jain dinner at a partner restaurant near the temple.</p>
                                 <p class="mb-0"><em class="text-primary"><i class="fas fa-utensils me-1"></i> Meals confirmed Jain: Dinner</em></p>
                             </div>
                         </div>
@@ -497,6 +497,10 @@ include 'includes/header.php';
     <div class="container">
         <div class="text-center mb-5">
             <h5 class="section-title px-3">FAQ</h5>
+            <p class="mb-4"><strong>Planning on your own too?</strong> See our free guides:
+                <a href="/jain-food-dubai">Jain food in Dubai</a> &middot;
+                <a href="/jain-temple-dubai">Jain temple (derasar) in Dubai</a> &middot;
+                <a href="/blog/jain-family-dubai-trip-guide">Jain family trip guide</a></p>
             <h2 style="color: var(--bs-primary); font-family: 'Jost', sans-serif;">Frequently Asked Questions</h2>
         </div>
         <div class="row justify-content-center">

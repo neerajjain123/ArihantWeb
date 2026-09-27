@@ -1,7 +1,7 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Ferrari World Abu Dhabi Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
-$pageDescription = "Book Ferrari World Abu Dhabi tickets at the best price — Formula Rossa, Flying Aces & 40+ rides. Includes hotel transfer from Dubai.";
+$pageTitle = "Ferrari World Abu Dhabi Ticket Price 2026 | From AED 335";
+$pageDescription = "Ferrari World Abu Dhabi tickets from AED 335: Formula Rossa, Flying Aces and 40+ rides, with hotel transfer from Dubai. Ride guide, kids' zone and FAQs.";
 $pageKeywords = "Ferrari World Abu Dhabi guide, Ferrari World itinerary, Formula Rossa, Ferrari World for kids, Family Zone Ferrari World, Yas Island attractions, Ferrari World tips, best rides Ferrari World";
 $pageCanonical = "https://arihantlink.com/ferrari-world";
 $currentPage = "excursions";
