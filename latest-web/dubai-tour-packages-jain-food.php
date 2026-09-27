@@ -500,6 +500,7 @@ include 'includes/header.php';
             <p class="mb-4"><strong>Planning on your own too?</strong> See our free guides:
                 <a href="/jain-food-dubai">Jain food in Dubai</a> &middot;
                 <a href="/jain-temple-dubai">Jain temple (derasar) in Dubai</a> &middot;
+                <a href="/jain-desert-safari-dubai">Jain desert safari (dinner before sunset)</a> &middot;
                 <a href="/blog/jain-family-dubai-trip-guide">Jain family trip guide</a></p>
             <h2 style="color: var(--bs-primary); font-family: 'Jost', sans-serif;">Frequently Asked Questions</h2>
         </div>

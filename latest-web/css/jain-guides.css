@@ -46,6 +46,35 @@
 
 .jain-table td, .jain-table th { font-size: .92rem; vertical-align: middle; }
 
+/* ---- Jain desert safari product ------------------------------------------ */
+.jain-price { margin: 0 0 16px; display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 10px; }
+.jain-price__amount { font-size: 1.9rem; font-weight: 600; color: var(--primary-dark, #13357B); line-height: 1; }
+.jain-price__inr { font-size: .9rem; color: var(--text-light, #666); }
+
+.jain-timeline { list-style: none; padding: 0; margin: 0 0 1.5rem; counter-reset: step; }
+.jain-timeline li {
+    position: relative; padding: 0 0 18px 44px; counter-increment: step;
+    display: flex; flex-direction: column; gap: 2px;
+}
+.jain-timeline li::before {
+    content: counter(step); position: absolute; left: 0; top: 0;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--primary-dark, #13357B); color: #fff;
+    display: flex; align-items: center; justify-content: center; font-size: .85rem; font-weight: 600;
+}
+.jain-timeline li::after {
+    content: ""; position: absolute; left: 14px; top: 32px; bottom: 2px; width: 2px; background: var(--border, #DEE2E6);
+}
+.jain-timeline li:last-child::after { display: none; }
+.jain-timeline span { color: var(--text-light, #666); font-size: .95rem; }
+
+.jain-list li { position: relative; padding: 4px 0 4px 26px; }
+.jain-list li::before { position: absolute; left: 0; top: 4px; font-family: "Font Awesome 5 Free"; font-weight: 900; }
+.jain-list--yes li::before { content: "\f00c"; color: #3B6D11; }
+.jain-list--no li::before { content: "\f00d"; color: #A32D2D; }
+
+.jain-book-card { position: sticky; top: 90px; }
+
 @media (max-width: 575px) {
     .jain-facts { grid-template-columns: 1fr 1fr; }
     .jain-area-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }

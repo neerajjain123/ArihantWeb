@@ -7,7 +7,7 @@
 // =============================================================================
 
 $pageTitle       = "Dubai Desert Safari with Jain Food | From AED 99 | Arihant Travels";
-$pageDescription = "Dubai desert safari with pure Jain & vegetarian dinner. Standard, VIP, Premium, Morning, Overnight & Quad bike. Compare 6 packages, see pickup zones, book on WhatsApp.";
+$pageDescription = "Dubai desert safari with pure Jain & vegetarian dinner. Standard, VIP, Jain Family (dinner before sunset), Premium, Morning, Overnight & Quad. Compare 7 packages, see pickup zones, book on WhatsApp.";
 $pageKeywords    = "Dubai desert safari, desert safari Dubai, dune bashing, evening desert safari, morning desert safari, overnight desert safari, premium desert safari, VIP desert safari, quad bike Dubai, desert safari with Jain food, vegetarian desert safari, desert safari for Indian families, Lehbab Red Dunes, desert safari pickup, desert safari prices 2026";
 $pageCanonical   = "https://arihantlink.com/desert-safari";
 $currentPage     = "desert-safari";
@@ -25,7 +25,7 @@ $schemaMarkup = '
     "@context": "https://schema.org",
     "@type": "ItemList",
     "name": "Dubai Desert Safari Packages",
-    "description": "Six desert safari packages from Arihant Travels — Standard, VIP, Premium, Morning, Overnight and Quad Bike. All evening safaris include pure vegetarian / Jain food options.",
+    "description": "Seven desert safari packages from Arihant Travels — Standard, VIP, Jain Family, Premium, Morning, Overnight and Quad Bike. All evening safaris include pure vegetarian / Jain food options.",
     "itemListOrder": "https://schema.org/ItemListOrderAscending",
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "url": "https://arihantlink.com/standard-desert-safari",  "name": "Standard Evening Safari"},
@@ -33,14 +33,15 @@ $schemaMarkup = '
       {"@type": "ListItem", "position": 3, "url": "https://arihantlink.com/premium-desert-safari",   "name": "Premium Evening Safari (Lehbab Red Dunes)"},
       {"@type": "ListItem", "position": 4, "url": "https://arihantlink.com/morning-desert-safari",   "name": "Morning Desert Safari"},
       {"@type": "ListItem", "position": 5, "url": "https://arihantlink.com/overnight-desert-safari", "name": "Overnight Desert Safari"},
-      {"@type": "ListItem", "position": 6, "url": "https://arihantlink.com/quad-bike-safari",        "name": "Quad Bike Safari"}
+      {"@type": "ListItem", "position": 6, "url": "https://arihantlink.com/quad-bike-safari",        "name": "Quad Bike Safari"},
+      {"@type": "ListItem", "position": 7, "url": "https://arihantlink.com/jain-desert-safari-dubai", "name": "Jain Family Desert Safari"}
     ]
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Dubai Desert Safari — Packages, Prices, Pickup Zones & Jain-Friendly Options",
-    "description": "Complete guide to booking a Dubai desert safari with Arihant Travels: comparison of 6 packages, what dune bashing actually feels like, Jain food at desert safari camps, pickup zones across Dubai/Sharjah/Abu Dhabi, fitness guidance, and 2026 prices.",
+    "description": "Complete guide to booking a Dubai desert safari with Arihant Travels: comparison of 7 packages, what dune bashing actually feels like, Jain food at desert safari camps, pickup zones across Dubai/Sharjah/Abu Dhabi, fitness guidance, and 2026 prices.",
     "author": {"@type": "Organization", "name": "Arihant Travels Desert Desk", "url": "https://arihantlink.com"},
     "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2024-01-01",
@@ -105,7 +106,7 @@ include 'includes/safari-booking-widget.php';
                     </div>
 
                     <p class="lead" style="font-size:1.15rem; color:var(--text-light);">
-                        We run six desert safari packages out of Dubai, all with pure vegetarian
+                        We run seven desert safari packages out of Dubai, all with pure vegetarian
                         and Jain food options on every evening run. This page is the full reference:
                         compare every package side by side, see what dune bashing actually feels
                         like, check the Jain-food details (no onion, no garlic, separate
@@ -128,7 +129,7 @@ include 'includes/safari-booking-widget.php';
                         <li><strong>Adrenaline first, everything else second</strong> &mdash; <a href="#quad">Quad Bike Safari</a> (AED 350).</li>
                     </ul>
 
-                    <h2 id="comparison">Compare all 6 packages side by side</h2>
+                    <h2 id="comparison">Compare all 7 packages side by side</h2>
                     <p>
                         The single comparison most people want, in one table.
                     </p>
@@ -267,6 +268,16 @@ include 'includes/safari-booking-widget.php';
                         above. For an extra AED 50 per person it&rsquo;s the package most of
                         our Indian families pick.
                         <a href="vip-desert-safari" class="link-primary">Full VIP safari details &rarr;</a>
+                    </p>
+
+                    <h2 id="jain">Jain Family Desert Safari &mdash; AED 199</h2>
+                    <p>
+                        Built for families who follow Jain food rules strictly. It uses the VIP camp,
+                        but your <strong>Jain dinner is cooked separately</strong> with separate utensils,
+                        <strong>served at your own table</strong>, and <strong>served before sunset</strong>
+                        for families who observe chauvihar &mdash; the one thing a normal evening safari
+                        can&rsquo;t do.
+                        <a href="jain-desert-safari-dubai" class="link-primary">Full Jain safari details &rarr;</a>
                     </p>
 
                     <h2 id="premium">Premium Evening Safari &mdash; AED 199</h2>
@@ -450,6 +461,11 @@ include 'includes/safari-booking-widget.php';
                         <td><strong>VIP Evening</strong> &nbsp;<span class="badge bg-success">Popular</span></td>
                         <td>6 hrs</td><td><strong>AED 149</strong></td><td>₹3,400</td><td>Couples, Jain families</td>
                         <td><a href="vip-desert-safari" class="btn btn-primary btn-sm rounded-pill">Details</a></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jain Family Safari</strong> &nbsp;<span class="badge bg-success">Chauvihar</span></td>
+                        <td>6 hrs</td><td><strong>AED 199</strong></td><td>₹4,600</td><td>Jain families, dinner before sunset</td>
+                        <td><a href="jain-desert-safari-dubai" class="btn btn-primary btn-sm rounded-pill">Details</a></td>
                     </tr>
                     <tr>
                         <td><strong>Premium Evening</strong></td>

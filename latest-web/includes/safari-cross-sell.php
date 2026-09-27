@@ -13,6 +13,7 @@
 $currentSafariSlug = isset($currentSafariSlug) ? $currentSafariSlug : ($currentPage ?? '');
 
 $siblings = [
+    ['slug' => 'jain-desert-safari-dubai', 'title' => 'Jain Family Desert Safari', 'price' => 'AED 199 / ₹4,600', 'meta' => '6 hrs &middot; Jain dinner before sunset'],
     ['slug' => 'standard-desert-safari',  'title' => 'Standard Evening Safari', 'price' => 'AED 99 / ₹2,300',  'meta' => '6 hrs &middot; Buffet dinner'],
     ['slug' => 'vip-desert-safari',       'title' => 'VIP Evening Safari',      'price' => 'AED 149 / ₹3,400', 'meta' => '6 hrs &middot; Sofa seating &middot; Jain BBQ counter'],
     ['slug' => 'premium-desert-safari',   'title' => 'Premium Evening Safari',  'price' => 'AED 199 / ₹4,600', 'meta' => '6 hrs &middot; Lehbab Red Dunes &middot; AC camp'],

@@ -187,7 +187,7 @@ include __DIR__ . '/includes/header.php';
                         <li><strong>Stay near the food.</strong> Bur Dubai and Karama have the most choice, and the <a href="/jain-temple-dubai">Jain derasar</a> is in Bur Dubai too.</li>
                         <li><strong>On the plane:</strong> request a Jain vegetarian meal (code VJML) when you book.</li>
                         <li><strong>At the hotel:</strong> tell the hotel in advance; many can prepare a Jain breakfast on request.</li>
-                        <li><strong>On day trips</strong> (desert safari, Abu Dhabi), food is where plans go wrong &mdash; this is exactly what our Jain packages arrange for you.</li>
+                        <li><strong>On day trips</strong> (desert safari, Abu Dhabi), food is where plans go wrong. Our <a href="/jain-desert-safari-dubai">Jain Family Desert Safari</a> serves a separately cooked Jain dinner before sunset.</li>
                     </ul>
 
                     <div class="article-callout">
