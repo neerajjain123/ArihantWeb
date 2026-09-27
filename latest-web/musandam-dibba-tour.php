@@ -18,11 +18,10 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "Full Day Musandam Dibba Tour from Dubai",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/citytour/Musandam-Dibba-Dhow-Cruise.jpg",
-  "tourDuration": "PT10H",
   "offers": [
     {
       "@type": "Offer",
@@ -34,7 +33,7 @@ $schemaMarkup = '
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
     "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"

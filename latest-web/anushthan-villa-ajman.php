@@ -43,7 +43,7 @@ $schemaMarkup = '
     { "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Jain Meal Options Available", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Event Hall (Anushthan Hall)", "value": true, "additionalProperty": {"@type": "PropertyValue", "name": "Capacity", "value": "100+"} }
+    { "@type": "LocationFeatureSpecification", "name": "Event Hall (Anushthan Hall), capacity 100+", "value": true }
   ]
 }
 </script>';

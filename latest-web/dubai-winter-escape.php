@@ -24,7 +24,7 @@ $schemaMarkup = '
     "url": "https://arihantlink.com/dubai-winter-escape",
     "image": "https://arihantlink.com/img/dubaiholiday/burj-khalifa-dubai-skyline-hero.jpg",
     "provider": {
-        "@type": "TravelAgency",
+        "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
         "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"

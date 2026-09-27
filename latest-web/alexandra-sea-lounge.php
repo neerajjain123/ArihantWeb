@@ -29,20 +29,7 @@ $schemaMarkup = '
       "description": "' . $pageDescription . '",
       "url": "' . $pageCanonical . '",
       "image": "https://arihantlink.com/img/dhowcruise/AlexndraSeaLeague-1.jpg",
-      "duration": "PT2H30M",
       "departureTime": "20:30:00+04:00",
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina Yacht Club",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina Yacht Club, West Bay",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "postalCode": "00000",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Alexandra Sea Lounge",

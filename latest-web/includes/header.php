@@ -157,7 +157,7 @@ $assetVersion = '1.0.8'; // Icon-font fix (mobile menu icon) + visa page styles
             "query-input": "required name=search_term_string"
         },
         "publisher": {
-            "@type": "TravelAgency",
+            "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
             "name": "Arihant Travels Pvt Ltd",
             "url": "https://arihantlink.com"
         }

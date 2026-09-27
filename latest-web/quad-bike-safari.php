@@ -21,13 +21,12 @@ $schemaMarkup = '<script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
-    "@type": ["Tour", "TouristTrip"],
+    "@type": "TouristTrip",
     "name": "Quad Bike Desert Safari Dubai",
     "description": "' . $pageDescription . '",
     "image": "https://arihantlink.com/img/safari/quad.webp",
     "url": "https://arihantlink.com/quad-bike-safari",
     "touristType": ["Adventure travelers", "Thrill seekers", "Couples", "Friends groups"],
-    "duration": "PT2H",
     "itinerary": {
       "@type": "ItemList",
       "itemListElement": [

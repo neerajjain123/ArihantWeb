@@ -173,7 +173,8 @@ foreach ($limos as $i => $limo) {
                 "@type"         => "Offer",
                 "priceCurrency" => "AED",
                 "availability"  => "https://schema.org/InStock",
-                "seller"        => ["@type" => "TravelAgency", "name" => "Arihant Travels", "url" => "https://arihantlink.com"],
+                "seller"        => ["@type" => "TravelAgency", "name" => "Arihant Travels Pvt Ltd", "url" => "https://arihantlink.com",
+                                    "address" => ["@type" => "PostalAddress", "streetAddress" => "Al Rayyan Complex, Al Nahda", "addressLocality" => "Sharjah", "addressRegion" => "Sharjah", "addressCountry" => "AE"]],
             ],
         ],
     ];

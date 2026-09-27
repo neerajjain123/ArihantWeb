@@ -18,11 +18,10 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "Jabel Jais High Mountain Tour with Zipline from Dubai",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/citytour/Zabel-jais-Mountain.avif",
-  "tourDuration": "PT6H",
   "offers": [
     {
       "@type": "Offer",
@@ -34,7 +33,7 @@ $schemaMarkup = '
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
     "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"

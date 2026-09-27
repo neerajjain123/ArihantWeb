@@ -31,17 +31,6 @@ $schemaMarkup = '
       "image": [
         "https://arihantlink.com/img/yacht/40ft%20yacht/40ft-yacht.jpg"
       ],
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Arihant Travels Pvt Ltd",
@@ -59,15 +48,7 @@ $schemaMarkup = '
           "unitText": "per hour"
         },
         "availability": "https://schema.org/InStock"
-      },
-      "maximumAttendeeCapacity": 10,
-      "amenityFeature": [
-        {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "BBQ Grill", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ]
+      }
     },
     {
       "@type": "FAQPage",

@@ -32,17 +32,6 @@ $schemaMarkup = '
         "https://arihantlink.com/img/yacht/90ft%20Yacht/90-1-scaled.webp",
         "https://arihantlink.com/img/yacht/90ft%20Yacht/DSC9722-scaled.webp"
       ],
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Harbour",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Harbour",
-          "addressLocality": "Dubai Harbour",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Arihant Travels Pvt Ltd",
@@ -60,15 +49,7 @@ $schemaMarkup = '
           "unitText": "per hour"
         },
         "availability": "https://schema.org/InStock"
-      },
-      "maximumAttendeeCapacity": 50,
-      "amenityFeature": [
-        {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "BBQ Grill", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ]
+      }
     },
     {
       "@type": "FAQPage",

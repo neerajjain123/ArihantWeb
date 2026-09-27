@@ -111,7 +111,7 @@ foreach ($packages as $index => $pkg) {
       "@type": "ListItem",
       "position": ' . ($index + 1) . ',
       "item": {
-        "@type": "Tour",
+        "@type": "TouristTrip",
         "name": "' . $pkg['title'] . '",
         "description": "' . $pkg['description'] . '",
         "url": "https://arihantlink.com/' . $pkg['slug'] . '.php",
@@ -132,7 +132,7 @@ $schemaMarkup .= '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "TravelAgency",
+  "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
   "name": "Arihant Travels Pvt Ltd",
   "url": "https://arihantlink.com",
   "telephone": "+971585945007"

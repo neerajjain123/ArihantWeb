@@ -29,19 +29,7 @@ $schemaMarkup = '
       "description": "' . $pageDescription . '",
       "url": "' . $pageCanonical . '",
       "image": "https://arihantlink.com/img/dhowcruise/alwasl-fromt_image1.webp",
-      "duration": "PT2H",
       "departureTime": "20:30:00+04:00",
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina Harbour",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina Harbour",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Al Wasl Dhow Cruise",

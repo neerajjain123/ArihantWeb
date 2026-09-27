@@ -61,7 +61,7 @@ $schemaMarkup = '
     "description": "Complete UAE visa guide covering every visa type: tourist (30/60-day), 96-hour transit, 5-year multi-entry, GCC resident e-visa, job seeker, green residence, golden visa and family sponsorship.",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk", "url": "https://arihantlink.com"},
     "publisher": {
-      "@type": "TravelAgency",
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
       "name": "Arihant Travels Pvt Ltd",
       "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}
     },

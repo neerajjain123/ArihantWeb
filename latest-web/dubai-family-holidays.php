@@ -18,12 +18,12 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "' . $pageTitle . '",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/dubaiholiday/family-holiday-dubai.avif",
   "provider": {
-    "@type": "TravelAgency",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
     "name": "Arihant Travels Pvt Ltd",
     "url": "https://arihantlink.com"
   },
@@ -63,8 +63,7 @@ $schemaMarkup = '
       "description": "Desert Adventure with Jain-friendly BBQ"
     }
   ],
-  "touristType": ["Family", "Premium Family", "Indian Families", "Jain Families", "Large Groups"],
-  "dietaryRequirement": "Jain, Vegetarian"
+  "touristType": ["Family", "Premium Family", "Indian Families", "Jain Families", "Large Groups"]
 }
 </script>';
 

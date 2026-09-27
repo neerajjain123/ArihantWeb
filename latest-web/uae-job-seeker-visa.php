@@ -25,7 +25,7 @@ $schemaMarkup = '
     "name": "UAE Job Seeker Visa Processing",
     "description": "Application support for the UAE Job Seeker Visa — a 60, 90 or 120-day single-entry visa for skilled professionals and recent graduates from top-ranked universities to enter the UAE and explore employment without a sponsor.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": {"@type": "Country", "name": "United Arab Emirates"}
   },
   {
@@ -33,7 +33,7 @@ $schemaMarkup = '
     "@type": "Article",
     "headline": "UAE Job Seeker Visa — Eligibility, Cost, Documents & How to Apply",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-job-seeker-visa"},

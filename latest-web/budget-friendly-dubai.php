@@ -24,7 +24,7 @@ $schemaMarkup = '
     "url": "https://arihantlink.com/budget-friendly-dubai",
     "image": "https://arihantlink.com/img/dubaiholiday/Dubai Frame.webp",
     "provider": {
-        "@type": "TravelAgency",
+        "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
         "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"

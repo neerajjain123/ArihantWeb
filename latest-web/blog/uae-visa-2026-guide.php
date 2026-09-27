@@ -30,7 +30,7 @@ $schemaMarkup = '
     "image": "https://arihantlink.com/img/services/uae-visa.jpg",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk", "url": "https://arihantlink.com"},
     "publisher": {
-      "@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd",
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd",
       "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}
     },
     "datePublished": "2026-01-20",

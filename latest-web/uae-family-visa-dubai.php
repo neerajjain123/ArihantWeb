@@ -23,7 +23,7 @@ $schemaMarkup = '
     "name": "UAE Family / Dependent Visa Processing",
     "description": "End-to-end family visa processing from Dubai for UAE residents sponsoring spouse, children or parents. Includes 60-day visit visa for parents from India and 1-year/3-year residence visa applications.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": {"@type": "City", "name": "Dubai"}
   },
   {
@@ -31,7 +31,7 @@ $schemaMarkup = '
     "@type": "Article",
     "headline": "UAE Family Visa from Dubai — Sponsor Spouse, Children & Parents",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-family-visa-dubai"}

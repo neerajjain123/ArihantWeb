@@ -33,19 +33,7 @@ $schemaMarkup = '
         "https://arihantlink.com/img/dhowcruise/mega_yacht_2.jpg",
         "https://arihantlink.com/img/dhowcruise/mega_yacht_3.jpg"
       ],
-      "duration": "PT3H",
       "departureTime": "21:00:00+04:00",
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina Yacht Club",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina Yacht Club",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Lotus Cruises",

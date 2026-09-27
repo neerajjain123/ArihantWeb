@@ -89,7 +89,7 @@ foreach ($packages as $index => $pkg) {
       "@type": "ListItem",
       "position": ' . ($index + 1) . ',
       "item": {
-        "@type": "Tour",
+        "@type": "TouristTrip",
         "name": "' . $pkg['title'] . '",
         "description": "' . $pkg['description'] . '",
         "url": "https://arihantlink.com/armenia",

@@ -33,8 +33,8 @@ $schemaMarkup = <<<HTML
   "image": ["https://arihantlink.com/img/services/safari.webp"],
   "datePublished": "2026-06-15",
   "dateModified": "2026-06-15",
-  "author": {"@type": "Person", "name": "Shweta Jain", "jobTitle": "Founder & CEO", "worksFor": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd"}},
-  "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+  "author": {"@type": "Person", "name": "Shweta Jain", "jobTitle": "Founder & CEO", "worksFor": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}},
+  "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
   "description": "{$pageDescription}"
 }
 </script>

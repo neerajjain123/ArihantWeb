@@ -23,7 +23,7 @@ $schemaMarkup = '
     "name": "UAE Golden Visa Application Support",
     "description": "Eligibility screening and application coordination for the UAE Golden Visa — a 10-year renewable residence visa for investors, exceptional talents, top students, content creators and other distinguished tracks.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": {"@type": "Country", "name": "United Arab Emirates"}
   },
   {
@@ -31,7 +31,7 @@ $schemaMarkup = '
     "@type": "Article",
     "headline": "UAE Golden Visa — Eligibility, Cost & Application Tracks Explained",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-golden-visa"}

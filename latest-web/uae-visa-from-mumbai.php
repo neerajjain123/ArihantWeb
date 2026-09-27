@@ -24,7 +24,7 @@ $schemaMarkup = '
     "name": "UAE Visa Processing for Mumbai Residents",
     "description": "Online UAE tourist visa processing for Mumbai-based applicants. 30-day single entry, 60-day multi-entry, 5-year multi-entry, transit and family visit visas filed remotely with document pre-check and WhatsApp support.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": [{"@type": "City", "name": "Mumbai"}, {"@type": "Country", "name": "India"}]
   },
   {
@@ -32,7 +32,7 @@ $schemaMarkup = '
     "@type": "Article",
     "headline": "UAE Visa from Mumbai — Cost, Documents, Timeline",
     "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-visa-from-mumbai"}

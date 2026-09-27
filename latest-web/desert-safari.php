@@ -42,7 +42,7 @@ $schemaMarkup = '
     "headline": "Dubai Desert Safari — Packages, Prices, Pickup Zones & Jain-Friendly Options",
     "description": "Complete guide to booking a Dubai desert safari with Arihant Travels: comparison of 6 packages, what dune bashing actually feels like, Jain food at desert safari camps, pickup zones across Dubai/Sharjah/Abu Dhabi, fitness guidance, and 2026 prices.",
     "author": {"@type": "Organization", "name": "Arihant Travels Desert Desk", "url": "https://arihantlink.com"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2024-01-01",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/desert-safari"},

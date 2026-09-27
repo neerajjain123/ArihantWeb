@@ -47,7 +47,7 @@ $schemaMarkup = '
         "@type": "Person",
         "name": "Shweta Jain",
         "jobTitle": "Founder & CEO",
-        "nationality": "Indian"
+        "nationality": {"@type": "Country", "name": "India"}
     },
     "priceRange": "AED 25 - AED 5000",
     "currenciesAccepted": "AED, INR, USD",

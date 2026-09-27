@@ -20,13 +20,12 @@ $schemaMarkup = '<script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
-    "@type": ["Tour", "TouristTrip"],
+    "@type": "TouristTrip",
     "name": "Overnight Desert Safari Dubai",
     "description": "' . $pageDescription . '",
     "image": "https://arihantlink.com/img/safari/nightsafari/cover.webp",
     "url": "https://arihantlink.com/overnight-desert-safari",
     "touristType": ["Adventure travelers", "Couples", "Families", "Jain families", "Vegetarian travelers"],
-    "duration": "PT16H",
     "itinerary": {
       "@type": "ItemList",
       "itemListElement": [
