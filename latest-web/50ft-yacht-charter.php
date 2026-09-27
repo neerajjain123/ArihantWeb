@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "50ft Private Yacht Charter Dubai | 12 Guests | AED 550/Hour | Arihant Travel";
+$pageTitle = "50ft Private Yacht Charter Dubai | 12 Guests | AED 550/Hour | Arihant Travels";
 $pageDescription = "Book a 50ft private yacht charter in Dubai for up to 12 guests from AED 550/hr. Cruise past Burj Al Arab, Palm Jumeirah & Dubai Marina skyline.";
 $pageKeywords = "Dubai yacht charter, private boat trip Dubai, 50ft yacht rental, luxury yacht Dubai Marina, Palm Jumeirah boat tour, Burj Al Arab yacht view, private yacht 12 guests, Dubai boat trip, yacht party Dubai, yacht hire Dubai";
 $pageCanonical = "https://arihantlink.com/50ft-yacht-charter";
@@ -32,20 +32,9 @@ $schemaMarkup = '
         "https://arihantlink.com/img/yacht/50ft%20Yacht/821b7ee6c5e267b3db7dc87953c7209c0ca3a96db1703bb438830d7e46311e04.jpg.avif",
         "https://arihantlink.com/img/yacht/50ft%20Yacht/ce1206714638c115e060d0bd6e3e9c00dd4dcdbbc4266c5c1e2eed1150759374.jpeg.avif"
       ],
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com"
       },
       "offers": {
@@ -60,19 +49,6 @@ $schemaMarkup = '
           "unitText": "per hour"
         },
         "availability": "https://schema.org/InStock"
-      },
-      "maximumAttendeeCapacity": 12,
-      "amenityFeature": [
-        {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "BBQ Grill", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "312"
       }
     },
     {

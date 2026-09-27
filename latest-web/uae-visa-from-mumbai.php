@@ -1,10 +1,11 @@
 <?php
+require_once __DIR__ . '/includes/visa-prices.php';
 // =============================================================================
 //  UAE VISA FROM MUMBAI — city-of-origin landing page
 // =============================================================================
 
-$pageTitle       = "UAE Visa from Mumbai 2026 | Apply Online from AED 350";
-$pageDescription = "Apply for a UAE tourist visa from Mumbai online. 30-day from AED 350, 60-day from AED 550. We file remotely — no agent visit.";
+$pageTitle       = "UAE Visa from Mumbai 2026 | Apply Online from AED " . number_format(visa_price('tourist-30-single'));
+$pageDescription = "Apply for a UAE tourist visa from Mumbai online. 30-day from AED " . number_format(visa_price('tourist-30-single')) . ", 60-day from AED " . number_format(visa_price('tourist-60-multi')) . ". We file remotely — no agent visit.";
 $pageKeywords    = "UAE visa from Mumbai, Dubai visa from Mumbai, UAE tourist visa Mumbai, Dubai visa apply Mumbai, UAE visa BKC, UAE visa fees Mumbai 2026, Mumbai to Dubai visa cost, BOM Dubai flights, UAE visa for Mumbaikars";
 $pageCanonical   = "https://arihantlink.com/uae-visa-from-mumbai";
 $currentPage     = "uae-visa-from-mumbai";
@@ -23,15 +24,15 @@ $schemaMarkup = '
     "name": "UAE Visa Processing for Mumbai Residents",
     "description": "Online UAE tourist visa processing for Mumbai-based applicants. 30-day single entry, 60-day multi-entry, 5-year multi-entry, transit and family visit visas filed remotely with document pre-check and WhatsApp support.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travel", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": [{"@type": "City", "name": "Mumbai"}, {"@type": "Country", "name": "India"}]
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "UAE Visa from Mumbai — Cost, Documents, Timeline",
-    "author": {"@type": "Organization", "name": "Arihant Travel UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-visa-from-mumbai"}
@@ -55,7 +56,7 @@ include 'includes/breadcrumb.php';
 <section class="trust-band">
     <div class="container">
         <div class="row g-4 text-center text-md-start align-items-center">
-            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-rupee-sign me-2"></i> ₹7,900</h3><p class="mb-0 small">30-day visa from Mumbai</p></div>
+            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-rupee-sign me-2"></i> <?php echo visa_price_inr_label('tourist-30-single', true); ?></h3><p class="mb-0 small">30-day visa from Mumbai</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-clock me-2"></i> 3&ndash;4 days</h3><p class="mb-0 small">Standard processing</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-laptop me-2"></i> Online</h3><p class="mb-0 small">No agent office visit</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fab fa-whatsapp me-2"></i> WhatsApp</h3><p class="mb-0 small">+971 58 594 5007</p></div>
@@ -70,7 +71,7 @@ include 'includes/breadcrumb.php';
                 <article class="article-prose">
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                        <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
                         <span><i class="fas fa-map-marker-alt"></i> Filing for Mumbai applicants since 2022</span>
                     </div>
 
@@ -106,15 +107,15 @@ include 'includes/breadcrumb.php';
                         Most Mumbaikars need one of three:
                     </p>
                     <ul>
-                        <li><strong>30-day single-entry tourist visa</strong> &mdash; classic Dubai holiday of 1&ndash;4 weeks, no plans to leave the UAE mid-trip. <span class="price-pill">From ₹7,900 (AED 350)</span>.</li>
-                        <li><strong>60-day multi-entry tourist visa</strong> &mdash; longer family stay, or a UAE trip with a side jump to Oman or Saudi. <span class="price-pill">From ₹12,500 (AED 550)</span>. Most popular.</li>
+                        <li><strong>30-day single-entry tourist visa</strong> &mdash; classic Dubai holiday of 1&ndash;4 weeks, no plans to leave the UAE mid-trip. <span class="price-pill"><?php echo visa_price_inr_label('tourist-30-single'); ?></span>.</li>
+                        <li><strong>60-day multi-entry tourist visa</strong> &mdash; longer family stay, or a UAE trip with a side jump to Oman or Saudi. <span class="price-pill"><?php echo visa_price_inr_label('tourist-60-multi'); ?></span>. Most popular.</li>
                         <li><strong>5-year multi-entry visa</strong> &mdash; for frequent business travellers from Mumbai who land in Dubai 4+ times a year. Stay up to 90 days per visit. Pricing on request.</li>
                     </ul>
                     <p>
                         For longer Indian wedding trips at Atlantis or W Dubai, the 60-day
-                        multi-entry is almost always the right choice &mdash; the price
-                        difference vs the 30-day visa is small, but the flexibility (extending
-                        the stay, side trip to Oman) is worth it.
+                        multi-entry is usually the right choice &mdash; plenty of time, and
+                        the freedom to take a side trip to Oman and come back. Note that
+                        multiple-entry visas can&rsquo;t be extended, so pick the length you need.
                     </p>
                     <p>
                         Bringing parents along? They can travel on their own 60-day tourist visa,
@@ -198,7 +199,7 @@ include 'includes/breadcrumb.php';
                         <li><strong>Free document review.</strong> No payment until we confirm your application has the best chance of approval.</li>
                         <li><strong>One transparent INR invoice.</strong> No hidden &ldquo;agent fees&rdquo;, no consulate-day surprises.</li>
                         <li><strong>Real WhatsApp support, not a chatbot.</strong> Same number from application to your return flight.</li>
-                        <li><strong>4.8&star; on Google.</strong> 2,000+ Indian families served, including a long list of Mumbai customers happy to be referenced if you ask.</li>
+                        <li><strong>4.9&#9733; on Google.</strong> 2,000+ Indian families served, including a long list of Mumbai customers happy to be referenced if you ask.</li>
                     </ul>
                 </article>
             </div>
@@ -233,12 +234,12 @@ include 'includes/breadcrumb.php';
 
                 <div class="card border-0 shadow-sm mt-3">
                     <div class="card-body p-4">
-                        <h3 class="h6 text-uppercase text-muted mb-2" style="letter-spacing:0.06em;">Pricing in INR</h3>
+                        <h3 class="h6 text-uppercase text-muted mb-2" style="letter-spacing:0.06em;">Visa prices</h3>
                         <table class="table table-sm mb-0">
                             <tbody>
-                                <tr><td>30-day single</td><td class="text-end fw-semibold">₹7,900</td></tr>
-                                <tr><td>60-day multi</td><td class="text-end fw-semibold">₹12,500</td></tr>
-                                <tr><td>96-hour transit</td><td class="text-end fw-semibold">₹5,700</td></tr>
+                                <tr><td>30-day single</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('tourist-30-single', true); ?></td></tr>
+                                <tr><td>60-day multi</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('tourist-60-multi', true); ?></td></tr>
+                                <tr><td>96-hour transit</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('transit-96', true); ?></td></tr>
                                 <tr><td>5-year multi-entry</td><td class="text-end fw-semibold">On request</td></tr>
                             </tbody>
                         </table>

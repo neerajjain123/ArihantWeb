@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Alexandra Sea Lounge Dubai Marina 2024 | Luxury Dinner Cruise | Arihant Travel";
+$pageTitle = "Alexandra Sea Lounge Dubai Marina 2024 | Luxury Dinner Cruise | Arihant Travels";
 $pageDescription = "Experience a magical evening aboard the luxurious Alexandra Sea Lounge in Dubai Marina. Enjoy a gourmet buffet dinner, live entertainment…";
 $pageKeywords = "Alexandra Sea Lounge, Dubai Marina cruise, Dhow cruise dinner, Luxury dinner cruise Dubai, Romantic dinner cruise, Dubai Marina night cruise, Best dinner cruise Dubai, Fine dining cruise Dubai";
 $pageCanonical = "https://arihantlink.com/alexandra-sea-lounge";
@@ -29,20 +29,7 @@ $schemaMarkup = '
       "description": "' . $pageDescription . '",
       "url": "' . $pageCanonical . '",
       "image": "https://arihantlink.com/img/dhowcruise/AlexndraSeaLeague-1.jpg",
-      "duration": "PT2H30M",
       "departureTime": "20:30:00+04:00",
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Marina Yacht Club",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Marina Yacht Club, West Bay",
-          "addressLocality": "Dubai Marina",
-          "addressRegion": "Dubai",
-          "postalCode": "00000",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
         "name": "Alexandra Sea Lounge",

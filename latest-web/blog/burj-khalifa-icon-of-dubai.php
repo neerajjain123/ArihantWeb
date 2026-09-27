@@ -3,7 +3,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Burj Khalifa Tickets, Height & Views: Complete 2026 Guide | Arihant Travel";
+$pageTitle = "Burj Khalifa Tickets, Height & Views: Complete 2026 Guide | Arihant Travels";
 $pageDescription = "Visit Burj Khalifa, the world's tallest building. Get ticket prices for At the Top (Levels 124, 125 & 148), best time to visit, and dining tips. Book now!";
 $pageKeywords = "Burj Khalifa tickets, Burj Khalifa height, At the Top Burj Khalifa, Burj Khalifa floors, tallest building in the world, Burj Khalifa 148th floor price, observation deck Dubai, Burj Khalifa sunset view";
 $pageCanonical = "https://arihantlink.com/blog/burj-khalifa-icon-of-dubai";
@@ -13,7 +13,7 @@ $currentPage = "blog";
 $blogTitle = "Burj Khalifa: The Ultimate Guide to the World's Tallest Building";
 $blogCategory = "Dubai Tours";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "May 2, 2025";
 $blogReadTime = "12 min read";
 $blogFeaturedImage = "../img/blogs/burj-khalifa/burj-khalifa-dubai-skyline-hero.webp";
@@ -49,12 +49,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/burj-khalifa/burj-khalifa-dubai-skyline-hero.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -150,7 +150,7 @@ include '../includes/header.php';
 
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">
                     <div class="d-flex align-items-center">
@@ -729,7 +729,7 @@ include '../includes/header.php';
                                 <i class="fa fa-building me-2"></i>Ready to Touch the Sky?
                             </h3>
                             <p class="mb-4">
-                                Let Arihant Travel arrange your perfect Burj Khalifa experience with priority tickets
+                                Let Arihant Travels arrange your perfect Burj Khalifa experience with priority tickets
                                 and seamless transfers!
                             </p>
                             <a href="https://wa.me/971585945007?text=I want to visit Burj Khalifa" target="_blank"
@@ -758,7 +758,7 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">

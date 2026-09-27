@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Azerbaijan Holiday Packages from Dubai | Baku & Gabala Tours - Arihant Travel";
+$pageTitle = "Azerbaijan Holiday Packages from Dubai | Baku & Gabala Tours - Arihant Travels";
 $pageDescription = "Discover amazing Azerbaijan tour packages from Dubai. Explore Baku's modern skyline and Gabala's natural beauty.";
 $pageKeywords = "baku tour packages dubai, azerbaijan holiday deals, international packages from dubai, baku gabala tour, azerbaijan travel uae, arihant travel international packages, baku city tour package";
 $pageCanonical = "https://arihantlink.com/baku";
@@ -100,7 +100,7 @@ foreach ($packages as $index => $pkg) {
       "@type": "ListItem",
       "position": ' . ($index + 1) . ',
       "item": {
-        "@type": "Tour",
+        "@type": "TouristTrip",
         "name": "' . $pkg['title'] . '",
         "description": "' . $pkg['description'] . '",
         "url": "https://arihantlink.com/baku-4n5d",
@@ -128,7 +128,7 @@ include 'includes/header.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Azerbaijan Experiences</h5>
-            <h1 class="mb-4">Where Modernity Meets Ancient Fire</h1>
+            <h2 class="h1 mb-4">Where Modernity Meets Ancient Fire</h2>
             <p class="mb-0">Azerbaijan offers a unique blend of East and West. From the cosmopolitan energy of Baku's
                 oil-rich boulevards to the timeless villages of the Caucasus mountains, our packages are designed to
                 show you the heart of this "Land of Fire."</p>

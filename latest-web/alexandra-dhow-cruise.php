@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Alexandra Dhow Cruise Dubai Marina 2024 | Luxury Dinner Cruise Deals | Arihant Travel";
+$pageTitle = "Alexandra Dhow Cruise Dubai Marina 2024 | Luxury Dinner Cruise Deals | Arihant Travels";
 $pageDescription = "Experience an enchanting evening on the luxurious Alexandra Dhow Cruise in Dubai Marina. Enjoy 2 hours of stunning skyline views…";
 $pageKeywords = "Alexandra Dhow Cruise, Dubai Marina dinner cruise, luxury dhow cruise Dubai, romantic dinner cruise, Alexandra cruise booking, best dhow cruise in Dubai, Dubai Marina night cruise, private dhow cruise, family dinner cruise, Alexandra cruise offers, Dubai Marina sightseeing cruise, Alexandra dhow cruise price, best dinner cruise Dubai, Alexandra cruise timings, Dubai Marina yacht cruise";
 $pageCanonical = "https://arihantlink.com/alexandra-dhow-cruise";
@@ -52,12 +52,7 @@ $schemaMarkup = '
       "availability": "https://schema.org/InStock",
       "url": "' . $pageCanonical . '"
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "1253"
-  }
+  ]
 }
 </script>
 <script type="application/ld+json">

@@ -18,7 +18,7 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Article","headline":"Check UAE Visa Status 2026 — ICA Smart Services + GDRFA Dubai Guide","description":"Step-by-step guide to checking UAE visa status on ICA Smart Services and GDRFA Dubai portals, with common error messages explained.","author":{"@type":"Organization","name":"Arihant Travel UAE Visa Desk"},"publisher":{"@type":"TravelAgency","name":"Arihant Travel","logo":{"@type":"ImageObject","url":"https://arihantlink.com/img/logo.png"}},"datePublished":"2026-06-15","dateModified":"' . date('Y-m-d') . '","mainEntityOfPage":{"@type":"WebPage","@id":"https://arihantlink.com/uae-visa-status"},"image":"https://arihantlink.com/img/UAE-tourist-visa.webp"},
+  {"@context":"https://schema.org","@type":"Article","headline":"Check UAE Visa Status 2026 — ICA Smart Services + GDRFA Dubai Guide","description":"Step-by-step guide to checking UAE visa status on ICA Smart Services and GDRFA Dubai portals, with common error messages explained.","author":{"@type":"Organization","name":"Arihant Travels UAE Visa Desk"},"publisher":{"@type":"TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},"name":"Arihant Travels Pvt Ltd","logo":{"@type":"ImageObject","url":"https://arihantlink.com/img/logo.png"}},"datePublished":"2026-06-15","dateModified":"' . date('Y-m-d') . '","mainEntityOfPage":{"@type":"WebPage","@id":"https://arihantlink.com/uae-visa-status"},"image":"https://arihantlink.com/img/UAE-tourist-visa.webp"},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"Check Visa Status","item":"https://arihantlink.com/uae-visa-status"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"How do I check my UAE visa status online?","acceptedAnswer":{"@type":"Answer","text":"Use ICA Smart Services for non-Dubai visas (icp.gov.ae) or GDRFA Dubai (gdrfad.gov.ae) for Dubai visas. Enter your application reference number or passport number to see real-time status."}},
@@ -48,7 +48,7 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">
@@ -59,7 +59,7 @@ include 'includes/breadcrumb.php';
             </p>
 
             <p>
-                If you applied through Arihant Travel, you don&rsquo;t need to check any portal &mdash;
+                If you applied through Arihant Travels, you don&rsquo;t need to check any portal &mdash;
                 we send WhatsApp updates at every stage automatically. The portals are mostly used by
                 travellers who applied directly or through other agencies that don&rsquo;t provide
                 real-time updates.
@@ -158,7 +158,7 @@ include 'includes/breadcrumb.php';
                 re-application so you don&rsquo;t pay twice for the same mistake.
             </p>
 
-            <h2 id="arihant-clients">If you applied through Arihant Travel</h2>
+            <h2 id="arihant-clients">If you applied through Arihant Travels</h2>
             <p>
                 You don&rsquo;t need to check any portal. We send WhatsApp updates at every stage:
             </p>

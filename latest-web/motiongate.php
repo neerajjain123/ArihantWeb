@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Motiongate Dubai Tickets 2026 | Best Price + Hotel Transfer | Arihant Travel";
+$pageTitle = "Motiongate Dubai Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book Motiongate Dubai tickets at the best price — DreamWorks, Lionsgate & Columbia Pictures zones. 27+ rides. Hotel transfer available. Instant e-ticket.";
 $pageKeywords = "Motiongate Dubai, Dubai Parks and Resorts, DreamWorks, Columbia Pictures, Lionsgate, Shrek ride, Kung Fu Panda, Hollywood theme park Dubai";
 $pageCanonical = "https://arihantlink.com/motiongate";
@@ -128,12 +128,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/motiongate",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.5",
-    "reviewCount": "634"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

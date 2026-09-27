@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Jabel Jais High Mountain Tour with Zipline from Dubai 2025 | Book Now";
 $pageDescription = "Explore Jabel Jais, the highest peak in the UAE, on a private mountain adventure from Dubai. Travel to the top in a 4x4 vehicle…";
-$pageKeywords = "Jabel Jais tour, Jais mountain tour, UAE highest peak, Jabel Jais zipline, mountain tour Dubai, Hajar Mountains, sunrise mountain tour, 4x4 mountain adventure, Ras Al Khaimah tour, Arihant Travel, jabel jais zipline guide, jvais mountain coaster ride experience";
+$pageKeywords = "Jabel Jais tour, Jais mountain tour, UAE highest peak, Jabel Jais zipline, mountain tour Dubai, Hajar Mountains, sunrise mountain tour, 4x4 mountain adventure, Ras Al Khaimah tour, Arihant Travels, jabel jais zipline guide, jvais mountain coaster ride experience";
 $pageCanonical = "https://arihantlink.com/jabel-jais-tour";
 $currentPage = "jabel-jais-tour";
 
@@ -18,11 +18,10 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "Jabel Jais High Mountain Tour with Zipline from Dubai",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/citytour/Zabel-jais-Mountain.avif",
-  "tourDuration": "PT6H",
   "offers": [
     {
       "@type": "Offer",
@@ -34,15 +33,10 @@ $schemaMarkup = '
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+    "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "87"
   }
 }
 </script>

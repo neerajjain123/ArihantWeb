@@ -2,7 +2,7 @@
 // ─────────────────────────────────────────────
 // Page SEO Variables
 // ─────────────────────────────────────────────
-$pageTitle       = "Rent A Car With Driver In Dubai | Chauffeur Service UAE | Arihant Travel";
+$pageTitle       = "Rent A Car With Driver In Dubai | Chauffeur Service UAE | Arihant Travels";
 $pageDescription = "Hire a car with driver in Dubai — sedan, SUV & minivan. Professional chauffeur service for airport transfers, city tours…";
 $pageKeywords    = "rent a car with driver dubai, car with driver dubai, chauffeur service dubai, airport transfer dubai, city tour dubai, dubai to abu dhabi transfer, hire car with driver uae, private chauffeur dubai, sedan hire dubai, suv hire with driver dubai";
 $pageCanonical   = "https://arihantlink.com/rent-a-car-with-driver-dubai";
@@ -241,13 +241,13 @@ foreach ($fleet as $i => $car) {
             "@type"       => "Product",
             "name"        => $car['name'] . " With Driver Dubai",
             "image"       => "https://arihantlink.com/" . $car['image'],
-            "brand"       => ["@type" => "Brand", "name" => "Arihant Travel"],
+            "brand"       => ["@type" => "Brand", "name" => "Arihant Travels"],
             "offers"      => [
                 "@type"         => "Offer",
                 "priceCurrency" => "AED",
                 "price"         => $car['pricing']['full_dubai'],
                 "availability"  => "https://schema.org/InStock",
-                "seller"        => ["@type" => "Organization", "name" => "Arihant Travel", "url" => "https://arihantlink.com"],
+                "seller"        => ["@type" => "Organization", "name" => "Arihant Travels", "url" => "https://arihantlink.com"],
             ],
         ],
     ];
@@ -258,7 +258,7 @@ $schemaMarkup = '<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Rent A Car With Driver Dubai – Arihant Travel",
+    "name": "Rent A Car With Driver Dubai – Arihant Travels",
     "description": "' . addslashes($pageDescription) . '",
     "itemListElement": ' . json_encode($listItems, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . '
   },
@@ -274,7 +274,7 @@ $schemaMarkup = '<script type="application/ld+json">
       {
         "@type": "Question",
         "name": "Can I hire a car with driver from Dubai to Abu Dhabi?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Arihant Travel offers full-day chauffeured car hire for Abu Dhabi. Rates start from AED 600 for a sedan and go up to AED 2,400 for a Mercedes Sprinter."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Arihant Travels offers full-day chauffeured car hire for Abu Dhabi. Rates start from AED 600 for a sedan and go up to AED 2,400 for a Mercedes Sprinter."}
       },
       {
         "@type": "Question",
@@ -530,7 +530,7 @@ include 'includes/breadcrumb.php';
         <div class="text-center mx-auto mb-5" style="max-width: 840px;">
             <h5 class="section-title px-3">Professional Chauffeur Service</h5>
             <h2 class="mb-4">Your Private Driver, Anywhere in the UAE</h2>
-            <p class="text-muted mb-3">From sleek sedans to spacious minivans, Arihant Travel's car-with-driver service covers every journey — airport transfers, full-day city tours, desert safaris, Abu Dhabi day trips and intercity travel. All vehicles come with professional, courteous chauffeurs who know the UAE roads inside out.</p>
+            <p class="text-muted mb-3">From sleek sedans to spacious minivans, Arihant Travels's car-with-driver service covers every journey — airport transfers, full-day city tours, desert safaris, Abu Dhabi day trips and intercity travel. All vehicles come with professional, courteous chauffeurs who know the UAE roads inside out.</p>
             <p class="text-muted mb-0">Choose your vehicle, pick a package, and we'll handle the rest — flight tracking, luggage assistance, and on-time arrivals, guaranteed.</p>
         </div>
         <!-- Quick Stats -->
@@ -1048,7 +1048,7 @@ include 'includes/breadcrumb.php';
     <div class="container py-3">
         <div class="text-center mx-auto mb-5" style="max-width: 820px;">
             <h5 class="section-title px-3">Why Book With Us</h5>
-            <h2 class="mb-3">The Arihant Travel Difference</h2>
+            <h2 class="mb-3">The Arihant Travels Difference</h2>
             <p class="text-muted">Thousands of passengers trust us every year for seamless, luxurious travel across the UAE.</p>
         </div>
         <div class="row g-4">
@@ -1207,7 +1207,7 @@ include 'includes/breadcrumb.php';
                     <div class="accordion-item mb-3 border-0 shadow-sm">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cf7">
-                                How do I book a car with driver with Arihant Travel?
+                                How do I book a car with driver with Arihant Travels?
                             </button>
                         </h2>
                         <div id="cf7" class="accordion-collapse collapse" data-bs-parent="#carFaq">

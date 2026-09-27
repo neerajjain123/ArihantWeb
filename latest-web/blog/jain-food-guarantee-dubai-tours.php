@@ -6,7 +6,7 @@
 
 $basePath = "../";
 
-$pageTitle = "How We Guarantee 100% Jain Food on Every Dubai Tour | Arihant Travel";
+$pageTitle = "How We Guarantee 100% Jain Food on Every Dubai Tour | Arihant Travels";
 $pageDescription = "Behind the scenes: our 3-step kitchen verification process that locks Jain food (no onion, no garlic, no root veg) at every meal of your Dubai tour. Founder Shweta Jain explains.";
 $pageKeywords = "jain food in dubai, jain food guarantee dubai, pure veg dubai tour, jain kitchen dubai, jain meal verification, shweta jain founder arihant travel";
 $pageCanonical = "https://arihantlink.com/blog/jain-food-guarantee-dubai-tours";
@@ -15,11 +15,11 @@ $currentPage = "blog";
 $blogTitle = "How We Guarantee 100% Jain Food on Every Dubai Tour (The 3-Step Kitchen Verification Process)";
 $blogCategory = "Jain-Friendly";
 $blogCategoryClass = "success";
-$blogAuthor = "Shweta Jain, Founder Arihant Travel";
+$blogAuthor = "Shweta Jain, Founder Arihant Travels";
 $blogDate = "June 15, 2026";
 $blogReadTime = "9 min read";
 $blogFeaturedImage = "../img/services/safari.webp";
-$blogImageAlt = "Behind the scenes: Jain food preparation for Dubai tours by Arihant Travel";
+$blogImageAlt = "Behind the scenes: Jain food preparation for Dubai tours by Arihant Travels";
 $blogExcerpt = "From kitchen agreement forms to on-tour meal certificates — exactly how we lock 100% Jain food on every meal of every Dubai trip we run.";
 
 $blogTags = ["Jain Food Dubai", "Behind the Scenes", "Quality Assurance", "Founder Story"];
@@ -33,8 +33,8 @@ $schemaMarkup = <<<HTML
   "image": ["https://arihantlink.com/img/services/safari.webp"],
   "datePublished": "2026-06-15",
   "dateModified": "2026-06-15",
-  "author": {"@type": "Person", "name": "Shweta Jain", "jobTitle": "Founder & CEO", "worksFor": {"@type": "TravelAgency", "name": "Arihant Travel"}},
-  "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+  "author": {"@type": "Person", "name": "Shweta Jain", "jobTitle": "Founder & CEO", "worksFor": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}},
+  "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
   "description": "{$pageDescription}"
 }
 </script>
@@ -69,7 +69,7 @@ HTML;
 
 <section class="mb-5">
 <p class="lead fs-4" style="font-style:italic; color:var(--bs-primary);">
-"When I started Arihant Travel in 2022, the question I got most from Jain families wasn't 'how much?' or 'which hotel?'. It was always: <em>are you sure the food will be 100% Jain?</em> So I built the whole company around answering that question with proof, not promises."
+"When I started Arihant Travels in 2022, the question I got most from Jain families wasn't 'how much?' or 'which hotel?'. It was always: <em>are you sure the food will be 100% Jain?</em> So I built the whole company around answering that question with proof, not promises."
 </p>
 <p class="text-muted">— Shweta Jain, Founder<br><!-- TODO: Replace this with a real direct quote from Shweta Ji about why this matters personally. The placeholder above is grounded in your existing site copy but a real personal story will rank much better. --></p>
 </section>

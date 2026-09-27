@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Wild Wadi Waterpark Tickets 2026 | Best Price + Hotel Transfer | Arihant Travel";
+$pageTitle = "Wild Wadi Waterpark Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book Wild Wadi Waterpark Dubai tickets at the best price — 30+ rides next to Burj Al Arab. Jumeirah Sceirah free-fall slide, wave pool & lazy river.";
 $pageKeywords = "Wild Wadi Dubai, Wild Wadi waterpark, Jumeirah waterpark, Burj Al Arab waterpark, Dubai waterpark, Jumeirah Sceirah, wave pool Dubai";
 $pageCanonical = "https://arihantlink.com/wild-wadi";
@@ -129,12 +129,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/wild-wadi",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "1245"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

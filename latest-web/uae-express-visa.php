@@ -18,7 +18,7 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Service","name":"UAE Express Visa 24-48 Hours","description":"Fast-track UAE tourist visa processing in 24 to 48 hours. For urgent travel, last-minute applications and A2A extensions approaching expiry.","serviceType":"UAE Express Visa","provider":{"@type":"TravelAgency","name":"Arihant Travel","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE Express Visa 24-48 hour","price":"650","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-express-visa"}},
+  {"@context":"https://schema.org","@type":"Service","name":"UAE Express Visa 24-48 Hours","description":"Fast-track UAE tourist visa processing in 24 to 48 hours. For urgent travel, last-minute applications and A2A extensions approaching expiry.","serviceType":"UAE Express Visa","provider":{"@type":"TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},"name":"Arihant Travels Pvt Ltd","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE Express Visa 24-48 hour","price":"650","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-express-visa"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"Express Visa 24-48 hour","item":"https://arihantlink.com/uae-express-visa"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"How fast is UAE express visa processing?","acceptedAnswer":{"@type":"Answer","text":"UAE express visa is processed in 24 to 48 hours. If you submit complete documents by 11am UAE time on a working day, your visa PDF is typically delivered by 11am the next working day."}},
@@ -49,7 +49,7 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">

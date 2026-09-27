@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Musandam Dibba Dhow Cruise from Dubai 2025 | Book Now";
 $pageDescription = "Experience Oman's stunning fjords on the best Musandam Dibba Tour from Dubai for 2025. This full-day trip includes a dhow cruise, snorkeling, swimming…";
-$pageKeywords = "Musandam Dibba tour, Dubai to Musandam, Musandam dhow cruise, Oman from Dubai, Musandam snorkeling, Arihant Travel, Musandam day trip, Dibba tour, Oman fjords, Dhow cruise Dubai, Jain friendly tours, musandam dibba tour from dubai border pass guide, dhow cruise with lunch and snorkeling";
+$pageKeywords = "Musandam Dibba tour, Dubai to Musandam, Musandam dhow cruise, Oman from Dubai, Musandam snorkeling, Arihant Travels, Musandam day trip, Dibba tour, Oman fjords, Dhow cruise Dubai, Jain friendly tours, musandam dibba tour from dubai border pass guide, dhow cruise with lunch and snorkeling";
 $pageCanonical = "https://arihantlink.com/musandam-dibba-tour";
 $currentPage = "musandam-dibba-tour";
 
@@ -18,11 +18,10 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "Full Day Musandam Dibba Tour from Dubai",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/citytour/Musandam-Dibba-Dhow-Cruise.jpg",
-  "tourDuration": "PT10H",
   "offers": [
     {
       "@type": "Offer",
@@ -34,15 +33,10 @@ $schemaMarkup = '
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+    "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "89"
   }
 }
 </script>

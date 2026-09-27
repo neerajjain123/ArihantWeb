@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Stunning Singapore with Sentosa 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Stunning Singapore with Sentosa 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience Singapore and Sentosa with our Stunning Singapore 4 Nights / 5 Days package. Enjoy Gardens by the Bay, Marina Bay Sands Sky Park, S.E.A.";
 $pageKeywords = "stunning singapore sentosa package, singapore 4 nights 5 days, gardens by the bay tour, marina bay sands sky park, sea aquarium sentosa, night safari singapore, singapore holiday from dubai, singapore travel uae";
 $pageCanonical = "https://arihantlink.com/singapore-stunning-sentosa-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Almaty Discovery 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Almaty Discovery 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Explore the best of Almaty with our 4 Nights / 5 Days Discovery package. Visit Zenkov Cathedral, Kok-Tobe Hill, Kolsai Lakes, Charyn Canyon…";
 $pageKeywords = "almaty discovery tour package, almaty 4 nights 5 days, kolsai lakes tour, charyn canyon trip, shymbulak ski resort, kok tobe hill, almaty holiday from dubai, kazakhstan travel uae";
 $pageCanonical = "https://arihantlink.com/almaty-discovery-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

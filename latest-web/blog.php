@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai & UAE Travel Blog 2026 | Arihant Travel";
+$pageTitle = "Dubai & UAE Travel Blog 2026 | Arihant Travels";
 $pageDescription = "Expert travel guides for Dubai & UAE: Jain dining, desert safari tips, UAE visa 2026, honeymoon ideas, theme parks. Trusted by 2,000+ Indian families.";
 $pageKeywords = "Dubai travel blog 2026, Dubai travel tips, UAE travel guide 2026, Jain travel Dubai, vegetarian Dubai guide, Dubai vacation tips, Dubai honeymoon guide, UAE visa guide 2026, desert safari Dubai blog, Burj Khalifa guide";
 $pageCanonical = "https://arihantlink.com/blog";
@@ -20,12 +20,12 @@ $schemaMarkup = '
 {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Arihant Travel Blog",
+  "name": "Arihant Travels Blog",
   "description": "Expert travel guides, tips, and itineraries for Dubai, Abu Dhabi, and international destinations. Specializing in Jain-friendly and vegetarian travel.",
   "url": "https://arihantlink.com/blog",
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -115,7 +115,7 @@ include 'includes/header.php';
                 <div class="d-flex align-items-center mb-4">
                     <div class="me-4">
                         <i class="fa fa-user text-primary me-2"></i>
-                        <span>Arihant Travel Team</span>
+                        <span>Arihant Travels Team</span>
                     </div>
                     <div>
                         <i class="fa fa-clock text-primary me-2"></i>
@@ -474,7 +474,7 @@ include 'includes/header.php';
             <div class="col-6 col-md-3">
                 <div class="d-flex flex-column align-items-center">
                     <i class="fa fa-star text-warning fa-lg mb-1"></i>
-                    <strong>4.8/5 Rating</strong>
+                    <strong>4.9/5 Rating</strong>
                     <small class="text-muted">Google Reviews</small>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "4 Nights 5 Days Georgia Tour Package from Dubai | Tbilisi, Kakheti & Kazbegi 2025 - Arihant Travel";
+$pageTitle = "4 Nights 5 Days Georgia Tour Package from Dubai | Tbilisi, Kakheti & Kazbegi 2025 - Arihant Travels";
 $pageDescription = "Experience Tbilisi, Mtskheta, Gudauri, Kazbegi, and Kakheti over 4 nights / 5 days. This Georgia holiday from Dubai includes 4-star stays…";
 $pageKeywords = "georgia tour package 4 nights 5 days, georgia holiday from dubai, tbilisi gudauri kazbegi itinerary, kakheti wine tour, georgia visa dubai residents, cheap georgia packages uae, georgia travel deal, caucasus tour dubai, georgia 4n5d tour";
 $pageCanonical = "https://arihantlink.com/georgia-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

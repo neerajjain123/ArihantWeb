@@ -58,8 +58,8 @@ if ($validToken && ($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST
 }
 
 // Page SEO Variables
-$pageTitle = "Set New Password | Arihant Travel";
-$pageDescription = "Choose a new password for your Arihant Travel account.";
+$pageTitle = "Set New Password | Arihant Travels";
+$pageDescription = "Choose a new password for your Arihant Travels account.";
 $pageKeywords = "reset password";
 $pageCanonical = "https://arihantlink.com/reset-password";
 $currentPage = "reset-password";

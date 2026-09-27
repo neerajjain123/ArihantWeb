@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Simply Almaty 3 Nights 4 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Simply Almaty 3 Nights 4 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Almaty with our Simply Almaty 3 Nights / 4 Days package. Explore Zenkov Cathedral, Panfilov Park, Kok-Tobe Hill cable car, Shymbulak Ski Resort…";
 $pageKeywords = "almaty 3 nights 4 days, simply almaty package, almaty short break dubai, kok tobe hill tour, shymbulak ski resort, zenkov cathedral, almaty holiday deal, kazakhstan travel uae";
 $pageCanonical = "https://arihantlink.com/almaty-short-break-3n4d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

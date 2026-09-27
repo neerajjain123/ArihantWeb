@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "About Arihant Travel | Dubai&rsquo;s Jain &amp; Veg Tour Agency";
+$pageTitle = "About Arihant Travels | Dubai&rsquo;s Jain &amp; Veg Tour Agency";
 $pageDescription = "UAE's Jain-focused travel agency, founded by Shweta & Neeraj Jain. Pure veg tours, BAPS Mandir trips, Gujarati group tours, senior citizen packages.";
-$pageKeywords = "about Arihant Travel, Jain travel agency Dubai, vegetarian tours Dubai, Dubai travel experts, Jain friendly travel, Dubai tour operator, Gujarati tour agency Dubai, Swaminarayan temple tour Dubai, BAPS mandir Abu Dhabi tour, Indian family travel agency Dubai, senior citizen Dubai tours";
+$pageKeywords = "about Arihant Travels, Jain travel agency Dubai, vegetarian tours Dubai, Dubai travel experts, Jain friendly travel, Dubai tour operator, Gujarati tour agency Dubai, Swaminarayan temple tour Dubai, BAPS mandir Abu Dhabi tour, Indian family travel agency Dubai, senior citizen Dubai tours";
 $pageCanonical = "https://arihantlink.com/about";
 $currentPage   = "about";
 $breadcrumbBg  = "img/about-img.jpg";   // og:image for social shares
@@ -18,7 +18,7 @@ $schemaMarkup = '
 {
     "@context": "https://schema.org",
     "@type": ["TravelAgency", "LocalBusiness"],
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "alternateName": "Arihant Link Travel & Tourism",
     "url": "https://arihantlink.com",
     "logo": "https://arihantlink.com/img/logo.png",
@@ -41,7 +41,7 @@ $schemaMarkup = '
             "name": "Shweta Jain",
             "jobTitle": "Founder & CEO",
             "image": "https://arihantlink.com/img/Shweta.webp",
-            "description": "Visionary founder leading Arihant Travel with a mission to make Jain-friendly travel accessible in the UAE"
+            "description": "Visionary founder leading Arihant Travels with a mission to make Jain-friendly travel accessible in the UAE"
         },
         {
             "@type": "Person",
@@ -82,12 +82,6 @@ $schemaMarkup = '
         {"@type": "City", "name": "Indore", "containedInPlace": {"@type": "Country", "name": "India"}},
         {"@type": "City", "name": "Udaipur", "containedInPlace": {"@type": "Country", "name": "India"}}
     ],
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "reviewCount": "2000"
-    },
     "sameAs": [
         "https://www.facebook.com/profile.php?id=61561499244239",
         "https://www.instagram.com/arihantlink/",
@@ -106,7 +100,7 @@ include 'includes/header.php';
 <!-- Hero Section Start -->
 <div class="container-fluid bg-breadcrumb">
     <div class="container text-center py-5" style="max-width: 900px;">
-        <h1 class="text-white display-3 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">About Arihant Travel &mdash; UAE&rsquo;s #1 Jain &amp; Vegetarian Travel Agency</h1>
+        <h1 class="text-white display-3 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">About Arihant Travels &mdash; UAE&rsquo;s #1 Jain &amp; Vegetarian Travel Agency</h1>
         <p class="fs-5 text-white mb-0">Your Trusted Partner for Jain-Friendly Dubai Experiences Since 2022</p>
     </div>
 </div>
@@ -128,13 +122,13 @@ include 'includes/header.php';
         <div class="row g-5 align-items-center">
             <div class="col-lg-5">
                 <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
-                    <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="Arihant Travel team - Dubai based Jain and vegetarian travel agency founded by Shweta Jain">
+                    <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="Arihant Travels team - Dubai based Jain and vegetarian travel agency founded by Shweta Jain">
                 </div>
             </div>
             <div class="col-lg-7" style="background: url(img/about-img-1.png);">
                 <h5 class="section-about-title pe-3">Our Story</h5>
-                <h2 class="mb-4">Welcome to <span class="text-primary">Arihant Travel</span></h2>
-                <p class="mb-4">Welcome to Arihant Travel, your trusted partner for unforgettable Dubai vacation
+                <h2 class="mb-4">Welcome to <span class="text-primary">Arihant Travels</span></h2>
+                <p class="mb-4">Welcome to Arihant Travels, your trusted partner for unforgettable Dubai vacation
                     packages tailored specifically for Jain and vegetarian families. We specialize in creating
                     customized, hassle-free, and culturally aligned travel experiences that cater to the unique
                     preferences and needs of Jain travelers.</p>
@@ -260,7 +254,7 @@ include 'includes/header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="team-card bg-white rounded overflow-hidden shadow-sm h-100">
                     <div class="team-img position-relative">
-                        <img src="img/Shweta.webp" class="img-fluid w-100" alt="Shweta Jain - Founder and CEO of Arihant Travel Dubai"
+                        <img src="img/Shweta.webp" class="img-fluid w-100" alt="Shweta Jain - Founder and CEO of Arihant Travels Dubai"
                             style="height: 350px; object-fit: cover;">
                         <div class="team-social position-absolute w-100 bottom-0 start-0 p-3">
                             <div class="d-flex justify-content-center gap-2">
@@ -277,14 +271,14 @@ include 'includes/header.php';
                         <h4 class="mb-2">Shweta Jain</h4>
                         <p class="text-primary mb-3">Founder & CEO</p>
                         <p class="mb-0 small text-muted">With a vision to make Jain-friendly travel accessible, Shweta
-                            leads Arihant Travel with passion and dedication.</p>
+                            leads Arihant Travels with passion and dedication.</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
                 <div class="team-card bg-white rounded overflow-hidden shadow-sm h-100">
                     <div class="team-img position-relative">
-                        <img src="img/Neeraj.webp" class="img-fluid w-100" alt="Neeraj Jain - Founder and COO of Arihant Travel Dubai"
+                        <img src="img/Neeraj.webp" class="img-fluid w-100" alt="Neeraj Jain - Founder and COO of Arihant Travels Dubai"
                             style="height: 350px; object-fit: cover;">
                         <div class="team-social position-absolute w-100 bottom-0 start-0 p-3">
                             <div class="d-flex justify-content-center gap-2">
@@ -308,7 +302,7 @@ include 'includes/header.php';
             <div class="col-lg-4 col-md-6">
                 <div class="team-card bg-white rounded overflow-hidden shadow-sm h-100">
                     <div class="team-img position-relative">
-                        <img src="img/Moksha.webp" class="img-fluid w-100" alt="Moksha Jain - Sales Director at Arihant Travel Dubai"
+                        <img src="img/Moksha.webp" class="img-fluid w-100" alt="Moksha Jain - Sales Director at Arihant Travels Dubai"
                             style="height: 350px; object-fit: cover;">
                         <div class="team-social position-absolute w-100 bottom-0 start-0 p-3">
                             <div class="d-flex justify-content-center gap-2">
@@ -352,7 +346,7 @@ include 'includes/header.php';
                         </div>
                         <h3 class="text-primary mb-2">2015</h3>
                         <h4 class="mb-3">Founded</h4>
-                        <p class="mb-0">Arihant Travel was established with a vision to provide specialized
+                        <p class="mb-0">Arihant Travels was established with a vision to provide specialized
                             Jain-friendly travel in Dubai.</p>
                     </div>
                 </div>
@@ -427,7 +421,7 @@ include 'includes/header.php';
                     <i class="fa fa-quote-left fa-3x text-primary opacity-25 position-absolute"
                         style="top: 20px; left: 20px;"></i>
                     <div class="ps-5 pt-4">
-                        <p class="mb-4 fs-5">"Arihant Travel made our Dubai trip absolutely perfect. The Jain food
+                        <p class="mb-4 fs-5">"Arihant Travels made our Dubai trip absolutely perfect. The Jain food
                             arrangements were flawless, and the itinerary was well-planned. Highly recommended!"</p>
                         <div class="d-flex align-items-center">
                             <div class="testimonial-avatar bg-primary rounded-circle d-flex align-items-center justify-content-center me-3"
@@ -454,7 +448,7 @@ include 'includes/header.php';
                     <i class="fa fa-quote-left fa-3x text-primary opacity-25 position-absolute"
                         style="top: 20px; left: 20px;"></i>
                     <div class="ps-5 pt-4">
-                        <p class="mb-4 fs-5">"Traveling as vegetarians can be challenging, but Arihant Travel took care
+                        <p class="mb-4 fs-5">"Traveling as vegetarians can be challenging, but Arihant Travels took care
                             of everything. We enjoyed delicious meals and saw the best of Dubai without any worries."
                         </p>
                         <div class="d-flex align-items-center">

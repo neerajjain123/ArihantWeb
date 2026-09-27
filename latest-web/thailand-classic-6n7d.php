@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Classic Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Classic Thailand 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience Classic Thailand with our 6 Nights / 7 Days Krabi, Phuket and Bangkok adventure. Emerald Pool, Phi Phi Islands, Mahanakhon Skywalk…";
 $pageKeywords = "classic thailand package, krabi phuket bangkok tour, 6 nights 7 days thailand, phi phi island tour, mahanakhon skywalk, dream world bangkok, thailand holiday from dubai, emerald pool krabi";
 $pageCanonical = "https://arihantlink.com/thailand-classic-6n7d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

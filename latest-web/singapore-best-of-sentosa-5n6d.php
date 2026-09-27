@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Best of Singapore with Sentosa 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Best of Singapore with Sentosa 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Singapore holiday with our Best of Singapore with Sentosa 5 Nights / 6 Days package.";
 $pageKeywords = "singapore sentosa package, singapore 5 nights 6 days, universal studios singapore, resorts world sentosa, night safari singapore, gardens by the bay, marina bay sands, singapore holiday from dubai";
 $pageCanonical = "https://arihantlink.com/singapore-best-of-sentosa-5n6d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

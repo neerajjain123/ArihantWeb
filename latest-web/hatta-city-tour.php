@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "Hatta Sightseeing Tour with Kayaking from Dubai 2025 | Book Now";
 $pageDescription = "Embark on an unforgettable Hatta Sightseeing Tour with kayaking from Dubai. Explore Hatta Heritage Village, Hatta Water Dam, Honey Bee Discovery Centre…";
-$pageKeywords = "Hatta tour, Hatta sightseeing, Hatta kayaking, Hatta Heritage Village, Hatta Dam, Dubai to Hatta tour, Hatta Hill Park, Hatta Swan Lake, mountain tour Dubai, Hatta day trip, Arihant Travel, hatta tour with kayaking experience, best time to visit hatta uae";
+$pageKeywords = "Hatta tour, Hatta sightseeing, Hatta kayaking, Hatta Heritage Village, Hatta Dam, Dubai to Hatta tour, Hatta Hill Park, Hatta Swan Lake, mountain tour Dubai, Hatta day trip, Arihant Travels, hatta tour with kayaking experience, best time to visit hatta uae";
 $pageCanonical = "https://arihantlink.com/hatta-city-tour";
 $currentPage = "hatta-city-tour";
 
@@ -18,11 +18,10 @@ $schemaMarkup = '
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Tour",
+  "@type": "TouristTrip",
   "name": "Hatta Sightseeing Tour with Kayaking from Dubai",
   "description": "' . $pageDescription . '",
   "image": "https://arihantlink.com/img/citytour/Hatta-tour-from-Dubai.webp",
-  "tourDuration": "PT9H",
   "offers": [
     {
       "@type": "Offer",
@@ -34,15 +33,10 @@ $schemaMarkup = '
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+    "name": "Arihant Travels Pvt Ltd",
     "telephone": "+971585945007",
     "url": "https://arihantlink.com"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "reviewCount": "92"
   }
 }
 </script>

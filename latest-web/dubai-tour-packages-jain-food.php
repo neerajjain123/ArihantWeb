@@ -43,7 +43,7 @@ $schemaMarkup = <<<HTML
       "priceCurrency": "AED",
       "availability": "https://schema.org/InStock",
       "url": "{$pageCanonical}",
-      "seller": {"@type": "TravelAgency", "name": "Arihant Travel"}
+      "seller": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}
     },
     {
       "@type": "Offer",
@@ -52,7 +52,7 @@ $schemaMarkup = <<<HTML
       "priceCurrency": "AED",
       "availability": "https://schema.org/InStock",
       "url": "{$pageCanonical}",
-      "seller": {"@type": "TravelAgency", "name": "Arihant Travel"}
+      "seller": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}
     },
     {
       "@type": "Offer",
@@ -61,12 +61,12 @@ $schemaMarkup = <<<HTML
       "priceCurrency": "AED",
       "availability": "https://schema.org/InStock",
       "url": "{$pageCanonical}",
-      "seller": {"@type": "TravelAgency", "name": "Arihant Travel"}
+      "seller": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}
     }
   ],
   "provider": {
-    "@type": "TravelAgency",
-    "name": "Arihant Travel",
+    "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+    "name": "Arihant Travels Pvt Ltd",
     "url": "https://arihantlink.com"
   }
 }
@@ -185,7 +185,7 @@ include 'includes/header.php';
                 <p class="fs-5 mb-4">
                     Three Dubai tour packages — Budget (3N/4D), Family (5N/6D), and Luxury (7N/8D) — every meal confirmed
                     Jain or pure-vegetarian with no onion, no garlic, no root vegetables. Founded in 2022 by Shweta Jain,
-                    Arihant Travel is the only UAE-licensed travel agency specialising exclusively in Jain &amp; vegetarian
+                    Arihant Travels is the only UAE-licensed travel agency specialising exclusively in Jain &amp; vegetarian
                     travel. 2,000+ families have travelled with us across Mumbai, Ahmedabad, Surat, Delhi, Bangalore,
                     Pune, Jaipur, and Indian communities in Kenya, the UK, and the USA.
                 </p>
@@ -484,7 +484,7 @@ include 'includes/header.php';
             <div class="col-md-6 col-lg-4">
                 <div class="card h-100 shadow-sm border-0 p-4">
                     <i class="fas fa-star fa-2x text-warning mb-3"></i>
-                    <h5>4.8★ Google Reviews</h5>
+                    <h5>4.9★ Google Reviews</h5>
                     <p class="mb-0">Read what real families say. <a href="https://g.page/r/CZDbjoitBVREEAE/review" target="_blank">View Google reviews →</a></p>
                 </div>
             </div>

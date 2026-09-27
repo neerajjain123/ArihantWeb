@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Beautiful Bali 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Beautiful Bali 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Bali adventure with our Beautiful Bali 6 Nights / 7 Days package. Safari, rafting, Bali Swing, Uluwatu Kecak Dance, sunset cruise & more. Starting from 2,360 AED.";
 $pageKeywords = "beautiful bali package, bali 6 nights 7 days, bali safari marine park, uluwatu kecak dance, bali swing, white water rafting bali, sunset dinner cruise bali, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-beautiful-6n7d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

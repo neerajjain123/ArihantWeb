@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai & Abu Dhabi Tour 2026 | 5 Nights 6 Days from AED 3,299 | BAPS Mandir + Jain Food - Arihant Travel";
+$pageTitle = "Dubai & Abu Dhabi Tour 2026 | 5 Nights 6 Days from AED 3,299 | BAPS Mandir + Jain Food - Arihant Travels";
 $pageDescription = "Explore Dubai & Abu Dhabi in one package — 5 nights from AED 3,299 (₹75,900). BAPS Swaminarayan Mandir, Sheikh Zayed Mosque, Burj Khalifa…";
-$pageKeywords = "Dubai Abu Dhabi package Jain food, twin city tour vegetarian, Dubai Abu Dhabi itinerary Jain meals, Burj Khalifa and Grand Mosque tour, Arihant Travel Dubai deal, 2026, BAPS Mandir Abu Dhabi tour, Dubai Abu Dhabi package from India";
+$pageKeywords = "Dubai Abu Dhabi package Jain food, twin city tour vegetarian, Dubai Abu Dhabi itinerary Jain meals, Burj Khalifa and Grand Mosque tour, Arihant Travels Dubai deal, 2026, BAPS Mandir Abu Dhabi tour, Dubai Abu Dhabi package from India";
 $pageCanonical = "https://arihantlink.com/dubai-abu-dhabi-deal";
 $currentPage = "holiday-packages";
 
@@ -24,8 +24,8 @@ $schemaMarkup = '
     "url": "https://arihantlink.com/dubai-abu-dhabi-deal",
     "image": "https://arihantlink.com/img/dubaiholiday/Sheikh-Zayed-Grand-Mosque.jpg",
     "provider": {
-        "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -37,12 +37,6 @@ $schemaMarkup = '
         "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31",
         "url": "https://arihantlink.com/dubai-abu-dhabi-deal"
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "reviewCount": "380"
     }
 }
 </script>';
@@ -72,7 +66,7 @@ include 'includes/breadcrumb.php';
             <div class="col-lg-6">
                 <div class="position-relative">
                     <img class="img-fluid rounded w-100" src="img/dubaiholiday/Sheikh-Zayed-Grand-Mosque.jpg"
-                        alt="Sheikh Zayed Grand Mosque Abu Dhabi — Dubai and Abu Dhabi twin city tour with Jain food by Arihant Travel">
+                        alt="Sheikh Zayed Grand Mosque Abu Dhabi — Dubai and Abu Dhabi twin city tour with Jain food by Arihant Travels">
                     <div class="bg-primary text-white p-3 rounded position-absolute top-0 start-0 m-3">
                         <h4 class="mb-0">5N / 6D</h4>
                     </div>
@@ -80,7 +74,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Twin City Special</h5>
-                <h1 class="h2 mb-4">Dubai & Abu Dhabi - <span class="text-primary">Twin City Deal</span></h1>
+                <h2 class="h2 mb-4">Dubai & Abu Dhabi - <span class="text-primary">Twin City Deal</span></h2>
                 <p class="mb-4">Experience the best of both emirates in one comprehensive 5-night itinerary with luxury
                     stays, Burj Khalifa tickets, Sheikh Zayed Grand Mosque access, desert safari, Louvre Abu Dhabi, and
                     curated Yas Island adventures.</p>
@@ -375,7 +369,7 @@ include 'includes/breadcrumb.php';
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Choice of Qasr Al
                                 Watan or Louvre Abu Dhabi premium access</li>
                             <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>24/7 concierge support
-                                from Arihant Travel</li>
+                                from Arihant Travels</li>
                         </ul>
                     </div>
                 </div>

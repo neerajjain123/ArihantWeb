@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Amazing Armenia 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Amazing Armenia 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the best of Armenia with our Amazing Armenia 4 Nights / 5 Days tour package. Explore Yerevan, Garni Temple, Geghard Monastery, Lake Sevan…";
 $pageKeywords = "amazing armenia tour package, armenia 4 nights 5 days, yerevan garni geghard tour, lake sevan trip, khor virap monastery, areni wine tasting, armenia holiday from dubai, armenia travel uae";
 $pageCanonical = "https://arihantlink.com/armenia-amazing-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

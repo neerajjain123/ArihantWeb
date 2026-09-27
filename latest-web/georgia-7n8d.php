@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "7 Nights 8 Days Georgia Tour Package from Dubai | Complete Caucasus Experience 2025 - Arihant Travel";
+$pageTitle = "7 Nights 8 Days Georgia Tour Package from Dubai | Complete Caucasus Experience 2025 - Arihant Travels";
 $pageDescription = "Immerse yourself in Georgia over 7 nights / 8 days. Explore Tbilisi, Uplistsikhe cave city, Borjomi mineral springs, Akhaltsikhe Rabat Castle…";
 $pageKeywords = "georgia tour package 7 nights 8 days, complete georgia itinerary, tbilisi borjomi akhaltsikhe tour, uplistsikhe cave city, georgia comprehensive package, georgia 8 day tour dubai, caucasus complete experience, georgia wine region tour, georgia cultural tour, ariant travel georgia 7n8d, georgia luxury tour package, georgia wellness tour, borjomi mineral springs, akhaltsikhe rabat castle, georgia complete caucasus, georgia all inclusive tour";
 $pageCanonical = "https://arihantlink.com/georgia-7n8d";
@@ -35,8 +35,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

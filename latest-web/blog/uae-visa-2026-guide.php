@@ -28,9 +28,9 @@ $schemaMarkup = '
     "headline": "UAE Visa 2026 — New Rules, Fees & Visa Types Explained",
     "description": "The complete 2026 UAE visa guide: GCC Unified Tourist Visa, AI / Blue / Job Seeker categories, Golden Visa expansion, updated fees, no-grace overstay rules.",
     "image": "https://arihantlink.com/img/services/uae-visa.jpg",
-    "author": {"@type": "Organization", "name": "Arihant Travel UAE Visa Desk", "url": "https://arihantlink.com"},
+    "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk", "url": "https://arihantlink.com"},
     "publisher": {
-      "@type": "TravelAgency", "name": "Arihant Travel",
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd",
       "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}
     },
     "datePublished": "2026-01-20",
@@ -86,7 +86,7 @@ include '../includes/breadcrumb.php';
 
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                        <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
                         <span><i class="fas fa-clock"></i> 14&ndash;18 min read</span>
                     </div>
 
@@ -217,7 +217,7 @@ include '../includes/breadcrumb.php';
                     <p>
                         Fees vary slightly by application channel (ICP or GDRFA portal direct, an
                         airline like Emirates / Etihad / flydubai / Air Arabia, or a travel agency
-                        like Arihant Travel). The table below reflects typical 2026 ranges.
+                        like Arihant Travels). The table below reflects typical 2026 ranges.
                     </p>
 
                     <div class="table-responsive my-4">

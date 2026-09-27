@@ -1,7 +1,7 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Atlantis Aquaventure Waterpark Tickets | Best Prices | Arihant Travel";
-$pageDescription = "Book your Atlantis Aquaventure Waterpark tickets with Arihant Travel. Experience thrilling water slides, marine adventures…";
+$pageTitle = "Dubai Atlantis Aquaventure Waterpark Tickets | Best Prices | Arihant Travels";
+$pageDescription = "Book your Atlantis Aquaventure Waterpark tickets with Arihant Travels. Experience thrilling water slides, marine adventures…";
 $pageKeywords = "Atlantis Aquaventure tickets, Dubai waterpark, Atlantis The Palm activities, Dubai attractions, water slides Dubai, family activities Dubai, Aquaventure Waterpark, record-breaking slides, private beach Dubai, Lost Chambers Aquarium combo";
 $pageCanonical = "https://arihantlink.com/atlantis-aquaventure";
 $currentPage = "excursions";
@@ -80,12 +80,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "price": "725",
       "availability": "https://schema.org/InStock"
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "1253"
-  }
+  ]
 }
 </script>';
 

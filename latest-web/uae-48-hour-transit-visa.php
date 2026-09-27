@@ -18,14 +18,14 @@ $breadcrumbOverlay      = false;
 $schemaMarkup = '
 <script type="application/ld+json">
 [
-  {"@context":"https://schema.org","@type":"Service","name":"UAE 48-Hour Transit Visa","description":"48-hour single-entry transit visa for travellers with a short layover at Dubai or Abu Dhabi airport. Free via airline or AED 200 through Arihant.","serviceType":"UAE Transit Visa","provider":{"@type":"TravelAgency","name":"Arihant Travel","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE 48-Hour Transit Visa","price":"200","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-48-hour-transit-visa"}},
+  {"@context":"https://schema.org","@type":"Service","name":"UAE 48-Hour Transit Visa","description":"48-hour single-entry transit visa for travellers with a short layover at Dubai or Abu Dhabi airport. Free via airline or AED 200 through Arihant.","serviceType":"UAE Transit Visa","provider":{"@type":"TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},"name":"Arihant Travels Pvt Ltd","url":"https://arihantlink.com"},"areaServed":{"@type":"Country","name":"United Arab Emirates"},"offers":{"@type":"Offer","name":"UAE 48-Hour Transit Visa","price":"200","priceCurrency":"AED","availability":"https://schema.org/InStock","url":"https://arihantlink.com/uae-48-hour-transit-visa"}},
   {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://arihantlink.com"},{"@type":"ListItem","position":2,"name":"UAE Visa","item":"https://arihantlink.com/uae-visa"},{"@type":"ListItem","position":3,"name":"48-Hour Transit Visa","item":"https://arihantlink.com/uae-48-hour-transit-visa"}]},
   {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
     {"@type":"Question","name":"Is the UAE 48-hour transit visa really free?","acceptedAnswer":{"@type":"Answer","text":"Yes — if applied through your airline (Emirates, Etihad, flydubai, Air Arabia) at the time of ticket purchase or via their visa portal, the 48-hour transit visa is free. Through travel agencies like Arihant it starts from AED 200."}},
     {"@type":"Question","name":"How long is the 48-hour UAE transit visa valid?","acceptedAnswer":{"@type":"Answer","text":"48 hours (2 days) from your UAE entry stamp. Single entry, non-extendable."}},
     {"@type":"Question","name":"Do I need a hotel booking for the 48-hour transit visa?","acceptedAnswer":{"@type":"Answer","text":"Hotel booking is optional for the 48-hour visa (unlike the 96-hour version which requires it). You can stay airside or at any accommodation."}},
     {"@type":"Question","name":"Can I extend the 48-hour transit visa?","acceptedAnswer":{"@type":"Answer","text":"No. Transit visas are single-entry and non-extendable. For longer stays, apply for the 96-hour transit visa or a 30-day tourist visa."}},
-    {"@type":"Question","name":"How fast is the 48-hour transit visa processed?","acceptedAnswer":{"@type":"Answer","text":"Via airline portal: 24-72 hours typically. Via Arihant Travel: 2 working days standard, 24-hour express available."}}
+    {"@type":"Question","name":"How fast is the 48-hour transit visa processed?","acceptedAnswer":{"@type":"Answer","text":"Via airline portal: 24-72 hours typically. Via Arihant Travels: 2 working days standard, 24-hour express available."}}
   ]}
 ]
 </script>';
@@ -48,13 +48,13 @@ include 'includes/breadcrumb.php';
         <div class="col-lg-8"><article class="article-prose">
             <div class="article-meta">
                 <span><i class="far fa-calendar-alt"></i> Last updated <?php echo date('F Y'); ?></span>
-                <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
             </div>
 
             <p class="lead" style="font-size: 1.15rem; color: var(--text-light);">
                 Have a layover of less than 2 days in Dubai or Abu Dhabi? The UAE 48-hour transit
                 visa is the cheapest way out of the terminal &mdash; often <strong>completely free</strong>
-                when applied through your airline at ticket booking. Through Arihant Travel it&rsquo;s
+                when applied through your airline at ticket booking. Through Arihant Travels it&rsquo;s
                 AED 200 with 2 working-day processing and a 24-hour express option for tight
                 connections.
             </p>

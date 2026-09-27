@@ -1,7 +1,7 @@
 <?php
-$pageTitle = "Page Not Found | Arihant Travel";
+$pageTitle = "Page Not Found | Arihant Travels";
 $pageDescription = "The page you're looking for doesn't exist. Explore our Dubai tours, desert safaris, and holiday packages.";
-$pageKeywords = "404, page not found, Arihant Travel";
+$pageKeywords = "404, page not found, Arihant Travels";
 $pageCanonical = "https://arihantlink.com/404";
 $currentPage = "404";
 

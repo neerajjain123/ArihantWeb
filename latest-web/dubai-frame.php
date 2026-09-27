@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Frame Tickets 2025 | Best Prices | Arihant Travel";
+$pageTitle = "Dubai Frame Tickets 2025 | Best Prices | Arihant Travels";
 $pageDescription = "Book Dubai Frame tickets at best prices. Enjoy panoramic views of Old and New Dubai from 150 meters high. Glass floor walkway, museum exhibits.";
-$pageKeywords = "Dubai Frame tickets, Zabeel Park, Dubai attractions, panoramic views Dubai, glass bridge Dubai, Old Dubai views, New Dubai skyline, Arihant Travel, Dubai Frame ticket price, Dubai Frame offers, best views in Dubai, things to do in Zabeel Park, architectural landmarks in Dubai, Dubai Frame glass floor, Old Dubai vs New Dubai, Arihant Travel Dubai Frame deals";
+$pageKeywords = "Dubai Frame tickets, Zabeel Park, Dubai attractions, panoramic views Dubai, glass bridge Dubai, Old Dubai views, New Dubai skyline, Arihant Travels, Dubai Frame ticket price, Dubai Frame offers, best views in Dubai, things to do in Zabeel Park, architectural landmarks in Dubai, Dubai Frame glass floor, Old Dubai vs New Dubai, Arihant Travels Dubai Frame deals";
 $pageCanonical = "https://arihantlink.com/dubai-frame";
 $currentPage = "excursions";
 
@@ -72,12 +72,7 @@ $schemaMarkup = '<script type="application/ld+json">
       "price": "22",
       "availability": "https://schema.org/InStock"
     }
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "1892"
-  }
+  ]
 }
 </script>';
 

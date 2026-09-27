@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Overnight Desert Safari Dubai - AED 249 | Arihant Travel";
+$pageTitle = "Overnight Desert Safari Dubai - AED 249 | Arihant Travels";
 $pageDescription = "Unique overnight desert experience! Overnight Desert Safari at AED 249. Camp under stars, bonfire, BBQ dinner, breakfast, and sunrise views.";
 $pageKeywords = "overnight desert safari Dubai, desert camping Dubai, stargazing desert, bonfire Dubai, night safari Dubai";
 $pageCanonical = "https://arihantlink.com/overnight-desert-safari";
@@ -20,13 +20,12 @@ $schemaMarkup = '<script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
-    "@type": ["Tour", "TouristTrip"],
+    "@type": "TouristTrip",
     "name": "Overnight Desert Safari Dubai",
     "description": "' . $pageDescription . '",
     "image": "https://arihantlink.com/img/safari/nightsafari/cover.webp",
     "url": "https://arihantlink.com/overnight-desert-safari",
     "touristType": ["Adventure travelers", "Couples", "Families", "Jain families", "Vegetarian travelers"],
-    "duration": "PT16H",
     "itinerary": {
       "@type": "ItemList",
       "itemListElement": [
@@ -52,7 +51,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}

@@ -99,6 +99,11 @@ $tables = [
 
 ];
 
+// Shop tables (orders + order_items) share definitions with the live code.
+require_once __DIR__ . '/includes/shop-tables.php';
+ensure_shop_tables($pdo);
+echo "[OK]   orders + order_items (via shop-tables)\n";
+
 $ok = 0;
 foreach ($tables as $name => $sql) {
     try {

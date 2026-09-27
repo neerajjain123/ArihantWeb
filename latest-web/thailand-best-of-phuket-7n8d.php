@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Best of Thailand with Phuket 7 Nights 8 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Best of Thailand with Phuket 7 Nights 8 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the Best of Thailand with Phuket in our grand 7 Nights / 8 Days tour covering Phuket, Pattaya and Bangkok. Phi Phi Island, Safari World, Skywalk, Dinner Cruise and more. Starting from AED 2,410.";
 $pageKeywords = "best of thailand package, phuket pattaya bangkok tour, 7 nights 8 days thailand, phi phi island tour, safari world bangkok, mahanakhon skywalk, thailand holiday from dubai, grand thailand tour";
 $pageCanonical = "https://arihantlink.com/thailand-best-of-phuket-7n8d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

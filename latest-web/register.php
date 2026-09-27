@@ -14,8 +14,8 @@ if (isset($_SESSION['user_id'])) {
 }
 
 // Page SEO Variables
-$pageTitle = "Register | Arihant Travel";
-$pageDescription = "Create an account with Arihant Travel to manage your Jain-friendly Dubai tour bookings.";
+$pageTitle = "Register | Arihant Travels";
+$pageDescription = "Create an account with Arihant Travels to manage your Jain-friendly Dubai tour bookings.";
 $pageKeywords = "register, arihant travel account, dubai tour account";
 $pageCanonical = "https://arihantlink.com/register";
 $currentPage = "register";
@@ -81,16 +81,16 @@ if (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] === 'POST' &
                             $wmail->Password   = $smtpPass;
                             $wmail->SMTPSecure = env('SMTP_SECURE', 'ssl');
                             $wmail->Port       = (int) env('SMTP_PORT', '465');
-                            $wmail->setFrom(env('SMTP_FROM', 'contact@arihantlink.com'), env('SMTP_FROM_NAME', 'Arihant Travel'));
+                            $wmail->setFrom(env('SMTP_FROM', 'contact@arihantlink.com'), env('SMTP_FROM_NAME', 'Arihant Travels'));
                             $wmail->addAddress($email, $full_name);
-                            $wmail->Subject = 'Welcome to Arihant Travel!';
+                            $wmail->Subject = 'Welcome to Arihant Travels!';
                             $wmail->Body    = "Dear $full_name,\n\n"
-                                . "Welcome to Arihant Travel! Your account is ready.\n\n"
+                                . "Welcome to Arihant Travels! Your account is ready.\n\n"
                                 . "From your dashboard you can track booking requests, save tours to your "
                                 . "wishlist and manage your details: https://arihantlink.com/dashboard\n\n"
                                 . "Planning a trip? WhatsApp us anytime on +971 58 594 5007 — we specialise in "
                                 . "Jain-friendly and family-comfortable tours across the UAE and beyond.\n\n"
-                                . "Best regards,\nArihant Travel Team\nhttps://arihantlink.com";
+                                . "Best regards,\nArihant Travels Team\nhttps://arihantlink.com";
                             $wmail->send();
                         }
                     } catch (Throwable $mailErr) {

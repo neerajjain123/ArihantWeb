@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai For Kids 2026 | 5 Nights 6 Days from AED 2,799 | Theme Parks + Jain Food - Arihant Travel";
+$pageTitle = "Dubai For Kids 2026 | 5 Nights 6 Days from AED 2,799 | Theme Parks + Jain Food - Arihant Travels";
 $pageDescription = "Best kid-friendly Dubai package — 5 nights from AED 2,799 (₹64,400). Legoland, IMG Worlds, Dubai Aquarium, Dolphinarium & fun desert safari.";
-$pageKeywords = "Dubai for kids Jain food, kid friendly Dubai tour vegetarian, family package with Jain meals, Legoland Dubai, Dubai dolphinarium, Arihant Travel kid specialized, dubai for kids 2026, kids Dubai package from India";
+$pageKeywords = "Dubai for kids Jain food, kid friendly Dubai tour vegetarian, family package with Jain meals, Legoland Dubai, Dubai dolphinarium, Arihant Travels kid specialized, dubai for kids 2026, kids Dubai package from India";
 $pageCanonical = "https://arihantlink.com/dubai-for-kids";
 $currentPage = "holiday-packages";
 
@@ -24,8 +24,8 @@ $schemaMarkup = '
     "url": "https://arihantlink.com/dubai-for-kids",
     "image": "https://arihantlink.com/img/dubaiholiday/themepark.webp",
     "provider": {
-        "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -36,12 +36,6 @@ $schemaMarkup = '
         "availability": "https://schema.org/InStock",
         "validFrom": "2026-01-01",
         "priceValidUntil": "2026-12-31"
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "reviewCount": "250"
     }
 }
 </script>';
@@ -78,7 +72,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Family Fun</h5>
-                <h1 class="mb-4 h2">Dubai For Kids - <span class="text-primary">Ultimate Adventure</span></h1>
+                <h2 class="mb-4 h2">Dubai For Kids - <span class="text-primary">Ultimate Adventure</span></h2>
                 <p class="mb-4">Plan the perfect Dubai holiday for kids with theme parks, aquariums, kid-safe desert
                     safari, LEGOLAND, IMG Worlds, dolphinarium, and curated family-friendly experiences over 5 nights. Designed specifically for families with children aged 3-15, every activity and meal is tailored to keep your little ones safe, entertained, and well-fed with kid-friendly Jain and vegetarian options.
                 </p>

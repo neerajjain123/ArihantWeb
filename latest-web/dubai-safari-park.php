@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Safari Park Tickets 2025 | Explorer Safari & Train | Arihant Travel";
-$pageDescription = "Book Dubai Safari Park tickets with Arihant Travel. Enjoy the Explorer Safari Tour, unlimited shuttle train, and access to 6 wildlife villages.";
-$pageKeywords = "Dubai Safari Park tickets, Dubai Safari Park ticket price, Explorer Safari Tour Dubai, Dubai Safari Park villages, wildlife sanctuary Dubai, family attractions Dubai, Arihant Travel, book Dubai Safari Park, Dubai Safari Park inclusions, Dubai Safari Park shuttle train";
+$pageTitle = "Dubai Safari Park Tickets 2025 | Explorer Safari & Train | Arihant Travels";
+$pageDescription = "Book Dubai Safari Park tickets with Arihant Travels. Enjoy the Explorer Safari Tour, unlimited shuttle train, and access to 6 wildlife villages.";
+$pageKeywords = "Dubai Safari Park tickets, Dubai Safari Park ticket price, Explorer Safari Tour Dubai, Dubai Safari Park villages, wildlife sanctuary Dubai, family attractions Dubai, Arihant Travels, book Dubai Safari Park, Dubai Safari Park inclusions, Dubai Safari Park shuttle train";
 $pageCanonical = "https://arihantlink.com/dubai-safari-park";
 $currentPage = "excursions";
 
@@ -64,11 +64,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "price": "125",
     "availability": "https://schema.org/InStock"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "1540"
   }
 }
 </script>';

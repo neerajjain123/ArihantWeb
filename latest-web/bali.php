@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Bali Tour Packages from Dubai | International Tours - Arihant Travel";
+$pageTitle = "Bali Tour Packages from Dubai | International Tours - Arihant Travels";
 $pageDescription = "Browse Bali tour packages from Dubai featuring Ubud, Kintamani, Tanah Lot Temple, Uluwatu, Nusa Penida, water sports, sunset dinner cruises…";
 $pageKeywords = "bali tour packages dubai, bali holiday deals, international packages from dubai, bali travel uae, ubud tour, tanah lot temple, uluwatu temple, bali honeymoon package, bali safari, arihant travel international packages";
 $pageCanonical = "https://arihantlink.com/bali";
@@ -100,7 +100,7 @@ foreach ($packages as $index => $pkg) {
       "@type": "ListItem",
       "position": ' . ($index + 1) . ',
       "item": {
-        "@type": "Tour",
+        "@type": "TouristTrip",
         "name": "' . $pkg['title'] . '",
         "description": "' . $pkg['description'] . '",
         "url": "https://arihantlink.com/' . $pkg['slug'] . '",

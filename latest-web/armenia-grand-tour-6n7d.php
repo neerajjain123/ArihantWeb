@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Grand Tour of Armenia 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Grand Tour of Armenia 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Armenia adventure with our Grand Tour 6 Nights / 7 Days package. Visit Yerevan, Echmiadzin, Garni, Geghard…";
 $pageKeywords = "grand tour armenia package, armenia 6 nights 7 days, yerevan echmiadzin tour, garni geghard trip, tatev monastery cable car, lake sevan dilijan, khor virap areni wine, armenia holiday from dubai, armenia travel uae";
 $pageCanonical = "https://arihantlink.com/armenia-grand-tour-6n7d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

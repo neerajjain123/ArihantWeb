@@ -23,7 +23,7 @@ $schemaMarkup = '<script type="application/ld+json">
   "image": "https://arihantlink.com/img/hotairbaloon/hot-air-baloon-tour-dubai-2-large.jpg",
   "brand": {
     "@type": "Brand",
-    "name": "Arihant Travel"
+    "name": "Arihant Travels Pvt Ltd"
   },
   "offers": {
     "@type": "Offer",
@@ -32,11 +32,6 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/hot-air-balloon-extreme"
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "180"
   }
 }
 </script>';

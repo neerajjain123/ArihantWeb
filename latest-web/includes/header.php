@@ -15,7 +15,7 @@ if (session_status() === PHP_SESSION_NONE) {
 // Use $assetVersion query string for cache busting of CSS/JS
 
 // Version for cache busting
-$assetVersion = '1.0.7'; // Reverted banner heights to original full-screen design
+$assetVersion = '1.0.8'; // Icon-font fix (mobile menu icon) + visa page styles
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -103,7 +103,8 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
     <?php
     // Pages that should never be indexed (auth/legal/internal).
     $noindexPages = ['login', 'register', 'dashboard', 'logout', 'search', '404', 'page-template', 'blog-category',
-                     'my-bookings', 'wishlist', 'profile', 'forgot-password', 'reset-password'];
+                     'my-bookings', 'wishlist', 'profile', 'forgot-password', 'reset-password',
+                     'cart', 'checkout', 'order-confirmation'];
     // blog-category: /blog?category=X filtered views — crawlable but not indexable
     if ((isset($currentPage) && in_array($currentPage, $noindexPages, true)) || !empty($forceNoindex)): ?>
     <meta name="robots" content="noindex, follow">
@@ -117,10 +118,10 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
 
     <!-- Geo Targeting: Primary market India, Business location UAE -->
     <meta name="geo.region" content="IN" />
-    <meta name="geo.region" content="AE-DU" />
-    <meta name="geo.placename" content="Dubai, United Arab Emirates" />
-    <meta name="geo.position" content="25.2048;55.2708" />
-    <meta name="ICBM" content="25.2048, 55.2708" />
+    <meta name="geo.region" content="AE-SH" />
+    <meta name="geo.placename" content="Sharjah, United Arab Emirates" />
+    <meta name="geo.position" content="25.3013436;55.3833683" />
+    <meta name="ICBM" content="25.3013436, 55.3833683" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -147,7 +148,7 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "alternateName": "ArihantLink",
         "url": "https://arihantlink.com",
         "potentialAction": {
@@ -156,8 +157,8 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
             "query-input": "required name=search_term_string"
         },
         "publisher": {
-            "@type": "TravelAgency",
-            "name": "Arihant Travel",
+            "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+            "name": "Arihant Travels Pvt Ltd",
             "url": "https://arihantlink.com"
         }
     }
@@ -250,6 +251,10 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
 
     <!-- Template Stylesheet -->
     <link href="<?php echo $basePath; ?>css/style.min.css?v=<?php echo $assetVersion; ?>" rel="stylesheet">
+    <?php // Page-specific stylesheets, e.g. $extraCss = ['css/visa.css'];
+    foreach ($extraCss ?? [] as $css): ?>
+    <link href="<?php echo $basePath . $css; ?>?v=<?php echo $assetVersion; ?>" rel="stylesheet">
+    <?php endforeach; ?>
 </head>
 
 <body>
@@ -282,6 +287,14 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
             </div>
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <?php $cartBadgeCount = is_array($_SESSION['cart'] ?? null) ? count($_SESSION['cart']) : 0; ?>
+                    <a href="<?php echo $basePath; ?>cart" class="me-3 text-light position-relative" title="Your cart">
+                        <i class="fa fa-shopping-cart"></i>
+                        <?php if ($cartBadgeCount > 0): ?>
+                            <span class="badge bg-danger rounded-pill position-absolute"
+                                  style="font-size:0.6rem; top:-8px; right:-12px;"><?php echo $cartBadgeCount; ?></span>
+                        <?php endif; ?>
+                    </a>
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <div class="dropdown">
                             <a href="#" class="dropdown-toggle text-light" data-bs-toggle="dropdown"><small><i
@@ -318,7 +331,7 @@ $assetVersion = '1.0.7'; // Reverted banner heights to original full-screen desi
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="/" class="navbar-brand p-0">
-                <img src="<?php echo $basePath; ?>img/logo.png" alt="Arihant Travel Logo"
+                <img src="<?php echo $basePath; ?>img/logo.png" alt="Arihant Travels Logo"
                     width="160" height="172" style="height: 100px; width: auto;" decoding="async">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

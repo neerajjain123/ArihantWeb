@@ -1,11 +1,12 @@
 <?php
+require_once __DIR__ . '/includes/visa-prices.php';
 // =============================================================================
 //  UAE VISA FROM AHMEDABAD — city-of-origin landing page
 //  Strong Gujarati / Jain hook — Ahmedabad is our highest-intent source city.
 // =============================================================================
 
 $pageTitle       = "UAE Visa from Ahmedabad 2026 | Jain & Gujarati Family Specialist";
-$pageDescription = "UAE tourist visa from Ahmedabad with INR pricing — 30-day from ₹7,900, 60-day from ₹12,500. Jain & Gujarati family specialist with on-the-ground Dubai…";
+$pageDescription = "UAE tourist visa from Ahmedabad with INR pricing — 30-day from ₹" . number_format(visa_price('tourist-30-single', 'price_inr')) . ", 60-day from AED " . number_format(visa_price('tourist-60-multi')) . ". Jain & Gujarati family specialist with on-the-ground Dubai…";
 $pageKeywords    = "UAE visa from Ahmedabad, Dubai visa from Ahmedabad, UAE tourist visa Ahmedabad, AMD Dubai flights, Dubai visa for Gujarati families, Jain Dubai visa, UAE visa Gujarat 2026, Ahmedabad to Dubai package";
 $pageCanonical   = "https://arihantlink.com/uae-visa-from-ahmedabad";
 $currentPage     = "uae-visa-from-ahmedabad";
@@ -24,15 +25,15 @@ $schemaMarkup = '
     "name": "UAE Visa Processing for Ahmedabad Residents",
     "description": "UAE tourist visa processing for Ahmedabad-based applicants with INR pricing. Tourist, transit, multi-entry, family visit. UAE-licensed travel agency specialising in Jain and Gujarati family travel.",
     "serviceType": "Visa Processing",
-    "provider": {"@type": "TravelAgency", "name": "Arihant Travel", "url": "https://arihantlink.com", "telephone": "+971585945007"},
+    "provider": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "url": "https://arihantlink.com", "telephone": "+971585945007"},
     "areaServed": [{"@type": "City", "name": "Ahmedabad"}, {"@type": "AdministrativeArea", "name": "Gujarat"}, {"@type": "Country", "name": "India"}]
   },
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "UAE Visa from Ahmedabad — Cost, Documents & How to Apply",
-    "author": {"@type": "Organization", "name": "Arihant Travel UAE Visa Desk"},
-    "publisher": {"@type": "TravelAgency", "name": "Arihant Travel", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
+    "author": {"@type": "Organization", "name": "Arihant Travels UAE Visa Desk"},
+    "publisher": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd", "logo": {"@type": "ImageObject", "url": "https://arihantlink.com/img/logo.png"}},
     "datePublished": "2026-05-08",
     "dateModified": "' . date('Y-m-d') . '",
     "mainEntityOfPage": {"@type": "WebPage", "@id": "https://arihantlink.com/uae-visa-from-ahmedabad"}
@@ -56,7 +57,7 @@ include 'includes/breadcrumb.php';
 <section class="trust-band">
     <div class="container">
         <div class="row g-4 text-center text-md-start align-items-center">
-            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-rupee-sign me-2"></i> ₹7,900</h3><p class="mb-0 small">30-day visa from AMD</p></div>
+            <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-rupee-sign me-2"></i> <?php echo visa_price_inr_label('tourist-30-single', true); ?></h3><p class="mb-0 small">30-day visa from AMD</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-leaf me-2"></i> 100% Veg</h3><p class="mb-0 small">Jain meals on every tour</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fas fa-language me-2"></i> Gujarati</h3><p class="mb-0 small">Spoken on WhatsApp</p></div>
             <div class="col-md-3"><h3 class="h6 mb-1"><i class="fab fa-whatsapp me-2"></i> Direct</h3><p class="mb-0 small">+971 58 594 5007</p></div>
@@ -71,7 +72,7 @@ include 'includes/breadcrumb.php';
                 <article class="article-prose">
                     <div class="article-meta">
                         <span><i class="far fa-calendar-alt"></i> Updated <?php echo date('F Y'); ?></span>
-                        <span><i class="far fa-user"></i> Arihant Travel UAE Visa Desk</span>
+                        <span><i class="far fa-user"></i> Arihant Travels UAE Visa Desk</span>
                         <span><i class="fas fa-map-marker-alt"></i> Founded by Shweta &amp; Neeraj Jain</span>
                     </div>
 
@@ -104,14 +105,14 @@ include 'includes/breadcrumb.php';
 
                     <h2 id="visa-types">Which UAE visa for your trip from Ahmedabad</h2>
                     <ul>
-                        <li><strong>30-day single-entry tourist visa</strong> &mdash; <span class="price-pill">From ₹7,900 (AED 350)</span>. Right for a 1&ndash;4 week Dubai trip with no plans to leave the UAE.</li>
-                        <li><strong>60-day multi-entry tourist visa</strong> &mdash; <span class="price-pill">From ₹12,500 (AED 550)</span>. Most common pick for Ahmedabad families. Use it for Dubai + Abu Dhabi BAPS Mandir + a side trip to Oman or Saudi if you&rsquo;re combining a Holy Hindu / Jain pilgrimage.</li>
+                        <li><strong>30-day single-entry tourist visa</strong> &mdash; <span class="price-pill"><?php echo visa_price_inr_label('tourist-30-single'); ?></span>. Right for a 1&ndash;4 week Dubai trip with no plans to leave the UAE.</li>
+                        <li><strong>60-day multi-entry tourist visa</strong> &mdash; <span class="price-pill"><?php echo visa_price_inr_label('tourist-60-multi'); ?></span>. Most common pick for Ahmedabad families. Use it for Dubai + Abu Dhabi BAPS Mandir + a side trip to Oman or Saudi if you&rsquo;re combining a Holy Hindu / Jain pilgrimage.</li>
                         <li><strong>5-year multi-entry visa</strong> &mdash; for Ahmedabad business owners (diamond, textile, pharma) and families who visit Dubai twice a year or more. Up to 90 days per visit. Pricing on request.</li>
-                        <li><strong>96-hour transit visa</strong> &mdash; <span class="price-pill">From ₹5,700 (AED 250)</span>. For an AMD &harr; somewhere-else trip with a Dubai layover.</li>
+                        <li><strong>96-hour transit visa</strong> &mdash; <span class="price-pill"><?php echo visa_price_inr_label('transit-96'); ?></span>. For an AMD &harr; somewhere-else trip with a Dubai layover.</li>
                     </ul>
                     <p>
                         For families travelling with Jain-observant grandparents, we usually
-                        recommend the 60-day multi-entry. It gives you the room to extend a few
+                        recommend a 60-day visa. It gives you room for a few extra
                         days if the BAPS Mandir Abu Dhabi pre-registration window pushes, or
                         if a senior wants more rest days. Combine with our
                         <a href="dubai-tour-from-india">Dubai tour from India &mdash; Jain &amp; veg
@@ -218,12 +219,12 @@ include 'includes/breadcrumb.php';
 
                 <div class="card border-0 shadow-sm mt-3">
                     <div class="card-body p-4">
-                        <h3 class="h6 text-uppercase text-muted mb-2" style="letter-spacing:0.06em;">Pricing in INR</h3>
+                        <h3 class="h6 text-uppercase text-muted mb-2" style="letter-spacing:0.06em;">Visa prices</h3>
                         <table class="table table-sm mb-0">
                             <tbody>
-                                <tr><td>30-day single</td><td class="text-end fw-semibold">₹7,900</td></tr>
-                                <tr><td>60-day multi</td><td class="text-end fw-semibold">₹12,500</td></tr>
-                                <tr><td>96-hour transit</td><td class="text-end fw-semibold">₹5,700</td></tr>
+                                <tr><td>30-day single</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('tourist-30-single', true); ?></td></tr>
+                                <tr><td>60-day multi</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('tourist-60-multi', true); ?></td></tr>
+                                <tr><td>96-hour transit</td><td class="text-end fw-semibold"><?php echo visa_price_inr_label('transit-96', true); ?></td></tr>
                                 <tr><td>5-year multi-entry</td><td class="text-end fw-semibold">On request</td></tr>
                             </tbody>
                         </table>

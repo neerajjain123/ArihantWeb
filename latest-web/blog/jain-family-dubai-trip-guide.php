@@ -8,7 +8,7 @@ $basePath = "../";
 
 // Blog Post SEO Variables
 // Blog Post SEO Variables
-$pageTitle = "Jain Family Dubai Trip Guide 2026: Food, Temples & Itinerary | Arihant Travel";
+$pageTitle = "Jain Family Dubai Trip Guide 2026: Food, Temples & Itinerary | Arihant Travels";
 $pageDescription = "Ultimate Jain-friendly Dubai travel guide 2026. Discover 100+ pure veg restaurants, Jain temples in Dubai & Abu Dhabi, custom itineraries…";
 $pageKeywords = "jain family dubai trip, pure vegetarian dubai, jain food dubai, jain restaurants dubai, jain temple dubai timings, sattvic food dubai, jain travel guide, vegetarian dubai tour packages, dubai trip from india for jain, dubai desert safari jain food";
 $pageCanonical = "https://arihantlink.com/blog/jain-family-dubai-trip-guide";
@@ -31,7 +31,7 @@ $schemaMarkup = '
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -106,7 +106,7 @@ $schemaMarkup = '
     "name": "Can I get vegetarian food on Dubai desert safari?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Absolutely. Arihant Travel provides specialized Premium Desert Safaris with guaranteed pure vegetarian and Jain meals. We ensure separate preparation and serving to avoid cross-contamination. Please inform us at the time of booking."
+      "text": "Absolutely. Arihant Travels provides specialized Premium Desert Safaris with guaranteed pure vegetarian and Jain meals. We ensure separate preparation and serving to avoid cross-contamination. Please inform us at the time of booking."
     }
   }]
 }
@@ -116,7 +116,7 @@ $schemaMarkup = '
 $blogTitle = "Ultimate Jain Family Dubai Trip Guide 2026: Pure Vegetarian Travel Made Easy";
 $blogCategory = "Jain-Friendly";
 $blogCategoryClass = "primary";
-$blogAuthor = "Shweta Jain - Arihant Travel";
+$blogAuthor = "Shweta Jain - Arihant Travels";
 $blogDate = "December 20, 2025";
 $blogReadTime = "12 min read";
 $blogFeaturedImage = "../img/carousel-4.jpg";
@@ -604,7 +604,7 @@ include '../includes/header.php';
                             memorable and spiritually fulfilling Dubai vacation.
                         </p>
                         <p>
-                            At <strong>Arihant Travel</strong>, we specialize in creating customized Jain-friendly
+                            At <strong>Arihant Travels</strong>, we specialize in creating customized Jain-friendly
                             itineraries that ensure your dietary and spiritual needs are fully met throughout your Dubai
                             journey.
                         </p>
@@ -639,13 +639,13 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    Shweta Jain is a travel consultant at Arihant Travel specializing in Jain-friendly
+                                    Shweta Jain is a travel consultant at Arihant Travels specializing in Jain-friendly
                                     and pure vegetarian travel experiences. With deep understanding of Jain cultural
                                     values and dietary requirements, she helps families plan spiritually fulfilling
                                     vacations.

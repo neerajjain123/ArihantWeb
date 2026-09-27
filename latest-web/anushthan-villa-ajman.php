@@ -2,7 +2,7 @@
 // Page SEO Variables
 $pageTitle = "🏰 Luxury 5 Bedroom Villa in Ajman | Anushthan Villa - Private Pool & Event Hall";
 $pageDescription = "Book Anushthan Villa, a luxurious 5-bedroom Jain-friendly villa in Ajman with private pool, garden & event hall. Ideal for family vacations & events.";
-$pageKeywords = "Ajman villa, luxury villa rental, 5 bedroom villa, Anushthan Villa, Arihant Travel, family staycation, private pool villa, vegetarian friendly villa, Jain friendly accommodation Ajman, event hall rental Ajman";
+$pageKeywords = "Ajman villa, luxury villa rental, 5 bedroom villa, Anushthan Villa, Arihant Travels, family staycation, private pool villa, vegetarian friendly villa, Jain friendly accommodation Ajman, event hall rental Ajman";
 $pageCanonical = "https://arihantlink.com/anushthan-villa-ajman";
 $currentPage = "villa-listing";
 
@@ -43,7 +43,7 @@ $schemaMarkup = '
     { "@type": "LocationFeatureSpecification", "name": "Private Pool", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true },
     { "@type": "LocationFeatureSpecification", "name": "Jain Meal Options Available", "value": true },
-    { "@type": "LocationFeatureSpecification", "name": "Event Hall (Anushthan Hall)", "value": true, "additionalProperty": {"@type": "PropertyValue", "name": "Capacity", "value": "100+"} }
+    { "@type": "LocationFeatureSpecification", "name": "Event Hall (Anushthan Hall), capacity 100+", "value": true }
   ]
 }
 </script>';

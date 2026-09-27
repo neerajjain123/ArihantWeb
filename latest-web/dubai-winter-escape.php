@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Winter Escape 2026 | 5 Nights 6 Days from AED 2,499 | Jain Food Guaranteed - Arihant Travel";
+$pageTitle = "Dubai Winter Escape 2026 | 5 Nights 6 Days from AED 2,499 | Jain Food Guaranteed - Arihant Travels";
 $pageDescription = "Book our most popular Dubai package — 5 nights from AED 2,499 (₹57,500). Includes Burj Khalifa, VIP desert safari, Marina dhow cruise, Miracle Garden…";
-$pageKeywords = "Dubai winter escape Jain food 2026, 5 nights 6 days Dubai package vegetarian, Dubai Abu Dhabi combo tour Jain, VIP desert safari deal, Burj Khalifa tickets, Arihant Travel Dubai, best Dubai package for families, Dubai winter holiday from India";
+$pageKeywords = "Dubai winter escape Jain food 2026, 5 nights 6 days Dubai package vegetarian, Dubai Abu Dhabi combo tour Jain, VIP desert safari deal, Burj Khalifa tickets, Arihant Travels Dubai, best Dubai package for families, Dubai winter holiday from India";
 $pageCanonical = "https://arihantlink.com/dubai-winter-escape";
 $currentPage = "holiday-packages";
 
@@ -24,8 +24,8 @@ $schemaMarkup = '
     "url": "https://arihantlink.com/dubai-winter-escape",
     "image": "https://arihantlink.com/img/dubaiholiday/burj-khalifa-dubai-skyline-hero.jpg",
     "provider": {
-        "@type": "TravelAgency",
-        "name": "Arihant Travel",
+        "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com",
         "telephone": "+971585945007"
     },
@@ -48,12 +48,6 @@ $schemaMarkup = '
             {"@type": "ListItem", "position": 5, "name": "Day 5: Full-Day Abu Dhabi City Tour"},
             {"@type": "ListItem", "position": 6, "name": "Day 6: Departure"}
         ]
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "reviewCount": "450"
     }
 }
 </script>';
@@ -94,7 +88,7 @@ include 'includes/breadcrumb.php';
             </div>
             <div class="col-lg-6">
                 <h5 class="section-title px-3">Most Popular Package</h5>
-                <h1 class="mb-4 h2">Dubai Winter Escape - <span class="text-primary">The Complete Dubai Experience</span></h1>
+                <h2 class="mb-4 h2">Dubai Winter Escape - <span class="text-primary">The Complete Dubai Experience</span></h2>
                 <p class="mb-3">Our best-selling package — covering every must-see Dubai attraction in 6 days. Luxury hotel stay, Marina Dhow
                     Cruise, Miracle Garden, Global Village, Burj Khalifa (124th floor), VIP Desert Safari, and a full-day Abu Dhabi
                     city tour. <strong>100% pure Jain/vegetarian meals</strong> guaranteed throughout.</p>

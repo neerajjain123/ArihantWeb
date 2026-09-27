@@ -2,8 +2,8 @@
 // ─────────────────────────────────────────────
 // Page SEO Variables
 // ─────────────────────────────────────────────
-$pageTitle       = "Dubai Limousine Ride | Luxury Limo Hire Dubai | Chrysler C300 & GMC Yukon Pink Limo | Arihant Travel";
-$pageDescription = "Book a luxury limousine in Dubai with Arihant Travel. Chrysler C300 Emerald Edition (10 Pax) from AED 650/hr & GMC Yukon Malala Edition Pink Limo (20…";
+$pageTitle       = "Dubai Limousine Ride | Luxury Limo Hire Dubai | Chrysler C300 & GMC Yukon Pink Limo | Arihant Travels";
+$pageDescription = "Book a luxury limousine in Dubai with Arihant Travels. Chrysler C300 Emerald Edition (10 Pax) from AED 650/hr & GMC Yukon Malala Edition Pink Limo (20…";
 $pageKeywords    = "dubai limousine, limo hire dubai, luxury limo dubai, chrysler 300 limo dubai, gmc yukon limo dubai, pink limo dubai, birthday limo dubai, wedding limo dubai, airport limo transfer dubai, party limo dubai, 10 seater limo dubai, 20 seater limo dubai, limo rental dubai";
 $pageCanonical   = "https://arihantlink.com/dubai-limo-ride";
 $currentPage     = "dubai-limo-ride";
@@ -168,12 +168,14 @@ foreach ($limos as $i => $limo) {
             "name"        => $limo['name'] . " Limousine Dubai",
             "description" => $limo['description'],
             "image"       => "https://arihantlink.com/" . $limo['images'][0],
-            "brand"       => ["@type" => "Brand", "name" => "Arihant Travel"],
+            "brand"       => ["@type" => "Brand", "name" => "Arihant Travels"],
             "offers"      => [
                 "@type"         => "Offer",
+                "price"         => (string) (int) preg_replace('/\D/', '', strtok($limo['pricing'][0]['price'], '/')), // hourly Dubai rate
                 "priceCurrency" => "AED",
                 "availability"  => "https://schema.org/InStock",
-                "seller"        => ["@type" => "TravelAgency", "name" => "Arihant Travel", "url" => "https://arihantlink.com"],
+                "seller"        => ["@type" => "TravelAgency", "name" => "Arihant Travels Pvt Ltd", "url" => "https://arihantlink.com",
+                                    "address" => ["@type" => "PostalAddress", "streetAddress" => "Al Rayyan Complex, Al Nahda", "addressLocality" => "Sharjah", "addressRegion" => "Sharjah", "addressCountry" => "AE"]],
             ],
         ],
     ];
@@ -184,7 +186,7 @@ $schemaMarkup = '<script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Dubai Limousine Rides – Arihant Travel",
+    "name": "Dubai Limousine Rides – Arihant Travels",
     "description": "' . addslashes($pageDescription) . '",
     "itemListElement": ' . json_encode($listItems, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . '
   },
@@ -205,7 +207,7 @@ $schemaMarkup = '<script type="application/ld+json">
       {
         "@type": "Question",
         "name": "Can I hire a pink limo in Dubai?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Yes! Arihant Travel offers the GMC Yukon Malala Edition — Dubai\'s iconic pink limousine — that seats up to 20 passengers, starting from AED 850 per hour."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes! Arihant Travels offers the GMC Yukon Malala Edition — Dubai\'s iconic pink limousine — that seats up to 20 passengers, starting from AED 850 per hour."}
       },
       {
         "@type": "Question",
@@ -362,7 +364,7 @@ include 'includes/breadcrumb.php';
         <div class="text-center mx-auto mb-5" style="max-width: 820px;">
             <h5 class="section-title px-3">Luxury on Wheels</h5>
             <h2 class="mb-4">Dubai Limousine Hire – Travel in Absolute Style</h2>
-            <p class="text-muted mb-3">Whether it's a birthday bash, a lavish wedding transfer, a corporate event, or a VIP airport pickup — Arihant Travel's luxury limousine fleet brings unmatched elegance right to your door. Choose from our <strong>Chrysler C300 Emerald Edition (10 Pax)</strong> or the spectacular <strong>GMC Yukon Malala Edition Pink Limo (20 Pax)</strong> and create memories that last a lifetime.</p>
+            <p class="text-muted mb-3">Whether it's a birthday bash, a lavish wedding transfer, a corporate event, or a VIP airport pickup — Arihant Travels's luxury limousine fleet brings unmatched elegance right to your door. Choose from our <strong>Chrysler C300 Emerald Edition (10 Pax)</strong> or the spectacular <strong>GMC Yukon Malala Edition Pink Limo (20 Pax)</strong> and create memories that last a lifetime.</p>
             <p class="text-muted mb-0">Both limos are loaded with premium leather interiors, neon laser lighting, surround-sound systems, fully stocked bars, and professional chauffeurs — delivering a truly five-star experience across Dubai and Sharjah.</p>
         </div>
         <!-- Quick Stats -->
@@ -823,7 +825,7 @@ document.addEventListener('keydown', function(e) {
     <div class="container py-3">
         <div class="text-center mx-auto mb-5" style="max-width: 820px;">
             <h5 class="section-title px-3">Why Book With Us</h5>
-            <h2 class="mb-3">The Arihant Travel Difference</h2>
+            <h2 class="mb-3">The Arihant Travels Difference</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">
@@ -966,7 +968,7 @@ document.addEventListener('keydown', function(e) {
                     <div class="accordion-item mb-3 border-0 shadow-sm">
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lf8">
-                                How do I book a limousine with Arihant Travel?
+                                How do I book a limousine with Arihant Travels?
                             </button>
                         </h2>
                         <div id="lf8" class="accordion-collapse collapse" data-bs-parent="#limoFaq">

@@ -1,6 +1,6 @@
 <?php
 $basePath = "../";
-$pageTitle = "Ferrari World Abu Dhabi Guide 2026: Rides, Tickets & Tips | Arihant Travel";
+$pageTitle = "Ferrari World Abu Dhabi Guide 2026: Rides, Tickets & Tips | Arihant Travels";
 $pageDescription = "Complete Ferrari World guide - fastest roller coasters, family rides, ticket prices, best time to visit…";
 $pageKeywords = "Ferrari World, Abu Dhabi theme park, Formula Rossa, Ferrari World tickets, Abu Dhabi attractions";
 $pageCanonical = "https://arihantlink.com/blog/ferrari-world-abu-dhabi-guide";
@@ -16,12 +16,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/Ferrari-World/Ferrari_world.avif",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -99,7 +99,7 @@ $schemaMarkup = '
 $blogTitle = "Ultimate Guide to Ferrari World Abu Dhabi";
 $blogCategory = "Theme Parks";
 $blogCategoryClass = "secondary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "October 28, 2024";
 $blogReadTime = "14 min read";
 $blogFeaturedImage = "../img/blogs/Ferrari-World/Ferrari_world.avif";
@@ -118,7 +118,7 @@ include '../includes/header.php';
                         class="fa fa-ticket-alt me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Delightful Armenia 3 Nights 4 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Delightful Armenia 3 Nights 4 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Armenia's religious gems and rich culture with our Delightful Armenia 3 Nights / 4 Days tour package.";
 $pageKeywords = "delightful armenia tour package, armenia 3 nights 4 days, yerevan city tour dubai, armenia holiday deal, budget armenia package, republic square yerevan, cascade yerevan, armenia travel from uae";
 $pageCanonical = "https://arihantlink.com/armenia-delightful-3n4d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

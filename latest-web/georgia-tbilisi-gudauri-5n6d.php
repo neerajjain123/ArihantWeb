@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Explore Tbilisi & Gudauri | 5 Nights 6 Days Georgia Tour from Dubai - Arihant Travel";
+$pageTitle = "Explore Tbilisi & Gudauri | 5 Nights 6 Days Georgia Tour from Dubai - Arihant Travels";
 $pageDescription = "Blend Old Tbilisi's sulfur baths and Mtskheta's UNESCO gems with Gudauri's Caucasus mountains. This 5N/6D Georgia holiday includes 4-star hotels…";
 $pageKeywords = "georgia tour package 5 nights 6 days, tbilisi gudauri itinerary, georgia holiday from dubai, gudauri kazbegi tour, mtskheta ananuri day trip, gori uplistsikhe tour, tbilisi walking tour, georgia private tour dubai";
 $pageCanonical = "https://arihantlink.com/georgia-tbilisi-gudauri-5n6d";
@@ -36,8 +36,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

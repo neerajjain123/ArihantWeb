@@ -1,7 +1,7 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Search Results | Arihant Travel";
-$pageDescription = "Search results for tours, packages, and activities offered by Arihant Travel.";
+$pageTitle = "Search Results | Arihant Travels";
+$pageDescription = "Search results for tours, packages, and activities offered by Arihant Travels.";
 $pageKeywords = "search, Dubai tours, packages, activities";
 $pageCanonical = "https://arihantlink.com/search";
 $currentPage = "search";

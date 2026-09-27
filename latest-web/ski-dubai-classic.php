@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Ski Dubai Classic Pass Tickets 2026 | Best Price + Hotel Transfer | Arihant Travel";
+$pageTitle = "Ski Dubai Classic Pass Tickets 2026 | Best Price + Hotel Transfer | Arihant Travels";
 $pageDescription = "Book Ski Dubai Classic Pass at the best price — unlimited snow park, tobogganing, Zorb Ball & climbing wall. Winter gear included.";
 $pageKeywords = "Ski Dubai Classic Pass, Ski Dubai tickets 2026, indoor snow Dubai, Mall of Emirates snow park, bobsledding Dubai, Zorb Ball Dubai, snow activities Dubai, Ski Dubai price";
 $pageCanonical = "https://arihantlink.com/ski-dubai-classic";
@@ -144,12 +144,7 @@ $schemaMarkup = '<script type="application/ld+json">
     "priceCurrency": "AED",
     "availability": "https://schema.org/InStock",
     "url": "https://arihantlink.com/ski-dubai-classic",
-    "seller": { "@type": "Organization", "name": "Arihant Travel" }
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.6",
-    "reviewCount": "245"
+    "seller": { "@type": "Organization", "name": "Arihant Travels Pvt Ltd" }
   }
 }
 </script>';

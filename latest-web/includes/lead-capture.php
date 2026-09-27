@@ -136,7 +136,7 @@ try {
     $smtpUser   = env('SMTP_USER');
     $smtpPass   = env('SMTP_PASS');
     $smtpFrom   = env('SMTP_FROM', 'contact@arihantlink.com');
-    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travel');
+    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travels');
     $adminTo    = env('ADMIN_NOTIFY_INBOX', 'contact@arihantlink.com');
 
     if ($smtpUser && $smtpPass) {
@@ -152,14 +152,14 @@ try {
             $cmail->Port       = $smtpPort;
             $cmail->setFrom($smtpFrom, $smtpFromNm);
             $cmail->addAddress($email, $name);
-            $cmail->Subject = 'Your Free UAE Visa Document Checklist 2026 - Arihant Travel';
+            $cmail->Subject = 'Your Free UAE Visa Document Checklist 2026 - Arihant Travels';
             $cmail->Body    = "Dear $name,\n\n"
                 . "Thank you for downloading the UAE Visa Document Checklist 2026.\n\n"
                 . "Download it here: $downloadUrl\n\n"
                 . "Ready to apply? Just send your passport copy on WhatsApp (+971 58 594 5007) "
                 . "and we'll reply with a quote and the exact document list for your case within minutes. "
                 . "Most visas are approved in 24-72 hours.\n\n"
-                . "Best regards,\nArihant Travel Team\ncontact@arihantlink.com\nhttps://arihantlink.com/uae-visa";
+                . "Best regards,\nArihant Travels Team\ncontact@arihantlink.com\nhttps://arihantlink.com/uae-visa";
             $cmail->send();
         } catch (Throwable $e) {
             error_log('[lead-capture] customer mail failed: ' . $e->getMessage());

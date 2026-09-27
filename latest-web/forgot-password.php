@@ -66,14 +66,14 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['send_reset'])
                         $mail->Password   = $smtpPass;
                         $mail->SMTPSecure = env('SMTP_SECURE', 'ssl');
                         $mail->Port       = (int) env('SMTP_PORT', '465');
-                        $mail->setFrom(env('SMTP_FROM', 'contact@arihantlink.com'), env('SMTP_FROM_NAME', 'Arihant Travel'));
+                        $mail->setFrom(env('SMTP_FROM', 'contact@arihantlink.com'), env('SMTP_FROM_NAME', 'Arihant Travels'));
                         $mail->addAddress($email, $account['full_name']);
-                        $mail->Subject = 'Reset your Arihant Travel password';
+                        $mail->Subject = 'Reset your Arihant Travels password';
                         $mail->Body    = "Dear {$account['full_name']},\n\n"
-                            . "We received a request to reset your Arihant Travel password.\n\n"
+                            . "We received a request to reset your Arihant Travels password.\n\n"
                             . "Reset it here (link valid for 1 hour):\n$resetLink\n\n"
                             . "If you did not request this, you can safely ignore this email — your password "
-                            . "will not be changed.\n\nBest regards,\nArihant Travel Team";
+                            . "will not be changed.\n\nBest regards,\nArihant Travels Team";
                         $mail->send();
                     } else {
                         error_log('[forgot-password] SMTP credentials missing — reset mail not sent.');
@@ -87,8 +87,8 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') === 'POST' && isset($_POST['send_reset'])
 }
 
 // Page SEO Variables
-$pageTitle = "Forgot Password | Arihant Travel";
-$pageDescription = "Reset your Arihant Travel account password.";
+$pageTitle = "Forgot Password | Arihant Travels";
+$pageDescription = "Reset your Arihant Travels account password.";
 $pageKeywords = "forgot password, reset password";
 $pageCanonical = "https://arihantlink.com/forgot-password";
 $currentPage = "forgot-password";

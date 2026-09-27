@@ -7,7 +7,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Dubai Hot Air Balloon Guide 2026: Prices, Packages & Tips | Arihant Travel";
+$pageTitle = "Dubai Hot Air Balloon Guide 2026: Prices, Packages & Tips | Arihant Travels";
 $pageDescription = "Experience the magic of a hot air balloon ride in Dubai. Compare packages (Magical, Fiesta, Extreme), prices, and read our ultimate guide for 2026.";
 $pageKeywords = "Dubai hot air balloon, balloon ride Dubai, desert safari with balloon, Dubai sunrise balloon, hot air balloon price Dubai, hot air balloon packages Dubai";
 $pageCanonical = "https://arihantlink.com/blog/dubai-hot-air-balloon-guide";
@@ -23,12 +23,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/hotairbaloon/HotAir-Baloon-in-Air.png",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -107,7 +107,7 @@ $schemaMarkup = '
 $blogTitle = "Dubai Hot Air Balloon Experience: The Ultimate Guide";
 $blogCategory = "Adventure";
 $blogCategoryClass = "secondary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "January 20, 2025";
 $blogReadTime = "15 min read";
 $blogFeaturedImage = "../img/blogs/hotairbaloon/HotAir-Baloon-in-Air.png";
@@ -687,7 +687,7 @@ include '../includes/header.php';
                         <div class="p-4 bg-primary rounded border-start border-5 border-white my-4">
                             <h5 class="text-white mb-3"><i class="fa fa-phone me-2"></i>Ready to Soar?</h5>
                             <p class="mb-0 text-white">
-                                At Arihant Travel, we make booking your hot air balloon adventure simple and
+                                At Arihant Travels, we make booking your hot air balloon adventure simple and
                                 stress-free. Our team is available to answer your questions, help you choose the right
                                 package, and ensure your experience is nothing short of magical.
                             </p>
@@ -714,13 +714,13 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    The Arihant Travel team specializes in creating unforgettable Dubai experiences
+                                    The Arihant Travels team specializes in creating unforgettable Dubai experiences
                                     with a focus on Jain-friendly and vegetarian travel packages. With years of
                                     experience, we provide expert guidance for your perfect Dubai vacation.
                                 </p>

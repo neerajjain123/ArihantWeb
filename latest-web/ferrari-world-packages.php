@@ -34,7 +34,7 @@ $schemaMarkup = <<<HTML
     "highPrice": "850",
     "offerCount": "4",
     "availability": "https://schema.org/InStock",
-    "seller": {"@type": "TravelAgency", "name": "Arihant Travel"}
+    "seller": {"@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"}, "name": "Arihant Travels Pvt Ltd"}
   }
 }
 </script>

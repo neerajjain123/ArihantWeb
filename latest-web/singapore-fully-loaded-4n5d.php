@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Singapore Fully Loaded 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Singapore Fully Loaded 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Singapore with our Fully Loaded 4 Nights / 5 Days package. Explore Universal Studios, Sentosa Island, Singapore Flyer, Gardens by the Bay…";
 $pageKeywords = "singapore fully loaded package, singapore 4 nights 5 days, universal studios singapore, sentosa island tour, singapore flyer, gardens by the bay, singapore holiday from dubai, singapore travel uae";
 $pageCanonical = "https://arihantlink.com/singapore-fully-loaded-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

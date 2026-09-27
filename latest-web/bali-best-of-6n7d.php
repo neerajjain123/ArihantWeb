@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Best of Bali 6 Nights 7 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Best of Bali 6 Nights 7 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the Best of Bali with our 6 Nights / 7 Days package. Explore Ubud & Kintamani, Tanah Lot Temple, water sports, Bali Safari & Marine Park…";
 $pageKeywords = "best of bali package, bali 6 nights 7 days, ubud kintamani tour, tanah lot temple, bali safari marine park, ayung river rafting, sunset dinner cruise bali, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-best-of-6n7d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

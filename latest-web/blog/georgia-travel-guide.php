@@ -1,6 +1,6 @@
 <?php
 $basePath = "../";
-$pageTitle = "Georgia Travel Guide 2026: Complete Itinerary & Tips | Arihant Travel";
+$pageTitle = "Georgia Travel Guide 2026: Complete Itinerary & Tips | Arihant Travels";
 $pageDescription = "Discover Georgia with our complete travel guide - Tbilisi, wine regions, mountain villages, visa info, costs, and vegetarian dining options.";
 $pageKeywords = "Georgia travel guide, Tbilisi, Georgia tourism, Georgia wine, Georgia visa, Caucasus travel";
 $pageCanonical = "https://arihantlink.com/blog/georgia-travel-guide";
@@ -16,12 +16,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/georgia/Georgia_banner.avif",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -99,7 +99,7 @@ $schemaMarkup = '
 $blogTitle = "Discover Georgia: A Journey Through History, Mountains, and Delightful Cuisine";
 $blogCategory = "International";
 $blogCategoryClass = "primary";
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "September 10, 2024";
 $blogReadTime = "16 min read";
 $blogFeaturedImage = "../img/blogs/georgia/Georgia_banner.avif";
@@ -122,7 +122,7 @@ include '../includes/header.php';
                         class="fa fa-globe me-2"></i><?php echo $blogCategory; ?></span>
                 <h1 class="text-white display-4 mb-4" style="font-family: 'Jost', sans-serif; font-weight: 700;">
                     <?php echo $blogTitle; ?>
-                </h2>
+                </h1>
 
                 <!-- Blog Meta Information -->
                 <div class="d-flex justify-content-center align-items-center flex-wrap gap-4 text-white mb-4">

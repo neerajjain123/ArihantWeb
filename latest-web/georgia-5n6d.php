@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "5 Nights 6 Days Georgia Ski Tour Package from Dubai | Gudauri Ski Resort 2025 - Arihant Travel";
+$pageTitle = "5 Nights 6 Days Georgia Ski Tour Package from Dubai | Gudauri Ski Resort 2025 - Arihant Travels";
 $pageDescription = "Experience Georgia's winter wonderland over 5 nights / 6 days. Ski in Gudauri resort, visit Friendship Monument, explore Ananuri Fortress…";
 $pageKeywords = "georgia ski package, gudauri ski resort, georgia winter tour, snowcapped georgia adventure, gudauri skiing dubai, georgia 5 nights 6 days, tbilisi gudauri tour, georgia ski holiday, caucasus ski trip";
 $pageCanonical = "https://arihantlink.com/georgia-5n6d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

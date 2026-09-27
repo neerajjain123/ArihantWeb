@@ -160,7 +160,7 @@ try {
     }
 
     $email_body = <<<EOT
-Dear Arihant Travel Team,
+Dear Arihant Travels Team,
 
 A new $package booking request has been submitted:
 
@@ -183,7 +183,7 @@ Total Estimated Cost: $total AED
 Please contact the customer within 2 hours.
 
 Best regards,
-Arihant Travel Website
+Arihant Travels Website
 EOT;
 
     $smtpHost   = env('SMTP_HOST', 'smtp.hostinger.com');
@@ -192,7 +192,7 @@ EOT;
     $smtpUser   = env('SMTP_USER');
     $smtpPass   = env('SMTP_PASS');
     $smtpFrom   = env('SMTP_FROM', 'contact@arihantlink.com');
-    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travel');
+    $smtpFromNm = env('SMTP_FROM_NAME', 'Arihant Travels');
     $adminTo    = env('ADMIN_NOTIFY_INBOX', 'contact@arihantlink.com');
 
     if (!$smtpUser || !$smtpPass) {
@@ -226,7 +226,7 @@ EOT;
     }
 
     if ($mail_sent) {
-        $customer_subject = 'Your ' . $package . ' Booking Request - Arihant Travel';
+        $customer_subject = 'Your ' . $package . ' Booking Request - Arihant Travels';
         $customer_body = <<<EOT
 Dear $name,
 
@@ -244,7 +244,7 @@ Our team will review your request and get back to you within 2 hours with a pers
 For anything urgent, WhatsApp us on +971 58 594 5007.
 
 Best regards,
-Arihant Travel Team
+Arihant Travels Team
 contact@arihantlink.com
 EOT;
         try {

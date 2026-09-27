@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Simply Thailand 4 Nights 5 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Simply Thailand 4 Nights 5 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Discover Thailand with our Simply Thailand 4 Nights / 5 Days package covering Pattaya and Bangkok. Coral Island, Alcazar Show & temple tours included.";
 $pageKeywords = "simply thailand package, thailand 4 nights 5 days, pattaya bangkok tour, coral island tour, bangkok temple tour, thailand holiday from dubai, thailand travel uae";
 $pageCanonical = "https://arihantlink.com/thailand-simply-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

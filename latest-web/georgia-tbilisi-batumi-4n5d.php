@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Tbilisi to Batumi Georgia Tour Package 4 Nights / 5 Days | Perfect Getaway from Dubai 2025 - Arihant Travel";
+$pageTitle = "Tbilisi to Batumi Georgia Tour Package 4 Nights / 5 Days | Perfect Getaway from Dubai 2025 - Arihant Travels";
 $pageDescription = "Experience the perfect Georgia combination: Tbilisi's cultural charm and Batumi's Black Sea coast. 4 nights from Dubai with 4-star stays included.";
 $pageKeywords = "georgia tbilisi batumi tour, georgia coastal tour, tbilisi to batumi package, batumi black sea georgia, prometheus cave georgia, martvili canyon tour, batumi botanical gardens, georgia 4 nights 5 days, tbilisi batumi itinerary, georgia city and sea tour";
 $pageCanonical = "https://arihantlink.com/georgia-tbilisi-batumi-4n5d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

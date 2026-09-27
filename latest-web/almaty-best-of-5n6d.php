@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Best of Almaty 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Best of Almaty 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "The ultimate Almaty experience — 5 Nights / 6 Days covering Kolsai Lakes with overnight stay, Kaindy Lake by 4x4, Charyn Canyon, Shymbulak Ski Resort…";
 $pageKeywords = "best of almaty tour package, almaty 5 nights 6 days, big almaty lake, kolsai lakes tour, kaindy lake, charyn canyon trip, shymbulak ski resort, medeu skating rink, almaty holiday from dubai, kazakhstan travel uae";
 $pageCanonical = "https://arihantlink.com/almaty-best-of-5n6d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

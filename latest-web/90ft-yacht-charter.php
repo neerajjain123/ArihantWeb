@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "90ft Private Yacht Charter Dubai | 50 Guests | AED 1800/Hour | Arihant Travel";
+$pageTitle = "90ft Private Yacht Charter Dubai | 50 Guests | AED 1800/Hour | Arihant Travels";
 $pageDescription = "Book a 90ft private yacht charter in Dubai for up to 50 guests from AED 1,800/hr. Sunset cruise past Burj Al Arab, Palm Jumeirah & Dubai Marina.";
 $pageKeywords = "Dubai yacht charter, private boat trip Dubai, 90ft yacht rental, luxury yacht Dubai Marina, Palm Jumeirah boat tour, Burj Al Arab yacht view, private yacht 50 guests, Dubai boat trip, yacht party Dubai, yacht hire Dubai";
 $pageCanonical = "https://arihantlink.com/90ft-yacht-charter";
@@ -32,20 +32,9 @@ $schemaMarkup = '
         "https://arihantlink.com/img/yacht/90ft%20Yacht/90-1-scaled.webp",
         "https://arihantlink.com/img/yacht/90ft%20Yacht/DSC9722-scaled.webp"
       ],
-      "departureLocation": {
-        "@type": "Place",
-        "name": "Dubai Harbour",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Dubai Harbour",
-          "addressLocality": "Dubai Harbour",
-          "addressRegion": "Dubai",
-          "addressCountry": "AE"
-        }
-      },
       "provider": {
         "@type": "Organization",
-        "name": "Arihant Travel",
+        "name": "Arihant Travels Pvt Ltd",
         "url": "https://arihantlink.com"
       },
       "offers": {
@@ -60,19 +49,6 @@ $schemaMarkup = '
           "unitText": "per hour"
         },
         "availability": "https://schema.org/InStock"
-      },
-      "maximumAttendeeCapacity": 50,
-      "amenityFeature": [
-        {"@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "BBQ Grill", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Music System", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Life Jackets", "value": true},
-        {"@type": "LocationFeatureSpecification", "name": "Swimming Aids", "value": true}
-      ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "64"
       }
     },
     {

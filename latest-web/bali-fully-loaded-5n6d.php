@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Bali Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travel";
+$pageTitle = "Bali Fully Loaded 5 Nights 6 Days Tour Package from Dubai | Arihant Travels";
 $pageDescription = "Experience the ultimate Bali getaway with our Fully Loaded 5 Nights / 6 Days package. Explore Ubud & Kintamani, sunset at Tanah Lot Temple…";
 $pageKeywords = "bali fully loaded package, bali 5 nights 6 days, ubud kintamani tour, tanah lot temple tour, tanjung benoa water sports, bali safari marine park, bali holiday from dubai, bali travel uae";
 $pageCanonical = "https://arihantlink.com/bali-fully-loaded-5n6d";
@@ -34,8 +34,8 @@ $schemaMarkup = '
     "availability": "https://schema.org/InStock",
     "url": "' . $pageCanonical . '",
     "seller": {
-      "@type": "TravelAgency",
-      "name": "Arihant Travel"
+      "@type": "TravelAgency", "address": {"@type": "PostalAddress", "streetAddress": "Al Rayyan Complex, Al Nahda", "addressLocality": "Sharjah", "addressRegion": "Sharjah", "addressCountry": "AE"},
+      "name": "Arihant Travels Pvt Ltd"
     }
   },
   "itinerary": {

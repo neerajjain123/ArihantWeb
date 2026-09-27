@@ -1,8 +1,8 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Jain & Vegetarian Travel Agency Dubai | Arihant Travel";
+$pageTitle = "Jain & Vegetarian Travel Agency Dubai | Arihant Travels";
 $pageDescription = "Dubai-based Jain & vegetarian travel agency. Pure veg desert safaris, yacht charters, city tours & holiday packages. 2,000+ families served.";
-$pageKeywords = "Jain travel agency Dubai, vegetarian tours Dubai UAE, Jain friendly desert safari, pure vegetarian holiday packages UAE, Dubai tours for Jain families, female owned travel agency Dubai, Arihant Travel, Jain travel UAE, vegetarian family vacation Dubai, Gujarati tour Dubai, Swaminarayan temple tour Dubai, BAPS mandir Abu Dhabi tour, Dubai Jain package, Dubai group tour for Indians, senior citizen Dubai package, pure veg Dubai tour, customized Dubai holiday";
+$pageKeywords = "Jain travel agency Dubai, vegetarian tours Dubai UAE, Jain friendly desert safari, pure vegetarian holiday packages UAE, Dubai tours for Jain families, female owned travel agency Dubai, Arihant Travels, Jain travel UAE, vegetarian family vacation Dubai, Gujarati tour Dubai, Swaminarayan temple tour Dubai, BAPS mandir Abu Dhabi tour, Dubai Jain package, Dubai group tour for Indians, senior citizen Dubai package, pure veg Dubai tour, customized Dubai holiday";
 $pageCanonical   = "https://arihantlink.com/";
 $currentPage     = "home";
 $breadcrumbBg    = "img/carousel-1.jpg";   // og:image for homepage social shares
@@ -13,8 +13,8 @@ $schemaMarkup = '
 {
     "@context": "https://schema.org",
     "@type": ["TravelAgency", "LocalBusiness"],
-    "name": "Arihant Travel",
-    "alternateName": "Arihant Link Travel & Tourism",
+    "name": "Arihant Travels Pvt Ltd",
+    "alternateName": ["Arihant Travels", "Arihant Travel", "Arihant Link Travel & Tourism"],
     "url": "https://arihantlink.com",
     "logo": "https://arihantlink.com/img/logo.png",
     "image": "https://arihantlink.com/img/carousel-2.jpg",
@@ -24,15 +24,15 @@ $schemaMarkup = '
     "email": "info@arihantlink.com",
     "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Sharjah",
-        "addressLocality": "Dubai",
-        "addressRegion": "Dubai",
+        "streetAddress": "Al Rayyan Complex, Al Nahda",
+        "addressLocality": "Sharjah",
+        "addressRegion": "Sharjah",
         "addressCountry": "AE"
     },
     "geo": {
         "@type": "GeoCoordinates",
-        "latitude": "25.2048",
-        "longitude": "55.2708"
+        "latitude": "25.3013436",
+        "longitude": "55.3833683"
     },
     "sameAs": [
         "https://www.facebook.com/profile.php?id=61561499244239",
@@ -47,7 +47,7 @@ $schemaMarkup = '
         "@type": "Person",
         "name": "Shweta Jain",
         "jobTitle": "Founder & CEO",
-        "nationality": "Indian"
+        "nationality": {"@type": "Country", "name": "India"}
     },
     "priceRange": "AED 25 - AED 5000",
     "currenciesAccepted": "AED, INR, USD",
@@ -129,7 +129,7 @@ $schemaMarkup = '
     ],
     "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Arihant Travel Services",
+        "name": "Arihant Travels Services",
         "itemListElement": [
             {
                 "@type": "OfferCatalog",
@@ -170,13 +170,6 @@ $schemaMarkup = '
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
         "opens": "00:00",
         "closes": "23:59"
-    },
-    "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "bestRating": "5",
-        "worstRating": "1",
-        "reviewCount": "2000"
     }
 }
 </script>
@@ -201,14 +194,14 @@ include 'includes/header.php';
                 <picture>
                     <source media="(max-width: 768px)" srcset="img/carousel-2-mobile.webp" type="image/webp">
                     <source srcset="img/carousel-2.webp" type="image/webp">
-                    <img src="img/carousel-2.jpg" class="img-fluid" alt="Dubai skyline view - Arihant Travel Jain and vegetarian travel agency UAE" fetchpriority="high"
+                    <img src="img/carousel-2.jpg" class="img-fluid" alt="Dubai skyline view - Arihant Travels Jain and vegetarian travel agency UAE" fetchpriority="high"
                         width="1920" height="1080" decoding="async">
                 </picture>
                 <div class="carousel-caption">
                     <div class="p-3" style="max-width: 900px;">
                         <h2 class="text-white text-uppercase mb-3"
                             style="font-family: 'Prompt', sans-serif; font-weight: 600; letter-spacing: 2px;">
-                            Welcome to Arihant Travel</h2>
+                            Welcome to Arihant Travels</h2>
                         <h1 class="display-3 text-white mb-4"
                             style="font-family: 'Prompt', sans-serif; font-weight: 700;">
                             Discover Dubai with Jain & Vegetarian-Friendly Travel Packages
@@ -305,7 +298,7 @@ include 'includes/header.php';
                 <picture>
                     <source media="(max-width: 768px)" data-srcset="img/carousel-6-mobile.webp" type="image/webp">
                     <source data-srcset="img/carousel-6.webp" type="image/webp">
-                    <img data-src="img/carousel-6.jpg" class="img-fluid carousel-lazy" alt="Skip the queue at Dubai attractions and theme parks with Arihant Travel" loading="lazy" width="1920" height="1080" decoding="async">
+                    <img data-src="img/carousel-6.jpg" class="img-fluid carousel-lazy" alt="Skip the queue at Dubai attractions and theme parks with Arihant Travels" loading="lazy" width="1920" height="1080" decoding="async">
                 </picture>
                 <div class="carousel-caption">
                     <div class="p-3" style="max-width: 800px;">
@@ -568,7 +561,7 @@ include 'includes/header.php';
 <!-- Why Choose Arihant Trust Strip Start -->
 <div class="container-fluid trust-strip py-4" style="background:#13357B;">
     <div class="container py-3">
-        <h2 class="visually-hidden">Why Choose Arihant Travel — UAE's #1 Jain Travel Agency</h2>
+        <h2 class="visually-hidden">Why Choose Arihant Travels — UAE's #1 Jain Travel Agency</h2>
         <div class="row g-3 text-center align-items-center justify-content-center">
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="trust-badge text-white">
@@ -623,7 +616,7 @@ include 'includes/header.php';
         <div class="mx-auto text-center mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Services</h5>
             <h2 class="mb-4">Our Services</h2>
-            <p class="mb-0">Welcome to Arihant Travel, your trusted partner for unforgettable Dubai and
+            <p class="mb-0">Welcome to Arihant Travels, your trusted partner for unforgettable Dubai and
                 International vacation packages. We specialize in Jain-friendly and vegetarian travel experiences.
             </p>
         </div>
@@ -1177,7 +1170,7 @@ include 'includes/header.php';
                                     <i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i>
                                 </div>
                                 <i class="fa fa-quote-left fa-2x text-primary opacity-25 mb-3 d-block"></i>
-                                <p class="fs-5 mb-4 fst-italic">"Arihant Travel made our Dubai trip absolutely perfect. The Jain food arrangements were flawless — even on the desert safari. Shweta Ji personally ensured our dietary needs were met at every step. Highly recommended for every Jain family!"</p>
+                                <p class="fs-5 mb-4 fst-italic">"Arihant Travels made our Dubai trip absolutely perfect. The Jain food arrangements were flawless — even on the desert safari. Shweta Ji personally ensured our dietary needs were met at every step. Highly recommended for every Jain family!"</p>
                                 <div class="d-flex align-items-center justify-content-center gap-3">
                                     <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width:55px;height:55px;flex-shrink:0;"><i class="fa fa-user text-white fa-lg"></i></div>
                                     <div class="text-start">
@@ -1261,7 +1254,7 @@ include 'includes/header.php';
                                     <i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i><i class="fa fa-star" style="color:#f0b429;"></i>
                                 </div>
                                 <i class="fa fa-quote-left fa-2x text-primary opacity-25 mb-3 d-block"></i>
-                                <p class="fs-5 mb-4 fst-italic">"As a family from Kenya, we were nervous about finding pure Jain food in Dubai. Arihant Travel was recommended by our community and delivered beyond expectations. Even the dhow cruise had specially prepared Jain thali. Wonderful — will refer everyone!"</p>
+                                <p class="fs-5 mb-4 fst-italic">"As a family from Kenya, we were nervous about finding pure Jain food in Dubai. Arihant Travels was recommended by our community and delivered beyond expectations. Even the dhow cruise had specially prepared Jain thali. Wonderful — will refer everyone!"</p>
                                 <div class="d-flex align-items-center justify-content-center gap-3">
                                     <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width:55px;height:55px;flex-shrink:0;"><i class="fa fa-user text-white fa-lg"></i></div>
                                     <div class="text-start">
@@ -1713,10 +1706,10 @@ include 'includes/header.php';
         },
         {
             "@type": "Question",
-            "name": "Is Arihant Travel a registered travel agency in the UAE?",
+            "name": "Is Arihant Travels a registered travel agency in the UAE?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Yes, Arihant Travel is a fully registered and licensed travel agency based in Dubai, UAE, founded in 2022 by Shweta Jain. We specialize exclusively in Jain-friendly and vegetarian travel across Dubai, UAE, and international destinations. We provide 24/7 WhatsApp support throughout your trip."
+                "text": "Yes, Arihant Travels is a fully registered and licensed travel agency based in Dubai, UAE, founded in 2022 by Shweta Jain. We specialize exclusively in Jain-friendly and vegetarian travel across Dubai, UAE, and international destinations. We provide 24/7 WhatsApp support throughout your trip."
             }
         }
     ]
@@ -1793,12 +1786,12 @@ include 'includes/header.php';
                         <h2 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFive">
-                                Is Arihant Travel a registered travel agency in the UAE?
+                                Is Arihant Travels a registered travel agency in the UAE?
                             </button>
                         </h2>
                         <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
-                                Yes, Arihant Travel is a fully registered and licensed travel agency based in Dubai, UAE, founded in 2022 by Shweta Jain. We specialize exclusively in Jain-friendly and vegetarian travel across Dubai, UAE, and international destinations. Our clients range from NRI families visiting Dubai for the first time to Jain community groups from India, Kenya, the UK, and the USA. We provide 24/7 WhatsApp support throughout your trip.
+                                Yes, Arihant Travels is a fully registered and licensed travel agency based in Dubai, UAE, founded in 2022 by Shweta Jain. We specialize exclusively in Jain-friendly and vegetarian travel across Dubai, UAE, and international destinations. Our clients range from NRI families visiting Dubai for the first time to Jain community groups from India, Kenya, the UK, and the USA. We provide 24/7 WhatsApp support throughout your trip.
                             </div>
                         </div>
                     </div>

@@ -7,7 +7,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Dubai Honeymoon Guide 2026: Romantic Packages & Places | Arihant Travel";
+$pageTitle = "Dubai Honeymoon Guide 2026: Romantic Packages & Places | Arihant Travels";
 $pageDescription = "Plan your dream honeymoon in Dubai! Discover romantic dinners, luxury resorts, private desert safaris, and exclusive couple packages. Detailed guide for 2026.";
 $pageKeywords = "dubai honeymoon packages, romantic places in dubai, best hotels for honeymoon in dubai, dubai honeymoon itinerary, couple activities dubai, desert safari for couples, burj khalifa romantic dinner";
 $pageCanonical = "https://arihantlink.com/blog/dubai-honeymoon-destination-guide";
@@ -23,12 +23,12 @@ $schemaMarkup = '
   "image": "https://arihantlink.com/img/blogs/Honeymoon/honeymoon-in-dubai-an-extraordinary-beginning-to-your-married-life-beach-romance.webp",
   "author": {
     "@type": "Organization",
-    "name": "Arihant Travel Team",
+    "name": "Arihant Travels Team",
     "url": "https://arihantlink.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Arihant Travel",
+    "name": "Arihant Travels Pvt Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://arihantlink.com/img/logo.png"
@@ -83,7 +83,7 @@ $schemaMarkup = '
     "name": "How much does a Dubai honeymoon cost?",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "A 5-day honeymoon in Dubai can cost between AED 5,000 to AED 15,000+ depending on your choice of hotels and activities. Arihant Travel offers customized packages to suit various budgets."
+      "text": "A 5-day honeymoon in Dubai can cost between AED 5,000 to AED 15,000+ depending on your choice of hotels and activities. Arihant Travels offers customized packages to suit various budgets."
     }
   },{
     "@type": "Question",
@@ -107,7 +107,7 @@ $schemaMarkup = '
 $blogTitle = "Dubai Honeymoon Destination: Complete Guide for Newlyweds 2026";
 $blogCategory = "Dubai Tours";
 $blogCategoryClass = "danger"; // Using danger for romantic red color
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "December 20, 2025";
 $blogReadTime = "12 min read";
 $blogFeaturedImage = "../img/blogs/Honeymoon/honeymoon-in-dubai-an-extraordinary-beginning-to-your-married-life-beach-romance.webp";
@@ -842,7 +842,7 @@ include '../includes/header.php';
                                         A 5-day honeymoon in Dubai can cost between <strong>AED 5,000 to AED
                                             15,000+</strong> depending on your choice of accommodation and activities.
                                         Budget-friendly options are available, but luxury experiences like private
-                                        yachts and 5-star resorts will increase the cost. Arihant Travel offers
+                                        yachts and 5-star resorts will increase the cost. Arihant Travels offers
                                         customized packages to suit every budget.
                                     </div>
                                 </div>
@@ -917,7 +917,7 @@ include '../includes/header.php';
                             <h5 class="text-white mb-3"><i class="fa fa-heart me-2"></i>Ready to Begin Your Journey?
                             </h5>
                             <p class="mb-0 text-white">
-                                Contact Arihant Travel today to start planning your perfect Dubai honeymoon. Our
+                                Contact Arihant Travels today to start planning your perfect Dubai honeymoon. Our
                                 experienced team will help you create a personalized itinerary that matches your dreams
                                 and budget, ensuring your honeymoon is as magical as your love story.
                             </p>
@@ -944,13 +944,13 @@ include '../includes/header.php';
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    The Arihant Travel team specializes in creating unforgettable Dubai experiences
+                                    The Arihant Travels team specializes in creating unforgettable Dubai experiences
                                     with a focus on romantic getaways and honeymoon packages. With years of
                                     experience, we provide expert guidance for your perfect Dubai honeymoon vacation.
                                 </p>

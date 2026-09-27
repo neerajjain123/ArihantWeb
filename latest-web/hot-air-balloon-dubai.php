@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Hot Air Balloon Dubai | Sunrise Flight Experience | Arihant Travel";
+$pageTitle = "Hot Air Balloon Dubai | Sunrise Flight Experience | Arihant Travels";
 $pageDescription = "Book your magical Hot Air Balloon ride in Dubai. Packages include Magical, Fiesta, and Extreme flights with desert safari, breakfast, and more.";
 $pageKeywords = "hot air balloon dubai, dubai balloon ride, hot air balloon price dubai, hot air balloon with breakfast, hot air balloon desert safari, sunrise hot air balloon dubai, best hot air balloon dubai deals, hot air balloon magical package dubai, hot air balloon fiesta package with desert safari, hot air balloon extreme package with quad bike, arihant travel hot air balloon";
 $pageCanonical = "https://arihantlink.com/hot-air-balloon-dubai";
@@ -60,6 +60,7 @@ foreach ($packages as $index => $pkg) {
             "image" => "https://arihantlink.com/" . $pkg['image'],
             "offers" => [
                 "@type" => "Offer",
+                "price" => (string) (int) preg_replace('/\D/', '', strtok($pkg['price'], '/')),
                 "priceCurrency" => "AED",
                 "availability" => "https://schema.org/InStock",
                 "url" => "https://arihantlink.com/" . $pkg['slug']
@@ -162,7 +163,7 @@ include 'includes/breadcrumb.php';
     <div class="container py-5">
         <div class="text-center mx-auto mb-5" style="max-width: 900px;">
             <h5 class="section-title px-3">Why Book With Us</h5>
-            <h2 class="mb-4">Why Book Your Flight with Arihant Travel?</h2>
+            <h2 class="mb-4">Why Book Your Flight with Arihant Travels?</h2>
         </div>
         <div class="row g-4">
             <div class="col-lg-3 col-md-6">

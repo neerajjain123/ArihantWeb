@@ -7,7 +7,7 @@
 $basePath = "../";
 
 // Blog Post SEO Variables
-$pageTitle = "Blog Post Title | Arihant Travel";
+$pageTitle = "Blog Post Title | Arihant Travels";
 $pageDescription = "Blog post description for SEO purposes.";
 $pageKeywords = "dubai, travel, tourism, blog keywords";
 $pageCanonical = "https://arihantlink.com/blog/blog-post-slug";
@@ -17,7 +17,7 @@ $currentPage = "blog";
 $blogTitle = "Blog Post Title";
 $blogCategory = "Dubai Tours"; // Options: Dubai Tours, Jain-Friendly, International, Visa Guide
 $blogCategoryClass = "primary"; // Options: primary, secondary, success, danger, warning, info
-$blogAuthor = "Arihant Travel Team";
+$blogAuthor = "Arihant Travels Team";
 $blogDate = "December 22, 2025";
 $blogReadTime = "10 min read";
 $blogFeaturedImage = "../img/blogs/featured-image.jpg";
@@ -333,7 +333,7 @@ $relatedPosts = [
                         <div class="p-4 bg-primary rounded border-start border-5 border-white my-4">
                             <h5 class="text-white mb-3"><i class="fa fa-phone me-2"></i>Ready to Get Started?</h5>
                             <p class="mb-0 text-white">
-                                Contact Arihant Travel today to start planning your perfect trip. Our experienced team
+                                Contact Arihant Travels today to start planning your perfect trip. Our experienced team
                                 will help you create a personalized itinerary that matches your dreams and budget.
                             </p>
                         </div>
@@ -359,13 +359,13 @@ $relatedPosts = [
                     <div class="card-body">
                         <div class="row align-items-center">
                             <div class="col-md-2 text-center">
-                                <img src="../img/logo.png" alt="Arihant Travel" class="rounded-circle"
+                                <img src="../img/logo.png" alt="Arihant Travels" class="rounded-circle"
                                     style="width: 80px; height: 80px; object-fit: cover;">
                             </div>
                             <div class="col-md-10">
                                 <h5 class="mb-2"><?php echo $blogAuthor; ?></h5>
                                 <p class="text-muted mb-3">
-                                    The Arihant Travel team specializes in creating unforgettable Dubai experiences
+                                    The Arihant Travels team specializes in creating unforgettable Dubai experiences
                                     with a focus on Jain-friendly and vegetarian travel packages. With years of
                                     experience, we provide expert guidance for your perfect Dubai vacation.
                                 </p>

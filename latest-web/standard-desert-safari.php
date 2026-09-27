@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Standard Evening Desert Safari Dubai - AED 99 (₹2,300) | Pure Veg & Jain Food | Arihant Travel";
+$pageTitle = "Standard Evening Desert Safari Dubai - AED 99 (₹2,300) | Pure Veg & Jain Food | Arihant Travels";
 $pageDescription = "Book Standard Evening Desert Safari at AED 99 (₹2,300). Dune bashing, camel ride, BBQ dinner with pure Jain & vegetarian food. Separate veg counter.";
 $pageKeywords = "standard desert safari Dubai, evening desert safari, Dubai desert tour, cheap desert safari, budget desert safari, desert safari with Jain food Dubai, vegetarian desert safari, desert safari for Indian families, pure veg desert safari, Gujarati vegetarian safari Dubai";
 $pageCanonical = "https://arihantlink.com/standard-desert-safari";
@@ -21,13 +21,12 @@ $schemaMarkup = '<script type="application/ld+json">
 [
   {
     "@context": "https://schema.org",
-    "@type": ["Tour", "TouristTrip"],
+    "@type": "TouristTrip",
     "name": "Standard Evening Desert Safari Dubai",
     "description": "' . $pageDescription . '",
     "image": "https://arihantlink.com/img/safari/StandardCamp/cover.webp",
     "url": "https://arihantlink.com/standard-desert-safari",
     "touristType": ["Jain families", "Vegetarian travelers", "Indian families", "Families with children"],
-    "duration": "PT6H",
     "itinerary": {
       "@type": "ItemList",
       "itemListElement": [
@@ -52,7 +51,7 @@ $schemaMarkup = '<script type="application/ld+json">
     },
     "provider": {
       "@type": "TravelAgency",
-      "name": "Arihant Travel",
+      "name": "Arihant Travels Pvt Ltd",
       "url": "https://arihantlink.com",
       "telephone": "+971585945007",
       "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE"}
@@ -94,8 +93,8 @@ include 'includes/header.php';
             </div>
             <div class="col-6 col-md-3">
                 <i class="fas fa-star fa-2x text-secondary mb-2"></i>
-                <p class="mb-0 fw-bold">4.8/5 Rating</p>
-                <small class="text-muted">1000+ Reviews</small>
+                <p class="mb-0 fw-bold">4.9/5 on Google</p>
+                <small class="text-muted">120+ Reviews</small>
             </div>
         </div>
     </div>
