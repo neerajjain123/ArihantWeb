@@ -126,9 +126,10 @@ foreach ($yachts as $index => $yacht) {
             "@type" => "Product",
             "name" => $yacht['name'],
             "description" => $yacht['description'],
-            "image" => "https://arihanttravel.com/" . $yacht['image'],
+            "image" => "https://arihantlink.com/" . $yacht['image'],
             "offers" => [
                 "@type" => "Offer",
+                "price" => (string) (int) preg_replace('/\D/', '', strtok($yacht['price'], '/')),
                 "priceCurrency" => "AED",
                 "availability" => "https://schema.org/InStock"
             ]

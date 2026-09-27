@@ -171,6 +171,7 @@ foreach ($limos as $i => $limo) {
             "brand"       => ["@type" => "Brand", "name" => "Arihant Travels"],
             "offers"      => [
                 "@type"         => "Offer",
+                "price"         => (string) (int) preg_replace('/\D/', '', strtok($limo['pricing'][0]['price'], '/')), // hourly Dubai rate
                 "priceCurrency" => "AED",
                 "availability"  => "https://schema.org/InStock",
                 "seller"        => ["@type" => "TravelAgency", "name" => "Arihant Travels Pvt Ltd", "url" => "https://arihantlink.com",

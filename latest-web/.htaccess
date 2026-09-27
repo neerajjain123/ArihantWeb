@@ -52,14 +52,18 @@ RewriteRule ^overnight-desert-safari\.html$ /overnight-desert-safari [R=301,L]
 RewriteRule ^quad-bike-safari\.html$ /quad-bike-safari [R=301,L]
 
 # City Tours Pages
-RewriteRule ^city-tours\.html$ /city-tours [R=301,L]
+RewriteRule ^city-tours(\.html)?$ /dubai-full-day-city-tour [R=301,L]
 RewriteRule ^dubai-full-day-city-tour\.html$ /dubai-full-day-city-tour [R=301,L]
 RewriteRule ^abu-dhabi-city-tour\.html$ /abu-dhabi-city-tour [R=301,L]
 RewriteRule ^musandam-dibba-tour\.html$ /musandam-dibba-tour [R=301,L]
 RewriteRule ^hatta-city-tour\.html$ /hatta-city-tour [R=301,L]
 
 # Other Activities
-RewriteRule ^international-tours\.html$ /international-tours [R=301,L]
+RewriteRule ^international-tours(\.html)?$ / [R=301,L]
+# Old URLs Google still requests (Search Console 404 report, 2026-09-27)
+RewriteRule ^tours/?$ /dubai-holiday-packages [R=301,L]
+RewriteRule ^promo/?$ /dubai-holiday-packages [R=301,L]
+RewriteRule ^dubai-for-kids-package/?$ /dubai-for-kids [R=301,L]
 RewriteRule ^dhow-cruise\.html$ /dhow-cruise [R=301,L]
 RewriteRule ^ocean-express-marina-dhow-cruise\.html$ /ocean-empress [R=301,L]
 RewriteRule ^alexandra-dhow-cruise-marina\.html$ /alexandra-dhow-cruise [R=301,L]

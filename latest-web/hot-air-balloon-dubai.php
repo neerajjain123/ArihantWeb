@@ -60,6 +60,7 @@ foreach ($packages as $index => $pkg) {
             "image" => "https://arihantlink.com/" . $pkg['image'],
             "offers" => [
                 "@type" => "Offer",
+                "price" => (string) (int) preg_replace('/\D/', '', strtok($pkg['price'], '/')),
                 "priceCurrency" => "AED",
                 "availability" => "https://schema.org/InStock",
                 "url" => "https://arihantlink.com/" . $pkg['slug']

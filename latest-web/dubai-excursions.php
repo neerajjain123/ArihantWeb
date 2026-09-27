@@ -117,9 +117,10 @@ foreach ($excursions as $index => $excursion) {
             "@type" => "Product",
             "name" => $excursion['name'],
             "description" => $excursion['description'],
-            "image" => "https://arihanttravel.com/" . $excursion['image'],
+            "image" => "https://arihantlink.com/" . $excursion['image'],
             "offers" => [
                 "@type" => "Offer",
+                "price" => (string) (int) preg_replace('/\D/', '', strtok($excursion['price'], '/')),
                 "priceCurrency" => "AED",
                 "availability" => "https://schema.org/InStock"
             ]
