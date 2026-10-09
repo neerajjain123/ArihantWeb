@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "AYA Universe Tickets Dubai 2025 | Best Prices | Arihant Travels";
+$pageTitle = "AYA Universe Tickets Dubai 2026 | Best Prices | Arihant Travels";
 $pageDescription = "Book AYA Universe Dubai tickets at best prices. Explore 12 vibrant interactive zones at Wafi City Mall. Immersive light & sound experience.";
 $pageKeywords = "AYA Universe Dubai, immersive experience Dubai, interactive art Dubai, Wafi City Mall, light show Dubai, family attractions Dubai, Arihant Travels, AYA Universe ticket price, AYA Universe offers, things to do in Dubai at night, unique experiences in Dubai, interactive museums in Dubai, Wafi City attractions, best light shows in UAE, Arihant Travels AYA Universe deals";
 $pageCanonical = "https://arihantlink.com/aya-universe";

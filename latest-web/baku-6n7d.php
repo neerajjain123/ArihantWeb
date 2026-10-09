@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "6 Nights 7 Days Discover Azerbaijan Package | Baku, Guba & Gabala 2025";
+$pageTitle = "6 Nights 7 Days Discover Azerbaijan Package | Baku, Guba & Gabala 2026";
 $pageDescription = "Experience the ultimate week in Azerbaijan with our 6 Nights / 7 Days 'Discover Azerbaijan' package. Includes 4-star stay in Baku, Guba & Gabala tours.";
 $pageKeywords = "discover azerbaijan 7 days, 6n7d baku tour package, guba forest tour from baku, luxury baku vacation, azerbaijan full week itinerary, renaissance palace baku hotel, baku guba gabala package";
 $pageCanonical = "https://arihantlink.com/baku-6n7d";

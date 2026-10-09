@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Miracle Garden Tickets 2025 | Best Prices | Arihant Travels";
+$pageTitle = "Dubai Miracle Garden Tickets 2026 | Adult Entry AED 105";
 $pageDescription = "Book Dubai Miracle Garden entry tickets at best prices. Explore 150+ million flowers, Emirates A380 display, Disney characters & more.";
 $pageKeywords = "Dubai Miracle Garden tickets, Miracle Garden Dubai, Dubai flower garden, Emirates A380 flowers, Disney Avenue Dubai, Dubai attractions, Arihant Travels, Miracle Garden ticket price, Miracle Garden offers, things to do in Dubai, family attractions in Dubai, Dubai Butterfly Garden combo, Emirates A380 flower display, best time to visit Miracle Garden, Arihant Travels excursion deals";
 $pageCanonical = "https://arihantlink.com/miracle-garden";

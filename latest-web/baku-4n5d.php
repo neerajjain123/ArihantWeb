@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "4 Nights 5 Days Baku & Gabala Tour Package from Dubai | Best of Azerbaijan 2025";
+$pageTitle = "4 Nights 5 Days Baku & Gabala Tour Package from Dubai | Best of Azerbaijan 2026";
 $pageDescription = "Explore the futuristic skyline of Baku and the scenic mountains of Gabala with our 4 Nights / 5 Days Azerbaijan tour package.";
 $pageKeywords = "baku tour package 4 nights 5 days, azerbaijan holiday from dubai, baku gabala itinerary, baku city tour, gabala cable car, azerbaijan visa for uae residents, cheap baku packages uae, baku travel deal, caucasus tour dubai, azerbaijan 4n5d tour";
 $pageCanonical = "https://arihantlink.com/baku-4n5d";

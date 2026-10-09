@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Yas Waterworld Abu Dhabi Tickets 2025 | 45 Rides | Arihant Travels";
+$pageTitle = "Yas Waterworld Abu Dhabi Tickets 2026 | 45 Rides | Arihant Travels";
 $pageDescription = "Book Yas Waterworld Abu Dhabi tickets - UAE's leading waterpark with 45 thrilling rides! Dawwama, Bandit Bomber, pearl diving heritage. Best prices guaranteed!";
 $pageKeywords = "Yas Waterworld Abu Dhabi, Yas Island waterpark, Dawwama, Bandit Bomber, Abu Dhabi waterpark, pearl diving waterpark, 45 rides waterpark";
 $pageCanonical = "https://arihantlink.com/yas-waterworld";

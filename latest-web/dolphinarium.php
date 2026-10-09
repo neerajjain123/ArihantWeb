@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Dolphinarium Tickets 2025 | Best Prices | Arihant Travels";
+$pageTitle = "Dubai Dolphinarium Tickets 2026 | Best Prices | Arihant Travels";
 $pageDescription = "Book Dubai Dolphinarium tickets at best prices. Dolphin & seal shows, bird shows, swimming with dolphins. Family-friendly indoor attraction.";
 $pageKeywords = "Dubai Dolphinarium tickets, dolphin show Dubai, seal show Dubai, swim with dolphins Dubai, Creek Park, family attractions Dubai, Arihant Travels, Dubai Dolphinarium ticket price, Dubai Dolphinarium offers, things to do with kids in Dubai, indoor attractions in Dubai, Creek Park attractions, best animal shows in Dubai, swimming with dolphins price, Arihant Travels Dolphinarium deals";
 $pageCanonical = "https://arihantlink.com/dolphinarium";

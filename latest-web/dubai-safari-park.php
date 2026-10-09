@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Dubai Safari Park Tickets 2025 | Explorer Safari & Train | Arihant Travels";
+$pageTitle = "Dubai Safari Park Tickets 2026 | Explorer Safari & Train | Arihant Travels";
 $pageDescription = "Book Dubai Safari Park tickets with Arihant Travels. Enjoy the Explorer Safari Tour, unlimited shuttle train, and access to 6 wildlife villages.";
 $pageKeywords = "Dubai Safari Park tickets, Dubai Safari Park ticket price, Explorer Safari Tour Dubai, Dubai Safari Park villages, wildlife sanctuary Dubai, family attractions Dubai, Arihant Travels, book Dubai Safari Park, Dubai Safari Park inclusions, Dubai Safari Park shuttle train";
 $pageCanonical = "https://arihantlink.com/dubai-safari-park";

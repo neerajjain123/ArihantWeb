@@ -1,7 +1,7 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Musandam Dibba Dhow Cruise from Dubai 2025 | Book Now";
-$pageDescription = "Experience Oman's stunning fjords on the best Musandam Dibba Tour from Dubai for 2025. This full-day trip includes a dhow cruise, snorkeling, swimming…";
+$pageTitle = "Musandam Dibba Dhow Cruise from Dubai 2026 | Book Now";
+$pageDescription = "Experience Oman's stunning fjords on the best Musandam Dibba Tour from Dubai for 2026. This full-day trip includes a dhow cruise, snorkeling, swimming…";
 $pageKeywords = "Musandam Dibba tour, Dubai to Musandam, Musandam dhow cruise, Oman from Dubai, Musandam snorkeling, Arihant Travels, Musandam day trip, Dibba tour, Oman fjords, Dhow cruise Dubai, Jain friendly tours, musandam dibba tour from dubai border pass guide, dhow cruise with lunch and snorkeling";
 $pageCanonical = "https://arihantlink.com/musandam-dibba-tour";
 $currentPage = "musandam-dibba-tour";

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "3 Nights 4 Days Georgia Tour Package from Dubai | Tbilisi, Mtskheta & Kazbegi 2025 - Arihant Travels";
+$pageTitle = "3 Nights 4 Days Georgia Tour Package from Dubai | Tbilisi, Mtskheta & Kazbegi 2026 - Arihant Travels";
 $pageDescription = "Book a 3-night, 4-day Georgia holiday from Dubai covering Tbilisi, UNESCO-listed Mtskheta, Gudauri ski resort, and Kazbegi.";
 $pageKeywords = "georgia tour package from dubai, 3 nights 4 days tbilisi itinerary, gudauri kazbegi tour, georgia travel package uae, tbilisi mtskheta tour, kazbegi 4x4 tour, georgia winter packages, georgia holiday deals 2025, georgia 3n4d tour";
 $pageCanonical = "https://arihantlink.com/georgia-3n4d";

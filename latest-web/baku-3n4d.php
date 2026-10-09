@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "3 Nights 4 Days Baku & Gabala Tour Package from Dubai | Short Azerbaijan Trip 2025";
+$pageTitle = "3 Nights 4 Days Baku & Gabala Tour Package from Dubai | Short Azerbaijan Trip 2026";
 $pageDescription = "Enjoy a short yet comprehensive 3 Nights / 4 Days getaway to Baku and Gabala. Visit the UNESCO Old City and the scenic Caucasus mountains.";
 $pageKeywords = "baku 3n4d package, short baku trip, baku gabala tour from dubai, baku old city tour, gabala day trip, azerbaijan holiday for uae residents, cheap azerbaijan packages";
 $pageCanonical = "https://arihantlink.com/baku-3n4d";

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "5 Nights 6 Days Relaxed Baku & Gabala Package | Azerbaijan 2025";
+$pageTitle = "5 Nights 6 Days Relaxed Baku & Gabala Package | Azerbaijan 2026";
 $pageDescription = "Enjoy a peaceful retreat with our Relaxed Baku & Gabala package. 2 Nights in the Caucasus Mountains (Gabala) and 3 Nights in Baku. From 1600 AED.";
 $pageKeywords = "baku gabala multi city tour, 2 nights gabala 3 nights baku, relaxed azerbaijan holiday, azerbaijan 5n6d itinerary, gabala mountains stay, baku city tour from uae";
 $pageCanonical = "https://arihantlink.com/baku-relax-5n6d";

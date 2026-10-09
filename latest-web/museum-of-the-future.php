@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Museum of the Future Tickets Dubai 2025 | Arihant Travels";
+$pageTitle = "Museum of the Future Tickets Dubai 2026 | Arihant Travels";
 $pageDescription = "Book Museum of the Future Dubai tickets at best prices. Explore cutting-edge technology, AI, and innovation exhibits.";
 $pageKeywords = "Museum of the Future tickets, Dubai attractions, future technology museum, AI exhibits Dubai, space exploration Dubai, Sheikh Zayed Road, Arihant Travels, MOTF ticket price, Museum of the Future offers, things to do in Dubai, best museums in Dubai, family attractions in Dubai, AI and robotics exhibits, future of space travel, innovative architecture Dubai, Arihant Travels MOTF deals";
 $pageCanonical = "https://arihantlink.com/museum-of-the-future";

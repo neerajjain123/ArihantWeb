@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Jabel Jais High Mountain Tour with Zipline from Dubai 2025 | Book Now";
+$pageTitle = "Jabel Jais High Mountain Tour with Zipline from Dubai 2026 | Book Now";
 $pageDescription = "Explore Jabel Jais, the highest peak in the UAE, on a private mountain adventure from Dubai. Travel to the top in a 4x4 vehicle…";
 $pageKeywords = "Jabel Jais tour, Jais mountain tour, UAE highest peak, Jabel Jais zipline, mountain tour Dubai, Hajar Mountains, sunrise mountain tour, 4x4 mountain adventure, Ras Al Khaimah tour, Arihant Travels, jabel jais zipline guide, jvais mountain coaster ride experience";
 $pageCanonical = "https://arihantlink.com/jabel-jais-tour";

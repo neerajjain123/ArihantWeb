@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "5 Nights 6 Days Azerbaijan Voyage Package from Dubai | Baku, Gabala & Gobustan 2025";
+$pageTitle = "5 Nights 6 Days Azerbaijan Voyage Package from Dubai | Baku, Gabala & Gobustan 2026";
 $pageDescription = "Experience the ultimate Azerbaijan journey with our 5 Nights / 6 Days 'Voyage of Azerbaijan' package.";
 $pageKeywords = "azerbaijan 5n6d package, baku gobustan mud volcanoes, baku fire temple tour, gabala day trip from baku, luxury azerbaijan tour, best of baku 6 days, azerbaijan holiday from uae";
 $pageCanonical = "https://arihantlink.com/baku-5n6d";

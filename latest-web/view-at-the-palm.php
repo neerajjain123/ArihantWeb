@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "The View at The Palm Tickets Dubai 2025 | Arihant Travels";
+$pageTitle = "The View at The Palm Tickets Dubai 2026 | Arihant Travels";
 $pageDescription = "Book The View at The Palm Dubai tickets at best prices. Enjoy 360-degree views of Palm Jumeirah from 240m high. Observation deck experience.";
 $pageKeywords = "The View at The Palm tickets, Palm Jumeirah views, Dubai observation deck, Palm Tower, Dubai skyline, sunset views Dubai, Arihant Travels, The View at The Palm ticket price, The View at The Palm offers, best views of Palm Jumeirah, things to do in Palm Jumeirah, observation decks in Dubai, sunset in Dubai, Palm Tower observation deck, Arihant Travels The View deals";
 $pageCanonical = "https://arihantlink.com/view-at-the-palm";

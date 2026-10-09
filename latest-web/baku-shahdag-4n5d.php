@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "4 Nights 5 Days Baku with Shahdag & Gobustan Tour | Azerbaijan 2025";
+$pageTitle = "4 Nights 5 Days Baku with Shahdag & Gobustan Tour | Azerbaijan 2026";
 $pageDescription = "Explore the best of Azerbaijan with our 4N/5D package. Discover Baku city, the Shahdag mountain resort, and the ancient ruins of Gobustan.";
 $pageKeywords = "baku shahdag tour package, azerbaijan 4n5d itinerary, shahdag mountain resort day trip, gobustan mud volcanoes baku, azerbaijan winter tour, baku city highlights, land of fire tour";
 $pageCanonical = "https://arihantlink.com/baku-shahdag-4n5d";

@@ -1,6 +1,6 @@
 <?php
 // Page SEO Variables
-$pageTitle = "Global Village Tickets Dubai 2025 | Best Prices | Arihant Travels";
+$pageTitle = "Global Village Tickets Dubai 2026 | Best Prices | Arihant Travels";
 $pageDescription = "Book Global Village Dubai tickets at best prices. Experience cultures from 90+ countries, shopping, rides & entertainment. Season 29 now open.";
 $pageKeywords = "Global Village Dubai tickets, Dubai attractions, cultural park Dubai, family entertainment Dubai, shopping in Dubai, street food Dubai, Arihant Travels, Global Village ticket price, Global Village offers, things to do in Dubai at night, family attractions in Dubai, best outdoor markets in Dubai, live shows in Dubai, cultural experiences in UAE, Arihant Travels Global Village deals";
 $pageCanonical = "https://arihantlink.com/global-village";
