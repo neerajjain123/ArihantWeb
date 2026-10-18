@@ -1,0 +1,71 @@
+/* =============================================================================
+   LIMO — compact hero car picker + instant quote builder (/dubai-limo-ride)
+   Builds on css/visa.css (.visa-hero). Brand tokens from style.css.
+   ============================================================================= */
+
+.limo-picker {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+    margin-top: 4px;
+}
+.limo-pick {
+    display: flex; gap: 12px; align-items: center;
+    background: #fff;
+    border: 1px solid var(--border, #DEE2E6);
+    border-radius: 14px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--text, #333);
+    transition: border-color .15s ease;
+}
+.limo-pick:hover { border-color: var(--primary, #3A7CA4); }
+.limo-pick img {
+    flex: 0 0 112px; width: 112px; height: 76px;
+    object-fit: cover; border-radius: 10px;
+}
+.limo-pick__body { display: flex; flex-direction: column; gap: 2px; font-size: .88rem; color: var(--text-light, #666); }
+.limo-pick__body strong { color: var(--dark, #212529); font-size: .98rem; line-height: 1.25; }
+.limo-pick__price { color: var(--primary-dark, #13357B); font-weight: 600; }
+
+/* ---- Quote builder --------------------------------------------------------- */
+.limo-quote {
+    background: #fff;
+    border: 1px solid var(--border, #DEE2E6);
+    border-radius: 16px;
+    padding: 20px;
+}
+.limo-quote__group { border: 0; padding: 0; margin: 0 0 20px; }
+.limo-quote__group legend {
+    font-size: 1rem; font-weight: 600; color: var(--primary-dark, #13357B);
+    margin-bottom: 10px; float: none; width: auto;
+}
+.limo-quote .form-label { font-size: .85rem; color: var(--text-light, #666); margin-bottom: 4px; }
+
+.limo-quote__choices { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px; }
+.limo-choice {
+    display: flex; gap: 10px; align-items: flex-start;
+    border: 1px solid var(--border, #DEE2E6); border-radius: 12px;
+    padding: 12px; cursor: pointer;
+}
+.limo-choice input { margin-top: 4px; accent-color: var(--primary-dark, #13357B); }
+.limo-choice span { display: flex; flex-direction: column; }
+.limo-choice small { color: var(--text-light, #666); }
+.limo-choice:has(input:checked) { border: 2px solid var(--primary, #3A7CA4); background: #EEF5FA; padding: 11px; }
+
+.limo-quote__hint { font-size: .8rem; color: #854F0B; margin-top: 4px; }
+
+.limo-quote__total {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+    background: #EEF5FA; border-radius: 12px; padding: 14px 16px; margin: 4px 0 10px;
+}
+.limo-quote__label { display: block; font-size: .8rem; color: var(--text-light, #666); }
+.limo-quote__amount { display: block; font-size: 1.6rem; font-weight: 600; color: var(--primary-dark, #13357B); line-height: 1.2; }
+.limo-quote__breakdown { display: block; font-size: .8rem; color: var(--text-light, #666); }
+.limo-quote__error { color: #A32D2D; font-size: .88rem; margin: 0 0 8px; }
+
+@media (max-width: 575px) {
+    .limo-quote { padding: 16px 14px; }
+    .limo-quote__total .btn { width: 100%; }
+    .limo-pick img { flex-basis: 96px; width: 96px; height: 68px; }
+}

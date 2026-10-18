@@ -16,6 +16,7 @@ $breadcrumbCategory     = "Dubai Excursions";
 $breadcrumbCategoryLink = "dubai-excursions";
 $breadcrumbBg           = "img/limo/Dubai-classic-limouine-VIP-Luxury-limo.jpg";
 $breadcrumbOverlay      = true;
+$extraCss               = ['css/visa.css', 'css/limo.css'];
 
 // ─────────────────────────────────────────────
 // Limo Data Array — real image paths
@@ -225,7 +226,7 @@ $schemaMarkup = '<script type="application/ld+json">
 </script>';
 
 include 'includes/header.php';
-include 'includes/breadcrumb.php';
+include 'includes/limo-quote.php'; // compact hero + instant quote (replaced full-screen banner)
 ?>
 
 <!-- ══════════════════════════════════════════════════════════
@@ -1011,4 +1012,11 @@ document.addEventListener('keydown', function(e) {
     </div>
 </div>
 
+<?php
+$stickyTitle = 'Planning a limo ride?';
+$stickySub   = 'Instant estimate, sent on WhatsApp';
+$stickyLabel = 'Get quote';
+$stickyHref  = '#limo-quote';
+include 'includes/mobile-sticky-cta.php';
+?>
 <?php include 'includes/footer.php'; ?>

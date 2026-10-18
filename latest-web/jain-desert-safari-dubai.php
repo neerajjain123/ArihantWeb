@@ -297,5 +297,11 @@ include __DIR__ . '/includes/header.php';
 <?php include __DIR__ . '/includes/safari-pickup-zones.php'; ?>
 <?php include __DIR__ . '/includes/safari-fitness.php'; ?>
 <?php $currentSafariSlug = 'jain-desert-safari-dubai'; include __DIR__ . '/includes/safari-cross-sell.php'; ?>
-<?php include __DIR__ . '/includes/mobile-sticky-cta.php'; ?>
+<?php
+$stickyTitle = 'Jain Family Desert Safari';
+$stickySub   = 'AED ' . $safari['price_aed'] . ' · dinner before sunset';
+$stickyLabel = 'Book';
+$stickyHref  = $waLink;
+include __DIR__ . '/includes/mobile-sticky-cta.php';
+?>
 <?php include __DIR__ . '/includes/footer.php'; ?>
