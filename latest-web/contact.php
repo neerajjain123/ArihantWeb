@@ -23,6 +23,7 @@ $schemaMarkup = '
         "name": "Arihant Travels Pvt Ltd",
         "telephone": "+971585945007",
         "email": "contact@arihantlink.com",
+        "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "21:00"},
         "address": {"@type": "PostalAddress", "addressLocality": "Sharjah", "addressCountry": "AE", "streetAddress": "Al Rayyan Complex, Al Nahda"}
     }
 }
@@ -64,7 +65,7 @@ include 'includes/header.php';
                             <h5>Phone</h5>
                             <p class="mb-0"><a href="tel:+971585945007" class="text-primary">+971 58 594 5007</a>
                             </p>
-                            <small class="text-muted">Available Monday to Sunday, 9 AM - 6 PM (UAE Time)</small>
+                            <small class="text-muted">Office hours: Monday to Saturday, 9 AM &ndash; 9 PM (UAE time). Closed Sunday.</small>
                         </div>
                     </div>
 
@@ -178,8 +179,8 @@ include 'includes/header.php';
             <div class="col-md-6 mb-3">
                 <div class="bg-light rounded p-4">
                     <h5 class="mb-3">What are your business hours?</h5>
-                    <p class="mb-0">We are available Monday to Sunday, 9 AM - 6 PM UAE Time. Feel free to reach out
-                        anytime!</p>
+                    <p class="mb-0">Our office is open Monday to Saturday, 9 AM &ndash; 9 PM UAE time, and closed on Sunday.
+                        You can message us on WhatsApp anytime and we&rsquo;ll reply during office hours.</p>
                 </div>
             </div>
             <div class="col-md-6 mb-3">
