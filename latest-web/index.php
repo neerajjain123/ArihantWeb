@@ -839,6 +839,46 @@ include 'includes/header.php';
                             </div>
                         </div>
                     </div>
+                    <!-- Hot Air Balloon -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item bg-white rounded border border-primary h-100 overflow-hidden">
+                            <div class="position-relative">
+                                <img src="img/hotairbaloon/Hot-air-balloon-ride-at-sunrise-Dubai.webp" class="img-fluid w-100" alt="Hot air balloon ride over the Dubai desert at sunrise" style="height:250px;object-fit:cover;" loading="lazy" decoding="async">
+                                <div class="position-absolute top-0 end-0 m-3"><span class="badge bg-primary px-3 py-2 fs-6">From AED 699</span></div>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="service-icon me-3"><i class="fa fa-cloud-sun fa-3x text-primary"></i></div>
+                                    <h4 class="mb-0">Hot Air Balloon</h4>
+                                </div>
+                                <p class="mb-3">Float over the Dubai desert at sunrise. Choose the Magical, Fiesta or Extreme experience, with hotel pickup included.</p>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="hot-air-balloon-dubai" class="btn btn-outline-primary btn-sm rounded-pill"><i class="fa fa-info-circle me-1"></i>View Details</a>
+                                    <a href="https://wa.me/971585945007?text=I want to book a Hot Air Balloon ride in Dubai" target="_blank" class="btn btn-primary btn-sm rounded-pill"><i class="fab fa-whatsapp me-1"></i>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Limousine Ride -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item bg-white rounded border border-primary h-100 overflow-hidden">
+                            <div class="position-relative">
+                                <img src="img/limo/Chrysler%20C300/Chrysler%20C300-exterior-Limousine.jpg" class="img-fluid w-100" alt="White Chrysler C300 limousine for hire in Dubai" style="height:250px;object-fit:cover;" loading="lazy" decoding="async">
+                                <div class="position-absolute top-0 end-0 m-3"><span class="badge bg-primary px-3 py-2 fs-6">From AED 650/hr</span></div>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="service-icon me-3"><i class="fa fa-car fa-3x text-primary"></i></div>
+                                    <h4 class="mb-0">Limousine Ride</h4>
+                                </div>
+                                <p class="mb-3">Chauffeur-driven white and pink limousines for birthdays, weddings, airport pickups and nights out in Dubai and Sharjah.</p>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="dubai-limo-ride" class="btn btn-outline-primary btn-sm rounded-pill"><i class="fa fa-info-circle me-1"></i>View Details</a>
+                                    <a href="dubai-limo-ride#limo-quote" class="btn btn-primary btn-sm rounded-pill"><i class="fa fa-calculator me-1"></i>Get a Quote</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -936,6 +976,46 @@ include 'includes/header.php';
                                 <div class="d-flex gap-2 flex-wrap">
                                     <a href="yacht-rental" class="btn btn-outline-primary btn-sm rounded-pill"><i class="fa fa-info-circle me-1"></i>View Details</a>
                                     <a href="https://wa.me/971585945007?text=I want to book a Yacht Charter in Dubai" target="_blank" class="btn btn-primary btn-sm rounded-pill"><i class="fab fa-whatsapp me-1"></i>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hot Air Balloon -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item bg-white rounded border border-primary h-100 overflow-hidden">
+                            <div class="position-relative">
+                                <img src="img/hotairbaloon/Hot-air-balloon-ride-at-sunrise-Dubai.webp" class="img-fluid w-100" alt="Hot air balloon ride over the Dubai desert at sunrise" style="height:250px;object-fit:cover;" loading="lazy" decoding="async">
+                                <div class="position-absolute top-0 end-0 m-3"><span class="badge bg-primary px-3 py-2 fs-6">From AED 699</span></div>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="service-icon me-3"><i class="fa fa-cloud-sun fa-3x text-primary"></i></div>
+                                    <h4 class="mb-0">Hot Air Balloon</h4>
+                                </div>
+                                <p class="mb-3">Float over the Dubai desert at sunrise. Choose the Magical, Fiesta or Extreme experience, with hotel pickup included.</p>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="hot-air-balloon-dubai" class="btn btn-outline-primary btn-sm rounded-pill"><i class="fa fa-info-circle me-1"></i>View Details</a>
+                                    <a href="https://wa.me/971585945007?text=I want to book a Hot Air Balloon ride in Dubai" target="_blank" class="btn btn-primary btn-sm rounded-pill"><i class="fab fa-whatsapp me-1"></i>Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Limousine Ride -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item bg-white rounded border border-primary h-100 overflow-hidden">
+                            <div class="position-relative">
+                                <img src="img/limo/Chrysler%20C300/Chrysler%20C300-exterior-Limousine.jpg" class="img-fluid w-100" alt="White Chrysler C300 limousine for hire in Dubai" style="height:250px;object-fit:cover;" loading="lazy" decoding="async">
+                                <div class="position-absolute top-0 end-0 m-3"><span class="badge bg-primary px-3 py-2 fs-6">From AED 650/hr</span></div>
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="service-icon me-3"><i class="fa fa-car fa-3x text-primary"></i></div>
+                                    <h4 class="mb-0">Limousine Ride</h4>
+                                </div>
+                                <p class="mb-3">Chauffeur-driven white and pink limousines for birthdays, weddings, airport pickups and nights out in Dubai and Sharjah.</p>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="dubai-limo-ride" class="btn btn-outline-primary btn-sm rounded-pill"><i class="fa fa-info-circle me-1"></i>View Details</a>
+                                    <a href="dubai-limo-ride#limo-quote" class="btn btn-primary btn-sm rounded-pill"><i class="fa fa-calculator me-1"></i>Get a Quote</a>
                                 </div>
                             </div>
                         </div>
