@@ -1,7 +1,8 @@
 <?php
 // =============================================================================
-//  LIMO HERO + INSTANT QUOTE BUILDER  (used by /dubai-limo-ride)
-//  Expects $limos (the page's limo data array) and $pageHeading.
+//  LIMO CAR PICKER + INSTANT QUOTE BUILDER  (used by /dubai-limo-ride)
+//  Sits directly below the page's hero banner (includes/breadcrumb.php,
+//  which carries the H1 and breadcrumb). Expects $limos.
 //  Prices come straight from $limos[...]['pricing'|'birthday'|'wedding'],
 //  so the estimate always matches the price tables further down the page.
 //  The form never submits to the server: it builds a WhatsApp message.
@@ -40,14 +41,7 @@ $fromPrice = min(array_map(fn($q) => $q['prices']['dubai']['hourly'] ?? PHP_INT_
 ?>
 <section class="visa-hero limo-hero">
     <div class="container">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb visa-hero__crumbs">
-                <li class="breadcrumb-item"><a href="/">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Limousine ride</li>
-            </ol>
-        </nav>
         <div class="visa-hero__intro">
-            <h1 class="visa-hero__title"><?php echo $pageHeading; ?></h1>
             <p class="visa-hero__lead">
                 Chauffeur-driven limousines for birthdays, weddings, airport pickups and nights out in
                 Dubai and Sharjah. From <strong>AED <?php echo number_format($fromPrice); ?> per hour</strong>.

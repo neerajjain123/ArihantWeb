@@ -226,7 +226,8 @@ $schemaMarkup = '<script type="application/ld+json">
 </script>';
 
 include 'includes/header.php';
-include 'includes/limo-quote.php'; // compact hero + instant quote (replaced full-screen banner)
+include 'includes/breadcrumb.php';
+include 'includes/limo-quote.php'; // car picker + instant quote, below the hero banner
 ?>
 
 <!-- ══════════════════════════════════════════════════════════
